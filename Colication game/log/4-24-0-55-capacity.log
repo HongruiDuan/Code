@@ -1,0 +1,651 @@
+fd: 0 joined coalition: 3
+fd: 1 joined coalition: 0
+fd: 2 joined coalition: 0
+fd: 3 joined coalition: 0
+fd: 4 joined coalition: 0
+fd: 5 joined coalition: 3
+fd: 6 joined coalition: 3
+fd: 7 joined coalition: 2
+fd: 8 joined coalition: 2
+fd: 9 joined coalition: 1
+fd: 10 joined coalition: 1
+fd: 11 joined coalition: 3
+fd: 12 joined coalition: 0
+fd: 13 joined coalition: 2
+fd: 14 joined coalition: 3
+fd: 15 joined coalition: 2
+fd: 16 joined coalition: 3
+fd: 17 joined coalition: 3
+fd: 18 joined coalition: 3
+fd: 19 joined coalition: 3
+fd: 20 joined coalition: 0
+fd: 21 joined coalition: 1
+fd: 22 joined coalition: 1
+fd: 23 joined coalition: 3
+fd: 24 joined coalition: 2
+fd: 25 joined coalition: 3
+fd: 26 joined coalition: 1
+fd: 27 joined coalition: 1
+fd: 28 joined coalition: 1
+fd: 29 joined coalition: 1
+
+
+initial info:
+coalitoin 0: 
+    paired fds:  [1, 2, 3, 4, 12, 20]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [9, 10, 21, 22, 26, 27, 28, 29]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [7, 8, 13, 15, 24]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [0, 5, 6, 11, 14, 16, 17, 18, 19, 23, 25]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 0
+fd 25 in coalition 3 and fd  1 in coalition 0 swap coalitions
+fd 25 in coalition 0 and fd  7 in coalition 2 swap coalitions
+fd  9 in coalition 1 and fd 20 in coalition 0 swap coalitions
+fd  1 in coalition 3 and fd 10 in coalition 1 swap coalitions
+coalitoin 0: 
+    paired fds:  [2, 7, 9, 3, 4, 12]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [26, 27, 21, 22, 20, 29, 1, 28]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [24, 13, 25, 15, 8]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [0, 6, 11, 14, 16, 18, 23, 17, 19, 5, 10]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 1
+coalitoin 0: 
+    paired fds:  [3, 12, 7, 9, 2, 4]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [20, 28, 27, 22, 26, 1, 29, 21]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [15, 25, 24, 8, 13]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [6, 18, 23, 19, 11, 14, 5, 10, 0, 16, 17]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 2
+fd 28 in coalition 1 and fd 18 in coalition 3 swap coalitions
+fd  4 in coalition 0 and fd  5 in coalition 3 swap coalitions
+fd  6 in coalition 3 and fd 15 in coalition 2 swap coalitions
+coalitoin 0: 
+    paired fds:  [3, 7, 2, 5, 9, 12]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [20, 27, 21, 18, 29, 1, 26, 22]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [24, 13, 8, 25, 6]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [23, 14, 10, 17, 28, 0, 19, 4, 16, 11, 15]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 3
+fd  5 in coalition 0 and fd 14 in coalition 3 swap coalitions
+coalitoin 0: 
+    paired fds:  [3, 12, 9, 2, 7, 14]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [20, 21, 26, 18, 27, 29, 22, 1]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [6, 8, 13, 24, 25]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [23, 10, 28, 0, 4, 16, 15, 5, 19, 11, 17]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 4
+fd  2 in coalition 0 and fd 27 in coalition 1 swap coalitions
+fd 13 in coalition 2 and fd 28 in coalition 3 swap coalitions
+fd 12 in coalition 0 and fd  6 in coalition 2 swap coalitions
+fd 26 in coalition 1 and fd 19 in coalition 3 swap coalitions
+coalitoin 0: 
+    paired fds:  [7, 9, 14, 6, 27, 3]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [21, 18, 22, 1, 20, 19, 2, 29]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [24, 25, 28, 8, 12]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [23, 4, 15, 17, 16, 0, 5, 13, 11, 26, 10]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 5
+fd 18 in coalition 1 and fd  6 in coalition 0 swap coalitions
+fd 13 in coalition 3 and fd  1 in coalition 1 swap coalitions
+coalitoin 0: 
+    paired fds:  [7, 9, 14, 27, 3, 18]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [21, 20, 19, 2, 29, 6, 22, 13]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [28, 24, 25, 12, 8]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [23, 15, 17, 0, 11, 26, 16, 5, 4, 10, 1]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 6
+fd 12 in coalition 2 and fd 10 in coalition 3 swap coalitions
+fd 15 in coalition 3 and fd 28 in coalition 2 swap coalitions
+coalitoin 0: 
+    paired fds:  [14, 3, 27, 18, 7, 9]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [21, 22, 6, 19, 13, 20, 2, 29]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [10, 24, 15, 25, 8]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [23, 1, 11, 12, 0, 26, 16, 4, 17, 28, 5]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 7
+fd  7 in coalition 0 and fd 17 in coalition 3 swap coalitions
+fd 19 in coalition 1 and fd 17 in coalition 0 swap coalitions
+coalitoin 0: 
+    paired fds:  [3, 18, 19, 14, 27, 9]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [21, 13, 29, 17, 22, 20, 6, 2]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [15, 24, 8, 10, 25]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [23, 26, 28, 7, 16, 11, 1, 0, 12, 5, 4]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 8
+coalitoin 0: 
+    paired fds:  [27, 14, 19, 9, 3, 18]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [21, 17, 2, 22, 6, 13, 20, 29]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [24, 8, 25, 15, 10]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [23, 26, 16, 1, 0, 5, 4, 11, 12, 7, 28]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 9
+coalitoin 0: 
+    paired fds:  [3, 9, 27, 18, 19, 14]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [2, 17, 20, 13, 21, 22, 6, 29]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [24, 25, 8, 10, 15]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [23, 0, 5, 7, 28, 4, 11, 26, 16, 12, 1]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 10
+coalitoin 0: 
+    paired fds:  [18, 14, 27, 9, 3, 19]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [21, 22, 6, 20, 13, 17, 2, 29]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [24, 25, 8, 10, 15]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [23, 0, 5, 7, 28, 4, 1, 12, 26, 16, 11]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 11
+coalitoin 0: 
+    paired fds:  [27, 18, 3, 14, 9, 19]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [21, 6, 17, 22, 13, 2, 20, 29]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [24, 25, 15, 8, 10]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [23, 5, 28, 12, 26, 11, 16, 4, 0, 1, 7]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 12
+fd 20 in coalition 1 and fd 19 in coalition 0 swap coalitions
+coalitoin 0: 
+    paired fds:  [3, 14, 27, 9, 18, 20]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [21, 13, 2, 29, 22, 6, 17, 19]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [15, 24, 8, 10, 25]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [23, 26, 16, 4, 0, 1, 7, 5, 11, 12, 28]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 13
+coalitoin 0: 
+    paired fds:  [27, 18, 9, 3, 14, 20]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [21, 29, 22, 19, 6, 2, 13, 17]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [15, 10, 24, 8, 25]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [23, 26, 16, 7, 5, 12, 4, 0, 1, 28, 11]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 14
+coalitoin 0: 
+    paired fds:  [27, 3, 20, 14, 9, 18]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [22, 19, 29, 6, 13, 17, 21, 2]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [8, 15, 24, 25, 10]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [26, 12, 28, 11, 7, 5, 1, 4, 0, 23, 16]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 15
+coalitoin 0: 
+    paired fds:  [3, 9, 27, 14, 20, 18]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [17, 21, 6, 22, 29, 19, 2, 13]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [15, 24, 8, 10, 25]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [11, 5, 1, 0, 23, 26, 12, 16, 7, 4, 28]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 16
+fd 14 in coalition 0 and fd 26 in coalition 3 swap coalitions
+coalitoin 0: 
+    paired fds:  [26, 20, 18, 27, 3, 9]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [17, 21, 29, 6, 22, 19, 13, 2]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [8, 25, 10, 24, 15]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [23, 28, 7, 16, 14, 5, 1, 12, 0, 4, 11]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 17
+fd 16 in coalition 3 and fd 20 in coalition 0 swap coalitions
+coalitoin 0: 
+    paired fds:  [26, 27, 3, 16, 18, 9]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [17, 21, 6, 19, 13, 22, 29, 2]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [8, 15, 24, 10, 25]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [23, 28, 7, 14, 1, 0, 5, 11, 20, 4, 12]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 18
+coalitoin 0: 
+    paired fds:  [27, 18, 16, 9, 26, 3]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [21, 6, 22, 2, 13, 17, 19, 29]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [24, 10, 8, 15, 25]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [23, 14, 5, 20, 12, 28, 7, 11, 1, 0, 4]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 19
+coalitoin 0: 
+    paired fds:  [27, 16, 26, 9, 3, 18]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [19, 29, 6, 13, 17, 22, 21, 2]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [24, 15, 8, 25, 10]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [1, 23, 4, 20, 0, 11, 5, 7, 12, 28, 14]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 20
+fd 14 in coalition 3 and fd 25 in coalition 2 swap coalitions
+coalitoin 0: 
+    paired fds:  [27, 18, 26, 16, 3, 9]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [21, 2, 6, 17, 19, 22, 13, 29]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [10, 14, 24, 15, 8]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [23, 0, 5, 28, 12, 25, 1, 7, 20, 11, 4]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 21
+coalitoin 0: 
+    paired fds:  [16, 9, 3, 26, 27, 18]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [21, 13, 29, 6, 22, 19, 2, 17]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [15, 10, 24, 8, 14]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [23, 5, 28, 1, 7, 20, 11, 4, 12, 0, 25]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 22
+coalitoin 0: 
+    paired fds:  [26, 18, 16, 3, 27, 9]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [2, 17, 19, 21, 6, 22, 29, 13]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [24, 14, 10, 15, 8]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [23, 5, 1, 7, 11, 25, 12, 4, 0, 20, 28]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 23
+coalitoin 0: 
+    paired fds:  [16, 18, 9, 3, 26, 27]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [2, 21, 22, 19, 29, 13, 17, 6]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [24, 8, 15, 10, 14]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [23, 1, 7, 0, 28, 12, 4, 11, 20, 25, 5]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 24
+coalitoin 0: 
+    paired fds:  [16, 9, 3, 27, 26, 18]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [2, 13, 17, 6, 29, 21, 19, 22]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [24, 15, 8, 14, 10]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [23, 28, 4, 11, 1, 5, 0, 20, 12, 25, 7]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 25
+coalitoin 0: 
+    paired fds:  [27, 9, 3, 26, 18, 16]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [2, 13, 19, 21, 17, 6, 22, 29]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [24, 10, 8, 14, 15]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [28, 4, 12, 11, 23, 25, 1, 7, 5, 20, 0]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 26
+coalitoin 0: 
+    paired fds:  [9, 16, 27, 3, 18, 26]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [2, 13, 19, 21, 6, 29, 22, 17]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [24, 10, 14, 8, 15]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [28, 12, 25, 1, 7, 20, 5, 23, 11, 0, 4]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 27
+coalitoin 0: 
+    paired fds:  [3, 18, 16, 27, 26, 9]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [2, 21, 17, 22, 13, 29, 6, 19]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [15, 24, 10, 8, 14]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [12, 1, 7, 20, 23, 0, 4, 5, 25, 11, 28]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 28
+coalitoin 0: 
+    paired fds:  [3, 27, 9, 18, 26, 16]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [2, 21, 17, 22, 13, 19, 6, 29]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [15, 14, 10, 8, 24]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [12, 7, 23, 4, 11, 28, 5, 1, 0, 25, 20]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 29
+coalitoin 0: 
+    paired fds:  [26, 27, 16, 18, 3, 9]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [2, 21, 6, 22, 19, 13, 29, 17]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [15, 24, 8, 10, 14]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [7, 23, 4, 28, 1, 25, 0, 5, 12, 11, 20]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+fd 27 in coalition 0 was selected to forward
+fd  6 in coalition 1 was selected to forward
+fd 10 in coalition 2 was selected to forward
+fd 28 in coalition 3 was selected to forward
+fd 27 in coalition 0 was selected to forward
+fd  6 in coalition 1 was selected to forward
+fd 10 in coalition 2 was selected to forward
+fd 28 in coalition 3 was selected to forward
+fd 27 in coalition 0 was selected to forward
+fd  6 in coalition 1 was selected to forward
+fd 10 in coalition 2 was selected to forward
+fd 28 in coalition 3 was selected to forward
+fd 27 in coalition 0 was selected to forward
+fd  6 in coalition 1 was selected to forward
+fd 10 in coalition 2 was selected to forward
+fd 28 in coalition 3 was selected to forward
+fd 27 in coalition 0 was selected to forward
+fd  6 in coalition 1 was selected to forward
+fd 24 in coalition 2 was selected to forward
+fd 28 in coalition 3 was selected to forward
+fd 16 in coalition 0 was selected to forward
+fd 21 in coalition 1 was selected to forward
+fd 24 in coalition 2 was selected to forward
+fd 12 in coalition 3 was selected to forward
+fd 16 in coalition 0 was selected to forward
+fd 21 in coalition 1 was selected to forward
+fd 24 in coalition 2 was selected to forward
+fd 12 in coalition 3 was selected to forward
+fd 16 in coalition 0 was selected to forward
+fd 21 in coalition 1 was selected to forward
+fd 10 in coalition 2 was selected to forward
+fd 12 in coalition 3 was selected to forward
+fd 26 in coalition 0 was selected to forward
+fd 21 in coalition 1 was selected to forward
+fd 24 in coalition 2 was selected to forward
+fd 12 in coalition 3 was selected to forward
+fd 26 in coalition 0 was selected to forward
+fd 21 in coalition 1 was selected to forward
+fd 14 in coalition 2 was selected to forward
+fd 12 in coalition 3 was selected to forward
+fd 26 in coalition 0 was selected to forward
+fd  6 in coalition 1 was selected to forward
+fd 14 in coalition 2 was selected to forward
+fd 12 in coalition 3 was selected to forward
+fd 16 in coalition 0 was selected to forward
+fd 21 in coalition 1 was selected to forward
+fd 14 in coalition 2 was selected to forward
+fd 12 in coalition 3 was selected to forward
+fd  9 in coalition 0 was selected to forward
+fd 29 in coalition 1 was selected to forward
+fd 14 in coalition 2 was selected to forward
+fd 25 in coalition 3 was selected to forward
+fd  9 in coalition 0 was selected to forward
+fd 29 in coalition 1 was selected to forward
+fd 15 in coalition 2 was selected to forward
+fd 12 in coalition 3 was selected to forward
+fd  9 in coalition 0 was selected to forward
+fd 29 in coalition 1 was selected to forward
+fd 10 in coalition 2 was selected to forward
+fd 25 in coalition 3 was selected to forward
+fd  9 in coalition 0 was selected to forward
+fd 29 in coalition 1 was selected to forward
+fd 15 in coalition 2 was selected to forward
+fd 25 in coalition 3 was selected to forward
+fd 18 in coalition 0 was selected to forward
+fd 22 in coalition 1 was selected to forward
+fd 15 in coalition 2 was selected to forward
+fd 25 in coalition 3 was selected to forward
+fd 18 in coalition 0 was selected to forward
+fd  6 in coalition 1 was selected to forward
+fd  8 in coalition 2 was selected to forward
+fd 25 in coalition 3 was selected to forward
+fd 18 in coalition 0 was selected to forward
+fd 22 in coalition 1 was selected to forward
+fd  8 in coalition 2 was selected to forward
+fd  1 in coalition 3 was selected to forward
+fd  3 in coalition 0 was selected to forward
+fd 22 in coalition 1 was selected to forward
+fd  8 in coalition 2 was selected to forward
+fd 12 in coalition 3 was selected to forward
+fd  3 in coalition 0 was selected to forward
+fd 13 in coalition 1 was selected to forward
+None is selected in coalition 2
+fd  1 in coalition 3 was selected to forward
+fd  3 in coalition 0 was selected to forward
+fd 13 in coalition 1 was selected to forward
+fd 10 in coalition 2 was selected to forward
+fd  1 in coalition 3 was selected to forward
+fd  3 in coalition 0 was selected to forward
+fd 13 in coalition 1 was selected to forward
+None is selected in coalition 2
+fd  5 in coalition 3 was selected to forward
+fd 18 in coalition 0 was selected to forward
+fd 13 in coalition 1 was selected to forward
+None is selected in coalition 2
+fd  1 in coalition 3 was selected to forward
+None is selected in coalition 0
+fd  6 in coalition 1 was selected to forward
+None is selected in coalition 2
+fd  5 in coalition 3 was selected to forward
+None is selected in coalition 0
+fd  2 in coalition 1 was selected to forward
+None is selected in coalition 2
+fd 12 in coalition 3 was selected to forward
+None is selected in coalition 0
+fd  2 in coalition 1 was selected to forward
+None is selected in coalition 2
+fd  5 in coalition 3 was selected to forward
+None is selected in coalition 0
+fd  2 in coalition 1 was selected to forward
+None is selected in coalition 2
+fd  5 in coalition 3 was selected to forward
+None is selected in coalition 0
+fd 17 in coalition 1 was selected to forward
+fd 10 in coalition 2 was selected to forward
+fd 20 in coalition 3 was selected to forward
+fd  9 in coalition 0 was selected to forward
+fd 17 in coalition 1 was selected to forward
+None is selected in coalition 2
+fd 20 in coalition 3 was selected to forward
+None is selected in coalition 0
+fd 19 in coalition 1 was selected to forward
+None is selected in coalition 2
+fd 20 in coalition 3 was selected to forward
+None is selected in coalition 0
+fd  6 in coalition 1 was selected to forward
+None is selected in coalition 2
+fd 12 in coalition 3 was selected to forward
+
+
+***********************
+coalition_history =  [[{'num': 0, 'capacity': 13.189730331946986, 'paired_fds': [2, 7, 9, 3, 4, 12]}, {'num': 1, 'capacity': 18.176075806709285, 'paired_fds': [26, 27, 21, 22, 20, 29, 1, 28]}, {'num': 2, 'capacity': 11.74660641013208, 'paired_fds': [24, 13, 25, 15, 8]}, {'num': 3, 'capacity': 23.06913087029887, 'paired_fds': [0, 6, 11, 14, 16, 18, 23, 17, 19, 5, 10]}], [{'num': 0, 'capacity': 13.189730331946988, 'paired_fds': [3, 12, 7, 9, 2, 4]}, {'num': 1, 'capacity': 18.176075806709285, 'paired_fds': [20, 28, 27, 22, 26, 1, 29, 21]}, {'num': 2, 'capacity': 11.746606410132076, 'paired_fds': [15, 25, 24, 8, 13]}, {'num': 3, 'capacity': 23.06913087029887, 'paired_fds': [6, 18, 23, 19, 11, 14, 5, 10, 0, 16, 17]}], [{'num': 0, 'capacity': 13.335218605859158, 'paired_fds': [3, 7, 2, 5, 9, 12]}, {'num': 1, 'capacity': 17.819390528765446, 'paired_fds': [20, 27, 21, 18, 29, 1, 26, 22]}, {'num': 2, 'capacity': 11.499319539845622, 'paired_fds': [24, 13, 8, 25, 6]}, {'num': 3, 'capacity': 23.575091831864853, 'paired_fds': [23, 14, 10, 17, 28, 0, 19, 4, 16, 11, 15]}], [{'num': 0, 'capacity': 13.253209894714786, 'paired_fds': [3, 12, 9, 2, 7, 14]}, {'num': 1, 'capacity': 17.819390528765446, 'paired_fds': [20, 21, 26, 18, 27, 29, 22, 1]}, {'num': 2, 'capacity': 11.499319539845622, 'paired_fds': [6, 8, 13, 24, 25]}, {'num': 3, 'capacity': 23.758330508233204, 'paired_fds': [23, 10, 28, 0, 4, 16, 15, 5, 19, 11, 17]}], [{'num': 0, 'capacity': 13.306894276405156, 'paired_fds': [7, 9, 14, 6, 27, 3]}, {'num': 1, 'capacity': 17.702543306164706, 'paired_fds': [21, 18, 22, 1, 20, 19, 2, 29]}, {'num': 2, 'capacity': 11.738208082904471, 'paired_fds': [24, 25, 28, 8, 12]}, {'num': 3, 'capacity': 23.661948261177233, 'paired_fds': [23, 4, 15, 17, 16, 0, 5, 13, 11, 26, 10]}], [{'num': 0, 'capacity': 13.444211823370551, 'paired_fds': [7, 9, 14, 27, 3, 18]}, {'num': 1, 'capacity': 17.55127175493782, 'paired_fds': [21, 20, 19, 2, 29, 6, 22, 13]}, {'num': 2, 'capacity': 11.738208082904471, 'paired_fds': [28, 24, 25, 12, 8]}, {'num': 3, 'capacity': 23.75244939506335, 'paired_fds': [23, 15, 17, 0, 11, 26, 16, 5, 4, 10, 1]}], [{'num': 0, 'capacity': 13.444211823370551, 'paired_fds': [14, 3, 27, 18, 7, 9]}, {'num': 1, 'capacity': 17.55127175493782, 'paired_fds': [21, 22, 6, 19, 13, 20, 2, 29]}, {'num': 2, 'capacity': 11.610469689876316, 'paired_fds': [10, 24, 15, 25, 8]}, {'num': 3, 'capacity': 23.949116122026375, 'paired_fds': [23, 1, 11, 12, 0, 26, 16, 4, 17, 28, 5]}], [{'num': 0, 'capacity': 13.314623996583434, 'paired_fds': [3, 18, 19, 14, 27, 9]}, {'num': 1, 'capacity': 17.579219890205383, 'paired_fds': [21, 13, 29, 17, 22, 20, 6, 2]}, {'num': 2, 'capacity': 11.610469689876316, 'paired_fds': [15, 24, 8, 10, 25]}, {'num': 3, 'capacity': 24.13774593065999, 'paired_fds': [23, 26, 28, 7, 16, 11, 1, 0, 12, 5, 4]}], [{'num': 0, 'capacity': 13.314623996583432, 'paired_fds': [27, 14, 19, 9, 3, 18]}, {'num': 1, 'capacity': 17.579219890205383, 'paired_fds': [21, 17, 2, 22, 6, 13, 20, 29]}, {'num': 2, 'capacity': 11.610469689876314, 'paired_fds': [24, 8, 25, 15, 10]}, {'num': 3, 'capacity': 24.137745930659985, 'paired_fds': [23, 26, 16, 1, 0, 5, 4, 11, 12, 7, 28]}], [{'num': 0, 'capacity': 13.314623996583434, 'paired_fds': [3, 9, 27, 18, 19, 14]}, {'num': 1, 'capacity': 17.579219890205383, 'paired_fds': [2, 17, 20, 13, 21, 22, 6, 29]}, {'num': 2, 'capacity': 11.610469689876314, 'paired_fds': [24, 25, 8, 10, 15]}, {'num': 3, 'capacity': 24.137745930659985, 'paired_fds': [23, 0, 5, 7, 28, 4, 11, 26, 16, 12, 1]}], [{'num': 0, 'capacity': 13.314623996583434, 'paired_fds': [18, 14, 27, 9, 3, 19]}, {'num': 1, 'capacity': 17.579219890205383, 'paired_fds': [21, 22, 6, 20, 13, 17, 2, 29]}, {'num': 2, 'capacity': 11.610469689876314, 'paired_fds': [24, 25, 8, 10, 15]}, {'num': 3, 'capacity': 24.137745930659985, 'paired_fds': [23, 0, 5, 7, 28, 4, 1, 12, 26, 16, 11]}], [{'num': 0, 'capacity': 13.314623996583432, 'paired_fds': [27, 18, 3, 14, 9, 19]}, {'num': 1, 'capacity': 17.579219890205387, 'paired_fds': [21, 6, 17, 22, 13, 2, 20, 29]}, {'num': 2, 'capacity': 11.610469689876314, 'paired_fds': [24, 25, 15, 8, 10]}, {'num': 3, 'capacity': 24.137745930659985, 'paired_fds': [23, 5, 28, 12, 26, 11, 16, 4, 0, 1, 7]}], [{'num': 0, 'capacity': 13.14786682272911, 'paired_fds': [3, 14, 27, 9, 18, 20]}, {'num': 1, 'capacity': 17.766450930665574, 'paired_fds': [21, 13, 2, 29, 22, 6, 17, 19]}, {'num': 2, 'capacity': 11.610469689876316, 'paired_fds': [15, 24, 8, 10, 25]}, {'num': 3, 'capacity': 24.137745930659985, 'paired_fds': [23, 26, 16, 4, 0, 1, 7, 5, 11, 12, 28]}], [{'num': 0, 'capacity': 13.14786682272911, 'paired_fds': [27, 18, 9, 3, 14, 20]}, {'num': 1, 'capacity': 17.766450930665577, 'paired_fds': [21, 29, 22, 19, 6, 2, 13, 17]}, {'num': 2, 'capacity': 11.610469689876314, 'paired_fds': [15, 10, 24, 8, 25]}, {'num': 3, 'capacity': 24.13774593065999, 'paired_fds': [23, 26, 16, 7, 5, 12, 4, 0, 1, 28, 11]}], [{'num': 0, 'capacity': 13.14786682272911, 'paired_fds': [27, 3, 20, 14, 9, 18]}, {'num': 1, 'capacity': 17.766450930665577, 'paired_fds': [22, 19, 29, 6, 13, 17, 21, 2]}, {'num': 2, 'capacity': 11.610469689876314, 'paired_fds': [8, 15, 24, 25, 10]}, {'num': 3, 'capacity': 24.13774593065998, 'paired_fds': [26, 12, 28, 11, 7, 5, 1, 4, 0, 23, 16]}], [{'num': 0, 'capacity': 13.147866822729112, 'paired_fds': [3, 9, 27, 14, 20, 18]}, {'num': 1, 'capacity': 17.766450930665577, 'paired_fds': [17, 21, 6, 22, 29, 19, 2, 13]}, {'num': 2, 'capacity': 11.610469689876316, 'paired_fds': [15, 24, 8, 10, 25]}, {'num': 3, 'capacity': 24.137745930659985, 'paired_fds': [11, 5, 1, 0, 23, 26, 12, 16, 7, 4, 28]}], [{'num': 0, 'capacity': 13.414685757825284, 'paired_fds': [26, 20, 18, 27, 3, 9]}, {'num': 1, 'capacity': 17.766450930665577, 'paired_fds': [17, 21, 29, 6, 22, 19, 13, 2]}, {'num': 2, 'capacity': 11.610469689876314, 'paired_fds': [8, 25, 10, 24, 15]}, {'num': 3, 'capacity': 23.87753689665022, 'paired_fds': [23, 28, 7, 16, 14, 5, 1, 12, 0, 4, 11]}], [{'num': 0, 'capacity': 13.524743350997063, 'paired_fds': [26, 27, 3, 16, 18, 9]}, {'num': 1, 'capacity': 17.766450930665577, 'paired_fds': [17, 21, 6, 19, 13, 22, 29, 2]}, {'num': 2, 'capacity': 11.610469689876314, 'paired_fds': [8, 15, 24, 10, 25]}, {'num': 3, 'capacity': 23.796342300041076, 'paired_fds': [23, 28, 7, 14, 1, 0, 5, 11, 20, 4, 12]}], [{'num': 0, 'capacity': 13.524743350997063, 'paired_fds': [27, 18, 16, 9, 26, 3]}, {'num': 1, 'capacity': 17.766450930665577, 'paired_fds': [21, 6, 22, 2, 13, 17, 19, 29]}, {'num': 2, 'capacity': 11.610469689876314, 'paired_fds': [24, 10, 8, 15, 25]}, {'num': 3, 'capacity': 23.79634230004108, 'paired_fds': [23, 14, 5, 20, 12, 28, 7, 11, 1, 0, 4]}], [{'num': 0, 'capacity': 13.524743350997063, 'paired_fds': [27, 16, 26, 9, 3, 18]}, {'num': 1, 'capacity': 17.766450930665577, 'paired_fds': [19, 29, 6, 13, 17, 22, 21, 2]}, {'num': 2, 'capacity': 11.610469689876314, 'paired_fds': [24, 15, 8, 25, 10]}, {'num': 3, 'capacity': 23.796342300041076, 'paired_fds': [1, 23, 4, 20, 0, 11, 5, 7, 12, 28, 14]}], [{'num': 0, 'capacity': 13.524743350997067, 'paired_fds': [27, 18, 26, 16, 3, 9]}, {'num': 1, 'capacity': 17.766450930665577, 'paired_fds': [21, 2, 6, 17, 19, 22, 13, 29]}, {'num': 2, 'capacity': 11.577857271963921, 'paired_fds': [10, 14, 24, 15, 8]}, {'num': 3, 'capacity': 23.853371314942592, 'paired_fds': [23, 0, 5, 28, 12, 25, 1, 7, 20, 11, 4]}], [{'num': 0, 'capacity': 13.524743350997063, 'paired_fds': [16, 9, 3, 26, 27, 18]}, {'num': 1, 'capacity': 17.766450930665577, 'paired_fds': [21, 13, 29, 6, 22, 19, 2, 17]}, {'num': 2, 'capacity': 11.57785727196392, 'paired_fds': [15, 10, 24, 8, 14]}, {'num': 3, 'capacity': 23.853371314942596, 'paired_fds': [23, 5, 28, 1, 7, 20, 11, 4, 12, 0, 25]}], [{'num': 0, 'capacity': 13.524743350997063, 'paired_fds': [26, 18, 16, 3, 27, 9]}, {'num': 1, 'capacity': 17.766450930665577, 'paired_fds': [2, 17, 19, 21, 6, 22, 29, 13]}, {'num': 2, 'capacity': 11.577857271963921, 'paired_fds': [24, 14, 10, 15, 8]}, {'num': 3, 'capacity': 23.853371314942592, 'paired_fds': [23, 5, 1, 7, 11, 25, 12, 4, 0, 20, 28]}], [{'num': 0, 'capacity': 13.524743350997065, 'paired_fds': [16, 18, 9, 3, 26, 27]}, {'num': 1, 'capacity': 17.766450930665577, 'paired_fds': [2, 21, 22, 19, 29, 13, 17, 6]}, {'num': 2, 'capacity': 11.57785727196392, 'paired_fds': [24, 8, 15, 10, 14]}, {'num': 3, 'capacity': 23.853371314942592, 'paired_fds': [23, 1, 7, 0, 28, 12, 4, 11, 20, 25, 5]}], [{'num': 0, 'capacity': 13.524743350997063, 'paired_fds': [16, 9, 3, 27, 26, 18]}, {'num': 1, 'capacity': 17.766450930665577, 'paired_fds': [2, 13, 17, 6, 29, 21, 19, 22]}, {'num': 2, 'capacity': 11.577857271963921, 'paired_fds': [24, 15, 8, 14, 10]}, {'num': 3, 'capacity': 23.853371314942592, 'paired_fds': [23, 28, 4, 11, 1, 5, 0, 20, 12, 25, 7]}], [{'num': 0, 'capacity': 13.524743350997063, 'paired_fds': [27, 9, 3, 26, 18, 16]}, {'num': 1, 'capacity': 17.766450930665577, 'paired_fds': [2, 13, 19, 21, 17, 6, 22, 29]}, {'num': 2, 'capacity': 11.577857271963921, 'paired_fds': [24, 10, 8, 14, 15]}, {'num': 3, 'capacity': 23.853371314942592, 'paired_fds': [28, 4, 12, 11, 23, 25, 1, 7, 5, 20, 0]}], [{'num': 0, 'capacity': 13.524743350997063, 'paired_fds': [9, 16, 27, 3, 18, 26]}, {'num': 1, 'capacity': 17.766450930665577, 'paired_fds': [2, 13, 19, 21, 6, 29, 22, 17]}, {'num': 2, 'capacity': 11.57785727196392, 'paired_fds': [24, 10, 14, 8, 15]}, {'num': 3, 'capacity': 23.85337131494259, 'paired_fds': [28, 12, 25, 1, 7, 20, 5, 23, 11, 0, 4]}], [{'num': 0, 'capacity': 13.524743350997063, 'paired_fds': [3, 18, 16, 27, 26, 9]}, {'num': 1, 'capacity': 17.766450930665577, 'paired_fds': [2, 21, 17, 22, 13, 29, 6, 19]}, {'num': 2, 'capacity': 11.57785727196392, 'paired_fds': [15, 24, 10, 8, 14]}, {'num': 3, 'capacity': 23.853371314942592, 'paired_fds': [12, 1, 7, 20, 23, 0, 4, 5, 25, 11, 28]}], [{'num': 0, 'capacity': 13.524743350997065, 'paired_fds': [3, 27, 9, 18, 26, 16]}, {'num': 1, 'capacity': 17.766450930665577, 'paired_fds': [2, 21, 17, 22, 13, 19, 6, 29]}, {'num': 2, 'capacity': 11.577857271963921, 'paired_fds': [15, 14, 10, 8, 24]}, {'num': 3, 'capacity': 23.853371314942592, 'paired_fds': [12, 7, 23, 4, 11, 28, 5, 1, 0, 25, 20]}], [{'num': 0, 'capacity': 13.524743350997063, 'paired_fds': [26, 27, 16, 18, 3, 9]}, {'num': 1, 'capacity': 17.766450930665577, 'paired_fds': [2, 21, 6, 22, 19, 13, 29, 17]}, {'num': 2, 'capacity': 11.57785727196392, 'paired_fds': [15, 24, 8, 10, 14]}, {'num': 3, 'capacity': 23.853371314942592, 'paired_fds': [7, 23, 4, 28, 1, 25, 0, 5, 12, 11, 20]}]]
+***********************
+select_history =  [{'f_bs': 226.27100722889165, 'f_fd': 105.52328639619546, 'num': 28, 'gains': 105.52328639619546, 'power': 0.0024981992741971767}, {'f_bs': 226.27100722889165, 'f_fd': 105.52328639619546, 'num': 28, 'gains': 211.04657279239092, 'power': 0.0018981992741971766}, {'f_bs': 226.27100722889165, 'f_fd': 105.52328639619546, 'num': 28, 'gains': 316.5698591885864, 'power': 0.0012981992741971766}, {'f_bs': 226.27100722889165, 'f_fd': 105.52328639619546, 'num': 28, 'gains': 422.09314558478184, 'power': 0.0006981992741971765}, {'f_bs': 226.27100722889165, 'f_fd': 105.52328639619546, 'num': 28, 'gains': 527.6164319809773, 'power': 9.819927419717645e-05}, {'f_bs': 212.7433160363976, 'f_fd': 101.36812763336647, 'num': 12, 'gains': 101.36812763336647, 'power': 0.004638690690063533}, {'f_bs': 212.7433160363976, 'f_fd': 101.36812763336647, 'num': 12, 'gains': 202.73625526673294, 'power': 0.003958690690063533}, {'f_bs': 212.7433160363976, 'f_fd': 101.36812763336647, 'num': 12, 'gains': 304.1043829000994, 'power': 0.003278690690063533}, {'f_bs': 212.7433160363976, 'f_fd': 101.36812763336647, 'num': 12, 'gains': 405.4725105334659, 'power': 0.002598690690063533}, {'f_bs': 212.7433160363976, 'f_fd': 101.36812763336647, 'num': 12, 'gains': 506.8406381668324, 'power': 0.001918690690063533}, {'f_bs': 212.7433160363976, 'f_fd': 101.36812763336647, 'num': 12, 'gains': 608.2087658001989, 'power': 0.001238690690063533}, {'f_bs': 212.7433160363976, 'f_fd': 101.36812763336647, 'num': 12, 'gains': 709.5768934335654, 'power': 0.0005586906900635329}, {'f_bs': 193.3675403708379, 'f_fd': 94.72893364627191, 'num': 25, 'gains': 94.72893364627191, 'power': 0.0034635347713261604}, {'f_bs': 212.7433160363976, 'f_fd': 101.36812763336647, 'num': 12, 'gains': 810.9450210669319, 'power': 1.7038660422482145e-05}, {'f_bs': 193.3675403708379, 'f_fd': 94.72893364627191, 'num': 25, 'gains': 189.45786729254382, 'power': 0.002689794449776458}, {'f_bs': 193.3675403708379, 'f_fd': 94.72893364627191, 'num': 25, 'gains': 284.18680093881574, 'power': 0.001889794449776458}, {'f_bs': 193.3675403708379, 'f_fd': 94.72893364627191, 'num': 25, 'gains': 378.91573458508765, 'power': 0.001089794449776458}, {'f_bs': 193.3675403708379, 'f_fd': 94.72893364627191, 'num': 25, 'gains': 473.64466823135956, 'power': 0.00028979444977645806}, {'f_bs': 183.12330880117662, 'f_fd': 91.48630341062216, 'num': 1, 'gains': 91.48630341062216, 'power': 0.002501629822927052}, {'f_bs': 212.7433160363976, 'f_fd': 101.36812763336647, 'num': 12, 'gains': 912.3131487002984, 'power': 2.8778512217228296e-05}, {'f_bs': 183.12330880117662, 'f_fd': 91.48630341062216, 'num': 1, 'gains': 182.9726068212443, 'power': 0.0016752543091025202}, {'f_bs': 183.12330880117662, 'f_fd': 91.48630341062216, 'num': 1, 'gains': 274.45891023186647, 'power': 0.0008352543091025202}, {'f_bs': 159.13561175623767, 'f_fd': 81.1099796613077, 'num': 5, 'gains': 81.1099796613077, 'power': 0.003938070266555367}, {'f_bs': 183.12330880117662, 'f_fd': 91.48630341062216, 'num': 1, 'gains': 365.9452136424886, 'power': 8.878795277988353e-06}, {'f_bs': 159.13561175623767, 'f_fd': 81.1099796613077, 'num': 5, 'gains': 162.2199593226154, 'power': 0.002949471730926763}, {'f_bs': 212.7433160363976, 'f_fd': 101.36812763336647, 'num': 12, 'gains': 1013.6812763336649, 'power': 4.051836401197445e-05}, {'f_bs': 159.13561175623767, 'f_fd': 81.1099796613077, 'num': 5, 'gains': 243.3299389839231, 'power': 0.001960873195298159}, {'f_bs': 159.13561175623767, 'f_fd': 81.1099796613077, 'num': 5, 'gains': 324.4399186452308, 'power': 0.0009608731952981588}, {'f_bs': 148.1151789657087, 'f_fd': 75.50179033994647, 'num': 20, 'gains': 75.50179033994647, 'power': 0.0029353830439522418}, {'f_bs': 148.1151789657087, 'f_fd': 75.50179033994647, 'num': 20, 'gains': 151.00358067989293, 'power': 0.0018553830439522417}, {'f_bs': 148.1151789657087, 'f_fd': 75.50179033994647, 'num': 20, 'gains': 226.5053710198394, 'power': 0.0007753830439522417}, {'f_bs': 212.7433160363976, 'f_fd': 101.36812763336647, 'num': 12, 'gains': 1115.0494039670314, 'power': 5.22582158067206e-05}]

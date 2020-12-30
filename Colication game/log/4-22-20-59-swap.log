@@ -1,0 +1,276 @@
+fd: 0 joined coalition: 0
+fd: 1 joined coalition: 2
+fd: 2 joined coalition: 0
+fd: 3 joined coalition: 3
+fd: 4 joined coalition: 0
+fd: 5 joined coalition: 3
+fd: 6 joined coalition: 0
+fd: 7 joined coalition: 0
+fd: 8 joined coalition: 2
+fd: 9 joined coalition: 0
+fd: 10 joined coalition: 0
+fd: 11 joined coalition: 2
+fd: 12 joined coalition: 1
+fd: 13 joined coalition: 3
+fd: 14 joined coalition: 0
+fd: 15 joined coalition: 2
+fd: 16 joined coalition: 2
+fd: 17 joined coalition: 0
+fd: 18 joined coalition: 0
+fd: 19 joined coalition: 1
+fd: 20 joined coalition: 3
+fd: 21 joined coalition: 3
+fd: 22 joined coalition: 1
+fd: 23 joined coalition: 3
+fd: 24 joined coalition: 0
+fd: 25 joined coalition: 3
+fd: 26 joined coalition: 0
+fd: 27 joined coalition: 0
+fd: 28 joined coalition: 2
+fd: 29 joined coalition: 2
+
+
+initial info:
+
+
+*** round 0
+fd 11 in coalition 2 and fd 20 in coalition 3 swap coalitions
+fd 11 in coalition 3 and fd 26 in coalition 0 swap coalitions
+fd 17 in coalition 0 and fd  3 in coalition 3 swap coalitions
+fd 26 in coalition 3 and fd 18 in coalition 0 swap coalitions
+fd 29 in coalition 2 and fd  4 in coalition 0 swap coalitions
+fd  5 in coalition 3 and fd 12 in coalition 1 swap coalitions
+fd 10 in coalition 0 and fd 25 in coalition 3 swap coalitions
+fd 22 in coalition 1 and fd 24 in coalition 0 swap coalitions
+fd  8 in coalition 2 and fd 24 in coalition 1 swap coalitions
+fd 10 in coalition 3 and fd 26 in coalition 0 swap coalitions
+fd  2 in coalition 0 was selected to forward
+fd  5 in coalition 1 was selected to forward
+fd  1 in coalition 2 was selected to forward
+fd 13 in coalition 3 was selected to forward
+
+
+*** round 1
+fd 12 in coalition 3 and fd 28 in coalition 2 swap coalitions
+fd 22 in coalition 0 and fd 12 in coalition 2 swap coalitions
+fd 17 in coalition 3 and fd 29 in coalition 0 swap coalitions
+fd 15 in coalition 2 and fd 13 in coalition 3 swap coalitions
+fd  2 in coalition 0 was selected to forward
+fd  5 in coalition 1 was selected to forward
+fd  1 in coalition 2 was selected to forward
+fd 15 in coalition 3 was selected to forward
+
+
+*** round 2
+fd  3 in coalition 0 and fd 18 in coalition 3 swap coalitions
+fd  0 in coalition 0 and fd  3 in coalition 3 swap coalitions
+fd  0 in coalition 3 and fd 13 in coalition 2 swap coalitions
+fd  2 in coalition 0 was selected to forward
+fd  5 in coalition 1 was selected to forward
+fd  1 in coalition 2 was selected to forward
+fd 15 in coalition 3 was selected to forward
+
+
+*** round 3
+fd 16 in coalition 2 and fd  7 in coalition 0 swap coalitions
+fd  2 in coalition 0 was selected to forward
+fd  5 in coalition 1 was selected to forward
+fd  7 in coalition 2 was selected to forward
+fd 15 in coalition 3 was selected to forward
+
+
+*** round 4
+fd 24 in coalition 2 and fd 27 in coalition 0 swap coalitions
+fd 17 in coalition 0 and fd 27 in coalition 2 swap coalitions
+fd 20 in coalition 2 and fd 27 in coalition 0 swap coalitions
+fd  2 in coalition 0 was selected to forward
+fd  5 in coalition 1 was selected to forward
+fd 17 in coalition 2 was selected to forward
+fd 15 in coalition 3 was selected to forward
+
+
+*** round 5
+fd 25 in coalition 0 and fd 22 in coalition 2 swap coalitions
+fd 24 in coalition 0 was selected to forward
+fd  8 in coalition 1 was selected to forward
+fd 17 in coalition 2 was selected to forward
+fd 15 in coalition 3 was selected to forward
+
+
+*** round 6
+fd 24 in coalition 0 was selected to forward
+fd  5 in coalition 1 was selected to forward
+fd 17 in coalition 2 was selected to forward
+fd 15 in coalition 3 was selected to forward
+
+
+*** round 7
+fd  6 in coalition 0 and fd  1 in coalition 2 swap coalitions
+fd  2 in coalition 0 was selected to forward
+fd  8 in coalition 1 was selected to forward
+fd 17 in coalition 2 was selected to forward
+fd 13 in coalition 3 was selected to forward
+
+
+*** round 8
+fd 11 in coalition 0 and fd 29 in coalition 3 swap coalitions
+fd 24 in coalition 0 was selected to forward
+fd  5 in coalition 1 was selected to forward
+fd 17 in coalition 2 was selected to forward
+fd 13 in coalition 3 was selected to forward
+
+
+*** round 9
+fd 22 in coalition 0 and fd  6 in coalition 2 swap coalitions
+fd 24 in coalition 0 was selected to forward
+fd  8 in coalition 1 was selected to forward
+fd 17 in coalition 2 was selected to forward
+fd 15 in coalition 3 was selected to forward
+
+
+*** round 10
+fd  2 in coalition 0 was selected to forward
+fd 19 in coalition 1 was selected to forward
+fd 17 in coalition 2 was selected to forward
+fd 13 in coalition 3 was selected to forward
+
+
+*** round 11
+fd 24 in coalition 0 was selected to forward
+fd  5 in coalition 1 was selected to forward
+fd 17 in coalition 2 was selected to forward
+fd 15 in coalition 3 was selected to forward
+
+
+*** round 12
+fd 24 in coalition 0 was selected to forward
+fd 19 in coalition 1 was selected to forward
+fd  7 in coalition 2 was selected to forward
+fd 13 in coalition 3 was selected to forward
+
+
+*** round 13
+fd 24 in coalition 0 was selected to forward
+fd 19 in coalition 1 was selected to forward
+fd 17 in coalition 2 was selected to forward
+fd 15 in coalition 3 was selected to forward
+
+
+*** round 14
+fd  2 in coalition 0 was selected to forward
+fd  5 in coalition 1 was selected to forward
+fd  7 in coalition 2 was selected to forward
+fd 13 in coalition 3 was selected to forward
+
+
+*** round 15
+fd 24 in coalition 0 was selected to forward
+fd 19 in coalition 1 was selected to forward
+fd 17 in coalition 2 was selected to forward
+fd 13 in coalition 3 was selected to forward
+
+
+*** round 16
+fd 24 in coalition 0 was selected to forward
+fd  5 in coalition 1 was selected to forward
+fd  7 in coalition 2 was selected to forward
+fd 15 in coalition 3 was selected to forward
+
+
+*** round 17
+fd  2 in coalition 0 was selected to forward
+fd 19 in coalition 1 was selected to forward
+fd 17 in coalition 2 was selected to forward
+fd 13 in coalition 3 was selected to forward
+
+
+*** round 18
+fd 24 in coalition 0 was selected to forward
+fd  8 in coalition 1 was selected to forward
+fd  7 in coalition 2 was selected to forward
+fd 15 in coalition 3 was selected to forward
+
+
+*** round 19
+fd 24 in coalition 0 was selected to forward
+fd  5 in coalition 1 was selected to forward
+fd 17 in coalition 2 was selected to forward
+fd 13 in coalition 3 was selected to forward
+
+
+*** round 20
+fd  2 in coalition 0 was selected to forward
+fd 19 in coalition 1 was selected to forward
+fd  7 in coalition 2 was selected to forward
+fd 15 in coalition 3 was selected to forward
+
+
+*** round 21
+fd 27 in coalition 2 and fd  6 in coalition 0 swap coalitions
+fd 24 in coalition 0 was selected to forward
+fd 17 in coalition 2 was selected to forward
+fd 13 in coalition 3 was selected to forward
+
+
+*** round 22
+fd 24 in coalition 0 was selected to forward
+fd  5 in coalition 1 was selected to forward
+fd  7 in coalition 2 was selected to forward
+fd 13 in coalition 3 was selected to forward
+
+
+*** round 23
+fd 27 in coalition 0 was selected to forward
+fd 19 in coalition 1 was selected to forward
+fd 17 in coalition 2 was selected to forward
+fd 15 in coalition 3 was selected to forward
+
+
+*** round 24
+fd  2 in coalition 0 was selected to forward
+fd  5 in coalition 1 was selected to forward
+fd  7 in coalition 2 was selected to forward
+fd 13 in coalition 3 was selected to forward
+
+
+*** round 25
+fd 24 in coalition 0 was selected to forward
+fd  7 in coalition 2 was selected to forward
+fd 15 in coalition 3 was selected to forward
+
+
+*** round 26
+fd 24 in coalition 0 was selected to forward
+fd 17 in coalition 2 was selected to forward
+fd 13 in coalition 3 was selected to forward
+
+
+*** round 27
+fd  2 in coalition 0 was selected to forward
+fd  5 in coalition 1 was selected to forward
+fd  7 in coalition 2 was selected to forward
+fd 15 in coalition 3 was selected to forward
+
+
+*** round 28
+fd 24 in coalition 0 was selected to forward
+fd  8 in coalition 1 was selected to forward
+fd 17 in coalition 2 was selected to forward
+fd 13 in coalition 3 was selected to forward
+
+
+*** round 29
+fd 27 in coalition 0 was selected to forward
+fd 19 in coalition 1 was selected to forward
+fd  7 in coalition 2 was selected to forward
+fd 13 in coalition 3 was selected to forward
+capacity history:  [9.422535101039408, 9.400032297540331, 9.354258186754604, 9.408863269748863, 9.443662049723418, 8.78850079544028, 9.485160569274331, 8.737579492662114, 9.446505342461151, 8.80418057625199, 8.744669041282634, 9.50084035008604, 8.69383706231555, 8.799211596453043, 9.395104745276381, 8.745030111954804, 9.449647300446788, 8.744669041282634, 8.752987526612735, 9.446658865587803, 8.747657476141619, 9.240179129739062, 9.37274591361955, 8.75181815009421, 9.375068554414385, 9.235912507806212, 9.240179129739062, 9.429250038912624, 8.734534246216587, 8.639188559164886]
+f_bs_his:  [931.0800565950215, 935.3244814407308, 935.3244814407308, 935.7672715094532, 940.3507374483944, 800.8105233666673, 937.074897661905, 799.8419383074474, 932.8304728161957, 800.8105233666673, 799.8060738248184, 937.074897661905, 791.9467680993878, 800.7746588840383, 931.5228466637438, 796.5302340383291, 932.4914317229637, 799.8060738248184, 796.2270574277261, 932.8304728161957, 799.4670327315864, 695.3879210394553, 928.2470068772545, 792.707040266058, 931.5228466637438, 695.0488799462232, 695.3879210394553, 935.7672715094532, 796.5660985209581, 783.8791494814075]
+
+
+***********************
+coalition_history =  [[{'f_fd': 106.84263340131935, 'capacity': 2.0858129441803404, 'paired_fds': [0, 2, 6, 7, 14, 27, 11, 9, 29, 25, 3, 22, 10], 'num': 0, 'fairness': 0.4889857328512736, 'f_bs': 235.5094591540522}, {'f_fd': 107.10452516659512, 'capacity': 2.8803890005644686, 'paired_fds': [19, 5, 8], 'num': 1, 'fairness': 0.5199293932024559, 'f_bs': 237.44255177674057}, {'f_fd': 105.1955714086593, 'capacity': 2.219167681333342, 'paired_fds': [1, 15, 16, 28, 20, 4, 24], 'num': 2, 'fairness': 0.3482836649573349, 'f_bs': 230.87795189503504}, {'f_fd': 104.66863326199058, 'capacity': 2.237165474961257, 'paired_fds': [13, 21, 23, 17, 18, 12, 26], 'num': 3, 'fairness': 0.3767709366112317, 'f_bs': 227.2500937691937}], [{'f_fd': 213.6852668026387, 'capacity': 2.098919736463346, 'paired_fds': [2, 6, 7, 14, 9, 25, 11, 3, 10, 12, 27, 17, 0], 'num': 0, 'fairness': 0.2967372427311612, 'f_bs': 235.5094591540522}, {'f_fd': 214.20905033319025, 'capacity': 2.8803890005644686, 'paired_fds': [19, 5, 8], 'num': 1, 'fairness': 0.42744311431256604, 'f_bs': 237.44255177674057}, {'f_fd': 210.3911428173186, 'capacity': 2.1426249430959405, 'paired_fds': [16, 20, 24, 22, 4, 13, 1], 'num': 2, 'fairness': 0.35004105359404003, 'f_bs': 230.87795189503504}, {'f_fd': 210.95197694606614, 'capacity': 2.278098617416577, 'paired_fds': [21, 23, 26, 28, 29, 15, 18], 'num': 3, 'fairness': 0.4081301821590355, 'f_bs': 231.494518614903}], [{'f_fd': 320.52790020395804, 'capacity': 2.089644658586357, 'paired_fds': [2, 7, 9, 11, 12, 17, 14, 27, 18, 3, 25, 6, 10], 'num': 0, 'fairness': 0.22293200282459985, 'f_bs': 235.5094591540522}, {'f_fd': 321.3135754997854, 'capacity': 2.8803890005644686, 'paired_fds': [5, 8, 19], 'num': 1, 'fairness': 0.39599514214352244, 'f_bs': 237.44255177674057}, {'f_fd': 315.5867142259779, 'capacity': 2.094986359265772, 'paired_fds': [24, 22, 20, 4, 1, 16, 0], 'num': 2, 'fairness': 0.23049269835216843, 'f_bs': 230.87795189503504}, {'f_fd': 317.2353206301417, 'capacity': 2.289238168338008, 'paired_fds': [21, 23, 28, 15, 26, 29, 13], 'num': 3, 'fairness': 0.3675732622955264, 'f_bs': 231.494518614903}], [{'f_fd': 427.3705336052774, 'capacity': 2.0693314959184046, 'paired_fds': [2, 17, 27, 18, 3, 6, 25, 16, 10, 14, 9, 11, 12], 'num': 0, 'fairness': 0.18240055361348756, 'f_bs': 235.5094591540522}, {'f_fd': 428.4181006663805, 'capacity': 2.8803890005644686, 'paired_fds': [19, 8, 5], 'num': 1, 'fairness': 0.3802614590694574, 'f_bs': 237.44255177674057}, {'f_fd': 421.8453712535986, 'capacity': 2.1699046049279818, 'paired_fds': [24, 1, 4, 7, 20, 0, 22], 'num': 2, 'fairness': 0.34880256133017706, 'f_bs': 231.3207419637574}, {'f_fd': 423.5186643142173, 'capacity': 2.289238168338008, 'paired_fds': [21, 15, 13, 23, 28, 29, 26], 'num': 3, 'fairness': 0.34719552029887646, 'f_bs': 231.494518614903}], [{'f_fd': 534.2131670065967, 'capacity': 2.0341490011923713, 'paired_fds': [2, 3, 25, 16, 14, 9, 24, 18, 12, 10, 11, 6, 20], 'num': 0, 'fairness': 0.16106241711767333, 'f_bs': 235.5094591540522}, {'f_fd': 535.5226258329756, 'capacity': 2.8803890005644686, 'paired_fds': [19, 8, 5], 'num': 1, 'fairness': 0.37083291197623136, 'f_bs': 237.44255177674057}, {'f_fd': 528.7418682513365, 'capacity': 2.2398858796285697, 'paired_fds': [7, 4, 0, 17, 1, 22, 27], 'num': 2, 'fairness': 0.47678932493481957, 'f_bs': 235.9042079026987}, {'f_fd': 529.8020079982929, 'capacity': 2.289238168338008, 'paired_fds': [21, 23, 26, 15, 29, 28, 13], 'num': 3, 'fairness': 0.33668849058165873, 'f_bs': 231.494518614903}], [{'f_fd': 640.6010572436271, 'capacity': 2.0493772438852798, 'paired_fds': [2, 3, 16, 9, 24, 11, 6, 20, 14, 10, 12, 18, 22], 'num': 0, 'fairness': 0.21849212613302965, 'f_bs': 232.2336193675628}, {'f_fd': 579.8838163728454, 'capacity': 2.183729226730417, 'paired_fds': [19, 5, 8], 'num': 1, 'fairness': 0.6836699391927633, 'f_bs': 101.17817748150291}, {'f_fd': 635.6383652490745, 'capacity': 2.266156156486575, 'paired_fds': [27, 7, 4, 0, 25, 1, 17], 'num': 2, 'fairness': 0.4545085316891271, 'f_bs': 235.9042079026987}, {'f_fd': 636.0853516823685, 'capacity': 2.289238168338008, 'paired_fds': [21, 28, 13, 29, 26, 23, 15], 'num': 3, 'fairness': 0.32563867338581676, 'f_bs': 231.494518614903}], [{'f_fd': 746.9889474806575, 'capacity': 2.0493772438852798, 'paired_fds': [16, 9, 24, 6, 10, 12, 18, 11, 14, 22, 20, 2, 3], 'num': 0, 'fairness': 0.20904149233273586, 'f_bs': 232.2336193675628}, {'f_fd': 686.9883415394406, 'capacity': 2.8803890005644686, 'paired_fds': [8, 5, 19], 'num': 1, 'fairness': 0.6811185763558445, 'f_bs': 237.44255177674057}, {'f_fd': 742.5348622468124, 'capacity': 2.2661561564865753, 'paired_fds': [27, 25, 4, 0, 1, 7, 17], 'num': 2, 'fairness': 0.4393725815753193, 'f_bs': 235.9042079026987}, {'f_fd': 742.3686953664441, 'capacity': 2.289238168338008, 'paired_fds': [21, 13, 23, 28, 15, 29, 26], 'num': 3, 'fairness': 0.3131859987102428, 'f_bs': 231.494518614903}], [{'f_fd': 853.8315808819768, 'capacity': 2.081828343270488, 'paired_fds': [16, 24, 18, 11, 14, 22, 20, 2, 3, 10, 12, 9, 1], 'num': 0, 'fairness': 0.2611977445829834, 'f_bs': 235.5094591540522}, {'f_fd': 731.3495320793105, 'capacity': 2.183729226730417, 'paired_fds': [19, 5, 8], 'num': 1, 'fairness': 0.6801825060305496, 'f_bs': 101.17817748150291}, {'f_fd': 849.4313592445503, 'capacity': 2.23875811240025, 'paired_fds': [4, 6, 17, 25, 27, 0, 7], 'num': 2, 'fairness': 0.32339205670350984, 'f_bs': 235.9042079026987}, {'f_fd': 847.0373286284346, 'capacity': 2.2332638102609588, 'paired_fds': [21, 23, 26, 15, 13, 29, 28], 'num': 3, 'fairness': 0.3164978969717133, 'f_bs': 227.2500937691937}], [{'f_fd': 960.2194711190073, 'capacity': 2.0823344935482964, 'paired_fds': [16, 18, 22, 20, 3, 1, 29, 9, 2, 12, 14, 24, 10], 'num': 0, 'fairness': 0.25882774006485043, 'f_bs': 232.2336193675628}, {'f_fd': 838.4540572459057, 'capacity': 2.8803890005644686, 'paired_fds': [8, 5, 19], 'num': 1, 'fairness': 0.6784704154215372, 'f_bs': 237.44255177674057}, {'f_fd': 956.3278562422882, 'capacity': 2.23875811240025, 'paired_fds': [17, 25, 27, 7, 4, 6, 0], 'num': 2, 'fairness': 0.30530968479617093, 'f_bs': 235.9042079026987}, {'f_fd': 951.7059618904252, 'capacity': 2.2450237359481364, 'paired_fds': [21, 23, 26, 28, 13, 15, 11], 'num': 3, 'fairness': 0.3135217502254885, 'f_bs': 227.2500937691937}], [{'f_fd': 1066.6073613560377, 'capacity': 2.058917280302453, 'paired_fds': [18, 20, 2, 14, 29, 9, 10, 24, 1, 16, 3, 12, 6], 'num': 0, 'fairness': 0.2552658980236179, 'f_bs': 232.2336193675628}, {'f_fd': 882.8152477857756, 'capacity': 2.183729226730417, 'paired_fds': [5, 19, 8], 'num': 1, 'fairness': 0.6779228311906853, 'f_bs': 101.17817748150291}, {'f_fd': 1063.2243532400262, 'capacity': 2.2623288487727464, 'paired_fds': [27, 4, 7, 22, 17, 0, 25], 'num': 2, 'fairness': 0.29097961557942625, 'f_bs': 235.9042079026987}, {'f_fd': 1057.9893055745008, 'capacity': 2.299205220446374, 'paired_fds': [21, 23, 13, 15, 11, 26, 28], 'num': 3, 'fairness': 0.31072640026215714, 'f_bs': 231.494518614903}], [{'f_fd': 1173.449994757357, 'capacity': 2.058556209630283, 'paired_fds': [18, 20, 14, 10, 24, 1, 6, 16, 3, 29, 2, 9, 12], 'num': 0, 'fairness': 0.253501314283131, 'f_bs': 235.5094591540522}, {'f_fd': 927.1489033393626, 'capacity': 2.1787602469314686, 'paired_fds': [8, 19, 5], 'num': 1, 'fairness': 0.9835112958842156, 'f_bs': 101.14231299887383}, {'f_fd': 1170.120850237764, 'capacity': 2.262328848772746, 'paired_fds': [27, 22, 7, 25, 17, 4, 0], 'num': 2, 'fairness': 0.27608928707922786, 'f_bs': 235.9042079026987}, {'f_fd': 1162.6579388364914, 'capacity': 2.2450237359481364, 'paired_fds': [21, 23, 13, 26, 28, 11, 15], 'num': 3, 'fairness': 0.3084728480341632, 'f_bs': 227.2500937691937}], [{'f_fd': 1279.8378849943874, 'capacity': 2.058917280302453, 'paired_fds': [18, 20, 10, 6, 16, 29, 2, 3, 1, 14, 12, 9, 24], 'num': 0, 'fairness': 0.2519797122665911, 'f_bs': 232.2336193675628}, {'f_fd': 1034.2534285059578, 'capacity': 2.8803890005644686, 'paired_fds': [5, 19, 8], 'num': 1, 'fairness': 0.9697972948810449, 'f_bs': 237.44255177674057}, {'f_fd': 1277.0173472355018, 'capacity': 2.262328848772746, 'paired_fds': [27, 7, 0, 17, 4, 22, 25], 'num': 2, 'fairness': 0.2635270066814474, 'f_bs': 235.9042079026987}, {'f_fd': 1268.941282520567, 'capacity': 2.2992052204463738, 'paired_fds': [21, 23, 26, 28, 13, 11, 15], 'num': 3, 'fairness': 0.30656493624652725, 'f_bs': 231.494518614903}], [{'f_fd': 1386.2257752314179, 'capacity': 2.058917280302453, 'paired_fds': [6, 16, 2, 1, 12, 24, 29, 10, 18, 9, 3, 20, 14], 'num': 0, 'fairness': 0.25064887334701497, 'f_bs': 232.2336193675628}, {'f_fd': 1078.5870840595448, 'capacity': 2.1787602469314686, 'paired_fds': [8, 5, 19], 'num': 1, 'fairness': 0.9983232313787613, 'f_bs': 101.14231299887383}, {'f_fd': 1383.2760042631226, 'capacity': 2.2111357991334923, 'paired_fds': [27, 7, 17, 0, 25, 4, 22], 'num': 2, 'fairness': 0.29924844453492894, 'f_bs': 231.3207419637574}, {'f_fd': 1373.6099157825577, 'capacity': 2.245023735948136, 'paired_fds': [21, 23, 13, 15, 11, 28, 26], 'num': 3, 'fairness': 0.3049746152179006, 'f_bs': 227.2500937691937}], [{'f_fd': 1492.6136654684483, 'capacity': 2.058917280302453, 'paired_fds': [16, 12, 29, 10, 9, 3, 20, 14, 18, 6, 1, 2, 24], 'num': 0, 'fairness': 0.24947506398424438, 'f_bs': 232.2336193675628}, {'f_fd': 1122.920739613132, 'capacity': 2.1787602469314686, 'paired_fds': [5, 8, 19], 'num': 1, 'fairness': 0.9965075189154272, 'f_bs': 101.14231299887383}, {'f_fd': 1490.1725012608604, 'capacity': 2.262328848772746, 'paired_fds': [0, 7, 22, 25, 27, 4, 17], 'num': 2, 'fairness': 0.29111682701747105, 'f_bs': 235.9042079026987}, {'f_fd': 1479.8932594666333, 'capacity': 2.299205220446374, 'paired_fds': [23, 11, 26, 15, 21, 28, 13], 'num': 3, 'fairness': 0.30359002219548886, 'f_bs': 231.494518614903}], [{'f_fd': 1599.4562988697676, 'capacity': 2.058556209630283, 'paired_fds': [29, 9, 20, 18, 1, 2, 16, 12, 3, 6, 14, 10, 24], 'num': 0, 'fairness': 0.24842784805779655, 'f_bs': 235.5094591540522}, {'f_fd': 1230.025264779727, 'capacity': 2.8803890005644686, 'paired_fds': [5, 8, 19], 'num': 1, 'fairness': 0.9977879069469842, 'f_bs': 237.44255177674057}, {'f_fd': 1596.4311582884811, 'capacity': 2.211135799133493, 'paired_fds': [0, 22, 27, 17, 7, 4, 25], 'num': 2, 'fairness': 0.3038154327625094, 'f_bs': 231.3207419637574}, {'f_fd': 1584.561892728624, 'capacity': 2.245023735948136, 'paired_fds': [23, 21, 11, 15, 13, 28, 26], 'num': 3, 'fairness': 0.302408069335461, 'f_bs': 227.2500937691937}], [{'f_fd': 1705.844189106798, 'capacity': 2.058917280302453, 'paired_fds': [29, 20, 18, 3, 14, 24, 6, 1, 9, 2, 12, 10, 16], 'num': 0, 'fairness': 0.24749537791789014, 'f_bs': 232.2336193675628}, {'f_fd': 1274.358920333314, 'capacity': 2.1787602469314686, 'paired_fds': [8, 5, 19], 'num': 1, 'fairness': 0.9960420100717124, 'f_bs': 101.14231299887383}, {'f_fd': 1703.327655286219, 'capacity': 2.262328848772746, 'paired_fds': [0, 27, 17, 7, 4, 22, 25], 'num': 2, 'fairness': 0.29923404008755783, 'f_bs': 235.9042079026987}, {'f_fd': 1689.2305259906145, 'capacity': 2.2450237359481364, 'paired_fds': [21, 26, 13, 28, 11, 23, 15], 'num': 3, 'fairness': 0.30137266089143533, 'f_bs': 227.2500937691937}], [{'f_fd': 1812.2320793438284, 'capacity': 2.058917280302453, 'paired_fds': [29, 18, 3, 24, 2, 12, 16, 1, 20, 6, 10, 9, 14], 'num': 0, 'fairness': 0.24665639699975314, 'f_bs': 232.2336193675628}, {'f_fd': 1381.463445499909, 'capacity': 2.8803890005644686, 'paired_fds': [8, 5, 19], 'num': 1, 'fairness': 0.9973148639935546, 'f_bs': 237.44255177674057}, {'f_fd': 1809.5863123138397, 'capacity': 2.2111357991334923, 'paired_fds': [27, 7, 22, 25, 4, 0, 17], 'num': 2, 'fairness': 0.3033355886650219, 'f_bs': 231.3207419637574}, {'f_fd': 1795.51386967469, 'capacity': 2.299205220446374, 'paired_fds': [21, 28, 23, 13, 26, 15, 11], 'num': 3, 'fairness': 0.30044487118388524, 'f_bs': 231.494518614903}], [{'f_fd': 1919.0747127451477, 'capacity': 2.0585562096302836, 'paired_fds': [29, 24, 2, 12, 16, 10, 14, 9, 20, 6, 3, 1, 18], 'num': 0, 'fairness': 0.245894434855409, 'f_bs': 235.5094591540522}, {'f_fd': 1425.7971010534961, 'capacity': 2.1787602469314686, 'paired_fds': [5, 19, 8], 'num': 1, 'fairness': 0.9956530764638776, 'f_bs': 101.14231299887383}, {'f_fd': 1916.4828093115775, 'capacity': 2.262328848772746, 'paired_fds': [7, 4, 25, 0, 22, 27, 17], 'num': 2, 'fairness': 0.30088112970372755, 'f_bs': 235.9042079026987}, {'f_fd': 1900.1825029366807, 'capacity': 2.245023735948136, 'paired_fds': [21, 23, 13, 28, 15, 11, 26], 'num': 3, 'fairness': 0.2996326710187572, 'f_bs': 227.2500937691937}], [{'f_fd': 2025.4626029821782, 'capacity': 2.058917280302453, 'paired_fds': [24, 12, 16, 20, 18, 2, 14, 10, 9, 6, 1, 3, 29], 'num': 0, 'fairness': 0.24520499744948507, 'f_bs': 232.2336193675628}, {'f_fd': 1470.1582915933661, 'capacity': 2.183729226730417, 'paired_fds': [8, 19, 5], 'num': 1, 'fairness': 0.9936929056918267, 'f_bs': 101.17817748150291}, {'f_fd': 2022.7414663391983, 'capacity': 2.211135799133493, 'paired_fds': [27, 17, 22, 0, 7, 4, 25], 'num': 2, 'fairness': 0.30150648505377003, 'f_bs': 231.3207419637574}, {'f_fd': 2006.4658466207563, 'capacity': 2.2992052204463738, 'paired_fds': [21, 28, 13, 26, 11, 23, 15], 'num': 3, 'fairness': 0.29889470264744283, 'f_bs': 231.494518614903}], [{'f_fd': 2131.8504932192086, 'capacity': 2.0589172803024525, 'paired_fds': [16, 20, 18, 2, 14, 9, 3, 29, 10, 24, 6, 12, 1], 'num': 0, 'fairness': 0.24457564732246792, 'f_bs': 232.2336193675628}, {'f_fd': 1577.2628167599612, 'capacity': 2.8803890005644686, 'paired_fds': [8, 19, 5], 'num': 1, 'fairness': 0.9953232505317533, 'f_bs': 237.44255177674057}, {'f_fd': 2129.637963336936, 'capacity': 2.262328848772746, 'paired_fds': [27, 0, 22, 25, 7, 4, 17], 'num': 2, 'fairness': 0.30030284425189946, 'f_bs': 235.9042079026987}, {'f_fd': 2111.1344798827467, 'capacity': 2.245023735948136, 'paired_fds': [21, 15, 28, 23, 11, 26, 13], 'num': 3, 'fairness': 0.29824061143501124, 'f_bs': 227.2500937691937}], [{'f_fd': 2238.693126620528, 'capacity': 2.0585562096302836, 'paired_fds': [16, 14, 9, 10, 24, 6, 2, 3, 1, 18, 20, 29, 12], 'num': 0, 'fairness': 0.24399649796627193, 'f_bs': 235.5094591540522}, {'f_fd': 1621.5964723135482, 'capacity': 2.1787602469314686, 'paired_fds': [5, 19, 8], 'num': 1, 'fairness': 0.9935091885416153, 'f_bs': 101.14231299887383}, {'f_fd': 2235.896620364557, 'capacity': 2.2111357991334923, 'paired_fds': [27, 0, 22, 7, 4, 17, 25], 'num': 2, 'fairness': 0.29956934864553947, 'f_bs': 231.3207419637574}, {'f_fd': 2217.4178235668223, 'capacity': 2.299205220446374, 'paired_fds': [15, 23, 21, 13, 28, 26, 11], 'num': 3, 'fairness': 0.29763965631349554, 'f_bs': 231.494518614903}], [{'f_fd': 2345.081016857558, 'capacity': 2.076741011016331, 'paired_fds': [9, 1, 20, 29, 12, 16, 24, 27, 3, 10, 14, 2, 18], 'num': 0, 'fairness': 0.2440180437652983, 'f_bs': 232.2336193675628}, {'f_fd': 1621.5964723135482, 'capacity': 2.689374110252893, 'paired_fds': [8, 19, 5], 'num': 1, 'fairness': 0.9935091885416153, 'f_bs': 0.0}, {'f_fd': 2342.7931173622947, 'capacity': 2.229040272521701, 'paired_fds': [17, 6, 0, 7, 4, 22, 25], 'num': 2, 'fairness': 0.2988845154086518, 'f_bs': 235.9042079026987}, {'f_fd': 2322.086456828813, 'capacity': 2.245023735948136, 'paired_fds': [23, 21, 26, 11, 13, 15, 28], 'num': 3, 'fairness': 0.29710163084011715, 'f_bs': 227.2500937691937}], [{'f_fd': 2451.4689070945883, 'capacity': 2.076741011016331, 'paired_fds': [12, 24, 27, 3, 14, 2, 1, 20, 9, 29, 10, 18, 16], 'num': 0, 'fairness': 0.2435073154212323, 'f_bs': 232.2336193675628}, {'f_fd': 1728.7009974801433, 'capacity': 2.8803890005644686, 'paired_fds': [5, 8, 19], 'num': 1, 'fairness': 0.9950422927440566, 'f_bs': 237.44255177674057}, {'f_fd': 2449.0517743899154, 'capacity': 2.1705921660906147, 'paired_fds': [0, 7, 22, 25, 17, 4, 6], 'num': 2, 'fairness': 0.2981282172753792, 'f_bs': 231.3207419637574}, {'f_fd': 2426.7550900908036, 'capacity': 2.245023735948136, 'paired_fds': [23, 15, 28, 21, 26, 11, 13], 'num': 3, 'fairness': 0.2966100468301666, 'f_bs': 227.2500937691937}], [{'f_fd': 2555.675065091416, 'capacity': 2.0448124101946656, 'paired_fds': [24, 3, 14, 20, 9, 10, 18, 27, 1, 16, 29, 2, 12], 'num': 0, 'fairness': 0.27885204560587046, 'f_bs': 224.1660007495825}, {'f_fd': 1773.0346530337304, 'capacity': 2.1787602469314686, 'paired_fds': [8, 5, 19], 'num': 1, 'fairness': 0.9933546195711774, 'f_bs': 101.14231299887383}, {'f_fd': 2555.948271387653, 'capacity': 2.2290402725217016, 'paired_fds': [7, 22, 6, 25, 0, 4, 17], 'num': 2, 'fairness': 0.2975993184874208, 'f_bs': 235.9042079026987}, {'f_fd': 2533.038433774879, 'capacity': 2.2992052204463738, 'paired_fds': [21, 11, 13, 28, 23, 26, 15], 'num': 3, 'fairness': 0.29615247706889936, 'f_bs': 231.494518614903}], [{'f_fd': 2662.5176984927352, 'capacity': 2.0790636518111665, 'paired_fds': [24, 3, 9, 27, 2, 12, 29, 10, 20, 16, 18, 1, 14], 'num': 0, 'fairness': 0.27728394542887114, 'f_bs': 235.5094591540522}, {'f_fd': 1880.1391782003254, 'capacity': 2.8803890005644686, 'paired_fds': [19, 5, 8], 'num': 1, 'fairness': 0.9947996758448034, 'f_bs': 237.44255177674057}, {'f_fd': 2662.206928415274, 'capacity': 2.1705921660906147, 'paired_fds': [0, 17, 7, 25, 4, 22, 6], 'num': 2, 'fairness': 0.29699832038154816, 'f_bs': 231.3207419637574}, {'f_fd': 2637.70706703687, 'capacity': 2.245023735948136, 'paired_fds': [21, 28, 23, 15, 26, 13, 11], 'num': 3, 'fairness': 0.2957379207797171, 'f_bs': 227.2500937691937}], [{'f_fd': 2768.9055887297654, 'capacity': 2.076741011016331, 'paired_fds': [9, 2, 10, 20, 16, 3, 18, 12, 1, 24, 29, 14, 27], 'num': 0, 'fairness': 0.2758182538929502, 'f_bs': 232.2336193675628}, {'f_fd': 1880.1391782003254, 'capacity': 2.689374110252893, 'paired_fds': [19, 8, 5], 'num': 1, 'fairness': 0.9947996758448037, 'f_bs': 0.0}, {'f_fd': 2768.4655854428947, 'capacity': 2.1705921660906147, 'paired_fds': [0, 4, 22, 25, 7, 6, 17], 'num': 2, 'fairness': 0.2965085382938217, 'f_bs': 231.3207419637574}, {'f_fd': 2743.9904107209454, 'capacity': 2.2992052204463738, 'paired_fds': [21, 28, 23, 13, 11, 26, 15], 'num': 3, 'fairness': 0.29534935194625456, 'f_bs': 231.494518614903}], [{'f_fd': 2875.2934789667956, 'capacity': 2.076741011016331, 'paired_fds': [2, 10, 16, 1, 29, 27, 18, 3, 12, 20, 14, 24, 9], 'num': 0, 'fairness': 0.2744398438237395, 'f_bs': 232.2336193675628}, {'f_fd': 1880.1391782003254, 'capacity': 2.6893741102528925, 'paired_fds': [5, 8, 19], 'num': 1, 'fairness': 0.9947996758448034, 'f_bs': 0.0}, {'f_fd': 2875.3620824406325, 'capacity': 2.2290402725217016, 'paired_fds': [0, 22, 7, 6, 4, 17, 25], 'num': 2, 'fairness': 0.2960569158449259, 'f_bs': 235.9042079026987}, {'f_fd': 2848.659043982936, 'capacity': 2.2450237359481364, 'paired_fds': [23, 15, 28, 13, 26, 21, 11], 'num': 3, 'fairness': 0.2949950422078821, 'f_bs': 227.2500937691937}], [{'f_fd': 2982.136112368115, 'capacity': 2.0790636518111665, 'paired_fds': [2, 16, 1, 18, 3, 12, 14, 10, 27, 24, 9, 20, 29], 'num': 0, 'fairness': 0.27313597536310535, 'f_bs': 235.5094591540522}, {'f_fd': 1987.2437033669205, 'capacity': 2.8803890005644686, 'paired_fds': [8, 5, 19], 'num': 1, 'fairness': 0.9959290729701087, 'f_bs': 237.44255177674057}, {'f_fd': 2981.6207394682533, 'capacity': 2.1705921660906147, 'paired_fds': [22, 4, 0, 6, 7, 25, 17], 'num': 2, 'fairness': 0.2956439405999362, 'f_bs': 231.3207419637574}, {'f_fd': 2954.9423876670116, 'capacity': 2.299205220446374, 'paired_fds': [23, 26, 21, 13, 11, 28, 15], 'num': 3, 'fairness': 0.29466096714334883, 'f_bs': 231.494518614903}], [{'f_fd': 3088.524002605145, 'capacity': 2.076741011016331, 'paired_fds': [2, 16, 18, 14, 10, 27, 9, 20, 1, 3, 24, 12, 29], 'num': 0, 'fairness': 0.2719111489757625, 'f_bs': 232.2336193675628}, {'f_fd': 2031.6048939067905, 'capacity': 2.183729226730417, 'paired_fds': [19, 8, 5], 'num': 1, 'fairness': 0.9945873497530863, 'f_bs': 101.17817748150291}, {'f_fd': 3088.517236465991, 'capacity': 2.2290402725217016, 'paired_fds': [0, 7, 6, 17, 25, 22, 4], 'num': 2, 'fairness': 0.2952604739960615, 'f_bs': 235.9042079026987}, {'f_fd': 3059.6110209290023, 'capacity': 2.245023735948136, 'paired_fds': [23, 21, 13, 28, 15, 11, 26], 'num': 3, 'fairness': 0.29435466545770617, 'f_bs': 227.2500937691937}], [{'f_fd': 3192.730160601973, 'capacity': 2.044812410194666, 'paired_fds': [2, 14, 9, 20, 3, 24, 29, 27, 18, 10, 1, 12, 16], 'num': 0, 'fairness': 0.29373840153292474, 'f_bs': 224.1660007495825}, {'f_fd': 2075.9385494603775, 'capacity': 2.1787602469314686, 'paired_fds': [8, 19, 5], 'num': 1, 'fairness': 0.9931081036864717, 'f_bs': 101.14231299887383}, {'f_fd': 3194.775893493612, 'capacity': 2.1705921660906147, 'paired_fds': [6, 4, 17, 7, 22, 25, 0], 'num': 2, 'fairness': 0.294907559718321, 'f_bs': 231.3207419637574}, {'f_fd': 3164.279654190993, 'capacity': 2.245023735948136, 'paired_fds': [23, 13, 15, 11, 28, 21, 26], 'num': 3, 'fairness': 0.2940686402155742, 'f_bs': 227.2500937691937}]]
+***********************
+fd_history =  []
+***********************
+f_history =  []

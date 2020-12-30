@@ -1,0 +1,1689 @@
+fd: 0 joined coalition: 2
+fd: 1 joined coalition: 2
+fd: 2 joined coalition: 2
+fd: 3 joined coalition: 0
+fd: 4 joined coalition: 3
+fd: 5 joined coalition: 0
+fd: 6 joined coalition: 2
+fd: 7 joined coalition: 2
+fd: 8 joined coalition: 0
+fd: 9 joined coalition: 3
+fd: 10 joined coalition: 1
+fd: 11 joined coalition: 1
+fd: 12 joined coalition: 3
+fd: 13 joined coalition: 3
+fd: 14 joined coalition: 3
+fd: 15 joined coalition: 3
+fd: 16 joined coalition: 0
+fd: 17 joined coalition: 2
+fd: 18 joined coalition: 2
+fd: 19 joined coalition: 2
+fd: 20 joined coalition: 3
+fd: 21 joined coalition: 3
+fd: 22 joined coalition: 2
+fd: 23 joined coalition: 1
+fd: 24 joined coalition: 1
+fd: 25 joined coalition: 3
+fd: 26 joined coalition: 3
+fd: 27 joined coalition: 0
+fd: 28 joined coalition: 3
+fd: 29 joined coalition: 0
+
+
+initial info:
+coalitoin 0: 
+    paired fds:  [3, 5, 8, 16, 27, 29]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+    sum capacity:  2.23743124723
+coalitoin 1: 
+    paired fds:  [10, 11, 23, 24]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+    sum capacity:  2.30079125933
+coalitoin 2: 
+    paired fds:  [0, 1, 2, 6, 7, 17, 18, 19, 22]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+    sum capacity:  2.17725462438
+coalitoin 3: 
+    paired fds:  [4, 9, 12, 13, 14, 15, 20, 21, 25, 26, 28]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+    sum capacity:  2.03220180011
+fd 0: 
+    gains, power: 1.000000, 0.004186
+    f_bs, f_fd: 0.000000, 0.000000
+fd 1: 
+    gains, power: 1.000000, 0.004918
+    f_bs, f_fd: 0.000000, 0.000000
+fd 2: 
+    gains, power: 1.000000, 0.004292
+    f_bs, f_fd: 0.000000, 0.000000
+fd 3: 
+    gains, power: 1.000000, 0.003950
+    f_bs, f_fd: 0.000000, 0.000000
+fd 4: 
+    gains, power: 1.000000, 0.003024
+    f_bs, f_fd: 0.000000, 0.000000
+fd 5: 
+    gains, power: 1.000000, 0.004042
+    f_bs, f_fd: 0.000000, 0.000000
+fd 6: 
+    gains, power: 1.000000, 0.003186
+    f_bs, f_fd: 0.000000, 0.000000
+fd 7: 
+    gains, power: 1.000000, 0.004204
+    f_bs, f_fd: 0.000000, 0.000000
+fd 8: 
+    gains, power: 1.000000, 0.004249
+    f_bs, f_fd: 0.000000, 0.000000
+fd 9: 
+    gains, power: 1.000000, 0.003645
+    f_bs, f_fd: 0.000000, 0.000000
+fd 10: 
+    gains, power: 1.000000, 0.003396
+    f_bs, f_fd: 0.000000, 0.000000
+fd 11: 
+    gains, power: 1.000000, 0.003561
+    f_bs, f_fd: 0.000000, 0.000000
+fd 12: 
+    gains, power: 1.000000, 0.004877
+    f_bs, f_fd: 0.000000, 0.000000
+fd 13: 
+    gains, power: 1.000000, 0.003599
+    f_bs, f_fd: 0.000000, 0.000000
+fd 14: 
+    gains, power: 1.000000, 0.004082
+    f_bs, f_fd: 0.000000, 0.000000
+fd 15: 
+    gains, power: 1.000000, 0.003929
+    f_bs, f_fd: 0.000000, 0.000000
+fd 16: 
+    gains, power: 1.000000, 0.003065
+    f_bs, f_fd: 0.000000, 0.000000
+fd 17: 
+    gains, power: 1.000000, 0.004445
+    f_bs, f_fd: 0.000000, 0.000000
+fd 18: 
+    gains, power: 1.000000, 0.004487
+    f_bs, f_fd: 0.000000, 0.000000
+fd 19: 
+    gains, power: 1.000000, 0.003109
+    f_bs, f_fd: 0.000000, 0.000000
+fd 20: 
+    gains, power: 1.000000, 0.004059
+    f_bs, f_fd: 0.000000, 0.000000
+fd 21: 
+    gains, power: 1.000000, 0.004903
+    f_bs, f_fd: 0.000000, 0.000000
+fd 22: 
+    gains, power: 1.000000, 0.003624
+    f_bs, f_fd: 0.000000, 0.000000
+fd 23: 
+    gains, power: 1.000000, 0.003380
+    f_bs, f_fd: 0.000000, 0.000000
+fd 24: 
+    gains, power: 1.000000, 0.004053
+    f_bs, f_fd: 0.000000, 0.000000
+fd 25: 
+    gains, power: 1.000000, 0.004053
+    f_bs, f_fd: 0.000000, 0.000000
+fd 26: 
+    gains, power: 1.000000, 0.003397
+    f_bs, f_fd: 0.000000, 0.000000
+fd 27: 
+    gains, power: 1.000000, 0.003532
+    f_bs, f_fd: 0.000000, 0.000000
+fd 28: 
+    gains, power: 1.000000, 0.004526
+    f_bs, f_fd: 0.000000, 0.000000
+fd 29: 
+    gains, power: 1.000000, 0.004695
+    f_bs, f_fd: 0.000000, 0.000000
+
+
+*** round 0
+fd 16 in coalition 0 and fd  1 in coalition 2 swap coalitions
+fd 10 in coalition 1 and fd 20 in coalition 3 swap coalitions
+fd  6 in coalition 2 and fd 20 in coalition 1 swap coalitions
+fd 24 in coalition 1 and fd 27 in coalition 0 swap coalitions
+fd 19 in coalition 2 and fd 28 in coalition 3 swap coalitions
+fd 12 in coalition 3 and fd 28 in coalition 2 swap coalitions
+fd 11 in coalition 1 and fd 26 in coalition 3 swap coalitions
+fd  2 in coalition 2 and fd  6 in coalition 1 swap coalitions
+fd 24 in coalition 0 was selected to forward
+fd 24 in coalition 0 was selected to forward
+fd 24 in coalition 0 was selected to forward
+fd 24 in coalition 0 was selected to forward
+fd 24 in coalition 0 was selected to forward
+fd 24 in coalition 0 was selected to forward
+fd  8 in coalition 0 was selected to forward
+fd  8 in coalition 0 was selected to forward
+fd  8 in coalition 0 was selected to forward
+fd  8 in coalition 0 was selected to forward
+fd  8 in coalition 0 was selected to forward
+fd  8 in coalition 0 was selected to forward
+fd  8 in coalition 0 was selected to forward
+fd 29 in coalition 0 was selected to forward
+fd 29 in coalition 0 was selected to forward
+fd 29 in coalition 0 was selected to forward
+fd 29 in coalition 0 was selected to forward
+fd 29 in coalition 0 was selected to forward
+fd 24 in coalition 0 was selected to forward
+fd 29 in coalition 0 was selected to forward
+fd 29 in coalition 0 was selected to forward
+fd  5 in coalition 0 was selected to forward
+fd 29 in coalition 0 was selected to forward
+fd  5 in coalition 0 was selected to forward
+fd  5 in coalition 0 was selected to forward
+fd  3 in coalition 0 was selected to forward
+fd  3 in coalition 0 was selected to forward
+fd  3 in coalition 0 was selected to forward
+fd  1 in coalition 0 was selected to forward
+fd  1 in coalition 0 was selected to forward
+fd  1 in coalition 0 was selected to forward
+fd  1 in coalition 0 was selected to forward
+fd 26 in coalition 1 was selected to forward
+fd 26 in coalition 1 was selected to forward
+fd 26 in coalition 1 was selected to forward
+fd 26 in coalition 1 was selected to forward
+fd 26 in coalition 1 was selected to forward
+fd 23 in coalition 1 was selected to forward
+fd 23 in coalition 1 was selected to forward
+fd 23 in coalition 1 was selected to forward
+fd 23 in coalition 1 was selected to forward
+fd 23 in coalition 1 was selected to forward
+fd  2 in coalition 1 was selected to forward
+fd  2 in coalition 1 was selected to forward
+fd  2 in coalition 1 was selected to forward
+fd 27 in coalition 1 was selected to forward
+fd 27 in coalition 1 was selected to forward
+fd 17 in coalition 2 was selected to forward
+fd 17 in coalition 2 was selected to forward
+fd 17 in coalition 2 was selected to forward
+fd 17 in coalition 2 was selected to forward
+fd 17 in coalition 2 was selected to forward
+fd 17 in coalition 2 was selected to forward
+fd 17 in coalition 2 was selected to forward
+fd  7 in coalition 2 was selected to forward
+fd  7 in coalition 2 was selected to forward
+fd  7 in coalition 2 was selected to forward
+fd  7 in coalition 2 was selected to forward
+fd  7 in coalition 2 was selected to forward
+fd  7 in coalition 2 was selected to forward
+fd  7 in coalition 2 was selected to forward
+fd 16 in coalition 2 was selected to forward
+fd 16 in coalition 2 was selected to forward
+fd 16 in coalition 2 was selected to forward
+fd 16 in coalition 2 was selected to forward
+fd 16 in coalition 2 was selected to forward
+fd 20 in coalition 2 was selected to forward
+fd 20 in coalition 2 was selected to forward
+fd 20 in coalition 2 was selected to forward
+fd 20 in coalition 2 was selected to forward
+fd 20 in coalition 2 was selected to forward
+fd 20 in coalition 2 was selected to forward
+fd 12 in coalition 2 was selected to forward
+fd 12 in coalition 2 was selected to forward
+fd 12 in coalition 2 was selected to forward
+fd 20 in coalition 2 was selected to forward
+fd 17 in coalition 2 was selected to forward
+fd 12 in coalition 2 was selected to forward
+fd 12 in coalition 2 was selected to forward
+fd 15 in coalition 3 was selected to forward
+fd 15 in coalition 3 was selected to forward
+fd 15 in coalition 3 was selected to forward
+fd 15 in coalition 3 was selected to forward
+fd 15 in coalition 3 was selected to forward
+fd 15 in coalition 3 was selected to forward
+fd 13 in coalition 3 was selected to forward
+fd 13 in coalition 3 was selected to forward
+fd 13 in coalition 3 was selected to forward
+fd 13 in coalition 3 was selected to forward
+fd 13 in coalition 3 was selected to forward
+fd 28 in coalition 3 was selected to forward
+fd 28 in coalition 3 was selected to forward
+fd 28 in coalition 3 was selected to forward
+fd 28 in coalition 3 was selected to forward
+fd 28 in coalition 3 was selected to forward
+fd 28 in coalition 3 was selected to forward
+fd 13 in coalition 3 was selected to forward
+fd 28 in coalition 3 was selected to forward
+fd 21 in coalition 3 was selected to forward
+fd 21 in coalition 3 was selected to forward
+fd 21 in coalition 3 was selected to forward
+fd 21 in coalition 3 was selected to forward
+fd 21 in coalition 3 was selected to forward
+fd 21 in coalition 3 was selected to forward
+fd 21 in coalition 3 was selected to forward
+fd 15 in coalition 3 was selected to forward
+fd  9 in coalition 3 was selected to forward
+fd  9 in coalition 3 was selected to forward
+fd  9 in coalition 3 was selected to forward
+fd  9 in coalition 3 was selected to forward
+fd  9 in coalition 3 was selected to forward
+coalitoin 0: 
+    paired fds:  [5, 8, 24, 1, 29, 3]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+    sum capacity:  2.05352328757
+coalitoin 1: 
+    paired fds:  [23, 2, 26, 27]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+    sum capacity:  2.45064607946
+coalitoin 2: 
+    paired fds:  [0, 7, 17, 20, 18, 12, 6, 16, 22]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+    sum capacity:  2.04773382979
+coalitoin 3: 
+    paired fds:  [9, 13, 14, 15, 21, 25, 10, 28, 4, 11, 19]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+    sum capacity:  2.10865032477
+fd 0: 
+    gains, power: 1.000000, 0.004754
+    f_bs, f_fd: 119.417501, 59.047126
+fd 1: 
+    gains, power: 199.100452, 0.000020
+    f_bs, f_fd: 106.952067, 49.525113
+fd 2: 
+    gains, power: 188.844491, 0.000804
+    f_bs, f_fd: 126.443053, 62.614830
+fd 3: 
+    gains, power: 172.643710, 0.000429
+    f_bs, f_fd: 117.890414, 57.214570
+fd 4: 
+    gains, power: 1.000000, 0.003805
+    f_bs, f_fd: 129.246714, 64.929979
+fd 5: 
+    gains, power: 217.225681, 0.001012
+    f_bs, f_fd: 141.506721, 72.075227
+fd 6: 
+    gains, power: 1.000000, 0.006830
+    f_bs, f_fd: 160.913204, 82.646698
+fd 7: 
+    gains, power: 744.810599, 0.000235
+    f_bs, f_fd: 231.320742, 106.258657
+fd 8: 
+    gains, power: 742.721027, 0.000173
+    f_bs, f_fd: 229.241684, 105.960147
+fd 9: 
+    gains, power: 499.370546, 0.001763
+    f_bs, f_fd: 208.742944, 99.674109
+fd 10: 
+    gains, power: 1.000000, 0.007041
+    f_bs, f_fd: 185.526297, 92.034773
+fd 11: 
+    gains, power: 1.000000, 0.004411
+    f_bs, f_fd: 129.539872, 65.064223
+fd 12: 
+    gains, power: 476.406005, 0.004613
+    f_bs, f_fd: 195.083180, 95.081201
+fd 13: 
+    gains, power: 629.011800, 0.000321
+    f_bs, f_fd: 227.250094, 104.668633
+fd 14: 
+    gains, power: 1.000000, 0.005062
+    f_bs, f_fd: 170.277716, 86.292452
+fd 15: 
+    gains, power: 744.983406, 0.000081
+    f_bs, f_fd: 231.494519, 106.283344
+fd 16: 
+    gains, power: 526.884889, 0.000358
+    f_bs, f_fd: 230.747797, 105.176978
+fd 17: 
+    gains, power: 856.171976, 0.000041
+    f_bs, f_fd: 235.904208, 106.896497
+fd 18: 
+    gains, power: 1.000000, 0.006196
+    f_bs, f_fd: 165.711529, 84.039093
+fd 19: 
+    gains, power: 1.000000, 0.003492
+    f_bs, f_fd: 113.392668, 54.628097
+fd 20: 
+    gains, power: 718.088301, 0.000103
+    f_bs, f_fd: 219.256960, 102.441186
+fd 21: 
+    gains, power: 711.559030, 0.000358
+    f_bs, f_fd: 213.571692, 101.508433
+fd 22: 
+    gains, power: 1.000000, 0.003901
+    f_bs, f_fd: 113.681097, 54.800342
+fd 23: 
+    gains, power: 521.248708, 0.000322
+    f_bs, f_fd: 223.143175, 104.049742
+fd 24: 
+    gains, power: 745.715232, 0.000180
+    f_bs, f_fd: 232.233619, 106.387890
+fd 25: 
+    gains, power: 1.000000, 0.004894
+    f_bs, f_fd: 193.367540, 94.728934
+fd 26: 
+    gains, power: 524.311386, 0.000404
+    f_bs, f_fd: 227.207087, 104.662277
+fd 27: 
+    gains, power: 107.731090, 0.001163
+    f_bs, f_fd: 112.955953, 53.365545
+fd 28: 
+    gains, power: 739.663005, 0.000553
+    f_bs, f_fd: 226.271007, 105.523286
+fd 29: 
+    gains, power: 827.654837, 0.000297
+    f_bs, f_fd: 218.574008, 103.331855
+
+
+*** round 1
+fd 29 in coalition 0 and fd 19 in coalition 3 swap coalitions
+fd 12 in coalition 2 and fd 19 in coalition 0 swap coalitions
+fd  2 in coalition 1 and fd  8 in coalition 0 swap coalitions
+fd 16 in coalition 2 and fd 14 in coalition 3 swap coalitions
+fd 26 in coalition 1 and fd  5 in coalition 0 swap coalitions
+fd 23 in coalition 1 and fd 11 in coalition 3 swap coalitions
+fd  2 in coalition 0 was selected to forward
+fd 12 in coalition 0 was selected to forward
+fd 12 in coalition 0 was selected to forward
+fd 12 in coalition 0 was selected to forward
+fd 12 in coalition 0 was selected to forward
+fd 12 in coalition 0 was selected to forward
+fd 12 in coalition 0 was selected to forward
+fd 12 in coalition 0 was selected to forward
+fd  5 in coalition 1 was selected to forward
+fd 11 in coalition 1 was selected to forward
+fd 11 in coalition 1 was selected to forward
+fd 11 in coalition 1 was selected to forward
+fd 11 in coalition 1 was selected to forward
+fd  5 in coalition 1 was selected to forward
+fd 27 in coalition 1 was selected to forward
+fd 11 in coalition 1 was selected to forward
+fd 19 in coalition 2 was selected to forward
+fd 19 in coalition 2 was selected to forward
+fd 19 in coalition 2 was selected to forward
+fd 19 in coalition 2 was selected to forward
+fd 19 in coalition 2 was selected to forward
+fd 18 in coalition 2 was selected to forward
+fd 18 in coalition 2 was selected to forward
+fd 18 in coalition 2 was selected to forward
+fd 18 in coalition 2 was selected to forward
+fd 18 in coalition 2 was selected to forward
+fd 18 in coalition 2 was selected to forward
+fd  6 in coalition 2 was selected to forward
+fd  6 in coalition 2 was selected to forward
+fd  6 in coalition 2 was selected to forward
+fd  6 in coalition 2 was selected to forward
+fd  6 in coalition 2 was selected to forward
+fd 18 in coalition 2 was selected to forward
+fd  6 in coalition 2 was selected to forward
+fd 20 in coalition 2 was selected to forward
+fd  6 in coalition 2 was selected to forward
+fd  6 in coalition 2 was selected to forward
+fd 14 in coalition 2 was selected to forward
+fd 14 in coalition 2 was selected to forward
+fd 14 in coalition 2 was selected to forward
+fd  6 in coalition 2 was selected to forward
+fd 14 in coalition 2 was selected to forward
+fd  0 in coalition 2 was selected to forward
+fd  0 in coalition 2 was selected to forward
+fd  0 in coalition 2 was selected to forward
+fd  0 in coalition 2 was selected to forward
+fd 22 in coalition 2 was selected to forward
+fd 22 in coalition 2 was selected to forward
+fd  9 in coalition 3 was selected to forward
+fd  9 in coalition 3 was selected to forward
+fd 25 in coalition 3 was selected to forward
+fd 25 in coalition 3 was selected to forward
+fd 25 in coalition 3 was selected to forward
+fd 25 in coalition 3 was selected to forward
+fd 28 in coalition 3 was selected to forward
+fd 25 in coalition 3 was selected to forward
+fd 25 in coalition 3 was selected to forward
+fd  9 in coalition 3 was selected to forward
+fd 10 in coalition 3 was selected to forward
+fd 10 in coalition 3 was selected to forward
+fd 10 in coalition 3 was selected to forward
+fd 10 in coalition 3 was selected to forward
+fd 10 in coalition 3 was selected to forward
+fd 13 in coalition 3 was selected to forward
+fd 10 in coalition 3 was selected to forward
+fd 10 in coalition 3 was selected to forward
+fd 10 in coalition 3 was selected to forward
+fd 10 in coalition 3 was selected to forward
+fd  4 in coalition 3 was selected to forward
+fd  9 in coalition 3 was selected to forward
+fd 10 in coalition 3 was selected to forward
+fd  4 in coalition 3 was selected to forward
+fd  4 in coalition 3 was selected to forward
+fd 29 in coalition 3 was selected to forward
+fd 10 in coalition 3 was selected to forward
+coalitoin 0: 
+    paired fds:  [1, 2, 12, 24, 26, 3]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+    sum capacity:  2.34187084529
+coalitoin 1: 
+    paired fds:  [8, 27, 5, 11]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+    sum capacity:  2.38314358877
+coalitoin 2: 
+    paired fds:  [7, 18, 6, 0, 22, 14, 17, 19, 20]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+    sum capacity:  2.00516239753
+coalitoin 3: 
+    paired fds:  [9, 15, 21, 25, 10, 4, 29, 16, 13, 23, 28]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+    sum capacity:  2.16922510394
+fd 0: 
+    gains, power: 237.188503, 0.000292
+    f_bs, f_fd: 119.417501, 59.047126
+fd 1: 
+    gains, power: 199.100452, 0.000456
+    f_bs, f_fd: 106.952067, 49.525113
+fd 2: 
+    gains, power: 295.687125, 0.000451
+    f_bs, f_fd: 235.509459, 106.842633
+fd 3: 
+    gains, power: 172.643710, 0.000781
+    f_bs, f_fd: 117.890414, 57.214570
+fd 4: 
+    gains, power: 195.789936, 0.000912
+    f_bs, f_fd: 129.246714, 64.929979
+fd 5: 
+    gains, power: 431.434732, 0.000154
+    f_bs, f_fd: 237.442552, 107.104525
+fd 6: 
+    gains, power: 744.820283, 0.000810
+    f_bs, f_fd: 160.913204, 82.646698
+fd 7: 
+    gains, power: 744.810599, 0.000532
+    f_bs, f_fd: 231.320742, 106.258657
+fd 8: 
+    gains, power: 742.721027, 0.000331
+    f_bs, f_fd: 101.178177, 44.361191
+fd 9: 
+    gains, power: 898.066982, 0.000664
+    f_bs, f_fd: 208.742944, 99.674109
+fd 10: 
+    gains, power: 1013.382499, 0.000193
+    f_bs, f_fd: 185.526297, 92.034773
+fd 11: 
+    gains, power: 402.713249, 0.000129
+    f_bs, f_fd: 156.659998, 80.342650
+fd 12: 
+    gains, power: 992.524618, 0.000512
+    f_bs, f_fd: 143.235720, 73.731230
+fd 13: 
+    gains, power: 733.680433, 0.000351
+    f_bs, f_fd: 227.250094, 104.668633
+fd 14: 
+    gains, power: 266.528533, 0.001119
+    f_bs, f_fd: 132.489430, 66.382133
+fd 15: 
+    gains, power: 744.983406, 0.000531
+    f_bs, f_fd: 231.494519, 106.283344
+fd 16: 
+    gains, power: 526.884889, 0.000941
+    f_bs, f_fd: 137.776170, 70.604931
+fd 17: 
+    gains, power: 856.171976, 0.000568
+    f_bs, f_fd: 235.904208, 106.896497
+fd 18: 
+    gains, power: 589.273650, 0.000811
+    f_bs, f_fd: 165.711529, 84.039093
+fd 19: 
+    gains, power: 520.724255, 0.000616
+    f_bs, f_fd: 222.462869, 103.944851
+fd 20: 
+    gains, power: 820.529486, 0.000420
+    f_bs, f_fd: 219.256960, 102.441186
+fd 21: 
+    gains, power: 711.559030, 0.000633
+    f_bs, f_fd: 213.571692, 101.508433
+fd 22: 
+    gains, power: 110.600684, 0.001602
+    f_bs, f_fd: 113.681097, 54.800342
+fd 23: 
+    gains, power: 521.248708, 0.000491
+    f_bs, f_fd: 134.262210, 68.146699
+fd 24: 
+    gains, power: 745.715232, 0.000599
+    f_bs, f_fd: 232.233619, 106.387890
+fd 25: 
+    gains, power: 569.373602, 0.000776
+    f_bs, f_fd: 193.367540, 94.728934
+fd 26: 
+    gains, power: 524.311386, 0.000649
+    f_bs, f_fd: 155.350590, 78.927125
+fd 27: 
+    gains, power: 161.096635, 0.000123
+    f_bs, f_fd: 112.955953, 53.365545
+fd 28: 
+    gains, power: 845.186291, 0.000233
+    f_bs, f_fd: 226.271007, 105.523286
+fd 29: 
+    gains, power: 894.569459, 0.000070
+    f_bs, f_fd: 131.428020, 66.914622
+
+
+*** round 2
+fd 13 in coalition 3 and fd 11 in coalition 1 swap coalitions
+fd 12 in coalition 0 and fd 18 in coalition 2 swap coalitions
+fd 25 in coalition 3 and fd  6 in coalition 2 swap coalitions
+fd 24 in coalition 0 was selected to forward
+fd 18 in coalition 0 was selected to forward
+fd  2 in coalition 0 was selected to forward
+fd 18 in coalition 0 was selected to forward
+fd 13 in coalition 1 was selected to forward
+fd 22 in coalition 2 was selected to forward
+fd 17 in coalition 2 was selected to forward
+fd 19 in coalition 2 was selected to forward
+fd 12 in coalition 2 was selected to forward
+fd 14 in coalition 2 was selected to forward
+fd  7 in coalition 2 was selected to forward
+fd 20 in coalition 2 was selected to forward
+fd 12 in coalition 2 was selected to forward
+fd 12 in coalition 2 was selected to forward
+fd 25 in coalition 2 was selected to forward
+fd 12 in coalition 2 was selected to forward
+fd 12 in coalition 2 was selected to forward
+fd 20 in coalition 2 was selected to forward
+fd  6 in coalition 3 was selected to forward
+fd  9 in coalition 3 was selected to forward
+fd 15 in coalition 3 was selected to forward
+fd 21 in coalition 3 was selected to forward
+fd 10 in coalition 3 was selected to forward
+fd  6 in coalition 3 was selected to forward
+fd 16 in coalition 3 was selected to forward
+fd  4 in coalition 3 was selected to forward
+fd  9 in coalition 3 was selected to forward
+fd 10 in coalition 3 was selected to forward
+fd  6 in coalition 3 was selected to forward
+fd 10 in coalition 3 was selected to forward
+fd  6 in coalition 3 was selected to forward
+fd  9 in coalition 3 was selected to forward
+fd 10 in coalition 3 was selected to forward
+coalitoin 0: 
+    paired fds:  [26, 2, 24, 3, 18, 1]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+    sum capacity:  2.17678591653
+coalitoin 1: 
+    paired fds:  [8, 13, 5, 27]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+    sum capacity:  2.55652360044
+coalitoin 2: 
+    paired fds:  [7, 14, 19, 20, 12, 22, 25, 0, 17]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+    sum capacity:  2.11118953476
+coalitoin 3: 
+    paired fds:  [9, 21, 10, 29, 23, 11, 6, 15, 28, 16, 4]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+    sum capacity:  2.12848644932
+fd 0: 
+    gains, power: 237.188503, 0.000861
+    f_bs, f_fd: 119.417501, 59.047126
+fd 1: 
+    gains, power: 199.100452, 0.000892
+    f_bs, f_fd: 106.952067, 49.525113
+fd 2: 
+    gains, power: 402.529758, 0.000099
+    f_bs, f_fd: 235.509459, 106.842633
+fd 3: 
+    gains, power: 172.643710, 0.001134
+    f_bs, f_fd: 117.890414, 57.214570
+fd 4: 
+    gains, power: 260.719914, 0.000468
+    f_bs, f_fd: 129.246714, 64.929979
+fd 5: 
+    gains, power: 431.434732, 0.000519
+    f_bs, f_fd: 237.442552, 107.104525
+fd 6: 
+    gains, power: 1126.788837, 0.000798
+    f_bs, f_fd: 197.124236, 95.492139
+fd 7: 
+    gains, power: 851.069256, 0.000219
+    f_bs, f_fd: 231.320742, 106.258657
+fd 8: 
+    gains, power: 742.721027, 0.000490
+    f_bs, f_fd: 101.178177, 44.361191
+fd 9: 
+    gains, power: 1197.089309, 0.000349
+    f_bs, f_fd: 208.742944, 99.674109
+fd 10: 
+    gains, power: 1381.521589, 0.000021
+    f_bs, f_fd: 185.526297, 92.034773
+fd 11: 
+    gains, power: 402.713249, 0.000979
+    f_bs, f_fd: 129.539872, 65.064223
+fd 12: 
+    gains, power: 1467.930623, 0.000247
+    f_bs, f_fd: 195.083180, 95.081201
+fd 13: 
+    gains, power: 813.577438, 0.000022
+    f_bs, f_fd: 155.256507, 79.897005
+fd 14: 
+    gains, power: 332.910666, 0.000869
+    f_bs, f_fd: 132.489430, 66.382133
+fd 15: 
+    gains, power: 851.266749, 0.000367
+    f_bs, f_fd: 231.494519, 106.283344
+fd 16: 
+    gains, power: 597.489819, 0.000387
+    f_bs, f_fd: 137.776170, 70.604931
+fd 17: 
+    gains, power: 963.068473, 0.000480
+    f_bs, f_fd: 235.904208, 106.896497
+fd 18: 
+    gains, power: 719.402097, 0.000013
+    f_bs, f_fd: 129.539872, 65.064223
+fd 19: 
+    gains, power: 624.669106, 0.000347
+    f_bs, f_fd: 222.462869, 103.944851
+fd 20: 
+    gains, power: 1025.411858, 0.000025
+    f_bs, f_fd: 219.256960, 102.441186
+fd 21: 
+    gains, power: 813.067462, 0.000219
+    f_bs, f_fd: 213.571692, 101.508433
+fd 22: 
+    gains, power: 165.401027, 0.000590
+    f_bs, f_fd: 113.681097, 54.800342
+fd 23: 
+    gains, power: 521.248708, 0.000660
+    f_bs, f_fd: 134.262210, 68.146699
+fd 24: 
+    gains, power: 852.103122, 0.000405
+    f_bs, f_fd: 232.233619, 106.387890
+fd 25: 
+    gains, power: 631.876552, 0.000351
+    f_bs, f_fd: 126.210132, 62.502950
+fd 26: 
+    gains, power: 524.311386, 0.000894
+    f_bs, f_fd: 155.350590, 78.927125
+fd 27: 
+    gains, power: 161.096635, 0.000412
+    f_bs, f_fd: 112.955953, 53.365545
+fd 28: 
+    gains, power: 845.186291, 0.000523
+    f_bs, f_fd: 226.271007, 105.523286
+fd 29: 
+    gains, power: 894.569459, 0.001033
+    f_bs, f_fd: 131.428020, 66.914622
+
+
+*** round 3
+fd 13 in coalition 1 and fd 28 in coalition 3 swap coalitions
+fd 20 in coalition 2 and fd  4 in coalition 3 swap coalitions
+fd  6 in coalition 3 and fd 12 in coalition 2 swap coalitions
+fd  3 in coalition 0 was selected to forward
+fd 24 in coalition 0 was selected to forward
+fd 26 in coalition 0 was selected to forward
+fd 18 in coalition 0 was selected to forward
+fd  5 in coalition 1 was selected to forward
+fd  6 in coalition 2 was selected to forward
+fd 17 in coalition 2 was selected to forward
+fd  6 in coalition 2 was selected to forward
+fd 14 in coalition 2 was selected to forward
+fd  6 in coalition 2 was selected to forward
+fd  0 in coalition 2 was selected to forward
+fd  4 in coalition 2 was selected to forward
+fd 19 in coalition 2 was selected to forward
+fd  6 in coalition 2 was selected to forward
+fd 12 in coalition 3 was selected to forward
+fd 29 in coalition 3 was selected to forward
+fd  9 in coalition 3 was selected to forward
+fd 10 in coalition 3 was selected to forward
+fd 11 in coalition 3 was selected to forward
+fd 12 in coalition 3 was selected to forward
+fd 12 in coalition 3 was selected to forward
+fd 10 in coalition 3 was selected to forward
+fd 15 in coalition 3 was selected to forward
+fd  9 in coalition 3 was selected to forward
+fd 12 in coalition 3 was selected to forward
+fd 10 in coalition 3 was selected to forward
+fd 12 in coalition 3 was selected to forward
+fd 13 in coalition 3 was selected to forward
+fd  9 in coalition 3 was selected to forward
+coalitoin 0: 
+    paired fds:  [2, 24, 26, 18, 1, 3]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+    sum capacity:  2.34685083924
+coalitoin 1: 
+    paired fds:  [5, 27, 8, 28]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+    sum capacity:  2.60977836294
+coalitoin 2: 
+    paired fds:  [7, 19, 22, 0, 17, 14, 25, 4, 6]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+    sum capacity:  2.12172529317
+coalitoin 3: 
+    paired fds:  [9, 21, 23, 29, 13, 12, 10, 16, 15, 20, 11]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+    sum capacity:  2.09395435384
+fd 0: 
+    gains, power: 296.235629, 0.000171
+    f_bs, f_fd: 119.417501, 59.047126
+fd 1: 
+    gains, power: 199.100452, 0.001328
+    f_bs, f_fd: 106.952067, 49.525113
+fd 2: 
+    gains, power: 402.529758, 0.000354
+    f_bs, f_fd: 235.509459, 106.842633
+fd 3: 
+    gains, power: 229.858280, 0.000195
+    f_bs, f_fd: 117.890414, 57.214570
+fd 4: 
+    gains, power: 339.438618, 0.000185
+    f_bs, f_fd: 154.701833, 78.718704
+fd 5: 
+    gains, power: 538.539257, 0.000273
+    f_bs, f_fd: 237.442552, 107.104525
+fd 6: 
+    gains, power: 1457.375629, 0.000147
+    f_bs, f_fd: 160.913204, 82.646698
+fd 7: 
+    gains, power: 851.069256, 0.000515
+    f_bs, f_fd: 231.320742, 106.258657
+fd 8: 
+    gains, power: 742.721027, 0.000648
+    f_bs, f_fd: 101.178177, 44.361191
+fd 9: 
+    gains, power: 1496.111637, 0.000035
+    f_bs, f_fd: 208.742944, 99.674109
+fd 10: 
+    gains, power: 1657.625907, 0.000804
+    f_bs, f_fd: 185.526297, 92.034773
+fd 11: 
+    gains, power: 467.777472, 0.000602
+    f_bs, f_fd: 129.539872, 65.064223
+fd 12: 
+    gains, power: 1974.771262, 0.000582
+    f_bs, f_fd: 212.743316, 101.368128
+fd 13: 
+    gains, power: 918.246071, 0.000053
+    f_bs, f_fd: 227.250094, 104.668633
+fd 14: 
+    gains, power: 399.292799, 0.000618
+    f_bs, f_fd: 132.489430, 66.382133
+fd 15: 
+    gains, power: 957.550093, 0.000203
+    f_bs, f_fd: 231.494519, 106.283344
+fd 16: 
+    gains, power: 597.489819, 0.000971
+    f_bs, f_fd: 137.776170, 70.604931
+fd 17: 
+    gains, power: 1069.964970, 0.000391
+    f_bs, f_fd: 235.904208, 106.896497
+fd 18: 
+    gains, power: 784.466320, 0.000469
+    f_bs, f_fd: 129.539872, 65.064223
+fd 19: 
+    gains, power: 728.613957, 0.000078
+    f_bs, f_fd: 222.462869, 103.944851
+fd 20: 
+    gains, power: 1025.411858, 0.001054
+    f_bs, f_fd: 148.115179, 75.501790
+fd 21: 
+    gains, power: 813.067462, 0.000494
+    f_bs, f_fd: 213.571692, 101.508433
+fd 22: 
+    gains, power: 165.401027, 0.000868
+    f_bs, f_fd: 113.681097, 54.800342
+fd 23: 
+    gains, power: 521.248708, 0.000829
+    f_bs, f_fd: 134.262210, 68.146699
+fd 24: 
+    gains, power: 958.491012, 0.000210
+    f_bs, f_fd: 232.233619, 106.387890
+fd 25: 
+    gains, power: 631.876552, 0.001191
+    f_bs, f_fd: 126.210132, 62.502950
+fd 26: 
+    gains, power: 603.238512, 0.000091
+    f_bs, f_fd: 155.350590, 78.927125
+fd 27: 
+    gains, power: 161.096635, 0.000702
+    f_bs, f_fd: 112.955953, 53.365545
+fd 28: 
+    gains, power: 845.186291, 0.000813
+    f_bs, f_fd: 131.506226, 65.949323
+fd 29: 
+    gains, power: 961.484081, 0.000806
+    f_bs, f_fd: 131.428020, 66.914622
+
+
+*** round 4
+fd 20 in coalition 3 and fd 19 in coalition 2 swap coalitions
+fd  1 in coalition 0 was selected to forward
+fd 18 in coalition 0 was selected to forward
+fd 24 in coalition 0 was selected to forward
+fd  2 in coalition 0 was selected to forward
+fd  5 in coalition 1 was selected to forward
+fd 20 in coalition 2 was selected to forward
+fd 25 in coalition 2 was selected to forward
+fd  6 in coalition 2 was selected to forward
+fd  7 in coalition 2 was selected to forward
+fd 20 in coalition 2 was selected to forward
+fd 17 in coalition 2 was selected to forward
+fd  6 in coalition 2 was selected to forward
+fd 14 in coalition 2 was selected to forward
+fd  6 in coalition 2 was selected to forward
+fd 12 in coalition 3 was selected to forward
+fd 10 in coalition 3 was selected to forward
+fd 12 in coalition 3 was selected to forward
+fd 10 in coalition 3 was selected to forward
+fd 16 in coalition 3 was selected to forward
+fd  9 in coalition 3 was selected to forward
+fd 29 in coalition 3 was selected to forward
+fd 12 in coalition 3 was selected to forward
+fd 10 in coalition 3 was selected to forward
+fd 12 in coalition 3 was selected to forward
+fd 21 in coalition 3 was selected to forward
+fd 11 in coalition 3 was selected to forward
+fd  9 in coalition 3 was selected to forward
+fd 12 in coalition 3 was selected to forward
+fd 10 in coalition 3 was selected to forward
+fd 13 in coalition 3 was selected to forward
+fd 15 in coalition 3 was selected to forward
+fd 12 in coalition 3 was selected to forward
+coalitoin 0: 
+    paired fds:  [18, 2, 1, 3, 24, 26]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+    sum capacity:  2.3738174785
+coalitoin 1: 
+    paired fds:  [8, 27, 28, 5]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+    sum capacity:  2.60977836294
+coalitoin 2: 
+    paired fds:  [17, 14, 25, 4, 0, 22, 20, 7, 6]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+    sum capacity:  2.10870552286
+coalitoin 3: 
+    paired fds:  [9, 21, 23, 10, 16, 11, 13, 12, 19, 29, 15]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+    sum capacity:  2.12454694641
+fd 0: 
+    gains, power: 296.235629, 0.000740
+    f_bs, f_fd: 119.417501, 59.047126
+fd 1: 
+    gains, power: 248.625565, 0.000430
+    f_bs, f_fd: 106.952067, 49.525113
+fd 2: 
+    gains, power: 509.372391, 0.000002
+    f_bs, f_fd: 235.509459, 106.842633
+fd 3: 
+    gains, power: 229.858280, 0.000548
+    f_bs, f_fd: 117.890414, 57.214570
+fd 4: 
+    gains, power: 339.438618, 0.000965
+    f_bs, f_fd: 154.701833, 78.718704
+fd 5: 
+    gains, power: 645.643782, 0.000026
+    f_bs, f_fd: 237.442552, 107.104525
+fd 6: 
+    gains, power: 1705.315723, 0.000570
+    f_bs, f_fd: 160.913204, 82.646698
+fd 7: 
+    gains, power: 957.327913, 0.000203
+    f_bs, f_fd: 231.320742, 106.258657
+fd 8: 
+    gains, power: 742.721027, 0.000806
+    f_bs, f_fd: 101.178177, 44.361191
+fd 9: 
+    gains, power: 1695.459855, 0.000503
+    f_bs, f_fd: 208.742944, 99.674109
+fd 10: 
+    gains, power: 2025.764998, 0.000633
+    f_bs, f_fd: 185.526297, 92.034773
+fd 11: 
+    gains, power: 532.841695, 0.000226
+    f_bs, f_fd: 129.539872, 65.064223
+fd 12: 
+    gains, power: 2582.980027, 0.000099
+    f_bs, f_fd: 212.743316, 101.368128
+fd 13: 
+    gains, power: 1022.914705, 0.000083
+    f_bs, f_fd: 227.250094, 104.668633
+fd 14: 
+    gains, power: 465.674932, 0.000368
+    f_bs, f_fd: 132.489430, 66.382133
+fd 15: 
+    gains, power: 1063.833437, 0.000039
+    f_bs, f_fd: 231.494519, 106.283344
+fd 16: 
+    gains, power: 668.094750, 0.000416
+    f_bs, f_fd: 137.776170, 70.604931
+fd 17: 
+    gains, power: 1176.861467, 0.000302
+    f_bs, f_fd: 235.904208, 106.896497
+fd 18: 
+    gains, power: 849.530543, 0.000924
+    f_bs, f_fd: 129.539872, 65.064223
+fd 19: 
+    gains, power: 728.613957, 0.000462
+    f_bs, f_fd: 113.392668, 54.628097
+fd 20: 
+    gains, power: 1230.294230, 0.000659
+    f_bs, f_fd: 219.256960, 102.441186
+fd 21: 
+    gains, power: 914.575895, 0.000080
+    f_bs, f_fd: 213.571692, 101.508433
+fd 22: 
+    gains, power: 165.401027, 0.001145
+    f_bs, f_fd: 113.681097, 54.800342
+fd 23: 
+    gains, power: 521.248708, 0.000998
+    f_bs, f_fd: 134.262210, 68.146699
+fd 24: 
+    gains, power: 1064.878902, 0.000015
+    f_bs, f_fd: 232.233619, 106.387890
+fd 25: 
+    gains, power: 694.379502, 0.000765
+    f_bs, f_fd: 126.210132, 62.502950
+fd 26: 
+    gains, power: 603.238512, 0.000336
+    f_bs, f_fd: 155.350590, 78.927125
+fd 27: 
+    gains, power: 161.096635, 0.000991
+    f_bs, f_fd: 112.955953, 53.365545
+fd 28: 
+    gains, power: 845.186291, 0.001103
+    f_bs, f_fd: 131.506226, 65.949323
+fd 29: 
+    gains, power: 1028.398703, 0.000579
+    f_bs, f_fd: 131.428020, 66.914622
+
+
+*** round 5
+fd 18 in coalition 0 was selected to forward
+fd 18 in coalition 0 was selected to forward
+fd 28 in coalition 1 was selected to forward
+fd 20 in coalition 2 was selected to forward
+fd  6 in coalition 2 was selected to forward
+fd  4 in coalition 2 was selected to forward
+fd  6 in coalition 2 was selected to forward
+fd 22 in coalition 2 was selected to forward
+fd 17 in coalition 2 was selected to forward
+fd 25 in coalition 2 was selected to forward
+fd 20 in coalition 2 was selected to forward
+fd  6 in coalition 2 was selected to forward
+fd 14 in coalition 2 was selected to forward
+fd  0 in coalition 2 was selected to forward
+fd 10 in coalition 3 was selected to forward
+fd  9 in coalition 3 was selected to forward
+fd 12 in coalition 3 was selected to forward
+fd 12 in coalition 3 was selected to forward
+fd 10 in coalition 3 was selected to forward
+fd  9 in coalition 3 was selected to forward
+fd 12 in coalition 3 was selected to forward
+fd 10 in coalition 3 was selected to forward
+fd 29 in coalition 3 was selected to forward
+fd 12 in coalition 3 was selected to forward
+fd 13 in coalition 3 was selected to forward
+fd 10 in coalition 3 was selected to forward
+fd 12 in coalition 3 was selected to forward
+fd  9 in coalition 3 was selected to forward
+fd 23 in coalition 3 was selected to forward
+coalitoin 0: 
+    paired fds:  [24, 3, 26, 1, 18, 2]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+    sum capacity:  2.34685083924
+coalitoin 1: 
+    paired fds:  [28, 8, 27, 5]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+    sum capacity:  2.60977836294
+coalitoin 2: 
+    paired fds:  [4, 7, 6, 14, 25, 0, 17, 20, 22]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+    sum capacity:  2.10870552286
+coalitoin 3: 
+    paired fds:  [21, 23, 12, 13, 15, 19, 10, 29, 9, 16, 11]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+    sum capacity:  2.01298210258
+fd 0: 
+    gains, power: 355.282754, 0.000051
+    f_bs, f_fd: 119.417501, 59.047126
+fd 1: 
+    gains, power: 248.625565, 0.000866
+    f_bs, f_fd: 106.952067, 49.525113
+fd 2: 
+    gains, power: 509.372391, 0.000258
+    f_bs, f_fd: 235.509459, 106.842633
+fd 3: 
+    gains, power: 229.858280, 0.000900
+    f_bs, f_fd: 117.890414, 57.214570
+fd 4: 
+    gains, power: 418.157322, 0.000682
+    f_bs, f_fd: 154.701833, 78.718704
+fd 5: 
+    gains, power: 645.643782, 0.000391
+    f_bs, f_fd: 237.442552, 107.104525
+fd 6: 
+    gains, power: 1953.255818, 0.000993
+    f_bs, f_fd: 160.913204, 82.646698
+fd 7: 
+    gains, power: 957.327913, 0.000499
+    f_bs, f_fd: 231.320742, 106.258657
+fd 8: 
+    gains, power: 742.721027, 0.000965
+    f_bs, f_fd: 101.178177, 44.361191
+fd 9: 
+    gains, power: 1994.482182, 0.000188
+    f_bs, f_fd: 208.742944, 99.674109
+fd 10: 
+    gains, power: 2393.904088, 0.000462
+    f_bs, f_fd: 185.526297, 92.034773
+fd 11: 
+    gains, power: 532.841695, 0.001076
+    f_bs, f_fd: 129.539872, 65.064223
+fd 12: 
+    gains, power: 3089.820665, 0.000435
+    f_bs, f_fd: 212.743316, 101.368128
+fd 13: 
+    gains, power: 1127.583338, 0.000114
+    f_bs, f_fd: 227.250094, 104.668633
+fd 14: 
+    gains, power: 532.057066, 0.000118
+    f_bs, f_fd: 132.489430, 66.382133
+fd 15: 
+    gains, power: 1063.833437, 0.000490
+    f_bs, f_fd: 231.494519, 106.283344
+fd 16: 
+    gains, power: 668.094750, 0.001000
+    f_bs, f_fd: 137.776170, 70.604931
+fd 17: 
+    gains, power: 1283.757964, 0.000213
+    f_bs, f_fd: 235.904208, 106.896497
+fd 18: 
+    gains, power: 979.658989, 0.000126
+    f_bs, f_fd: 129.539872, 65.064223
+fd 19: 
+    gains, power: 728.613957, 0.000845
+    f_bs, f_fd: 113.392668, 54.628097
+fd 20: 
+    gains, power: 1435.176601, 0.000264
+    f_bs, f_fd: 219.256960, 102.441186
+fd 21: 
+    gains, power: 914.575895, 0.000354
+    f_bs, f_fd: 213.571692, 101.508433
+fd 22: 
+    gains, power: 220.201369, 0.000134
+    f_bs, f_fd: 113.681097, 54.800342
+fd 23: 
+    gains, power: 589.395407, 0.000002
+    f_bs, f_fd: 134.262210, 68.146699
+fd 24: 
+    gains, power: 1064.878902, 0.000434
+    f_bs, f_fd: 232.233619, 106.387890
+fd 25: 
+    gains, power: 756.882452, 0.000339
+    f_bs, f_fd: 126.210132, 62.502950
+fd 26: 
+    gains, power: 603.238512, 0.000581
+    f_bs, f_fd: 155.350590, 78.927125
+fd 27: 
+    gains, power: 161.096635, 0.001280
+    f_bs, f_fd: 112.955953, 53.365545
+fd 28: 
+    gains, power: 911.135615, 0.000184
+    f_bs, f_fd: 131.506226, 65.949323
+fd 29: 
+    gains, power: 1095.313325, 0.000352
+    f_bs, f_fd: 131.428020, 66.914622
+
+
+*** round 6
+fd 24 in coalition 0 was selected to forward
+fd 18 in coalition 0 was selected to forward
+fd 27 in coalition 1 was selected to forward
+fd  5 in coalition 1 was selected to forward
+fd  6 in coalition 2 was selected to forward
+fd  6 in coalition 2 was selected to forward
+fd  7 in coalition 2 was selected to forward
+fd 20 in coalition 2 was selected to forward
+fd  4 in coalition 2 was selected to forward
+fd  6 in coalition 2 was selected to forward
+fd 17 in coalition 2 was selected to forward
+fd  6 in coalition 2 was selected to forward
+fd 12 in coalition 3 was selected to forward
+fd 10 in coalition 3 was selected to forward
+fd 11 in coalition 3 was selected to forward
+fd 16 in coalition 3 was selected to forward
+fd 15 in coalition 3 was selected to forward
+fd 12 in coalition 3 was selected to forward
+fd  9 in coalition 3 was selected to forward
+fd 10 in coalition 3 was selected to forward
+fd 12 in coalition 3 was selected to forward
+fd 12 in coalition 3 was selected to forward
+fd  9 in coalition 3 was selected to forward
+fd 10 in coalition 3 was selected to forward
+fd 13 in coalition 3 was selected to forward
+fd 12 in coalition 3 was selected to forward
+fd 29 in coalition 3 was selected to forward
+fd 10 in coalition 3 was selected to forward
+coalitoin 0: 
+    paired fds:  [2, 3, 26, 1, 24, 18]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+    sum capacity:  2.34685083924
+coalitoin 1: 
+    paired fds:  [8, 28, 27, 5]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+    sum capacity:  2.60977836294
+coalitoin 2: 
+    paired fds:  [6, 22, 7, 25, 14, 20, 17, 4, 0]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+    sum capacity:  2.10870552286
+coalitoin 3: 
+    paired fds:  [21, 23, 12, 15, 29, 16, 13, 11, 19, 9, 10]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+    sum capacity:  2.13326159181
+fd 0: 
+    gains, power: 355.282754, 0.000620
+    f_bs, f_fd: 119.417501, 59.047126
+fd 1: 
+    gains, power: 248.625565, 0.001302
+    f_bs, f_fd: 106.952067, 49.525113
+fd 2: 
+    gains, power: 509.372391, 0.000513
+    f_bs, f_fd: 235.509459, 106.842633
+fd 3: 
+    gains, power: 229.858280, 0.001252
+    f_bs, f_fd: 117.890414, 57.214570
+fd 4: 
+    gains, power: 496.876026, 0.000398
+    f_bs, f_fd: 154.701833, 78.718704
+fd 5: 
+    gains, power: 752.748307, 0.000144
+    f_bs, f_fd: 237.442552, 107.104525
+fd 6: 
+    gains, power: 2283.842610, 0.000342
+    f_bs, f_fd: 160.913204, 82.646698
+fd 7: 
+    gains, power: 1063.586570, 0.000186
+    f_bs, f_fd: 231.320742, 106.258657
+fd 8: 
+    gains, power: 742.721027, 0.001123
+    f_bs, f_fd: 101.178177, 44.361191
+fd 9: 
+    gains, power: 2193.830400, 0.000657
+    f_bs, f_fd: 208.742944, 99.674109
+fd 10: 
+    gains, power: 2762.043179, 0.000291
+    f_bs, f_fd: 185.526297, 92.034773
+fd 11: 
+    gains, power: 597.905918, 0.000699
+    f_bs, f_fd: 129.539872, 65.064223
+fd 12: 
+    gains, power: 3596.661304, 0.000770
+    f_bs, f_fd: 212.743316, 101.368128
+fd 13: 
+    gains, power: 1232.251971, 0.000144
+    f_bs, f_fd: 227.250094, 104.668633
+fd 14: 
+    gains, power: 532.057066, 0.001098
+    f_bs, f_fd: 132.489430, 66.382133
+fd 15: 
+    gains, power: 1170.116781, 0.000326
+    f_bs, f_fd: 231.494519, 106.283344
+fd 16: 
+    gains, power: 738.699680, 0.000445
+    f_bs, f_fd: 137.776170, 70.604931
+fd 17: 
+    gains, power: 1390.654461, 0.000125
+    f_bs, f_fd: 235.904208, 106.896497
+fd 18: 
+    gains, power: 1044.723212, 0.000582
+    f_bs, f_fd: 129.539872, 65.064223
+fd 19: 
+    gains, power: 728.613957, 0.001228
+    f_bs, f_fd: 113.392668, 54.628097
+fd 20: 
+    gains, power: 1537.617787, 0.000581
+    f_bs, f_fd: 219.256960, 102.441186
+fd 21: 
+    gains, power: 914.575895, 0.000629
+    f_bs, f_fd: 213.571692, 101.508433
+fd 22: 
+    gains, power: 220.201369, 0.000411
+    f_bs, f_fd: 113.681097, 54.800342
+fd 23: 
+    gains, power: 589.395407, 0.000171
+    f_bs, f_fd: 134.262210, 68.146699
+fd 24: 
+    gains, power: 1171.266793, 0.000239
+    f_bs, f_fd: 232.233619, 106.387890
+fd 25: 
+    gains, power: 756.882452, 0.001179
+    f_bs, f_fd: 126.210132, 62.502950
+fd 26: 
+    gains, power: 603.238512, 0.000826
+    f_bs, f_fd: 155.350590, 78.927125
+fd 27: 
+    gains, power: 214.462179, 0.000240
+    f_bs, f_fd: 112.955953, 53.365545
+fd 28: 
+    gains, power: 911.135615, 0.000473
+    f_bs, f_fd: 131.506226, 65.949323
+fd 29: 
+    gains, power: 1162.227946, 0.000125
+    f_bs, f_fd: 131.428020, 66.914622
+
+
+*** round 7
+fd 10 in coalition 3 and fd 20 in coalition 2 swap coalitions
+fd  1 in coalition 0 was selected to forward
+fd  3 in coalition 0 was selected to forward
+fd  2 in coalition 0 was selected to forward
+fd 18 in coalition 0 was selected to forward
+fd 24 in coalition 0 was selected to forward
+fd 26 in coalition 0 was selected to forward
+fd 25 in coalition 2 was selected to forward
+fd 10 in coalition 2 was selected to forward
+fd 14 in coalition 2 was selected to forward
+fd  6 in coalition 2 was selected to forward
+fd 10 in coalition 2 was selected to forward
+fd  6 in coalition 2 was selected to forward
+fd 10 in coalition 2 was selected to forward
+fd 10 in coalition 2 was selected to forward
+fd  6 in coalition 2 was selected to forward
+fd  4 in coalition 2 was selected to forward
+fd 17 in coalition 2 was selected to forward
+fd 12 in coalition 3 was selected to forward
+fd  9 in coalition 3 was selected to forward
+fd 19 in coalition 3 was selected to forward
+fd 21 in coalition 3 was selected to forward
+fd 12 in coalition 3 was selected to forward
+fd 12 in coalition 3 was selected to forward
+fd  9 in coalition 3 was selected to forward
+fd 20 in coalition 3 was selected to forward
+fd 12 in coalition 3 was selected to forward
+fd 11 in coalition 3 was selected to forward
+fd 15 in coalition 3 was selected to forward
+fd 13 in coalition 3 was selected to forward
+fd 12 in coalition 3 was selected to forward
+fd  9 in coalition 3 was selected to forward
+fd 12 in coalition 3 was selected to forward
+coalitoin 0: 
+    paired fds:  [24, 26, 2, 3, 18, 1]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+    sum capacity:  2.34685083924
+coalitoin 1: 
+    paired fds:  [5, 8, 27, 28]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+    sum capacity:  2.60977836294
+coalitoin 2: 
+    paired fds:  [4, 0, 25, 22, 14, 10, 7, 17, 6]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+    sum capacity:  2.10669949401
+coalitoin 3: 
+    paired fds:  [21, 23, 15, 29, 11, 12, 20, 16, 9, 19, 13]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+    sum capacity:  2.13723552588
+fd 0: 
+    gains, power: 355.282754, 0.001188
+    f_bs, f_fd: 119.417501, 59.047126
+fd 1: 
+    gains, power: 298.150678, 0.000404
+    f_bs, f_fd: 106.952067, 49.525113
+fd 2: 
+    gains, power: 616.215025, 0.000161
+    f_bs, f_fd: 235.509459, 106.842633
+fd 3: 
+    gains, power: 287.072849, 0.000314
+    f_bs, f_fd: 117.890414, 57.214570
+fd 4: 
+    gains, power: 575.594730, 0.000114
+    f_bs, f_fd: 154.701833, 78.718704
+fd 5: 
+    gains, power: 752.748307, 0.000509
+    f_bs, f_fd: 237.442552, 107.104525
+fd 6: 
+    gains, power: 2531.782704, 0.000764
+    f_bs, f_fd: 160.913204, 82.646698
+fd 7: 
+    gains, power: 1063.586570, 0.000483
+    f_bs, f_fd: 231.320742, 106.258657
+fd 8: 
+    gains, power: 742.721027, 0.001282
+    f_bs, f_fd: 101.178177, 44.361191
+fd 9: 
+    gains, power: 2492.852728, 0.000342
+    f_bs, f_fd: 208.742944, 99.674109
+fd 10: 
+    gains, power: 3169.079137, 0.000760
+    f_bs, f_fd: 215.068038, 101.758990
+fd 11: 
+    gains, power: 662.970142, 0.000323
+    f_bs, f_fd: 129.539872, 65.064223
+fd 12: 
+    gains, power: 4204.870069, 0.000287
+    f_bs, f_fd: 212.743316, 101.368128
+fd 13: 
+    gains, power: 1336.920604, 0.000175
+    f_bs, f_fd: 227.250094, 104.668633
+fd 14: 
+    gains, power: 598.439199, 0.000847
+    f_bs, f_fd: 132.489430, 66.382133
+fd 15: 
+    gains, power: 1276.400124, 0.000162
+    f_bs, f_fd: 231.494519, 106.283344
+fd 16: 
+    gains, power: 738.699680, 0.001029
+    f_bs, f_fd: 137.776170, 70.604931
+fd 17: 
+    gains, power: 1497.550958, 0.000036
+    f_bs, f_fd: 235.904208, 106.896497
+fd 18: 
+    gains, power: 1109.787435, 0.001037
+    f_bs, f_fd: 129.539872, 65.064223
+fd 19: 
+    gains, power: 783.242054, 0.000320
+    f_bs, f_fd: 113.392668, 54.628097
+fd 20: 
+    gains, power: 1613.119577, 0.000498
+    f_bs, f_fd: 148.115179, 75.501790
+fd 21: 
+    gains, power: 1016.084328, 0.000215
+    f_bs, f_fd: 213.571692, 101.508433
+fd 22: 
+    gains, power: 220.201369, 0.000689
+    f_bs, f_fd: 113.681097, 54.800342
+fd 23: 
+    gains, power: 589.395407, 0.000340
+    f_bs, f_fd: 134.262210, 68.146699
+fd 24: 
+    gains, power: 1277.654683, 0.000045
+    f_bs, f_fd: 232.233619, 106.387890
+fd 25: 
+    gains, power: 819.385403, 0.000753
+    f_bs, f_fd: 126.210132, 62.502950
+fd 26: 
+    gains, power: 682.165637, 0.000023
+    f_bs, f_fd: 155.350590, 78.927125
+fd 27: 
+    gains, power: 214.462179, 0.000529
+    f_bs, f_fd: 112.955953, 53.365545
+fd 28: 
+    gains, power: 911.135615, 0.000763
+    f_bs, f_fd: 131.506226, 65.949323
+fd 29: 
+    gains, power: 1162.227946, 0.001088
+    f_bs, f_fd: 131.428020, 66.914622
+
+
+*** round 8
+fd 18 in coalition 0 was selected to forward
+fd 18 in coalition 0 was selected to forward
+fd  5 in coalition 1 was selected to forward
+fd  8 in coalition 1 was selected to forward
+fd 10 in coalition 2 was selected to forward
+fd  6 in coalition 2 was selected to forward
+fd  0 in coalition 2 was selected to forward
+fd 10 in coalition 2 was selected to forward
+fd  6 in coalition 2 was selected to forward
+fd  7 in coalition 2 was selected to forward
+fd 10 in coalition 2 was selected to forward
+fd 14 in coalition 2 was selected to forward
+fd 25 in coalition 2 was selected to forward
+fd 10 in coalition 2 was selected to forward
+fd  6 in coalition 2 was selected to forward
+fd 10 in coalition 2 was selected to forward
+fd  6 in coalition 2 was selected to forward
+fd 12 in coalition 3 was selected to forward
+fd 29 in coalition 3 was selected to forward
+fd 16 in coalition 3 was selected to forward
+fd  9 in coalition 3 was selected to forward
+fd 12 in coalition 3 was selected to forward
+fd 12 in coalition 3 was selected to forward
+fd  9 in coalition 3 was selected to forward
+fd 20 in coalition 3 was selected to forward
+fd 12 in coalition 3 was selected to forward
+fd 13 in coalition 3 was selected to forward
+fd 12 in coalition 3 was selected to forward
+fd  9 in coalition 3 was selected to forward
+coalitoin 0: 
+    paired fds:  [2, 18, 1, 24, 3, 26]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+    sum capacity:  2.34685083924
+coalitoin 1: 
+    paired fds:  [27, 8, 5, 28]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+    sum capacity:  2.60977836294
+coalitoin 2: 
+    paired fds:  [22, 7, 17, 6, 4, 10, 0, 14, 25]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+    sum capacity:  2.06159448941
+coalitoin 3: 
+    paired fds:  [21, 23, 29, 13, 12, 11, 16, 15, 20, 9, 19]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+    sum capacity:  2.1199074941
+fd 0: 
+    gains, power: 414.329880, 0.000499
+    f_bs, f_fd: 119.417501, 59.047126
+fd 1: 
+    gains, power: 298.150678, 0.000840
+    f_bs, f_fd: 106.952067, 49.525113
+fd 2: 
+    gains, power: 616.215025, 0.000416
+    f_bs, f_fd: 235.509459, 106.842633
+fd 3: 
+    gains, power: 287.072849, 0.000666
+    f_bs, f_fd: 117.890414, 57.214570
+fd 4: 
+    gains, power: 575.594730, 0.000895
+    f_bs, f_fd: 154.701833, 78.718704
+fd 5: 
+    gains, power: 859.852832, 0.000263
+    f_bs, f_fd: 237.442552, 107.104525
+fd 6: 
+    gains, power: 2862.369497, 0.000113
+    f_bs, f_fd: 160.913204, 82.646698
+fd 7: 
+    gains, power: 1169.845227, 0.000170
+    f_bs, f_fd: 231.320742, 106.258657
+fd 8: 
+    gains, power: 787.082218, 0.000075
+    f_bs, f_fd: 101.178177, 44.361191
+fd 9: 
+    gains, power: 2791.875055, 0.000027
+    f_bs, f_fd: 208.742944, 99.674109
+fd 10: 
+    gains, power: 3677.874085, 0.000435
+    f_bs, f_fd: 215.068038, 101.758990
+fd 11: 
+    gains, power: 662.970142, 0.001173
+    f_bs, f_fd: 129.539872, 65.064223
+fd 12: 
+    gains, power: 4711.710708, 0.000623
+    f_bs, f_fd: 212.743316, 101.368128
+fd 13: 
+    gains, power: 1441.589238, 0.000205
+    f_bs, f_fd: 227.250094, 104.668633
+fd 14: 
+    gains, power: 664.821332, 0.000597
+    f_bs, f_fd: 132.489430, 66.382133
+fd 15: 
+    gains, power: 1276.400124, 0.000612
+    f_bs, f_fd: 231.494519, 106.283344
+fd 16: 
+    gains, power: 809.304611, 0.000475
+    f_bs, f_fd: 137.776170, 70.604931
+fd 17: 
+    gains, power: 1497.550958, 0.000563
+    f_bs, f_fd: 235.904208, 106.896497
+fd 18: 
+    gains, power: 1239.915882, 0.000240
+    f_bs, f_fd: 129.539872, 65.064223
+fd 19: 
+    gains, power: 783.242054, 0.000703
+    f_bs, f_fd: 113.392668, 54.628097
+fd 20: 
+    gains, power: 1688.621368, 0.000415
+    f_bs, f_fd: 148.115179, 75.501790
+fd 21: 
+    gains, power: 1016.084328, 0.000490
+    f_bs, f_fd: 213.571692, 101.508433
+fd 22: 
+    gains, power: 220.201369, 0.000966
+    f_bs, f_fd: 113.681097, 54.800342
+fd 23: 
+    gains, power: 589.395407, 0.000509
+    f_bs, f_fd: 134.262210, 68.146699
+fd 24: 
+    gains, power: 1277.654683, 0.000464
+    f_bs, f_fd: 232.233619, 106.387890
+fd 25: 
+    gains, power: 881.888353, 0.000327
+    f_bs, f_fd: 126.210132, 62.502950
+fd 26: 
+    gains, power: 682.165637, 0.000268
+    f_bs, f_fd: 155.350590, 78.927125
+fd 27: 
+    gains, power: 214.462179, 0.000819
+    f_bs, f_fd: 112.955953, 53.365545
+fd 28: 
+    gains, power: 911.135615, 0.001053
+    f_bs, f_fd: 131.506226, 65.949323
+fd 29: 
+    gains, power: 1229.142568, 0.000861
+    f_bs, f_fd: 131.428020, 66.914622
+
+
+*** round 9
+fd 24 in coalition 0 was selected to forward
+fd 18 in coalition 0 was selected to forward
+fd  2 in coalition 0 was selected to forward
+fd 28 in coalition 1 was selected to forward
+fd  5 in coalition 1 was selected to forward
+fd 17 in coalition 2 was selected to forward
+fd 10 in coalition 2 was selected to forward
+fd  4 in coalition 2 was selected to forward
+fd  6 in coalition 2 was selected to forward
+fd 10 in coalition 2 was selected to forward
+fd 10 in coalition 2 was selected to forward
+fd  6 in coalition 2 was selected to forward
+fd 14 in coalition 2 was selected to forward
+fd 10 in coalition 2 was selected to forward
+fd  6 in coalition 2 was selected to forward
+fd 10 in coalition 2 was selected to forward
+fd 15 in coalition 3 was selected to forward
+fd 12 in coalition 3 was selected to forward
+fd 11 in coalition 3 was selected to forward
+fd 12 in coalition 3 was selected to forward
+fd 29 in coalition 3 was selected to forward
+fd  9 in coalition 3 was selected to forward
+fd 12 in coalition 3 was selected to forward
+fd 12 in coalition 3 was selected to forward
+fd 13 in coalition 3 was selected to forward
+fd 20 in coalition 3 was selected to forward
+fd 21 in coalition 3 was selected to forward
+fd  9 in coalition 3 was selected to forward
+fd 12 in coalition 3 was selected to forward
+fd 12 in coalition 3 was selected to forward
+coalitoin 0: 
+    paired fds:  [24, 26, 18, 3, 2, 1]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+    sum capacity:  2.34685083924
+coalitoin 1: 
+    paired fds:  [27, 28, 5, 8]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+    sum capacity:  2.60977836294
+coalitoin 2: 
+    paired fds:  [4, 25, 17, 10, 14, 22, 0, 6, 7]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+    sum capacity:  2.07837678622
+coalitoin 3: 
+    paired fds:  [21, 23, 11, 16, 19, 29, 12, 9, 13, 20, 15]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+    sum capacity:  2.13723552588
+fd 0: 
+    gains, power: 414.329880, 0.001068
+    f_bs, f_fd: 119.417501, 59.047126
+fd 1: 
+    gains, power: 298.150678, 0.001276
+    f_bs, f_fd: 106.952067, 49.525113
+fd 2: 
+    gains, power: 723.057658, 0.000064
+    f_bs, f_fd: 235.509459, 106.842633
+fd 3: 
+    gains, power: 287.072849, 0.001018
+    f_bs, f_fd: 117.890414, 57.214570
+fd 4: 
+    gains, power: 654.313434, 0.000611
+    f_bs, f_fd: 154.701833, 78.718704
+fd 5: 
+    gains, power: 966.957357, 0.000016
+    f_bs, f_fd: 237.442552, 107.104525
+fd 6: 
+    gains, power: 3110.309591, 0.000536
+    f_bs, f_fd: 160.913204, 82.646698
+fd 7: 
+    gains, power: 1169.845227, 0.000466
+    f_bs, f_fd: 231.320742, 106.258657
+fd 8: 
+    gains, power: 787.082218, 0.000233
+    f_bs, f_fd: 101.178177, 44.361191
+fd 9: 
+    gains, power: 2991.223273, 0.000496
+    f_bs, f_fd: 208.742944, 99.674109
+fd 10: 
+    gains, power: 4186.669032, 0.000110
+    f_bs, f_fd: 215.068038, 101.758990
+fd 11: 
+    gains, power: 728.034365, 0.000796
+    f_bs, f_fd: 129.539872, 65.064223
+fd 12: 
+    gains, power: 5319.919473, 0.000140
+    f_bs, f_fd: 212.743316, 101.368128
+fd 13: 
+    gains, power: 1546.257871, 0.000236
+    f_bs, f_fd: 227.250094, 104.668633
+fd 14: 
+    gains, power: 731.203465, 0.000346
+    f_bs, f_fd: 132.489430, 66.382133
+fd 15: 
+    gains, power: 1382.683468, 0.000449
+    f_bs, f_fd: 231.494519, 106.283344
+fd 16: 
+    gains, power: 809.304611, 0.001058
+    f_bs, f_fd: 137.776170, 70.604931
+fd 17: 
+    gains, power: 1604.447455, 0.000475
+    f_bs, f_fd: 235.904208, 106.896497
+fd 18: 
+    gains, power: 1304.980105, 0.000695
+    f_bs, f_fd: 129.539872, 65.064223
+fd 19: 
+    gains, power: 783.242054, 0.001086
+    f_bs, f_fd: 113.392668, 54.628097
+fd 20: 
+    gains, power: 1764.123158, 0.000331
+    f_bs, f_fd: 148.115179, 75.501790
+fd 21: 
+    gains, power: 1117.592761, 0.000076
+    f_bs, f_fd: 213.571692, 101.508433
+fd 22: 
+    gains, power: 220.201369, 0.001243
+    f_bs, f_fd: 113.681097, 54.800342
+fd 23: 
+    gains, power: 589.395407, 0.000678
+    f_bs, f_fd: 134.262210, 68.146699
+fd 24: 
+    gains, power: 1384.042573, 0.000269
+    f_bs, f_fd: 232.233619, 106.387890
+fd 25: 
+    gains, power: 881.888353, 0.001168
+    f_bs, f_fd: 126.210132, 62.502950
+fd 26: 
+    gains, power: 682.165637, 0.000513
+    f_bs, f_fd: 155.350590, 78.927125
+fd 27: 
+    gains, power: 214.462179, 0.001108
+    f_bs, f_fd: 112.955953, 53.365545
+fd 28: 
+    gains, power: 977.084938, 0.000134
+    f_bs, f_fd: 131.506226, 65.949323
+fd 29: 
+    gains, power: 1296.057190, 0.000633
+    f_bs, f_fd: 131.428020, 66.914622
+capacity history:  [8.660553521577036, 8.899401935527665, 8.972985501061443, 9.172308849187106, 9.216848310706355, 9.078316827617947, 9.198596316846464, 9.200564222073115, 9.138131185690028, 9.172241514275797]
+f_bs_his:  [23318.91950121088, 12792.716859242846, 6226.997686022088, 5347.322510932125, 6095.966951323716, 5119.234626271533, 5277.8048853229175, 5935.846139337815, 5260.64615698112, 5822.752158714239]
+
+
+***********************
+coalition_history =  [[{'f_fd': 2899.060939286894, 'capacity': 2.0535232875660516, 'paired_fds': [5, 8, 24, 1, 29, 3], 'num': 0, 'fairness': 0.9930574506667361, 'f_bs': 6184.918860771026}, {'f_fd': 1338.135675560406, 'capacity': 2.450646079459719, 'paired_fds': [23, 2, 26, 27], 'num': 1, 'fairness': 0.9964812636872152, 'f_bs': 2856.9923744276566}, {'f_fd': 3317.3617696877945, 'capacity': 2.047733829785951, 'paired_fds': [0, 7, 17, 20, 18, 12, 6, 16, 22], 'num': 2, 'fairness': 0.5622170692603087, 'f_bs': 7170.432461711269}, {'f_fd': 3319.587785344283, 'capacity': 2.108650324765315, 'paired_fds': [9, 13, 14, 15, 21, 25, 10, 28, 4, 11, 19], 'num': 3, 'fairness': 0.4640169425084713, 'f_bs': 7106.575804300929}], [{'f_fd': 3522.0221855811174, 'capacity': 2.3418708452925676, 'paired_fds': [1, 2, 12, 24, 26, 3], 'num': 0, 'fairness': 0.9000184170836603, 'f_bs': 1238.159502279213}, {'f_fd': 2007.4235197550033, 'capacity': 2.383143588765292, 'paired_fds': [8, 27, 5, 11], 'num': 1, 'fairness': 0.9005305500571933, 'f_bs': 1371.141049061237}, {'f_fd': 5882.9388636978265, 'capacity': 2.00516239752554, 'paired_fds': [7, 18, 6, 0, 22, 14, 17, 19, 20], 'num': 2, 'fairness': 0.9729847240192624, 'f_bs': 5174.7607611108915}, {'f_fd': 5770.936799839162, 'capacity': 2.169225103944265, 'paired_fds': [9, 15, 21, 25, 10, 4, 29, 16, 13, 23, 28], 'num': 3, 'fairness': 0.9654172541357752, 'f_bs': 5008.655546791504}], [{'f_fd': 3865.38115552384, 'capacity': 2.1767859165327885, 'paired_fds': [26, 2, 24, 3, 18, 1], 'num': 0, 'fairness': 0.9299818757555286, 'f_bs': 726.8228222688056}, {'f_fd': 2087.320525021431, 'capacity': 2.556523600442132, 'paired_fds': [8, 13, 5, 27], 'num': 1, 'fairness': 0.8763278628975706, 'f_bs': 155.25650702142855}, {'f_fd': 7064.012671158513, 'capacity': 2.1111895347628957, 'paired_fds': [7, 14, 19, 20, 12, 22, 25, 0, 17], 'num': 2, 'fairness': 0.9605878866741884, 'f_bs': 2475.998298830549}, {'f_fd': 7163.393457378024, 'capacity': 2.1284864493236264, 'paired_fds': [9, 21, 10, 29, 23, 11, 6, 15, 28, 16, 4], 'num': 3, 'fairness': 0.9495687452754118, 'f_bs': 2868.9200579013045}], [{'f_fd': 4172.974964053796, 'capacity': 2.3468508392430087, 'paired_fds': [2, 24, 26, 18, 1, 3], 'num': 0, 'fairness': 0.9227035276239904, 'f_bs': 635.014495841654}, {'f_fd': 2194.425050188026, 'capacity': 2.6097783629364395, 'paired_fds': [5, 27, 8, 28], 'num': 1, 'fairness': 0.8874508049769008, 'f_bs': 237.44255177674057}, {'f_fd': 7809.588774352746, 'capacity': 2.1217252931675383, 'paired_fds': [7, 19, 22, 0, 17, 14, 25, 4, 6], 'num': 2, 'fairness': 0.9576846601378207, 'f_bs': 1508.6286567192305}, {'f_fd': 8588.291562652794, 'capacity': 2.09395435384012, 'paired_fds': [9, 21, 23, 29, 13, 12, 10, 16, 15, 20, 11], 'num': 3, 'fairness': 0.9335267735006508, 'f_bs': 2966.2368065944993}], [{'f_fd': 4500.794823872565, 'capacity': 2.373817478500782, 'paired_fds': [18, 2, 1, 3, 24, 26], 'num': 0, 'fairness': 0.9337140275346836, 'f_bs': 704.2350174087665}, {'f_fd': 2301.529575354621, 'capacity': 2.6097783629364395, 'paired_fds': [8, 27, 28, 5], 'num': 1, 'fairness': 0.9032625436214692, 'f_bs': 237.44255177674057}, {'f_fd': 8604.451477645238, 'capacity': 2.1087055228600713, 'paired_fds': [17, 14, 25, 4, 0, 22, 20, 7, 6], 'num': 2, 'fairness': 0.9626305083768165, 'f_bs': 1647.1780441654869}, {'f_fd': 10279.031822455212, 'capacity': 2.124546946409063, 'paired_fds': [9, 21, 23, 10, 16, 11, 13, 12, 19, 29, 15], 'num': 3, 'fairness': 0.9299447698409724, 'f_bs': 3507.111337972722}], [{'f_fd': 4630.923270176939, 'capacity': 2.3468508392430087, 'paired_fds': [24, 3, 26, 1, 18, 2], 'num': 0, 'fairness': 0.9293209509937688, 'f_bs': 259.0797437471905}, {'f_fd': 2367.478898840227, 'capacity': 2.6097783629364395, 'paired_fds': [28, 8, 27, 5], 'num': 1, 'fairness': 0.8996913737109137, 'f_bs': 131.50622617457952}, {'f_fd': 9485.621695700725, 'capacity': 2.108705522860071, 'paired_fds': [4, 7, 6, 14, 25, 0, 17, 20, 22], 'num': 2, 'fairness': 0.9565014014723973, 'f_bs': 1803.6577328904243}, {'f_fd': 11692.763832652548, 'capacity': 2.0129821025784294, 'paired_fds': [21, 23, 12, 13, 15, 19, 10, 29, 9, 16, 11], 'num': 3, 'fairness': 0.9201324363342996, 'f_bs': 2924.990923459339}], [{'f_fd': 4802.375383566156, 'capacity': 2.3468508392430096, 'paired_fds': [2, 3, 26, 1, 24, 18], 'num': 0, 'fairness': 0.927645322833724, 'f_bs': 361.773491241158}, {'f_fd': 2527.948968857243, 'capacity': 2.6097783629364395, 'paired_fds': [8, 28, 27, 5], 'num': 1, 'fairness': 0.9089066363373879, 'f_bs': 350.3985052425592}, {'f_fd': 10210.523531790172, 'capacity': 2.108705522860071, 'paired_fds': [6, 22, 7, 25, 14, 20, 17, 4, 0], 'num': 2, 'fairness': 0.9588175237365991, 'f_bs': 1484.8365585986696}, {'f_fd': 13180.62753200959, 'capacity': 2.1332615918069444, 'paired_fds': [21, 23, 12, 15, 29, 16, 13, 11, 19, 9, 10], 'num': 3, 'fairness': 0.9149257179794206, 'f_bs': 3080.796330240531}], [{'f_fd': 5266.336938525664, 'capacity': 2.3468508392430096, 'paired_fds': [24, 26, 2, 3, 18, 1], 'num': 0, 'fairness': 0.9325492961130902, 'f_bs': 977.4760220092625}, {'f_fd': 2527.948968857243, 'capacity': 2.6097783629364395, 'paired_fds': [5, 8, 27, 28], 'num': 1, 'fairness': 0.9089066363373878, 'f_bs': 0.0}, {'f_fd': 11179.999868457284, 'capacity': 2.1066994940145776, 'paired_fds': [4, 0, 25, 22, 14, 10, 7, 17, 6], 'num': 2, 'fairness': 0.9303471450957078, 'f_bs': 1992.317366765806}, {'f_fd': 14595.513145231804, 'capacity': 2.137235525879089, 'paired_fds': [21, 23, 15, 29, 11, 12, 20, 16, 9, 19, 13], 'num': 3, 'fairness': 0.9197436479951505, 'f_bs': 2966.052750562746}], [{'f_fd': 5396.465384830038, 'capacity': 2.346850839243009, 'paired_fds': [2, 18, 1, 24, 3, 26], 'num': 0, 'fairness': 0.9288681931367463, 'f_bs': 259.0797437471905}, {'f_fd': 2679.414684563708, 'capacity': 2.609778362936439, 'paired_fds': [27, 8, 5, 28], 'num': 1, 'fairness': 0.9183046826585001, 'f_bs': 338.6207292582435}, {'f_fd': 12313.572474580746, 'capacity': 2.0615944894121747, 'paired_fds': [22, 7, 17, 6, 4, 10, 0, 14, 25], 'num': 2, 'fairness': 0.9183704088603362, 'f_bs': 2328.4308098036395}, {'f_fd': 15719.06608667379, 'capacity': 2.119907494098406, 'paired_fds': [21, 23, 29, 13, 12, 11, 16, 15, 20, 9, 19], 'num': 3, 'fairness': 0.913935344292396, 'f_bs': 2334.514874172047}], [{'f_fd': 5674.760131620575, 'capacity': 2.346850839243009, 'paired_fds': [24, 26, 18, 3, 2, 1], 'num': 0, 'fairness': 0.937637176849171, 'f_bs': 597.2829503952103}, {'f_fd': 2852.468533215909, 'capacity': 2.609778362936439, 'paired_fds': [27, 28, 5, 8], 'num': 1, 'fairness': 0.9267740630146071, 'f_bs': 368.9487779513201}, {'f_fd': 13322.304850597608, 'capacity': 2.078376786217261, 'paired_fds': [4, 25, 17, 10, 14, 22, 0, 6, 7], 'num': 2, 'fairness': 0.911712041248823, 'f_bs': 2081.1752721026073}, {'f_fd': 17046.5641157356, 'capacity': 2.1372355258790887, 'paired_fds': [21, 23, 11, 16, 19, 29, 12, 9, 13, 20, 15], 'num': 3, 'fairness': 0.9154616163936543, 'f_bs': 2775.3451582651014}]]
+***********************
+fd_history =  [[{'f_fd': 59.047125707417024, 'gains': 1.0, 'power': 0.004754332322014776, 'coalition': 2, 'N': 1.0, 'f_bs': 119.41750057817302, 'N1': 31, 'loss_rate': 0.880097}, {'f_fd': 49.52511302823265, 'gains': 199.1004521129306, 'power': 1.9663994609794757e-05, 'coalition': 0, 'N': 1.0, 'f_bs': 106.95206701355622, 'N1': 33, 'loss_rate': 0.910645}, {'f_fd': 62.61483041576018, 'gains': 188.84449124728053, 'power': 0.0008037166715317988, 'coalition': 1, 'N': 1.0, 'f_bs': 126.44305268964446, 'N1': 31, 'loss_rate': 0.865438}, {'f_fd': 57.21456989640721, 'gains': 172.64370968922162, 'power': 0.00042911785023267584, 'coalition': 0, 'N': 1.0, 'f_bs': 117.89041410985705, 'N1': 32, 'loss_rate': 0.886862}, {'f_fd': 64.92997859869286, 'gains': 1.0, 'power': 0.003804695079700416, 'coalition': 3, 'N': 1.0, 'f_bs': 129.24671365899798, 'N1': 30, 'loss_rate': 0.854743}, {'f_fd': 72.07522708155037, 'gains': 217.2256812446511, 'power': 0.0010122765293631515, 'coalition': 0, 'N': 1.0, 'f_bs': 141.50672079794433, 'N1': 28, 'loss_rate': 0.813962}, {'f_fd': 82.64669808900655, 'gains': 1.0, 'power': 0.006830093137996469, 'coalition': 2, 'N': 1.0, 'f_bs': 160.91320391004027, 'N1': 24, 'loss_rate': 0.720984}, {'f_fd': 106.25865702762073, 'gains': 744.8105991933452, 'power': 0.00023519688760246363, 'coalition': 2, 'N': 1.0, 'f_bs': 231.3207419637574, 'N1': 15, 'loss_rate': 0.062195}, {'f_fd': 105.96014675073121, 'gains': 742.7210272551183, 'power': 0.0001729132848733259, 'coalition': 0, 'N': 1.0, 'f_bs': 229.24168354381953, 'N1': 15, 'loss_rate': 0.080426}, {'f_fd': 99.67410910527425, 'gains': 499.3705455263713, 'power': 0.0017629385805674322, 'coalition': 3, 'N': 1.0, 'f_bs': 208.74294378172956, 'N1': 18, 'loss_rate': 0.372142}, {'f_fd': 92.0347726310032, 'gains': 1.0, 'power': 0.007040882675718398, 'coalition': 3, 'N': 1.0, 'f_bs': 185.52629708185606, 'N1': 21, 'loss_rate': 0.577237}, {'f_fd': 65.06422315218657, 'gains': 1.0, 'power': 0.004411391351714319, 'coalition': 3, 'N': 1.0, 'f_bs': 129.53987187359525, 'N1': 30, 'loss_rate': 0.854088}, {'f_fd': 95.08120104437691, 'gains': 476.4060052218846, 'power': 0.004612892226690974, 'coalition': 2, 'N': 1.0, 'f_bs': 195.08318013766748, 'N1': 20, 'loss_rate': 0.508568}, {'f_fd': 104.66863326199058, 'gains': 629.0117995719436, 'power': 0.0003209176481451623, 'coalition': 3, 'N': 1.0, 'f_bs': 227.2500937691937, 'N1': 16, 'loss_rate': 0.154038}, {'f_fd': 86.29245248495289, 'gains': 1.0, 'power': 0.0050617739072683085, 'coalition': 3, 'N': 1.0, 'f_bs': 170.27771592490143, 'N1': 23, 'loss_rate': 0.674601}, {'f_fd': 106.28334368407556, 'gains': 744.983405788529, 'power': 8.058902783007151e-05, 'coalition': 3, 'N': 1.0, 'f_bs': 231.494518614903, 'N1': 15, 'loss_rate': 0.060659}, {'f_fd': 105.17697772648697, 'gains': 526.8848886324348, 'power': 0.00035762979167056535, 'coalition': 2, 'N': 1.0, 'f_bs': 230.7477970409221, 'N1': 16, 'loss_rate': 0.125543}, {'f_fd': 106.8964969977379, 'gains': 856.1719759819033, 'power': 4.071914652208162e-05, 'coalition': 2, 'N': 1.0, 'f_bs': 235.9042079026987, 'N1': 15, 'loss_rate': 0.021043}, {'f_fd': 84.039092891564, 'gains': 1.0, 'power': 0.006196035438874439, 'coalition': 2, 'N': 1.0, 'f_bs': 165.7115291204692, 'N1': 24, 'loss_rate': 0.70442}, {'f_fd': 54.6280968559866, 'gains': 1.0, 'power': 0.0034923749306756545, 'coalition': 3, 'N': 1.0, 'f_bs': 113.392668079977, 'N1': 32, 'loss_rate': 0.89562}, {'f_fd': 102.44118580831821, 'gains': 718.0883006582275, 'power': 0.00010345792958097751, 'coalition': 2, 'N': 1.0, 'f_bs': 219.256959835776, 'N1': 17, 'loss_rate': 0.262659}, {'f_fd': 101.50843281201023, 'gains': 711.5590296840717, 'power': 0.00035797753439957775, 'coalition': 3, 'N': 1.0, 'f_bs': 213.5716916957937, 'N1': 17, 'loss_rate': 0.302553}, {'f_fd': 54.80034218345834, 'gains': 1.0, 'power': 0.003901453447284705, 'coalition': 2, 'N': 1.0, 'f_bs': 113.68109685424564, 'N1': 32, 'loss_rate': 0.895064}, {'f_fd': 104.04974163581528, 'gains': 521.2487081790764, 'power': 0.00032212101080125385, 'coalition': 1, 'N': 1.0, 'f_bs': 223.14317462745532, 'N1': 16, 'loss_rate': 0.18661}, {'f_fd': 106.3878902370304, 'gains': 745.7152316592129, 'power': 0.00018047097598805297, 'coalition': 0, 'N': 1.0, 'f_bs': 232.2336193675628, 'N1': 15, 'loss_rate': 0.054105}, {'f_fd': 94.72893364627191, 'gains': 1.0, 'power': 0.0048937459196837845, 'coalition': 3, 'N': 1.0, 'f_bs': 193.3675403708379, 'N1': 20, 'loss_rate': 0.517333}, {'f_fd': 104.6622772866414, 'gains': 524.311386433207, 'power': 0.0004037136791206731, 'coalition': 1, 'N': 1.0, 'f_bs': 227.20708725796194, 'N1': 16, 'loss_rate': 0.154384}, {'f_fd': 53.36554485042103, 'gains': 107.73108970084206, 'power': 0.001163137633532262, 'coalition': 1, 'N': 1.0, 'f_bs': 112.95595346581865, 'N1': 33, 'loss_rate': 0.899598}, {'f_fd': 105.52328639619546, 'gains': 739.6630047733681, 'power': 0.0005525142380675847, 'coalition': 3, 'N': 1.0, 'f_bs': 226.27100722889165, 'N1': 15, 'loss_rate': 0.106015}, {'f_fd': 103.33185466571985, 'gains': 827.654837325759, 'power': 0.00029730000949402657, 'coalition': 0, 'N': 1.0, 'f_bs': 218.57400845171497, 'N1': 16, 'loss_rate': 0.221757}], [{'f_fd': 59.047125707417024, 'gains': 237.1885028296681, 'power': 0.00029190795334024366, 'coalition': 2, 'N': 1.0, 'f_bs': 119.41750057817302, 'N1': 31, 'loss_rate': 0.880097}, {'f_fd': 49.52511302823265, 'gains': 199.1004521129306, 'power': 0.00045564755222477795, 'coalition': 0, 'N': 1.0, 'f_bs': 106.95206701355622, 'N1': 33, 'loss_rate': 0.910645}, {'f_fd': 106.84263340131935, 'gains': 295.6871246485999, 'power': 0.00045130647203082535, 'coalition': 0, 'N': 1.0, 'f_bs': 235.5094591540522, 'N1': 15, 'loss_rate': 0.02464}, {'f_fd': 57.21456989640721, 'gains': 172.64370968922162, 'power': 0.0007814913131982056, 'coalition': 0, 'N': 1.0, 'f_bs': 117.89041410985705, 'N1': 32, 'loss_rate': 0.886862}, {'f_fd': 64.92997859869286, 'gains': 195.78993579607857, 'power': 0.0009121525707312105, 'coalition': 3, 'N': 1.0, 'f_bs': 129.24671365899798, 'N1': 30, 'loss_rate': 0.854743}, {'f_fd': 107.10452516659512, 'gains': 431.4347315778413, 'power': 0.0001543204605050222, 'coalition': 1, 'N': 1.0, 'f_bs': 237.44255177674057, 'N1': 15, 'loss_rate': 0.006929}, {'f_fd': 82.64669808900655, 'gains': 744.8202828010591, 'power': 0.0008095323336877339, 'coalition': 2, 'N': 1.0, 'f_bs': 160.91320391004027, 'N1': 24, 'loss_rate': 0.720984}, {'f_fd': 106.25865702762073, 'gains': 744.8105991933452, 'power': 0.0005316657067806519, 'coalition': 2, 'N': 1.0, 'f_bs': 231.3207419637574, 'N1': 15, 'loss_rate': 0.062195}, {'f_fd': 44.361190539869895, 'gains': 742.7210272551183, 'power': 0.0003312909853946868, 'coalition': 1, 'N': 1.0, 'f_bs': 101.17817748150291, 'N1': 34, 'loss_rate': 0.923351}, {'f_fd': 99.67410910527425, 'gains': 898.0669819474684, 'power': 0.0006643821988931602, 'coalition': 3, 'N': 1.0, 'f_bs': 208.74294378172956, 'N1': 18, 'loss_rate': 0.372142}, {'f_fd': 92.0347726310032, 'gains': 1013.3824989410351, 'power': 0.00019254455004520232, 'coalition': 3, 'N': 1.0, 'f_bs': 185.52629708185606, 'N1': 21, 'loss_rate': 0.577237}, {'f_fd': 80.34264980219734, 'gains': 402.7132490109867, 'power': 0.00012862573928397523, 'coalition': 1, 'N': 1.0, 'f_bs': 156.65999840838742, 'N1': 25, 'loss_rate': 0.745826}, {'f_fd': 73.73123041327197, 'gains': 992.5246181147885, 'power': 0.0005115914856647039, 'coalition': 0, 'N': 1.0, 'f_bs': 143.23572044645158, 'N1': 27, 'loss_rate': 0.802434}, {'f_fd': 104.66863326199058, 'gains': 733.6804328339342, 'power': 0.0003514625328125142, 'coalition': 3, 'N': 1.0, 'f_bs': 227.2500937691937, 'N1': 16, 'loss_rate': 0.154038}, {'f_fd': 66.38213320344012, 'gains': 266.5285328137605, 'power': 0.0011194079820640555, 'coalition': 2, 'N': 1.0, 'f_bs': 132.48943048932148, 'N1': 30, 'loss_rate': 0.847436}, {'f_fd': 106.28334368407556, 'gains': 744.983405788529, 'power': 0.0005308573709505289, 'coalition': 3, 'N': 1.0, 'f_bs': 231.494518614903, 'N1': 15, 'loss_rate': 0.060659}, {'f_fd': 70.60493055654491, 'gains': 526.8848886324348, 'power': 0.0009413847674860242, 'coalition': 3, 'N': 1.0, 'f_bs': 137.7761703459053, 'N1': 28, 'loss_rate': 0.823451}, {'f_fd': 106.8964969977379, 'gains': 856.1719759819033, 'power': 0.0005684336446592575, 'coalition': 2, 'N': 1.0, 'f_bs': 235.9042079026987, 'N1': 15, 'loss_rate': 0.021043}, {'f_fd': 84.039092891564, 'gains': 589.273650240948, 'power': 0.0008111291942813986, 'coalition': 2, 'N': 1.0, 'f_bs': 165.7115291204692, 'N1': 24, 'loss_rate': 0.70442}, {'f_fd': 103.94485102987267, 'gains': 520.7242551493633, 'power': 0.0006157763744606941, 'coalition': 2, 'N': 1.0, 'f_bs': 222.46286885259997, 'N1': 16, 'loss_rate': 0.191915}, {'f_fd': 102.44118580831821, 'gains': 820.5294864665457, 'power': 0.00042038347574008223, 'coalition': 2, 'N': 1.0, 'f_bs': 219.256959835776, 'N1': 17, 'loss_rate': 0.262659}, {'f_fd': 101.50843281201023, 'gains': 711.5590296840717, 'power': 0.0006327143618345917, 'coalition': 3, 'N': 1.0, 'f_bs': 213.5716916957937, 'N1': 17, 'loss_rate': 0.302553}, {'f_fd': 54.80034218345834, 'gains': 110.60068436691668, 'power': 0.0016015103974547967, 'coalition': 2, 'N': 1.0, 'f_bs': 113.68109685424564, 'N1': 32, 'loss_rate': 0.895064}, {'f_fd': 68.14669912782833, 'gains': 521.2487081790764, 'power': 0.000491086974600298, 'coalition': 3, 'N': 1.0, 'f_bs': 134.2622102714818, 'N1': 29, 'loss_rate': 0.837982}, {'f_fd': 106.3878902370304, 'gains': 745.7152316592129, 'power': 0.0005990262568709648, 'coalition': 0, 'N': 1.0, 'f_bs': 232.2336193675628, 'N1': 15, 'loss_rate': 0.054105}, {'f_fd': 94.72893364627191, 'gains': 569.3736018776315, 'power': 0.0007764975593915162, 'coalition': 3, 'N': 1.0, 'f_bs': 193.3675403708379, 'N1': 20, 'loss_rate': 0.517333}, {'f_fd': 78.92712524433094, 'gains': 524.311386433207, 'power': 0.0006486609953744687, 'coalition': 0, 'N': 1.0, 'f_bs': 155.35059049063884, 'N1': 26, 'loss_rate': 0.759579}, {'f_fd': 53.36554485042103, 'gains': 161.0966345512631, 'power': 0.00012329075720082338, 'coalition': 1, 'N': 1.0, 'f_bs': 112.95595346581865, 'N1': 33, 'loss_rate': 0.899598}, {'f_fd': 105.52328639619546, 'gains': 845.1862911695636, 'power': 0.00023328281235931875, 'coalition': 3, 'N': 1.0, 'f_bs': 226.27100722889165, 'N1': 15, 'loss_rate': 0.106015}, {'f_fd': 66.91462180085371, 'gains': 894.5694591266127, 'power': 7.01894621772192e-05, 'coalition': 3, 'N': 1.0, 'f_bs': 131.42801956406242, 'N1': 29, 'loss_rate': 0.844665}], [{'f_fd': 59.047125707417024, 'gains': 237.1885028296681, 'power': 0.0008605658177121998, 'coalition': 2, 'N': 1.0, 'f_bs': 119.41750057817302, 'N1': 31, 'loss_rate': 0.880097}, {'f_fd': 49.52511302823265, 'gains': 199.1004521129306, 'power': 0.0008916311098397608, 'coalition': 0, 'N': 1.0, 'f_bs': 106.95206701355622, 'N1': 33, 'loss_rate': 0.910645}, {'f_fd': 106.84263340131935, 'gains': 402.5297580499192, 'power': 9.889627252985171e-05, 'coalition': 0, 'N': 1.0, 'f_bs': 235.5094591540522, 'N1': 15, 'loss_rate': 0.02464}, {'f_fd': 57.21456989640721, 'gains': 172.64370968922162, 'power': 0.0011338647761637355, 'coalition': 0, 'N': 1.0, 'f_bs': 117.89041410985705, 'N1': 32, 'loss_rate': 0.886862}, {'f_fd': 64.92997859869286, 'gains': 260.7199143947714, 'power': 0.00046840023355722906, 'coalition': 3, 'N': 1.0, 'f_bs': 129.24671365899798, 'N1': 30, 'loss_rate': 0.854743}, {'f_fd': 107.10452516659512, 'gains': 431.4347315778413, 'power': 0.0005191673203896842, 'coalition': 1, 'N': 1.0, 'f_bs': 237.44255177674057, 'N1': 15, 'loss_rate': 0.006929}, {'f_fd': 95.4921385119257, 'gains': 1126.788836848762, 'power': 0.0007984148327901433, 'coalition': 3, 'N': 1.0, 'f_bs': 197.1242359782729, 'N1': 20, 'loss_rate': 0.498004}, {'f_fd': 106.25865702762073, 'gains': 851.0692562209659, 'power': 0.0002188698753595218, 'coalition': 2, 'N': 1.0, 'f_bs': 231.3207419637574, 'N1': 15, 'loss_rate': 0.062195}, {'f_fd': 44.361190539869895, 'gains': 742.7210272551183, 'power': 0.0004896686859160477, 'coalition': 1, 'N': 1.0, 'f_bs': 101.17817748150291, 'N1': 34, 'loss_rate': 0.923351}, {'f_fd': 99.67410910527425, 'gains': 1197.0893092632912, 'power': 0.00034944880358766454, 'coalition': 3, 'N': 1.0, 'f_bs': 208.74294378172956, 'N1': 18, 'loss_rate': 0.372142}, {'f_fd': 92.0347726310032, 'gains': 1381.5215894650482, 'power': 2.1427049147611406e-05, 'coalition': 3, 'N': 1.0, 'f_bs': 185.52629708185606, 'N1': 21, 'loss_rate': 0.577237}, {'f_fd': 65.06422315218657, 'gains': 402.7132490109867, 'power': 0.0009786813097369012, 'coalition': 3, 'N': 1.0, 'f_bs': 129.53987187359525, 'N1': 30, 'loss_rate': 0.854088}, {'f_fd': 95.08120104437691, 'gains': 1467.930623336673, 'power': 0.00024698668535633346, 'coalition': 2, 'N': 1.0, 'f_bs': 195.08318013766748, 'N1': 20, 'loss_rate': 0.508568}, {'f_fd': 79.89700526642764, 'gains': 813.5774381003619, 'power': 2.200741747986599e-05, 'coalition': 1, 'N': 1.0, 'f_bs': 155.25650702142855, 'N1': 25, 'loss_rate': 0.750258}, {'f_fd': 66.38213320344012, 'gains': 332.9106660172006, 'power': 0.0008689314220164871, 'coalition': 2, 'N': 1.0, 'f_bs': 132.48943048932148, 'N1': 30, 'loss_rate': 0.847436}, {'f_fd': 106.28334368407556, 'gains': 851.2667494726046, 'power': 0.00036705482834847175, 'coalition': 3, 'N': 1.0, 'f_bs': 231.494518614903, 'N1': 15, 'loss_rate': 0.060659}, {'f_fd': 70.60493055654491, 'gains': 597.4898191889797, 'power': 0.0003868974003072516, 'coalition': 3, 'N': 1.0, 'f_bs': 137.7761703459053, 'N1': 28, 'loss_rate': 0.823451}, {'f_fd': 106.8964969977379, 'gains': 963.0684729796412, 'power': 0.00047965706472964664, 'coalition': 2, 'N': 1.0, 'f_bs': 235.9042079026987, 'N1': 15, 'loss_rate': 0.021043}, {'f_fd': 65.06422315218657, 'gains': 719.402096545321, 'power': 1.3241700769747993e-05, 'coalition': 0, 'N': 1.0, 'f_bs': 129.53987187359525, 'N1': 30, 'loss_rate': 0.854088}, {'f_fd': 103.94485102987267, 'gains': 624.669106179236, 'power': 0.00034708914325092444, 'coalition': 2, 'N': 1.0, 'f_bs': 222.46286885259997, 'N1': 16, 'loss_rate': 0.191915}, {'f_fd': 102.44118580831821, 'gains': 1025.411858083182, 'power': 2.515013331340929e-05, 'coalition': 2, 'N': 1.0, 'f_bs': 219.256959835776, 'N1': 17, 'loss_rate': 0.262659}, {'f_fd': 101.50843281201023, 'gains': 813.0674624960819, 'power': 0.000218865663412262, 'coalition': 3, 'N': 1.0, 'f_bs': 213.5716916957937, 'N1': 17, 'loss_rate': 0.302553}, {'f_fd': 54.80034218345834, 'gains': 165.40102655037504, 'power': 0.0005902359126305682, 'coalition': 2, 'N': 1.0, 'f_bs': 113.68109685424564, 'N1': 32, 'loss_rate': 0.895064}, {'f_fd': 68.14669912782833, 'gains': 521.2487081790764, 'power': 0.0006600529383993421, 'coalition': 3, 'N': 1.0, 'f_bs': 134.2622102714818, 'N1': 29, 'loss_rate': 0.837982}, {'f_fd': 106.3878902370304, 'gains': 852.1031218962434, 'power': 0.00040450168522628585, 'coalition': 0, 'N': 1.0, 'f_bs': 232.2336193675628, 'N1': 15, 'loss_rate': 0.054105}, {'f_fd': 62.50295018003466, 'gains': 631.8765520576661, 'power': 0.00035054759135073394, 'coalition': 2, 'N': 1.0, 'f_bs': 126.21013240803647, 'N1': 31, 'loss_rate': 0.865933}, {'f_fd': 78.92712524433094, 'gains': 524.311386433207, 'power': 0.000893608311628265, 'coalition': 0, 'N': 1.0, 'f_bs': 155.35059049063884, 'N1': 26, 'loss_rate': 0.759579}, {'f_fd': 53.36554485042103, 'gains': 161.0966345512631, 'power': 0.00041248107840707936, 'coalition': 1, 'N': 1.0, 'f_bs': 112.95595346581865, 'N1': 33, 'loss_rate': 0.899598}, {'f_fd': 105.52328639619546, 'gains': 845.1862911695636, 'power': 0.0005231084374346564, 'coalition': 3, 'N': 1.0, 'f_bs': 226.27100722889165, 'N1': 15, 'loss_rate': 0.106015}, {'f_fd': 66.91462180085371, 'gains': 894.5694591266127, 'power': 0.0010331721230114825, 'coalition': 3, 'N': 1.0, 'f_bs': 131.42801956406242, 'N1': 29, 'loss_rate': 0.844665}], [{'f_fd': 59.047125707417024, 'gains': 296.2356285370851, 'power': 0.00017145312382253243, 'coalition': 2, 'N': 1.0, 'f_bs': 119.41750057817302, 'N1': 31, 'loss_rate': 0.880097}, {'f_fd': 49.52511302823265, 'gains': 199.1004521129306, 'power': 0.0013276146674547438, 'coalition': 0, 'N': 1.0, 'f_bs': 106.95206701355622, 'N1': 33, 'loss_rate': 0.910645}, {'f_fd': 106.84263340131935, 'gains': 402.5297580499192, 'power': 0.0003544728407869111, 'coalition': 0, 'N': 1.0, 'f_bs': 235.5094591540522, 'N1': 15, 'loss_rate': 0.02464}, {'f_fd': 57.21456989640721, 'gains': 229.85827958562885, 'power': 0.00019522656841159191, 'coalition': 0, 'N': 1.0, 'f_bs': 117.89041410985705, 'N1': 32, 'loss_rate': 0.886862}, {'f_fd': 78.71870389974049, 'gains': 339.4386182945119, 'power': 0.00018464789638324811, 'coalition': 2, 'N': 1.0, 'f_bs': 154.70183325627636, 'N1': 26, 'loss_rate': 0.761537}, {'f_fd': 107.10452516659512, 'gains': 538.5392567444364, 'power': 0.0002726127159029507, 'coalition': 1, 'N': 1.0, 'f_bs': 237.44255177674057, 'N1': 15, 'loss_rate': 0.006929}, {'f_fd': 82.64669808900655, 'gains': 1457.3756292047883, 'power': 0.00014729733189255208, 'coalition': 2, 'N': 1.0, 'f_bs': 160.91320391004027, 'N1': 24, 'loss_rate': 0.720984}, {'f_fd': 106.25865702762073, 'gains': 851.0692562209659, 'power': 0.0005153386945377101, 'coalition': 2, 'N': 1.0, 'f_bs': 231.3207419637574, 'N1': 15, 'loss_rate': 0.062195}, {'f_fd': 44.361190539869895, 'gains': 742.7210272551183, 'power': 0.0006480463864374085, 'coalition': 1, 'N': 1.0, 'f_bs': 101.17817748150291, 'N1': 34, 'loss_rate': 0.923351}, {'f_fd': 99.67410910527425, 'gains': 1496.111636579114, 'power': 3.451540828216875e-05, 'coalition': 3, 'N': 1.0, 'f_bs': 208.74294378172956, 'N1': 18, 'loss_rate': 0.372142}, {'f_fd': 92.0347726310032, 'gains': 1657.6259073580582, 'power': 0.0008041982089322495, 'coalition': 3, 'N': 1.0, 'f_bs': 185.52629708185606, 'N1': 21, 'loss_rate': 0.577237}, {'f_fd': 65.06422315218657, 'gains': 467.7774721631733, 'power': 0.000602172643613172, 'coalition': 3, 'N': 1.0, 'f_bs': 129.53987187359525, 'N1': 30, 'loss_rate': 0.854088}, {'f_fd': 101.36812763336647, 'gains': 1974.771261503505, 'power': 0.000582381885047963, 'coalition': 3, 'N': 1.0, 'f_bs': 212.7433160363976, 'N1': 17, 'loss_rate': 0.308234}, {'f_fd': 104.66863326199058, 'gains': 918.2460713623525, 'power': 5.2552302147217816e-05, 'coalition': 3, 'N': 1.0, 'f_bs': 227.2500937691937, 'N1': 16, 'loss_rate': 0.154038}, {'f_fd': 66.38213320344012, 'gains': 399.2927992206407, 'power': 0.0006184548619689182, 'coalition': 2, 'N': 1.0, 'f_bs': 132.48943048932148, 'N1': 30, 'loss_rate': 0.847436}, {'f_fd': 106.28334368407556, 'gains': 957.5500931566802, 'power': 0.0002032522857464144, 'coalition': 3, 'N': 1.0, 'f_bs': 231.494518614903, 'N1': 15, 'loss_rate': 0.060659}, {'f_fd': 70.60493055654491, 'gains': 597.4898191889797, 'power': 0.0009706523761227105, 'coalition': 3, 'N': 1.0, 'f_bs': 137.7761703459053, 'N1': 28, 'loss_rate': 0.823451}, {'f_fd': 106.8964969977379, 'gains': 1069.964969977379, 'power': 0.00039088048480003575, 'coalition': 2, 'N': 1.0, 'f_bs': 235.9042079026987, 'N1': 15, 'loss_rate': 0.021043}, {'f_fd': 65.06422315218657, 'gains': 784.4663196975075, 'power': 0.00046875795747437635, 'coalition': 0, 'N': 1.0, 'f_bs': 129.53987187359525, 'N1': 30, 'loss_rate': 0.854088}, {'f_fd': 103.94485102987267, 'gains': 728.6139572091087, 'power': 7.840191204115486e-05, 'coalition': 2, 'N': 1.0, 'f_bs': 222.46286885259997, 'N1': 16, 'loss_rate': 0.191915}, {'f_fd': 75.50179033994647, 'gains': 1025.411858083182, 'power': 0.0010542345680582918, 'coalition': 3, 'N': 1.0, 'f_bs': 148.1151789657087, 'N1': 27, 'loss_rate': 0.789073}, {'f_fd': 101.50843281201023, 'gains': 813.0674624960819, 'power': 0.0004936024908472761, 'coalition': 3, 'N': 1.0, 'f_bs': 213.5716916957937, 'N1': 17, 'loss_rate': 0.302553}, {'f_fd': 54.80034218345834, 'gains': 165.40102655037504, 'power': 0.0008676299928120098, 'coalition': 2, 'N': 1.0, 'f_bs': 113.68109685424564, 'N1': 32, 'loss_rate': 0.895064}, {'f_fd': 68.14669912782833, 'gains': 521.2487081790764, 'power': 0.0008290189021983863, 'coalition': 3, 'N': 1.0, 'f_bs': 134.2622102714818, 'N1': 29, 'loss_rate': 0.837982}, {'f_fd': 106.3878902370304, 'gains': 958.4910121332738, 'power': 0.00020997711358160687, 'coalition': 0, 'N': 1.0, 'f_bs': 232.2336193675628, 'N1': 15, 'loss_rate': 0.054105}, {'f_fd': 62.50295018003466, 'gains': 631.8765520576661, 'power': 0.0011908573017602496, 'coalition': 2, 'N': 1.0, 'f_bs': 126.21013240803647, 'N1': 31, 'loss_rate': 0.865933}, {'f_fd': 78.92712524433094, 'gains': 603.2385116775379, 'power': 9.090102424912962e-05, 'coalition': 0, 'N': 1.0, 'f_bs': 155.35059049063884, 'N1': 26, 'loss_rate': 0.759579}, {'f_fd': 53.36554485042103, 'gains': 161.0966345512631, 'power': 0.0007016713996133366, 'coalition': 1, 'N': 1.0, 'f_bs': 112.95595346581865, 'N1': 33, 'loss_rate': 0.899598}, {'f_fd': 65.94932348560587, 'gains': 845.1862911695636, 'power': 0.0008129340625099956, 'coalition': 1, 'N': 1.0, 'f_bs': 131.50622617457952, 'N1': 30, 'loss_rate': 0.849666}, {'f_fd': 66.91462180085371, 'gains': 961.4840809274665, 'power': 0.0008060615756946749, 'coalition': 3, 'N': 1.0, 'f_bs': 131.42801956406242, 'N1': 29, 'loss_rate': 0.844665}], [{'f_fd': 59.047125707417024, 'gains': 296.2356285370851, 'power': 0.0007401109881944886, 'coalition': 2, 'N': 1.0, 'f_bs': 119.41750057817302, 'N1': 31, 'loss_rate': 0.880097}, {'f_fd': 49.52511302823265, 'gains': 248.62556514116326, 'power': 0.0004299737388942586, 'coalition': 0, 'N': 1.0, 'f_bs': 106.95206701355622, 'N1': 33, 'loss_rate': 0.910645}, {'f_fd': 106.84263340131935, 'gains': 509.37239145123857, 'power': 2.062641285937813e-06, 'coalition': 0, 'N': 1.0, 'f_bs': 235.5094591540522, 'N1': 15, 'loss_rate': 0.02464}, {'f_fd': 57.21456989640721, 'gains': 229.85827958562885, 'power': 0.0005476000313771206, 'coalition': 0, 'N': 1.0, 'f_bs': 117.89041410985705, 'N1': 32, 'loss_rate': 0.886862}, {'f_fd': 78.71870389974049, 'gains': 339.4386182945119, 'power': 0.0009652906451068813, 'coalition': 2, 'N': 1.0, 'f_bs': 154.70183325627636, 'N1': 26, 'loss_rate': 0.761537}, {'f_fd': 107.10452516659512, 'gains': 645.6437819110315, 'power': 2.605811141621702e-05, 'coalition': 1, 'N': 1.0, 'f_bs': 237.44255177674057, 'N1': 15, 'loss_rate': 0.006929}, {'f_fd': 82.64669808900655, 'gains': 1705.315723471808, 'power': 0.0005700684916771899, 'coalition': 2, 'N': 1.0, 'f_bs': 160.91320391004027, 'N1': 24, 'loss_rate': 0.720984}, {'f_fd': 106.25865702762073, 'gains': 957.3279132485867, 'power': 0.00020254286311658, 'coalition': 2, 'N': 1.0, 'f_bs': 231.3207419637574, 'N1': 15, 'loss_rate': 0.062195}, {'f_fd': 44.361190539869895, 'gains': 742.7210272551183, 'power': 0.0008064240869587694, 'coalition': 1, 'N': 1.0, 'f_bs': 101.17817748150291, 'N1': 34, 'loss_rate': 0.923351}, {'f_fd': 99.67410910527425, 'gains': 1695.4598547896626, 'power': 0.0005032049993454492, 'coalition': 3, 'N': 1.0, 'f_bs': 208.74294378172956, 'N1': 18, 'loss_rate': 0.372142}, {'f_fd': 92.0347726310032, 'gains': 2025.7649978820714, 'power': 0.0006330807080346587, 'coalition': 3, 'N': 1.0, 'f_bs': 185.52629708185606, 'N1': 21, 'loss_rate': 0.577237}, {'f_fd': 65.06422315218657, 'gains': 532.8416953153599, 'power': 0.00022566397748944342, 'coalition': 3, 'N': 1.0, 'f_bs': 129.53987187359525, 'N1': 30, 'loss_rate': 0.854088}, {'f_fd': 101.36812763336647, 'gains': 2582.9800273037035, 'power': 9.942911438064292e-05, 'coalition': 3, 'N': 1.0, 'f_bs': 212.7433160363976, 'N1': 17, 'loss_rate': 0.308234}, {'f_fd': 104.66863326199058, 'gains': 1022.9147046243431, 'power': 8.309718681456975e-05, 'coalition': 3, 'N': 1.0, 'f_bs': 227.2500937691937, 'N1': 16, 'loss_rate': 0.154038}, {'f_fd': 66.38213320344012, 'gains': 465.6749324240808, 'power': 0.00036797830192134966, 'coalition': 2, 'N': 1.0, 'f_bs': 132.48943048932148, 'N1': 30, 'loss_rate': 0.847436}, {'f_fd': 106.28334368407556, 'gains': 1063.8334368407557, 'power': 3.944974314435711e-05, 'coalition': 3, 'N': 1.0, 'f_bs': 231.494518614903, 'N1': 15, 'loss_rate': 0.060659}, {'f_fd': 70.60493055654491, 'gains': 668.0947497455246, 'power': 0.000416165008943938, 'coalition': 3, 'N': 1.0, 'f_bs': 137.7761703459053, 'N1': 28, 'loss_rate': 0.823451}, {'f_fd': 106.8964969977379, 'gains': 1176.8614669751169, 'power': 0.00030210390487042486, 'coalition': 2, 'N': 1.0, 'f_bs': 235.9042079026987, 'N1': 15, 'loss_rate': 0.021043}, {'f_fd': 65.06422315218657, 'gains': 849.530542849694, 'power': 0.0009242742141790047, 'coalition': 0, 'N': 1.0, 'f_bs': 129.53987187359525, 'N1': 30, 'loss_rate': 0.854088}, {'f_fd': 54.6280968559866, 'gains': 728.6139572091087, 'power': 0.0004616925120826831, 'coalition': 3, 'N': 1.0, 'f_bs': 113.392668079977, 'N1': 32, 'loss_rate': 0.89562}, {'f_fd': 102.44118580831821, 'gains': 1230.2942296998185, 'power': 0.0006590012256316188, 'coalition': 2, 'N': 1.0, 'f_bs': 219.256959835776, 'N1': 17, 'loss_rate': 0.262659}, {'f_fd': 101.50843281201023, 'gains': 914.5758953080922, 'power': 7.975379242494601e-05, 'coalition': 3, 'N': 1.0, 'f_bs': 213.5716916957937, 'N1': 17, 'loss_rate': 0.302553}, {'f_fd': 54.80034218345834, 'gains': 165.40102655037504, 'power': 0.0011450240729934534, 'coalition': 2, 'N': 1.0, 'f_bs': 113.68109685424564, 'N1': 32, 'loss_rate': 0.895064}, {'f_fd': 68.14669912782833, 'gains': 521.2487081790764, 'power': 0.0009979848659974308, 'coalition': 3, 'N': 1.0, 'f_bs': 134.2622102714818, 'N1': 29, 'loss_rate': 0.837982}, {'f_fd': 106.3878902370304, 'gains': 1064.878902370304, 'power': 1.5452541936927646e-05, 'coalition': 0, 'N': 1.0, 'f_bs': 232.2336193675628, 'N1': 15, 'loss_rate': 0.054105}, {'f_fd': 62.50295018003466, 'gains': 694.3795022377008, 'power': 0.0007649073337194681, 'coalition': 2, 'N': 1.0, 'f_bs': 126.21013240803647, 'N1': 31, 'loss_rate': 0.865933}, {'f_fd': 78.92712524433094, 'gains': 603.2385116775379, 'power': 0.00033584834050292466, 'coalition': 0, 'N': 1.0, 'f_bs': 155.35059049063884, 'N1': 26, 'loss_rate': 0.759579}, {'f_fd': 53.36554485042103, 'gains': 161.0966345512631, 'power': 0.0009908617208195943, 'coalition': 1, 'N': 1.0, 'f_bs': 112.95595346581865, 'N1': 33, 'loss_rate': 0.899598}, {'f_fd': 65.94932348560587, 'gains': 845.1862911695636, 'power': 0.0011027596875853348, 'coalition': 1, 'N': 1.0, 'f_bs': 131.50622617457952, 'N1': 30, 'loss_rate': 0.849666}, {'f_fd': 66.91462180085371, 'gains': 1028.3987027283201, 'power': 0.0005789510283778674, 'coalition': 3, 'N': 1.0, 'f_bs': 131.42801956406242, 'N1': 29, 'loss_rate': 0.844665}], [{'f_fd': 59.047125707417024, 'gains': 355.28275424450214, 'power': 5.0998294304821224e-05, 'coalition': 2, 'N': 1.0, 'f_bs': 119.41750057817302, 'N1': 31, 'loss_rate': 0.880097}, {'f_fd': 49.52511302823265, 'gains': 248.62556514116326, 'power': 0.0008659572965092415, 'coalition': 0, 'N': 1.0, 'f_bs': 106.95206701355622, 'N1': 33, 'loss_rate': 0.910645}, {'f_fd': 106.84263340131935, 'gains': 509.37239145123857, 'power': 0.00025763920954299693, 'coalition': 0, 'N': 1.0, 'f_bs': 235.5094591540522, 'N1': 15, 'loss_rate': 0.02464}, {'f_fd': 57.21456989640721, 'gains': 229.85827958562885, 'power': 0.0008999734943426507, 'coalition': 0, 'N': 1.0, 'f_bs': 117.89041410985705, 'N1': 32, 'loss_rate': 0.886862}, {'f_fd': 78.71870389974049, 'gains': 418.1573221942524, 'power': 0.0006815383079329003, 'coalition': 2, 'N': 1.0, 'f_bs': 154.70183325627636, 'N1': 26, 'loss_rate': 0.761537}, {'f_fd': 107.10452516659512, 'gains': 645.6437819110315, 'power': 0.00039090497130087916, 'coalition': 1, 'N': 1.0, 'f_bs': 237.44255177674057, 'N1': 15, 'loss_rate': 0.006929}, {'f_fd': 82.64669808900655, 'gains': 1953.2558177388278, 'power': 0.0009928396514618278, 'coalition': 2, 'N': 1.0, 'f_bs': 160.91320391004027, 'N1': 24, 'loss_rate': 0.720984}, {'f_fd': 106.25865702762073, 'gains': 957.3279132485867, 'power': 0.0004990116822947683, 'coalition': 2, 'N': 1.0, 'f_bs': 231.3207419637574, 'N1': 15, 'loss_rate': 0.062195}, {'f_fd': 44.361190539869895, 'gains': 742.7210272551183, 'power': 0.0009648017874801303, 'coalition': 1, 'N': 1.0, 'f_bs': 101.17817748150291, 'N1': 34, 'loss_rate': 0.923351}, {'f_fd': 99.67410910527425, 'gains': 1994.4821821054854, 'power': 0.00018827160403995342, 'coalition': 3, 'N': 1.0, 'f_bs': 208.74294378172956, 'N1': 18, 'loss_rate': 0.372142}, {'f_fd': 92.0347726310032, 'gains': 2393.9040884060846, 'power': 0.0004619632071370679, 'coalition': 3, 'N': 1.0, 'f_bs': 185.52629708185606, 'N1': 21, 'loss_rate': 0.577237}, {'f_fd': 65.06422315218657, 'gains': 532.8416953153599, 'power': 0.0010757195479423694, 'coalition': 3, 'N': 1.0, 'f_bs': 129.53987187359525, 'N1': 30, 'loss_rate': 0.854088}, {'f_fd': 101.36812763336647, 'gains': 3089.8206654705355, 'power': 0.0004348243140722724, 'coalition': 3, 'N': 1.0, 'f_bs': 212.7433160363976, 'N1': 17, 'loss_rate': 0.308234}, {'f_fd': 104.66863326199058, 'gains': 1127.5833378863338, 'power': 0.00011364207148192167, 'coalition': 3, 'N': 1.0, 'f_bs': 227.2500937691937, 'N1': 16, 'loss_rate': 0.154038}, {'f_fd': 66.38213320344012, 'gains': 532.057065627521, 'power': 0.00011750174187378124, 'coalition': 2, 'N': 1.0, 'f_bs': 132.48943048932148, 'N1': 30, 'loss_rate': 0.847436}, {'f_fd': 106.28334368407556, 'gains': 1063.8334368407557, 'power': 0.0004897180862648146, 'coalition': 3, 'N': 1.0, 'f_bs': 231.494518614903, 'N1': 15, 'loss_rate': 0.060659}, {'f_fd': 70.60493055654491, 'gains': 668.0947497455246, 'power': 0.0009999199847593968, 'coalition': 3, 'N': 1.0, 'f_bs': 137.7761703459053, 'N1': 28, 'loss_rate': 0.823451}, {'f_fd': 106.8964969977379, 'gains': 1283.7579639728547, 'power': 0.00021332732494081397, 'coalition': 2, 'N': 1.0, 'f_bs': 235.9042079026987, 'N1': 15, 'loss_rate': 0.021043}, {'f_fd': 65.06422315218657, 'gains': 979.6589891540671, 'power': 0.0001263867206673539, 'coalition': 0, 'N': 1.0, 'f_bs': 129.53987187359525, 'N1': 30, 'loss_rate': 0.854088}, {'f_fd': 54.6280968559866, 'gains': 728.6139572091087, 'power': 0.0008449831121242114, 'coalition': 3, 'N': 1.0, 'f_bs': 113.392668079977, 'N1': 32, 'loss_rate': 0.89562}, {'f_fd': 102.44118580831821, 'gains': 1435.1766013164547, 'power': 0.000263767883204946, 'coalition': 2, 'N': 1.0, 'f_bs': 219.256959835776, 'N1': 17, 'loss_rate': 0.262659}, {'f_fd': 101.50843281201023, 'gains': 914.5758953080922, 'power': 0.00035449061985996045, 'coalition': 3, 'N': 1.0, 'f_bs': 213.5716916957937, 'N1': 17, 'loss_rate': 0.302553}, {'f_fd': 54.80034218345834, 'gains': 220.20136873383336, 'power': 0.00013374958816922696, 'coalition': 2, 'N': 1.0, 'f_bs': 113.68109685424564, 'N1': 32, 'loss_rate': 0.895064}, {'f_fd': 68.14669912782833, 'gains': 589.3954073069048, 'power': 1.670643427758179e-06, 'coalition': 3, 'N': 1.0, 'f_bs': 134.2622102714818, 'N1': 29, 'loss_rate': 0.837982}, {'f_fd': 106.3878902370304, 'gains': 1064.878902370304, 'power': 0.0004340078228198397, 'coalition': 0, 'N': 1.0, 'f_bs': 232.2336193675628, 'N1': 15, 'loss_rate': 0.054105}, {'f_fd': 62.50295018003466, 'gains': 756.8824524177354, 'power': 0.0003389573656786858, 'coalition': 2, 'N': 1.0, 'f_bs': 126.21013240803647, 'N1': 31, 'loss_rate': 0.865933}, {'f_fd': 78.92712524433094, 'gains': 603.2385116775379, 'power': 0.0005807956567567199, 'coalition': 0, 'N': 1.0, 'f_bs': 155.35059049063884, 'N1': 26, 'loss_rate': 0.759579}, {'f_fd': 53.36554485042103, 'gains': 161.0966345512631, 'power': 0.001280052042025852, 'coalition': 1, 'N': 1.0, 'f_bs': 112.95595346581865, 'N1': 33, 'loss_rate': 0.899598}, {'f_fd': 65.94932348560587, 'gains': 911.1356146551694, 'power': 0.000183528261877069, 'coalition': 1, 'N': 1.0, 'f_bs': 131.50622617457952, 'N1': 30, 'loss_rate': 0.849666}, {'f_fd': 66.91462180085371, 'gains': 1095.3133245291738, 'power': 0.0003518404810610599, 'coalition': 3, 'N': 1.0, 'f_bs': 131.42801956406242, 'N1': 29, 'loss_rate': 0.844665}], [{'f_fd': 59.047125707417024, 'gains': 355.28275424450214, 'power': 0.0006196561586767775, 'coalition': 2, 'N': 1.0, 'f_bs': 119.41750057817302, 'N1': 31, 'loss_rate': 0.880097}, {'f_fd': 49.52511302823265, 'gains': 248.62556514116326, 'power': 0.0013019408541242244, 'coalition': 0, 'N': 1.0, 'f_bs': 106.95206701355622, 'N1': 33, 'loss_rate': 0.910645}, {'f_fd': 106.84263340131935, 'gains': 509.37239145123857, 'power': 0.0005132157778000568, 'coalition': 0, 'N': 1.0, 'f_bs': 235.5094591540522, 'N1': 15, 'loss_rate': 0.02464}, {'f_fd': 57.21456989640721, 'gains': 229.85827958562885, 'power': 0.0012523469573081807, 'coalition': 0, 'N': 1.0, 'f_bs': 117.89041410985705, 'N1': 32, 'loss_rate': 0.886862}, {'f_fd': 78.71870389974049, 'gains': 496.8760260939929, 'power': 0.0003977859707589195, 'coalition': 2, 'N': 1.0, 'f_bs': 154.70183325627636, 'N1': 26, 'loss_rate': 0.761537}, {'f_fd': 107.10452516659512, 'gains': 752.7483070776266, 'power': 0.00014435036681414564, 'coalition': 1, 'N': 1.0, 'f_bs': 237.44255177674057, 'N1': 15, 'loss_rate': 0.006929}, {'f_fd': 82.64669808900655, 'gains': 2283.8426100948536, 'power': 0.0003417221505642365, 'coalition': 2, 'N': 1.0, 'f_bs': 160.91320391004027, 'N1': 24, 'loss_rate': 0.720984}, {'f_fd': 106.25865702762073, 'gains': 1063.5865702762073, 'power': 0.0001862158508736382, 'coalition': 2, 'N': 1.0, 'f_bs': 231.3207419637574, 'N1': 15, 'loss_rate': 0.062195}, {'f_fd': 44.361190539869895, 'gains': 742.7210272551183, 'power': 0.0011231794880014944, 'coalition': 1, 'N': 1.0, 'f_bs': 101.17817748150291, 'N1': 34, 'loss_rate': 0.923351}, {'f_fd': 99.67410910527425, 'gains': 2193.830400316034, 'power': 0.0006569611951032338, 'coalition': 3, 'N': 1.0, 'f_bs': 208.74294378172956, 'N1': 18, 'loss_rate': 0.372142}, {'f_fd': 92.0347726310032, 'gains': 2762.043178930098, 'power': 0.00029084570623947714, 'coalition': 3, 'N': 1.0, 'f_bs': 185.52629708185606, 'N1': 21, 'loss_rate': 0.577237}, {'f_fd': 65.06422315218657, 'gains': 597.9059184675464, 'power': 0.0006992108818186406, 'coalition': 3, 'N': 1.0, 'f_bs': 129.53987187359525, 'N1': 30, 'loss_rate': 0.854088}, {'f_fd': 101.36812763336647, 'gains': 3596.6613036373674, 'power': 0.0007702195137639018, 'coalition': 3, 'N': 1.0, 'f_bs': 212.7433160363976, 'N1': 17, 'loss_rate': 0.308234}, {'f_fd': 104.66863326199058, 'gains': 1232.2519711483244, 'power': 0.0001441869561492735, 'coalition': 3, 'N': 1.0, 'f_bs': 227.2500937691937, 'N1': 16, 'loss_rate': 0.154038}, {'f_fd': 66.38213320344012, 'gains': 532.057065627521, 'power': 0.0010976549702117755, 'coalition': 2, 'N': 1.0, 'f_bs': 132.48943048932148, 'N1': 30, 'loss_rate': 0.847436}, {'f_fd': 106.28334368407556, 'gains': 1170.1167805248313, 'power': 0.0003259155436627573, 'coalition': 3, 'N': 1.0, 'f_bs': 231.494518614903, 'N1': 15, 'loss_rate': 0.060659}, {'f_fd': 70.60493055654491, 'gains': 738.6996803020695, 'power': 0.0004454326175806241, 'coalition': 3, 'N': 1.0, 'f_bs': 137.7761703459053, 'N1': 28, 'loss_rate': 0.823451}, {'f_fd': 106.8964969977379, 'gains': 1390.6544609705925, 'power': 0.00012455074501120308, 'coalition': 2, 'N': 1.0, 'f_bs': 235.9042079026987, 'N1': 15, 'loss_rate': 0.021043}, {'f_fd': 65.06422315218657, 'gains': 1044.7232123062536, 'power': 0.0005819029773719821, 'coalition': 0, 'N': 1.0, 'f_bs': 129.53987187359525, 'N1': 30, 'loss_rate': 0.854088}, {'f_fd': 54.6280968559866, 'gains': 728.6139572091087, 'power': 0.0012282737121657374, 'coalition': 3, 'N': 1.0, 'f_bs': 113.392668079977, 'N1': 32, 'loss_rate': 0.89562}, {'f_fd': 102.44118580831821, 'gains': 1537.6177871247728, 'power': 0.0005806934293640507, 'coalition': 2, 'N': 1.0, 'f_bs': 219.256959835776, 'N1': 17, 'loss_rate': 0.262659}, {'f_fd': 101.50843281201023, 'gains': 914.5758953080922, 'power': 0.0006292274472949745, 'coalition': 3, 'N': 1.0, 'f_bs': 213.5716916957937, 'N1': 17, 'loss_rate': 0.302553}, {'f_fd': 54.80034218345834, 'gains': 220.20136873383336, 'power': 0.0004111436683506689, 'coalition': 2, 'N': 1.0, 'f_bs': 113.68109685424564, 'N1': 32, 'loss_rate': 0.895064}, {'f_fd': 68.14669912782833, 'gains': 589.3954073069048, 'power': 0.00017063660722680264, 'coalition': 3, 'N': 1.0, 'f_bs': 134.2622102714818, 'N1': 29, 'loss_rate': 0.837982}, {'f_fd': 106.3878902370304, 'gains': 1171.2667926073345, 'power': 0.00023948325117516077, 'coalition': 0, 'N': 1.0, 'f_bs': 232.2336193675628, 'N1': 15, 'loss_rate': 0.054105}, {'f_fd': 62.50295018003466, 'gains': 756.8824524177354, 'power': 0.0011792670760882016, 'coalition': 2, 'N': 1.0, 'f_bs': 126.21013240803647, 'N1': 31, 'loss_rate': 0.865933}, {'f_fd': 78.92712524433094, 'gains': 603.2385116775379, 'power': 0.0008257429730105162, 'coalition': 0, 'N': 1.0, 'f_bs': 155.35059049063884, 'N1': 26, 'loss_rate': 0.759579}, {'f_fd': 53.36554485042103, 'gains': 214.46217940168412, 'power': 0.00024020516569441257, 'coalition': 1, 'N': 1.0, 'f_bs': 112.95595346581865, 'N1': 33, 'loss_rate': 0.899598}, {'f_fd': 65.94932348560587, 'gains': 911.1356146551694, 'power': 0.00047335388695240663, 'coalition': 1, 'N': 1.0, 'f_bs': 131.50622617457952, 'N1': 30, 'loss_rate': 0.849666}, {'f_fd': 66.91462180085371, 'gains': 1162.2279463300274, 'power': 0.00012472993374425246, 'coalition': 3, 'N': 1.0, 'f_bs': 131.42801956406242, 'N1': 29, 'loss_rate': 0.844665}], [{'f_fd': 59.047125707417024, 'gains': 355.28275424450214, 'power': 0.0011883140230487337, 'coalition': 2, 'N': 1.0, 'f_bs': 119.41750057817302, 'N1': 31, 'loss_rate': 0.880097}, {'f_fd': 49.52511302823265, 'gains': 298.1506781693959, 'power': 0.0004042999255637392, 'coalition': 0, 'N': 1.0, 'f_bs': 106.95206701355622, 'N1': 33, 'loss_rate': 0.910645}, {'f_fd': 106.84263340131935, 'gains': 616.2150248525579, 'power': 0.00016080557829908302, 'coalition': 0, 'N': 1.0, 'f_bs': 235.5094591540522, 'N1': 15, 'loss_rate': 0.02464}, {'f_fd': 57.21456989640721, 'gains': 287.0728494820361, 'power': 0.00031370874955603654, 'coalition': 0, 'N': 1.0, 'f_bs': 117.89041410985705, 'N1': 32, 'loss_rate': 0.886862}, {'f_fd': 78.71870389974049, 'gains': 575.5947299937334, 'power': 0.00011403363358493854, 'coalition': 2, 'N': 1.0, 'f_bs': 154.70183325627636, 'N1': 26, 'loss_rate': 0.761537}, {'f_fd': 107.10452516659512, 'gains': 752.7483070776266, 'power': 0.0005091972266988077, 'coalition': 1, 'N': 1.0, 'f_bs': 237.44255177674057, 'N1': 15, 'loss_rate': 0.006929}, {'f_fd': 82.64669808900655, 'gains': 2531.7827043618727, 'power': 0.0007644933103488744, 'coalition': 2, 'N': 1.0, 'f_bs': 160.91320391004027, 'N1': 24, 'loss_rate': 0.720984}, {'f_fd': 106.25865702762073, 'gains': 1063.5865702762073, 'power': 0.0004826846700518264, 'coalition': 2, 'N': 1.0, 'f_bs': 231.3207419637574, 'N1': 15, 'loss_rate': 0.062195}, {'f_fd': 44.361190539869895, 'gains': 742.7210272551183, 'power': 0.0012815571885228588, 'coalition': 1, 'N': 1.0, 'f_bs': 101.17817748150291, 'N1': 34, 'loss_rate': 0.923351}, {'f_fd': 99.67410910527425, 'gains': 2492.852727631856, 'power': 0.0003420277997977381, 'coalition': 3, 'N': 1.0, 'f_bs': 208.74294378172956, 'N1': 18, 'loss_rate': 0.372142}, {'f_fd': 101.75898952978483, 'gains': 3169.0791370492366, 'power': 0.0007597282053418862, 'coalition': 2, 'N': 1.0, 'f_bs': 215.06803774483805, 'N1': 17, 'loss_rate': 0.292207}, {'f_fd': 65.06422315218657, 'gains': 662.9701416197329, 'power': 0.00032270221569491187, 'coalition': 3, 'N': 1.0, 'f_bs': 129.53987187359525, 'N1': 30, 'loss_rate': 0.854088}, {'f_fd': 101.36812763336647, 'gains': 4204.870069437566, 'power': 0.00028726674309658215, 'coalition': 3, 'N': 1.0, 'f_bs': 212.7433160363976, 'N1': 17, 'loss_rate': 0.308234}, {'f_fd': 104.66863326199058, 'gains': 1336.920604410315, 'power': 0.0001747318408166254, 'coalition': 3, 'N': 1.0, 'f_bs': 227.2500937691937, 'N1': 16, 'loss_rate': 0.154038}, {'f_fd': 66.38213320344012, 'gains': 598.4391988309611, 'power': 0.000847178410164207, 'coalition': 2, 'N': 1.0, 'f_bs': 132.48943048932148, 'N1': 30, 'loss_rate': 0.847436}, {'f_fd': 106.28334368407556, 'gains': 1276.4001242089068, 'power': 0.00016211300106069995, 'coalition': 3, 'N': 1.0, 'f_bs': 231.494518614903, 'N1': 15, 'loss_rate': 0.060659}, {'f_fd': 70.60493055654491, 'gains': 738.6996803020695, 'power': 0.0010291875933960831, 'coalition': 3, 'N': 1.0, 'f_bs': 137.7761703459053, 'N1': 28, 'loss_rate': 0.823451}, {'f_fd': 106.8964969977379, 'gains': 1497.5509579683303, 'power': 3.5774165081592195e-05, 'coalition': 2, 'N': 1.0, 'f_bs': 235.9042079026987, 'N1': 15, 'loss_rate': 0.021043}, {'f_fd': 65.06422315218657, 'gains': 1109.78743545844, 'power': 0.0010374192340766102, 'coalition': 0, 'N': 1.0, 'f_bs': 129.53987187359525, 'N1': 30, 'loss_rate': 0.854088}, {'f_fd': 54.6280968559866, 'gains': 783.2420540650953, 'power': 0.0003195864809559672, 'coalition': 3, 'N': 1.0, 'f_bs': 113.392668079977, 'N1': 32, 'loss_rate': 0.89562}, {'f_fd': 75.50179033994647, 'gains': 1613.1195774647192, 'power': 0.0004976189755231557, 'coalition': 3, 'N': 1.0, 'f_bs': 148.1151789657087, 'N1': 27, 'loss_rate': 0.789073}, {'f_fd': 101.50843281201023, 'gains': 1016.0843281201024, 'power': 0.00021537874887264473, 'coalition': 3, 'N': 1.0, 'f_bs': 213.5716916957937, 'N1': 17, 'loss_rate': 0.302553}, {'f_fd': 54.80034218345834, 'gains': 220.20136873383336, 'power': 0.0006885377485321106, 'coalition': 2, 'N': 1.0, 'f_bs': 113.68109685424564, 'N1': 32, 'loss_rate': 0.895064}, {'f_fd': 68.14669912782833, 'gains': 589.3954073069048, 'power': 0.00033960257102584677, 'coalition': 3, 'N': 1.0, 'f_bs': 134.2622102714818, 'N1': 29, 'loss_rate': 0.837982}, {'f_fd': 106.3878902370304, 'gains': 1277.654682844365, 'power': 4.495867953048153e-05, 'coalition': 0, 'N': 1.0, 'f_bs': 232.2336193675628, 'N1': 15, 'loss_rate': 0.054105}, {'f_fd': 62.50295018003466, 'gains': 819.38540259777, 'power': 0.00075331710804742, 'coalition': 2, 'N': 1.0, 'f_bs': 126.21013240803647, 'N1': 31, 'loss_rate': 0.865933}, {'f_fd': 78.92712524433094, 'gains': 682.1656369218688, 'power': 2.303568563138104e-05, 'coalition': 0, 'N': 1.0, 'f_bs': 155.35059049063884, 'N1': 26, 'loss_rate': 0.759579}, {'f_fd': 53.36554485042103, 'gains': 214.46217940168412, 'power': 0.0005293954869006687, 'coalition': 1, 'N': 1.0, 'f_bs': 112.95595346581865, 'N1': 33, 'loss_rate': 0.899598}, {'f_fd': 65.94932348560587, 'gains': 911.1356146551694, 'power': 0.0007631795120277457, 'coalition': 1, 'N': 1.0, 'f_bs': 131.50622617457952, 'N1': 30, 'loss_rate': 0.849666}, {'f_fd': 66.91462180085371, 'gains': 1162.2279463300274, 'power': 0.0010877125945785158, 'coalition': 3, 'N': 1.0, 'f_bs': 131.42801956406242, 'N1': 29, 'loss_rate': 0.844665}], [{'f_fd': 59.047125707417024, 'gains': 414.32987995191917, 'power': 0.0004992013291590663, 'coalition': 2, 'N': 1.0, 'f_bs': 119.41750057817302, 'N1': 31, 'loss_rate': 0.880097}, {'f_fd': 49.52511302823265, 'gains': 298.1506781693959, 'power': 0.0008402834831787221, 'coalition': 0, 'N': 1.0, 'f_bs': 106.95206701355622, 'N1': 33, 'loss_rate': 0.910645}, {'f_fd': 106.84263340131935, 'gains': 616.2150248525579, 'power': 0.00041638214655614263, 'coalition': 0, 'N': 1.0, 'f_bs': 235.5094591540522, 'N1': 15, 'loss_rate': 0.02464}, {'f_fd': 57.21456989640721, 'gains': 287.0728494820361, 'power': 0.0006660822125215658, 'coalition': 0, 'N': 1.0, 'f_bs': 117.89041410985705, 'N1': 32, 'loss_rate': 0.886862}, {'f_fd': 78.71870389974049, 'gains': 575.5947299937334, 'power': 0.0008946763823085717, 'coalition': 2, 'N': 1.0, 'f_bs': 154.70183325627636, 'N1': 26, 'loss_rate': 0.761537}, {'f_fd': 107.10452516659512, 'gains': 859.8528322442216, 'power': 0.0002626426222120741, 'coalition': 1, 'N': 1.0, 'f_bs': 237.44255177674057, 'N1': 15, 'loss_rate': 0.006929}, {'f_fd': 82.64669808900655, 'gains': 2862.369496717898, 'power': 0.0001133758094512831, 'coalition': 2, 'N': 1.0, 'f_bs': 160.91320391004027, 'N1': 24, 'loss_rate': 0.720984}, {'f_fd': 106.25865702762073, 'gains': 1169.845227303828, 'power': 0.0001698888386306964, 'coalition': 2, 'N': 1.0, 'f_bs': 231.3207419637574, 'N1': 15, 'loss_rate': 0.062195}, {'f_fd': 44.361190539869895, 'gains': 787.0822177949882, 'power': 7.498558590292898e-05, 'coalition': 1, 'N': 1.0, 'f_bs': 101.17817748150291, 'N1': 34, 'loss_rate': 0.923351}, {'f_fd': 99.67410910527425, 'gains': 2791.875054947678, 'power': 2.7094404492242295e-05, 'coalition': 3, 'N': 1.0, 'f_bs': 208.74294378172956, 'N1': 18, 'loss_rate': 0.372142}, {'f_fd': 101.75898952978483, 'gains': 3677.87408469816, 'power': 0.00043472204376206625, 'coalition': 2, 'N': 1.0, 'f_bs': 215.06803774483805, 'N1': 17, 'loss_rate': 0.292207}, {'f_fd': 65.06422315218657, 'gains': 662.9701416197329, 'power': 0.0011727577861478375, 'coalition': 3, 'N': 1.0, 'f_bs': 129.53987187359525, 'N1': 30, 'loss_rate': 0.854088}, {'f_fd': 101.36812763336647, 'gains': 4711.710707604398, 'power': 0.0006226619427882114, 'coalition': 3, 'N': 1.0, 'f_bs': 212.7433160363976, 'N1': 17, 'loss_rate': 0.308234}, {'f_fd': 104.66863326199058, 'gains': 1441.5892376723057, 'power': 0.00020527672548397726, 'coalition': 3, 'N': 1.0, 'f_bs': 227.2500937691937, 'N1': 16, 'loss_rate': 0.154038}, {'f_fd': 66.38213320344012, 'gains': 664.8213320344013, 'power': 0.0005967018501166382, 'coalition': 2, 'N': 1.0, 'f_bs': 132.48943048932148, 'N1': 30, 'loss_rate': 0.847436}, {'f_fd': 106.28334368407556, 'gains': 1276.4001242089068, 'power': 0.000612381344181157, 'coalition': 3, 'N': 1.0, 'f_bs': 231.494518614903, 'N1': 15, 'loss_rate': 0.060659}, {'f_fd': 70.60493055654491, 'gains': 809.3046108586144, 'power': 0.00047470022621731034, 'coalition': 3, 'N': 1.0, 'f_bs': 137.7761703459053, 'N1': 28, 'loss_rate': 0.823451}, {'f_fd': 106.8964969977379, 'gains': 1497.5509579683303, 'power': 0.0005634886632187681, 'coalition': 2, 'N': 1.0, 'f_bs': 235.9042079026987, 'N1': 15, 'loss_rate': 0.021043}, {'f_fd': 65.06422315218657, 'gains': 1239.9158817628131, 'power': 0.00023953174056495958, 'coalition': 0, 'N': 1.0, 'f_bs': 129.53987187359525, 'N1': 30, 'loss_rate': 0.854088}, {'f_fd': 54.6280968559866, 'gains': 783.2420540650953, 'power': 0.0007028770809974955, 'coalition': 3, 'N': 1.0, 'f_bs': 113.392668079977, 'N1': 32, 'loss_rate': 0.89562}, {'f_fd': 75.50179033994647, 'gains': 1688.6213678046656, 'power': 0.0004145445216822608, 'coalition': 3, 'N': 1.0, 'f_bs': 148.1151789657087, 'N1': 27, 'loss_rate': 0.789073}, {'f_fd': 101.50843281201023, 'gains': 1016.0843281201024, 'power': 0.0004901155763076589, 'coalition': 3, 'N': 1.0, 'f_bs': 213.5716916957937, 'N1': 17, 'loss_rate': 0.302553}, {'f_fd': 54.80034218345834, 'gains': 220.20136873383336, 'power': 0.0009659318287135522, 'coalition': 2, 'N': 1.0, 'f_bs': 113.68109685424564, 'N1': 32, 'loss_rate': 0.895064}, {'f_fd': 68.14669912782833, 'gains': 589.3954073069048, 'power': 0.0005085685348248909, 'coalition': 3, 'N': 1.0, 'f_bs': 134.2622102714818, 'N1': 29, 'loss_rate': 0.837982}, {'f_fd': 106.3878902370304, 'gains': 1277.654682844365, 'power': 0.0004635139604133936, 'coalition': 0, 'N': 1.0, 'f_bs': 232.2336193675628, 'N1': 15, 'loss_rate': 0.054105}, {'f_fd': 62.50295018003466, 'gains': 881.8883527778047, 'power': 0.00032736714000663786, 'coalition': 2, 'N': 1.0, 'f_bs': 126.21013240803647, 'N1': 31, 'loss_rate': 0.865933}, {'f_fd': 78.92712524433094, 'gains': 682.1656369218688, 'power': 0.0002679830018851762, 'coalition': 0, 'N': 1.0, 'f_bs': 155.35059049063884, 'N1': 26, 'loss_rate': 0.759579}, {'f_fd': 53.36554485042103, 'gains': 214.46217940168412, 'power': 0.0008185858081069264, 'coalition': 1, 'N': 1.0, 'f_bs': 112.95595346581865, 'N1': 33, 'loss_rate': 0.899598}, {'f_fd': 65.94932348560587, 'gains': 911.1356146551694, 'power': 0.0010530051371030848, 'coalition': 1, 'N': 1.0, 'f_bs': 131.50622617457952, 'N1': 30, 'loss_rate': 0.849666}, {'f_fd': 66.91462180085371, 'gains': 1229.142568130881, 'power': 0.0008606020472617082, 'coalition': 3, 'N': 1.0, 'f_bs': 131.42801956406242, 'N1': 29, 'loss_rate': 0.844665}], [{'f_fd': 59.047125707417024, 'gains': 414.32987995191917, 'power': 0.0010678591935310226, 'coalition': 2, 'N': 1.0, 'f_bs': 119.41750057817302, 'N1': 31, 'loss_rate': 0.880097}, {'f_fd': 49.52511302823265, 'gains': 298.1506781693959, 'power': 0.001276267040793705, 'coalition': 0, 'N': 1.0, 'f_bs': 106.95206701355622, 'N1': 33, 'loss_rate': 0.910645}, {'f_fd': 106.84263340131935, 'gains': 723.0576582538772, 'power': 6.397194705516915e-05, 'coalition': 0, 'N': 1.0, 'f_bs': 235.5094591540522, 'N1': 15, 'loss_rate': 0.02464}, {'f_fd': 57.21456989640721, 'gains': 287.0728494820361, 'power': 0.0010184556754870959, 'coalition': 0, 'N': 1.0, 'f_bs': 117.89041410985705, 'N1': 32, 'loss_rate': 0.886862}, {'f_fd': 78.71870389974049, 'gains': 654.3134338934739, 'power': 0.0006109240451345908, 'coalition': 2, 'N': 1.0, 'f_bs': 154.70183325627636, 'N1': 26, 'loss_rate': 0.761537}, {'f_fd': 107.10452516659512, 'gains': 966.9573574108167, 'power': 1.6088017725340455e-05, 'coalition': 1, 'N': 1.0, 'f_bs': 237.44255177674057, 'N1': 15, 'loss_rate': 0.006929}, {'f_fd': 82.64669808900655, 'gains': 3110.309590984917, 'power': 0.0005361469692359208, 'coalition': 2, 'N': 1.0, 'f_bs': 160.91320391004027, 'N1': 24, 'loss_rate': 0.720984}, {'f_fd': 106.25865702762073, 'gains': 1169.845227303828, 'power': 0.0004663576578088846, 'coalition': 2, 'N': 1.0, 'f_bs': 231.3207419637574, 'N1': 15, 'loss_rate': 0.062195}, {'f_fd': 44.361190539869895, 'gains': 787.0822177949882, 'power': 0.00023336328642429, 'coalition': 1, 'N': 1.0, 'f_bs': 101.17817748150291, 'N1': 34, 'loss_rate': 0.923351}, {'f_fd': 99.67410910527425, 'gains': 2991.223273158226, 'power': 0.0004957839955555228, 'coalition': 3, 'N': 1.0, 'f_bs': 208.74294378172956, 'N1': 18, 'loss_rate': 0.372142}, {'f_fd': 101.75898952978483, 'gains': 4186.669032347084, 'power': 0.00010971588218224634, 'coalition': 2, 'N': 1.0, 'f_bs': 215.06803774483805, 'N1': 17, 'loss_rate': 0.292207}, {'f_fd': 65.06422315218657, 'gains': 728.0343647719194, 'power': 0.0007962491200241091, 'coalition': 3, 'N': 1.0, 'f_bs': 129.53987187359525, 'N1': 30, 'loss_rate': 0.854088}, {'f_fd': 101.36812763336647, 'gains': 5319.919473404596, 'power': 0.00013970917212089153, 'coalition': 3, 'N': 1.0, 'f_bs': 212.7433160363976, 'N1': 17, 'loss_rate': 0.308234}, {'f_fd': 104.66863326199058, 'gains': 1546.2578709342963, 'power': 0.0002358216101513292, 'coalition': 3, 'N': 1.0, 'f_bs': 227.2500937691937, 'N1': 16, 'loss_rate': 0.154038}, {'f_fd': 66.38213320344012, 'gains': 731.2034652378414, 'power': 0.0003462252900690696, 'coalition': 2, 'N': 1.0, 'f_bs': 132.48943048932148, 'N1': 30, 'loss_rate': 0.847436}, {'f_fd': 106.28334368407556, 'gains': 1382.6834678929824, 'power': 0.0004485788015791002, 'coalition': 3, 'N': 1.0, 'f_bs': 231.494518614903, 'N1': 15, 'loss_rate': 0.060659}, {'f_fd': 70.60493055654491, 'gains': 809.3046108586144, 'power': 0.0010584552020327694, 'coalition': 3, 'N': 1.0, 'f_bs': 137.7761703459053, 'N1': 28, 'loss_rate': 0.823451}, {'f_fd': 106.8964969977379, 'gains': 1604.447454966068, 'power': 0.0004747120832891572, 'coalition': 2, 'N': 1.0, 'f_bs': 235.9042079026987, 'N1': 15, 'loss_rate': 0.021043}, {'f_fd': 65.06422315218657, 'gains': 1304.9801049149996, 'power': 0.0006950479972695879, 'coalition': 0, 'N': 1.0, 'f_bs': 129.53987187359525, 'N1': 30, 'loss_rate': 0.854088}, {'f_fd': 54.6280968559866, 'gains': 783.2420540650953, 'power': 0.0010861676810390228, 'coalition': 3, 'N': 1.0, 'f_bs': 113.392668079977, 'N1': 32, 'loss_rate': 0.89562}, {'f_fd': 75.50179033994647, 'gains': 1764.123158144612, 'power': 0.000331470067841366, 'coalition': 3, 'N': 1.0, 'f_bs': 148.1151789657087, 'N1': 27, 'loss_rate': 0.789073}, {'f_fd': 101.50843281201023, 'gains': 1117.5927609321127, 'power': 7.626687788532875e-05, 'coalition': 3, 'N': 1.0, 'f_bs': 213.5716916957937, 'N1': 17, 'loss_rate': 0.302553}, {'f_fd': 54.80034218345834, 'gains': 220.20136873383336, 'power': 0.001243325908894997, 'coalition': 2, 'N': 1.0, 'f_bs': 113.68109685424564, 'N1': 32, 'loss_rate': 0.895064}, {'f_fd': 68.14669912782833, 'gains': 589.3954073069048, 'power': 0.000677534498623935, 'coalition': 3, 'N': 1.0, 'f_bs': 134.2622102714818, 'N1': 29, 'loss_rate': 0.837982}, {'f_fd': 106.3878902370304, 'gains': 1384.0425730813954, 'power': 0.00026898938876871467, 'coalition': 0, 'N': 1.0, 'f_bs': 232.2336193675628, 'N1': 15, 'loss_rate': 0.054105}, {'f_fd': 62.50295018003466, 'gains': 881.8883527778047, 'power': 0.0011676768504161536, 'coalition': 2, 'N': 1.0, 'f_bs': 126.21013240803647, 'N1': 31, 'loss_rate': 0.865933}, {'f_fd': 78.92712524433094, 'gains': 682.1656369218688, 'power': 0.000512930318138971, 'coalition': 0, 'N': 1.0, 'f_bs': 155.35059049063884, 'N1': 26, 'loss_rate': 0.759579}, {'f_fd': 53.36554485042103, 'gains': 214.46217940168412, 'power': 0.001107776129313184, 'coalition': 1, 'N': 1.0, 'f_bs': 112.95595346581865, 'N1': 33, 'loss_rate': 0.899598}, {'f_fd': 65.94932348560587, 'gains': 977.0849381407753, 'power': 0.00013377371139481915, 'coalition': 1, 'N': 1.0, 'f_bs': 131.50622617457952, 'N1': 30, 'loss_rate': 0.849666}, {'f_fd': 66.91462180085371, 'gains': 1296.0571899317347, 'power': 0.0006334914999449007, 'coalition': 3, 'N': 1.0, 'f_bs': 131.42801956406242, 'N1': 29, 'loss_rate': 0.844665}]]
+***********************
+f_history =  []

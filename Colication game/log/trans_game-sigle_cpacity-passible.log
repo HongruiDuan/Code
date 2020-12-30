@@ -1,0 +1,1502 @@
+fd: 0 joined coalition: 3
+fd: 1 joined coalition: 0
+fd: 2 joined coalition: 1
+fd: 3 joined coalition: 0
+fd: 4 joined coalition: 2
+fd: 5 joined coalition: 3
+fd: 6 joined coalition: 0
+fd: 7 joined coalition: 2
+fd: 8 joined coalition: 0
+fd: 9 joined coalition: 2
+fd: 10 joined coalition: 3
+fd: 11 joined coalition: 2
+fd: 12 joined coalition: 3
+fd: 13 joined coalition: 3
+fd: 14 joined coalition: 1
+fd: 15 joined coalition: 3
+fd: 16 joined coalition: 2
+fd: 17 joined coalition: 3
+fd: 18 joined coalition: 0
+fd: 19 joined coalition: 2
+fd: 20 joined coalition: 2
+fd: 21 joined coalition: 3
+fd: 22 joined coalition: 2
+fd: 23 joined coalition: 3
+fd: 24 joined coalition: 1
+fd: 25 joined coalition: 2
+fd: 26 joined coalition: 3
+fd: 27 joined coalition: 0
+fd: 28 joined coalition: 3
+fd: 29 joined coalition: 1
+
+
+initial info:
+coalitoin 0: 
+    paired fds:  [1, 3, 6, 8, 18, 27]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [2, 14, 24, 29]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [4, 7, 9, 11, 16, 19, 20, 22, 25]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [0, 5, 10, 12, 13, 15, 17, 21, 23, 26, 28]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 0
+    beta, passible: 0.638295, 0.998658
+fd 18 in coalition 0 and fd 17 in coalition 3 swap coalitions
+fd 14 in coalition 1 and fd 26 in coalition 3 swap coalitions
+fd 16 in coalition 2 and fd 27 in coalition 0 swap coalitions
+fd 10 in coalition 3 and fd 29 in coalition 1 swap coalitions
+fd  1 in coalition 0 and fd 10 in coalition 1 swap coalitions
+    beta, passible: 0.410740, 0.991986
+fd  1 in coalition 1 and fd 29 in coalition 3 swap coalitions
+fd  7 in coalition 2 and fd  0 in coalition 3 swap coalitions
+    beta, passible: 0.575705, 0.991601
+fd  7 in coalition 3 and fd  9 in coalition 2 swap coalitions
+fd  6 in coalition 0 and fd  2 in coalition 1 swap coalitions
+fd 29 in coalition 1 and fd 23 in coalition 3 swap coalitions
+fd 25 in coalition 2 and fd 28 in coalition 3 swap coalitions
+    beta, passible: 0.137852, 0.999538
+fd 29 in coalition 3 and fd 20 in coalition 2 swap coalitions
+fd 16 in coalition 0 and fd 26 in coalition 1 swap coalitions
+    beta, passible: 0.723099, 0.996852
+fd 24 in coalition 1 and fd 19 in coalition 2 swap coalitions
+fd 27 in coalition 2 and fd 16 in coalition 1 swap coalitions
+fd  9 in coalition 3 and fd 17 in coalition 0 swap coalitions
+fd 10 in coalition 0 and fd 29 in coalition 2 swap coalitions
+    beta, passible: 0.574973, 0.996404
+fd 23 in coalition 1 and fd  5 in coalition 3 swap coalitions
+fd 11 in coalition 2 and fd 13 in coalition 3 swap coalitions
+    beta, passible: 0.526160, 0.996036
+fd 11 in coalition 3 and fd  3 in coalition 0 swap coalitions
+coalitoin 0: 
+    paired fds:  [8, 2, 26, 9, 29, 11]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [6, 19, 27, 5]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [4, 22, 0, 7, 28, 24, 16, 10, 13]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [12, 15, 21, 18, 14, 1, 25, 20, 17, 23, 3]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 1
+fd 11 in coalition 0 and fd  6 in coalition 1 swap coalitions
+    beta, passible: 0.495024, 0.996863
+fd 19 in coalition 1 and fd  3 in coalition 3 swap coalitions
+    beta, passible: 0.633784, 0.998464
+fd 24 in coalition 2 and fd 27 in coalition 1 swap coalitions
+fd 23 in coalition 3 and fd  3 in coalition 1 swap coalitions
+fd  8 in coalition 0 and fd 24 in coalition 1 swap coalitions
+    beta, passible: 0.222572, 0.998764
+fd 11 in coalition 1 and fd 24 in coalition 0 swap coalitions
+fd 16 in coalition 2 and fd 18 in coalition 3 swap coalitions
+fd 17 in coalition 3 and fd 23 in coalition 1 swap coalitions
+    beta, passible: 0.974700, 0.995659
+fd  9 in coalition 0 and fd 24 in coalition 1 swap coalitions
+    beta, passible: 0.558239, 0.998930
+fd  9 in coalition 1 and fd 18 in coalition 2 swap coalitions
+fd  0 in coalition 2 and fd 24 in coalition 0 swap coalitions
+fd  1 in coalition 3 and fd 11 in coalition 0 swap coalitions
+fd 29 in coalition 0 and fd 25 in coalition 3 swap coalitions
+    beta, passible: 0.105056, 0.986982
+fd  8 in coalition 1 and fd 25 in coalition 0 swap coalitions
+    beta, passible: 0.115917, 0.999172
+fd  4 in coalition 2 and fd 19 in coalition 3 swap coalitions
+    beta, passible: 0.292131, 0.996015
+fd 14 in coalition 3 and fd 18 in coalition 1 swap coalitions
+    beta, passible: 0.558735, 0.996816
+fd 26 in coalition 0 and fd  4 in coalition 3 swap coalitions
+fd 25 in coalition 1 and fd 28 in coalition 2 swap coalitions
+fd 13 in coalition 2 and fd 15 in coalition 3 swap coalitions
+fd 18 in coalition 3 and fd 10 in coalition 2 swap coalitions
+coalitoin 0: 
+    paired fds:  [2, 6, 0, 1, 8, 4]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [5, 17, 14, 28]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [22, 7, 27, 9, 24, 19, 25, 15, 18]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [12, 21, 20, 3, 16, 23, 11, 29, 26, 13, 10]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 2
+fd  4 in coalition 0 and fd 12 in coalition 3 swap coalitions
+fd 14 in coalition 1 and fd 24 in coalition 2 swap coalitions
+fd  7 in coalition 2 and fd  8 in coalition 0 swap coalitions
+    beta, passible: 0.804911, 0.994940
+fd 21 in coalition 3 and fd 17 in coalition 1 swap coalitions
+fd  6 in coalition 0 and fd  5 in coalition 1 swap coalitions
+    beta, passible: 0.932741, 0.990612
+fd 24 in coalition 1 and fd  1 in coalition 0 swap coalitions
+fd 27 in coalition 2 and fd 28 in coalition 1 swap coalitions
+fd 20 in coalition 3 and fd  0 in coalition 0 swap coalitions
+    beta, passible: 0.896588, 0.999024
+fd 24 in coalition 0 and fd 19 in coalition 2 swap coalitions
+    beta, passible: 0.193898, 0.960727
+fd 27 in coalition 1 and fd  5 in coalition 0 swap coalitions
+fd 25 in coalition 2 and fd 19 in coalition 0 swap coalitions
+    beta, passible: 0.765571, 0.991949
+fd 11 in coalition 3 and fd 25 in coalition 0 swap coalitions
+fd  2 in coalition 0 and fd 24 in coalition 2 swap coalitions
+    beta, passible: 0.255002, 0.994896
+fd  1 in coalition 1 and fd  9 in coalition 2 swap coalitions
+fd 19 in coalition 2 and fd 13 in coalition 3 swap coalitions
+fd  0 in coalition 3 and fd 18 in coalition 2 swap coalitions
+fd 27 in coalition 0 and fd  6 in coalition 1 swap coalitions
+    beta, passible: 0.439391, 0.998491
+fd 21 in coalition 1 and fd 23 in coalition 3 swap coalitions
+    beta, passible: 0.924206, 0.998152
+fd  1 in coalition 2 and fd  4 in coalition 3 swap coalitions
+    beta, passible: 0.527096, 0.982191
+fd  3 in coalition 3 and fd  9 in coalition 1 swap coalitions
+coalitoin 0: 
+    paired fds:  [12, 7, 20, 11, 24, 6]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [5, 27, 23, 3]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [22, 15, 14, 8, 28, 2, 13, 0, 4]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [16, 29, 26, 10, 17, 25, 19, 18, 21, 1, 9]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 3
+fd  6 in coalition 0 and fd  3 in coalition 1 swap coalitions
+    beta, passible: 0.659927, 0.992637
+fd 27 in coalition 1 and fd 28 in coalition 2 swap coalitions
+    beta, passible: 0.392307, 0.997436
+fd 15 in coalition 2 and fd  1 in coalition 3 swap coalitions
+fd 18 in coalition 3 and fd  3 in coalition 0 swap coalitions
+fd 12 in coalition 0 and fd 27 in coalition 2 swap coalitions
+fd  5 in coalition 1 and fd 20 in coalition 0 swap coalitions
+fd 22 in coalition 2 and fd 24 in coalition 0 swap coalitions
+    beta, passible: 0.522713, 0.998041
+fd 25 in coalition 3 and fd  6 in coalition 1 swap coalitions
+    beta, passible: 0.504472, 0.998259
+fd 11 in coalition 0 and fd  2 in coalition 2 swap coalitions
+fd 20 in coalition 1 and fd 24 in coalition 2 swap coalitions
+    beta, passible: 0.310989, 0.991915
+fd  4 in coalition 2 and fd  7 in coalition 0 swap coalitions
+fd 17 in coalition 3 and fd 25 in coalition 1 swap coalitions
+    beta, passible: 0.805544, 0.992512
+fd 18 in coalition 0 and fd 17 in coalition 1 swap coalitions
+    beta, passible: 0.424317, 0.986966
+fd 28 in coalition 1 and fd 25 in coalition 3 swap coalitions
+    beta, passible: 0.009799, 0.998770
+fd  7 in coalition 2 and fd 29 in coalition 3 swap coalitions
+    beta, passible: 0.101829, 0.993656
+fd  7 in coalition 3 and fd  5 in coalition 0 swap coalitions
+    beta, passible: 0.546520, 0.997403
+fd  4 in coalition 0 and fd 19 in coalition 3 swap coalitions
+fd 18 in coalition 1 and fd 17 in coalition 0 swap coalitions
+    beta, passible: 0.736008, 0.995157
+fd 14 in coalition 2 and fd  4 in coalition 3 swap coalitions
+    beta, passible: 0.536441, 0.996261
+fd 16 in coalition 3 and fd  1 in coalition 2 swap coalitions
+coalitoin 0: 
+    paired fds:  [27, 22, 2, 7, 19, 18]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [23, 24, 25, 17]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [8, 13, 0, 12, 11, 20, 29, 4, 16]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [26, 10, 21, 9, 15, 3, 6, 28, 5, 14, 1]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 4
+    beta, passible: 0.227395, 0.997563
+fd  7 in coalition 0 and fd  4 in coalition 2 swap coalitions
+fd 25 in coalition 1 and fd 28 in coalition 3 swap coalitions
+    beta, passible: 0.603035, 0.999793
+fd 13 in coalition 2 and fd 14 in coalition 3 swap coalitions
+fd  3 in coalition 3 and fd  4 in coalition 0 swap coalitions
+    beta, passible: 0.533124, 0.971365
+fd  3 in coalition 0 and fd 24 in coalition 1 swap coalitions
+    beta, passible: 0.458378, 0.995879
+fd 23 in coalition 1 and fd  1 in coalition 3 swap coalitions
+fd  0 in coalition 2 and fd  6 in coalition 3 swap coalitions
+fd  9 in coalition 3 and fd 20 in coalition 2 swap coalitions
+fd  2 in coalition 0 and fd 29 in coalition 2 swap coalitions
+    beta, passible: 0.567547, 0.994754
+fd 17 in coalition 1 and fd  6 in coalition 2 swap coalitions
+fd  9 in coalition 2 and fd 29 in coalition 0 swap coalitions
+fd 25 in coalition 3 and fd 16 in coalition 2 swap coalitions
+    beta, passible: 0.541400, 0.989872
+fd 18 in coalition 0 and fd 16 in coalition 3 swap coalitions
+fd  1 in coalition 1 and fd 11 in coalition 2 swap coalitions
+    beta, passible: 0.901470, 0.982889
+fd 14 in coalition 2 and fd 28 in coalition 1 swap coalitions
+fd 10 in coalition 3 and fd  1 in coalition 2 swap coalitions
+    beta, passible: 0.607463, 0.998341
+fd 22 in coalition 0 and fd 29 in coalition 2 swap coalitions
+fd 14 in coalition 1 and fd 17 in coalition 2 swap coalitions
+fd  8 in coalition 2 and fd 11 in coalition 1 swap coalitions
+    beta, passible: 0.699237, 0.991882
+fd 20 in coalition 3 and fd  3 in coalition 1 swap coalitions
+coalitoin 0: 
+    paired fds:  [27, 19, 24, 9, 16, 29]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [6, 17, 8, 20]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [12, 7, 2, 25, 28, 10, 22, 14, 11]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [26, 21, 15, 5, 13, 4, 23, 0, 18, 1, 3]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 5
+fd 16 in coalition 0 and fd  6 in coalition 1 swap coalitions
+    beta, passible: 0.672054, 0.990234
+fd  8 in coalition 1 and fd 29 in coalition 0 swap coalitions
+fd 11 in coalition 2 and fd 18 in coalition 3 swap coalitions
+fd  0 in coalition 3 and fd 17 in coalition 1 swap coalitions
+fd 24 in coalition 0 and fd  0 in coalition 1 swap coalitions
+fd 29 in coalition 1 and fd 12 in coalition 2 swap coalitions
+    beta, passible: 0.631601, 0.997726
+fd 25 in coalition 2 and fd 13 in coalition 3 swap coalitions
+    beta, passible: 0.404245, 0.998283
+fd  1 in coalition 3 and fd  6 in coalition 0 swap coalitions
+    beta, passible: 0.760299, 0.999650
+fd 19 in coalition 0 and fd 17 in coalition 3 swap coalitions
+fd 12 in coalition 1 and fd  1 in coalition 0 swap coalitions
+    beta, passible: 0.500605, 0.999004
+fd 29 in coalition 2 and fd 11 in coalition 3 swap coalitions
+fd 21 in coalition 3 and fd  1 in coalition 1 swap coalitions
+    beta, passible: 0.273190, 0.989311
+fd  9 in coalition 0 and fd  2 in coalition 2 swap coalitions
+    beta, passible: 0.880293, 0.997939
+fd 24 in coalition 1 and fd  9 in coalition 2 swap coalitions
+    beta, passible: 0.696158, 0.999912
+fd 18 in coalition 2 and fd  6 in coalition 3 swap coalitions
+    beta, passible: 0.906123, 0.998812
+fd 19 in coalition 3 and fd 10 in coalition 2 swap coalitions
+    beta, passible: 0.251832, 0.999370
+fd 12 in coalition 0 and fd  9 in coalition 1 swap coalitions
+fd 20 in coalition 1 and fd 22 in coalition 2 swap coalitions
+fd 11 in coalition 2 and fd  4 in coalition 3 swap coalitions
+fd  1 in coalition 3 and fd 17 in coalition 0 swap coalitions
+coalitoin 0: 
+    paired fds:  [27, 8, 0, 2, 9, 1]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [16, 21, 12, 22]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [7, 28, 14, 13, 24, 6, 19, 20, 4]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [26, 15, 5, 23, 3, 25, 29, 18, 10, 11, 17]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 6
+fd  9 in coalition 0 and fd 26 in coalition 3 swap coalitions
+fd 21 in coalition 1 and fd 17 in coalition 3 swap coalitions
+fd 19 in coalition 2 and fd 29 in coalition 3 swap coalitions
+fd 15 in coalition 3 and fd 14 in coalition 2 swap coalitions
+    beta, passible: 0.908726, 0.996656
+fd  1 in coalition 0 and fd 10 in coalition 3 swap coalitions
+fd 12 in coalition 1 and fd 26 in coalition 0 swap coalitions
+fd 20 in coalition 2 and fd 27 in coalition 0 swap coalitions
+fd  1 in coalition 3 and fd 16 in coalition 1 swap coalitions
+    beta, passible: 0.762395, 0.998321
+fd 10 in coalition 0 and fd 29 in coalition 2 swap coalitions
+    beta, passible: 0.325954, 0.984364
+fd 22 in coalition 1 and fd 20 in coalition 0 swap coalitions
+    beta, passible: 0.396271, 0.980484
+fd 24 in coalition 2 and fd 12 in coalition 0 swap coalitions
+    beta, passible: 0.279054, 0.999776
+fd 16 in coalition 3 and fd 17 in coalition 1 swap coalitions
+fd 22 in coalition 0 and fd  1 in coalition 1 swap coalitions
+    beta, passible: 0.193173, 0.986364
+fd 22 in coalition 1 and fd  0 in coalition 0 swap coalitions
+fd  4 in coalition 2 and fd 14 in coalition 3 swap coalitions
+fd 17 in coalition 3 and fd 29 in coalition 0 swap coalitions
+fd  8 in coalition 0 and fd 14 in coalition 2 swap coalitions
+    beta, passible: 0.037793, 0.997578
+fd 16 in coalition 1 and fd  3 in coalition 3 swap coalitions
+fd  6 in coalition 2 and fd  4 in coalition 3 swap coalitions
+    beta, passible: 0.552558, 0.995727
+fd 16 in coalition 3 and fd  4 in coalition 2 swap coalitions
+coalitoin 0: 
+    paired fds:  [2, 24, 1, 22, 17, 14]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [26, 20, 0, 3]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [7, 28, 13, 15, 27, 10, 12, 8, 16]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [5, 23, 25, 18, 11, 9, 21, 19, 29, 6, 4]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 7
+    beta, passible: 0.515793, 0.997352
+fd 14 in coalition 0 and fd 26 in coalition 1 swap coalitions
+fd 14 in coalition 1 and fd 10 in coalition 2 swap coalitions
+    beta, passible: 0.884530, 0.998801
+fd 28 in coalition 2 and fd 11 in coalition 3 swap coalitions
+fd 23 in coalition 3 and fd  3 in coalition 1 swap coalitions
+fd 17 in coalition 0 and fd  7 in coalition 2 swap coalitions
+fd  0 in coalition 1 and fd 15 in coalition 2 swap coalitions
+    beta, passible: 0.846923, 0.995262
+fd 11 in coalition 2 and fd 15 in coalition 1 swap coalitions
+fd  6 in coalition 3 and fd 16 in coalition 2 swap coalitions
+fd 22 in coalition 0 and fd 20 in coalition 1 swap coalitions
+    beta, passible: 0.029107, 0.992717
+fd 22 in coalition 1 and fd  1 in coalition 0 swap coalitions
+fd  0 in coalition 2 and fd 10 in coalition 1 swap coalitions
+fd 19 in coalition 3 and fd 11 in coalition 1 swap coalitions
+fd  2 in coalition 0 and fd  0 in coalition 1 swap coalitions
+    beta, passible: 0.084845, 0.982325
+fd  1 in coalition 1 and fd  5 in coalition 3 swap coalitions
+    beta, passible: 0.179629, 0.986714
+fd  6 in coalition 2 and fd 19 in coalition 1 swap coalitions
+    beta, passible: 0.970336, 0.997594
+fd  1 in coalition 3 and fd 12 in coalition 2 swap coalitions
+fd  0 in coalition 0 and fd 18 in coalition 3 swap coalitions
+fd  6 in coalition 1 and fd 13 in coalition 2 swap coalitions
+fd  6 in coalition 2 and fd 22 in coalition 0 swap coalitions
+    beta, passible: 0.591790, 0.993331
+fd  9 in coalition 3 and fd 26 in coalition 0 swap coalitions
+coalitoin 0: 
+    paired fds:  [24, 7, 20, 18, 6, 9]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [23, 2, 5, 13]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [27, 8, 14, 17, 15, 10, 19, 1, 22]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [25, 21, 29, 4, 28, 3, 16, 11, 12, 0, 26]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 8
+fd 20 in coalition 0 and fd 17 in coalition 2 swap coalitions
+fd 23 in coalition 1 and fd 16 in coalition 3 swap coalitions
+fd 20 in coalition 2 and fd 25 in coalition 3 swap coalitions
+fd  0 in coalition 3 and fd 19 in coalition 2 swap coalitions
+fd  7 in coalition 0 and fd 26 in coalition 3 swap coalitions
+    beta, passible: 0.723444, 0.987867
+fd 13 in coalition 1 and fd  8 in coalition 2 swap coalitions
+    beta, passible: 0.593426, 0.998299
+fd 10 in coalition 2 and fd 12 in coalition 3 swap coalitions
+    beta, passible: 0.008248, 0.994628
+fd 29 in coalition 3 and fd 26 in coalition 0 swap coalitions
+fd  9 in coalition 0 and fd  5 in coalition 1 swap coalitions
+    beta, passible: 0.512084, 0.994709
+fd  9 in coalition 1 and fd 14 in coalition 2 swap coalitions
+fd  9 in coalition 2 and fd  8 in coalition 1 swap coalitions
+    beta, passible: 0.930215, 0.995014
+fd  3 in coalition 3 and fd  9 in coalition 1 swap coalitions
+fd 17 in coalition 0 and fd 16 in coalition 1 swap coalitions
+fd 14 in coalition 1 and fd 18 in coalition 0 swap coalitions
+fd  8 in coalition 2 and fd  2 in coalition 1 swap coalitions
+    beta, passible: 0.504652, 0.998950
+fd  4 in coalition 3 and fd  3 in coalition 1 swap coalitions
+    beta, passible: 0.438442, 0.996695
+fd 29 in coalition 0 and fd  0 in coalition 2 swap coalitions
+    beta, passible: 0.734676, 0.992136
+fd  4 in coalition 1 and fd 25 in coalition 2 swap coalitions
+    beta, passible: 0.081415, 0.993699
+fd 15 in coalition 2 and fd 19 in coalition 3 swap coalitions
+    beta, passible: 0.948100, 0.997816
+fd  7 in coalition 3 and fd  4 in coalition 2 swap coalitions
+coalitoin 0: 
+    paired fds:  [24, 6, 5, 16, 14, 0]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [17, 18, 8, 25]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [27, 1, 22, 13, 12, 2, 29, 19, 7]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [21, 28, 11, 23, 20, 10, 26, 9, 3, 15, 4]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 9
+fd  6 in coalition 0 and fd 18 in coalition 1 swap coalitions
+    beta, passible: 0.436581, 0.990728
+fd 17 in coalition 1 and fd 13 in coalition 2 swap coalitions
+    beta, passible: 0.905864, 0.968860
+fd 12 in coalition 2 and fd  8 in coalition 1 swap coalitions
+fd 26 in coalition 3 and fd  6 in coalition 1 swap coalitions
+fd  0 in coalition 0 and fd 22 in coalition 2 swap coalitions
+fd 12 in coalition 1 and fd 27 in coalition 2 swap coalitions
+    beta, passible: 0.422898, 0.973123
+fd  0 in coalition 2 and fd 27 in coalition 1 swap coalitions
+    beta, passible: 0.545374, 0.997694
+fd 11 in coalition 3 and fd 29 in coalition 2 swap coalitions
+fd 14 in coalition 0 and fd 12 in coalition 2 swap coalitions
+    beta, passible: 0.002363, 0.995212
+fd 13 in coalition 1 and fd 10 in coalition 3 swap coalitions
+fd  8 in coalition 2 and fd 18 in coalition 0 swap coalitions
+    beta, passible: 0.786308, 0.985480
+fd 20 in coalition 3 and fd  5 in coalition 0 swap coalitions
+fd 24 in coalition 0 and fd  1 in coalition 2 swap coalitions
+fd 25 in coalition 1 and fd 20 in coalition 0 swap coalitions
+fd 17 in coalition 2 and fd 10 in coalition 1 swap coalitions
+    beta, passible: 0.097799, 0.991379
+fd  4 in coalition 3 and fd 12 in coalition 0 swap coalitions
+    beta, passible: 0.730533, 0.992926
+fd  1 in coalition 0 and fd 26 in coalition 1 swap coalitions
+    beta, passible: 0.908000, 0.999802
+fd 17 in coalition 1 and fd 11 in coalition 2 swap coalitions
+    beta, passible: 0.909437, 0.996658
+fd 17 in coalition 2 and fd  1 in coalition 1 swap coalitions
+fd  3 in coalition 3 and fd 25 in coalition 0 swap coalitions
+coalitoin 0: 
+    paired fds:  [16, 22, 8, 4, 26, 3]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [0, 20, 11, 17]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [2, 19, 7, 27, 14, 18, 24, 10, 1]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [21, 28, 23, 9, 15, 6, 29, 13, 5, 12, 25]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 10
+    beta, passible: 0.295711, 0.998166
+fd  4 in coalition 0 and fd  2 in coalition 2 swap coalitions
+fd  0 in coalition 1 and fd  1 in coalition 2 swap coalitions
+fd  7 in coalition 2 and fd 16 in coalition 0 swap coalitions
+    beta, passible: 0.341418, 0.995181
+fd  5 in coalition 3 and fd  3 in coalition 0 swap coalitions
+fd  2 in coalition 0 and fd 20 in coalition 1 swap coalitions
+fd 11 in coalition 1 and fd 29 in coalition 3 swap coalitions
+    beta, passible: 0.122107, 0.990567
+fd 19 in coalition 2 and fd  2 in coalition 1 swap coalitions
+    beta, passible: 0.070890, 0.997572
+fd 12 in coalition 3 and fd 18 in coalition 2 swap coalitions
+fd 20 in coalition 0 and fd 17 in coalition 1 swap coalitions
+    beta, passible: 0.475710, 0.997803
+fd 19 in coalition 1 and fd  4 in coalition 2 swap coalitions
+    beta, passible: 0.119231, 0.979582
+fd 19 in coalition 2 and fd  7 in coalition 0 swap coalitions
+fd  3 in coalition 3 and fd 19 in coalition 0 swap coalitions
+fd  5 in coalition 0 and fd  4 in coalition 1 swap coalitions
+fd  5 in coalition 1 and fd 18 in coalition 3 swap coalitions
+fd  7 in coalition 2 and fd  6 in coalition 3 swap coalitions
+    beta, passible: 0.300937, 0.997743
+fd 25 in coalition 3 and fd 29 in coalition 1 swap coalitions
+    beta, passible: 0.870018, 0.990378
+fd 17 in coalition 0 and fd 20 in coalition 1 swap coalitions
+    beta, passible: 0.066471, 0.996255
+fd 17 in coalition 1 and fd 21 in coalition 3 swap coalitions
+    beta, passible: 0.642571, 0.998027
+fd 12 in coalition 2 and fd 20 in coalition 0 swap coalitions
+fd 11 in coalition 3 and fd  4 in coalition 0 swap coalitions
+coalitoin 0: 
+    paired fds:  [22, 8, 26, 3, 12, 11]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [1, 18, 25, 21]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [27, 14, 24, 10, 0, 16, 2, 6, 20]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [28, 23, 9, 15, 13, 19, 5, 7, 29, 17, 4]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 11
+fd 11 in coalition 0 and fd 16 in coalition 2 swap coalitions
+fd 25 in coalition 1 and fd  3 in coalition 0 swap coalitions
+fd 11 in coalition 2 and fd 13 in coalition 3 swap coalitions
+    beta, passible: 0.889153, 0.996298
+fd 29 in coalition 3 and fd  1 in coalition 1 swap coalitions
+    beta, passible: 0.253117, 0.997168
+fd 25 in coalition 0 and fd 19 in coalition 3 swap coalitions
+    beta, passible: 0.541232, 0.975045
+fd 29 in coalition 1 and fd 26 in coalition 0 swap coalitions
+    beta, passible: 0.543290, 0.997894
+fd 14 in coalition 2 and fd  7 in coalition 3 swap coalitions
+fd 28 in coalition 3 and fd 18 in coalition 1 swap coalitions
+fd 29 in coalition 0 and fd  3 in coalition 1 swap coalitions
+fd 29 in coalition 1 and fd 22 in coalition 0 swap coalitions
+    beta, passible: 0.601277, 0.994245
+fd  2 in coalition 2 and fd 19 in coalition 0 swap coalitions
+    beta, passible: 0.502026, 0.981982
+fd  5 in coalition 3 and fd 21 in coalition 1 swap coalitions
+    beta, passible: 0.335088, 0.998674
+fd 29 in coalition 0 and fd 11 in coalition 3 swap coalitions
+fd 26 in coalition 1 and fd 16 in coalition 0 swap coalitions
+    beta, passible: 0.735829, 0.991572
+fd 13 in coalition 2 and fd  4 in coalition 3 swap coalitions
+fd 25 in coalition 3 and fd 19 in coalition 2 swap coalitions
+fd 11 in coalition 0 and fd  9 in coalition 3 swap coalitions
+fd 16 in coalition 1 and fd  2 in coalition 0 swap coalitions
+    beta, passible: 0.655247, 0.984493
+fd  6 in coalition 2 and fd 28 in coalition 1 swap coalitions
+fd 18 in coalition 3 and fd 20 in coalition 2 swap coalitions
+coalitoin 0: 
+    paired fds:  [8, 12, 3, 26, 9, 16]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [22, 5, 2, 6]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [27, 24, 10, 0, 7, 4, 25, 28, 18]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [23, 15, 17, 1, 14, 21, 29, 13, 19, 11, 20]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 12
+fd  8 in coalition 0 and fd 27 in coalition 2 swap coalitions
+fd  5 in coalition 1 and fd 29 in coalition 3 swap coalitions
+    beta, passible: 0.748761, 0.990225
+fd 28 in coalition 2 and fd 14 in coalition 3 swap coalitions
+fd  1 in coalition 3 and fd 29 in coalition 1 swap coalitions
+    beta, passible: 0.724980, 0.961528
+fd 16 in coalition 0 and fd  8 in coalition 2 swap coalitions
+    beta, passible: 0.183298, 0.999300
+fd 22 in coalition 1 and fd 16 in coalition 2 swap coalitions
+fd  4 in coalition 2 and fd 11 in coalition 3 swap coalitions
+    beta, passible: 0.941327, 0.999886
+fd 20 in coalition 3 and fd 12 in coalition 0 swap coalitions
+    beta, passible: 0.133830, 0.996970
+fd 26 in coalition 0 and fd  1 in coalition 1 swap coalitions
+fd 16 in coalition 1 and fd 15 in coalition 3 swap coalitions
+    beta, passible: 0.846428, 0.998256
+fd 10 in coalition 2 and fd  9 in coalition 0 swap coalitions
+    beta, passible: 0.368179, 0.996744
+fd  4 in coalition 3 and fd 11 in coalition 2 swap coalitions
+    beta, passible: 0.856151, 0.981647
+fd  3 in coalition 0 and fd 29 in coalition 3 swap coalitions
+    beta, passible: 0.917830, 0.989280
+fd 15 in coalition 1 and fd  4 in coalition 2 swap coalitions
+fd 25 in coalition 2 and fd 10 in coalition 0 swap coalitions
+fd 19 in coalition 3 and fd  4 in coalition 1 swap coalitions
+fd 25 in coalition 0 and fd  3 in coalition 3 swap coalitions
+    beta, passible: 0.261443, 0.998272
+fd  6 in coalition 1 and fd 20 in coalition 0 swap coalitions
+    beta, passible: 0.792416, 0.998306
+fd 14 in coalition 2 and fd  6 in coalition 0 swap coalitions
+    beta, passible: 0.475632, 0.972961
+fd 11 in coalition 3 and fd 15 in coalition 2 swap coalitions
+coalitoin 0: 
+    paired fds:  [27, 8, 1, 29, 3, 14]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [2, 26, 19, 20]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [24, 0, 7, 18, 22, 9, 10, 6, 11]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [23, 17, 21, 13, 5, 28, 12, 16, 4, 25, 15]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 13
+fd  8 in coalition 0 and fd 19 in coalition 1 swap coalitions
+    beta, passible: 0.403312, 0.983075
+fd 20 in coalition 1 and fd 27 in coalition 0 swap coalitions
+fd  7 in coalition 2 and fd 16 in coalition 3 swap coalitions
+    beta, passible: 0.849376, 0.972286
+fd  7 in coalition 3 and fd  9 in coalition 2 swap coalitions
+fd 29 in coalition 0 and fd  5 in coalition 3 swap coalitions
+    beta, passible: 0.488960, 0.965719
+fd  8 in coalition 1 and fd  3 in coalition 0 swap coalitions
+    beta, passible: 0.159524, 0.995227
+fd  6 in coalition 2 and fd  2 in coalition 1 swap coalitions
+    beta, passible: 0.106399, 0.998439
+fd 17 in coalition 3 and fd 11 in coalition 2 swap coalitions
+    beta, passible: 0.907778, 0.992029
+fd  1 in coalition 0 and fd 18 in coalition 2 swap coalitions
+fd  6 in coalition 1 and fd 24 in coalition 2 swap coalitions
+    beta, passible: 0.636999, 0.998313
+fd 16 in coalition 2 and fd 14 in coalition 0 swap coalitions
+fd 13 in coalition 3 and fd 14 in coalition 2 swap coalitions
+fd  8 in coalition 0 and fd 10 in coalition 2 swap coalitions
+fd 24 in coalition 1 and fd 16 in coalition 0 swap coalitions
+fd 17 in coalition 2 and fd 20 in coalition 0 swap coalitions
+fd 14 in coalition 3 and fd  0 in coalition 2 swap coalitions
+fd 24 in coalition 0 and fd  3 in coalition 1 swap coalitions
+    beta, passible: 0.822525, 0.999016
+fd 24 in coalition 1 and fd  6 in coalition 2 swap coalitions
+fd  7 in coalition 2 and fd  9 in coalition 3 swap coalitions
+fd 15 in coalition 3 and fd  6 in coalition 1 swap coalitions
+coalitoin 0: 
+    paired fds:  [19, 5, 18, 10, 17, 3]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [26, 27, 16, 15]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [22, 2, 1, 13, 8, 20, 14, 24, 9]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [23, 21, 28, 12, 4, 25, 29, 11, 0, 7, 6]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 14
+    beta, passible: 0.086877, 0.983152
+fd 18 in coalition 0 and fd 16 in coalition 1 swap coalitions
+    beta, passible: 0.413549, 0.994080
+fd 27 in coalition 1 and fd 17 in coalition 0 swap coalitions
+    beta, passible: 0.097411, 0.988012
+fd 14 in coalition 2 and fd 16 in coalition 0 swap coalitions
+    beta, passible: 0.386341, 0.989383
+fd 25 in coalition 3 and fd 10 in coalition 0 swap coalitions
+fd 25 in coalition 0 and fd  0 in coalition 3 swap coalitions
+fd 17 in coalition 1 and fd  8 in coalition 2 swap coalitions
+fd  2 in coalition 2 and fd 18 in coalition 1 swap coalitions
+fd  6 in coalition 3 and fd 14 in coalition 0 swap coalitions
+    beta, passible: 0.827899, 0.999997
+fd  0 in coalition 0 and fd 24 in coalition 2 swap coalitions
+fd 15 in coalition 1 and fd  9 in coalition 2 swap coalitions
+fd 20 in coalition 2 and fd 10 in coalition 3 swap coalitions
+    beta, passible: 0.081490, 0.995318
+fd 11 in coalition 3 and fd  5 in coalition 0 swap coalitions
+    beta, passible: 0.474289, 0.992267
+fd  6 in coalition 0 and fd  9 in coalition 1 swap coalitions
+    beta, passible: 0.188630, 0.993666
+fd  6 in coalition 1 and fd 25 in coalition 3 swap coalitions
+    beta, passible: 0.170848, 0.997031
+fd  0 in coalition 2 and fd  6 in coalition 3 swap coalitions
+fd 12 in coalition 3 and fd 26 in coalition 1 swap coalitions
+fd 27 in coalition 0 and fd 10 in coalition 2 swap coalitions
+    beta, passible: 0.936459, 0.996028
+fd 25 in coalition 1 and fd  9 in coalition 0 swap coalitions
+fd 16 in coalition 2 and fd  9 in coalition 1 swap coalitions
+    beta, passible: 0.424851, 0.993646
+fd 14 in coalition 3 and fd  3 in coalition 0 swap coalitions
+coalitoin 0: 
+    paired fds:  [19, 24, 11, 10, 25, 14]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [8, 2, 12, 16]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [22, 1, 13, 17, 18, 15, 6, 27, 9]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [23, 21, 28, 4, 29, 7, 20, 5, 0, 26, 3]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 15
+    beta, passible: 0.934594, 0.995769
+fd 10 in coalition 0 and fd 16 in coalition 1 swap coalitions
+    beta, passible: 0.221912, 0.996460
+fd 10 in coalition 1 and fd 20 in coalition 3 swap coalitions
+fd 15 in coalition 2 and fd  8 in coalition 1 swap coalitions
+fd 26 in coalition 3 and fd 19 in coalition 0 swap coalitions
+    beta, passible: 0.479066, 0.974460
+fd 16 in coalition 0 and fd  2 in coalition 1 swap coalitions
+fd 16 in coalition 1 and fd  9 in coalition 2 swap coalitions
+fd 27 in coalition 2 and fd  2 in coalition 0 swap coalitions
+fd  0 in coalition 3 and fd  6 in coalition 2 swap coalitions
+fd 27 in coalition 0 and fd 20 in coalition 1 swap coalitions
+fd 12 in coalition 1 and fd 29 in coalition 3 swap coalitions
+fd  8 in coalition 2 and fd 14 in coalition 0 swap coalitions
+    beta, passible: 0.916308, 0.956083
+fd 12 in coalition 3 and fd  9 in coalition 1 swap coalitions
+fd 24 in coalition 0 and fd 12 in coalition 1 swap coalitions
+    beta, passible: 0.358261, 0.980774
+fd 15 in coalition 1 and fd 10 in coalition 3 swap coalitions
+    beta, passible: 0.701840, 0.996893
+fd 13 in coalition 2 and fd  9 in coalition 3 swap coalitions
+fd  4 in coalition 3 and fd 29 in coalition 1 swap coalitions
+    beta, passible: 0.970750, 0.993097
+fd 20 in coalition 0 and fd  0 in coalition 2 swap coalitions
+fd  4 in coalition 1 and fd  5 in coalition 3 swap coalitions
+    beta, passible: 0.685810, 0.984640
+fd 14 in coalition 2 and fd 27 in coalition 1 swap coalitions
+fd 19 in coalition 3 and fd  5 in coalition 1 swap coalitions
+coalitoin 0: 
+    paired fds:  [11, 25, 26, 8, 12, 0]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [24, 10, 14, 19]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [22, 1, 17, 18, 16, 2, 9, 20, 27]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [23, 21, 28, 7, 3, 6, 15, 13, 29, 4, 5]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 16
+    beta, passible: 0.225306, 0.995918
+fd 25 in coalition 0 and fd  6 in coalition 3 swap coalitions
+    beta, passible: 0.125366, 0.988188
+fd 19 in coalition 1 and fd  4 in coalition 3 swap coalitions
+    beta, passible: 0.584184, 0.983896
+fd  2 in coalition 2 and fd 10 in coalition 1 swap coalitions
+fd  3 in coalition 3 and fd  4 in coalition 1 swap coalitions
+    beta, passible: 0.893971, 0.999516
+fd 11 in coalition 0 and fd 27 in coalition 2 swap coalitions
+    beta, passible: 0.229261, 0.999353
+fd  3 in coalition 1 and fd 27 in coalition 0 swap coalitions
+fd 18 in coalition 2 and fd  6 in coalition 0 swap coalitions
+fd  7 in coalition 3 and fd  3 in coalition 0 swap coalitions
+fd  0 in coalition 0 and fd 17 in coalition 2 swap coalitions
+fd 14 in coalition 1 and fd 20 in coalition 2 swap coalitions
+fd 16 in coalition 2 and fd  8 in coalition 0 swap coalitions
+fd 15 in coalition 3 and fd  6 in coalition 2 swap coalitions
+fd 16 in coalition 0 and fd  3 in coalition 3 swap coalitions
+fd 20 in coalition 1 and fd 25 in coalition 3 swap coalitions
+fd 10 in coalition 2 and fd 18 in coalition 0 swap coalitions
+    beta, passible: 0.606751, 0.994112
+fd  5 in coalition 3 and fd 25 in coalition 1 swap coalitions
+fd 26 in coalition 0 and fd  5 in coalition 1 swap coalitions
+fd 26 in coalition 1 and fd  3 in coalition 0 swap coalitions
+fd  9 in coalition 2 and fd 24 in coalition 1 swap coalitions
+fd 19 in coalition 3 and fd 11 in coalition 2 swap coalitions
+coalitoin 0: 
+    paired fds:  [12, 7, 17, 10, 5, 26]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [2, 27, 3, 9]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [22, 1, 0, 14, 8, 15, 18, 24, 19]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [23, 21, 28, 13, 29, 4, 6, 16, 20, 25, 11]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 17
+    beta, passible: 0.119818, 0.994747
+fd 12 in coalition 0 and fd 29 in coalition 3 swap coalitions
+fd  9 in coalition 1 and fd 10 in coalition 0 swap coalitions
+    beta, passible: 0.679664, 0.987992
+fd 15 in coalition 2 and fd 11 in coalition 3 swap coalitions
+    beta, passible: 0.063168, 0.999219
+fd 25 in coalition 3 and fd  7 in coalition 0 swap coalitions
+    beta, passible: 0.277548, 0.998223
+fd  9 in coalition 0 and fd 11 in coalition 2 swap coalitions
+fd 27 in coalition 1 and fd 11 in coalition 0 swap coalitions
+fd  8 in coalition 2 and fd 11 in coalition 1 swap coalitions
+fd 13 in coalition 3 and fd  3 in coalition 1 swap coalitions
+    beta, passible: 0.308798, 0.999564
+fd 29 in coalition 0 and fd  2 in coalition 1 swap coalitions
+    beta, passible: 0.974915, 0.999123
+fd 29 in coalition 1 and fd  5 in coalition 0 swap coalitions
+    beta, passible: 0.363040, 0.998973
+fd 11 in coalition 2 and fd 29 in coalition 0 swap coalitions
+    beta, passible: 0.209918, 0.995295
+fd 16 in coalition 3 and fd 17 in coalition 0 swap coalitions
+    beta, passible: 0.401620, 0.998063
+fd 25 in coalition 0 and fd 14 in coalition 2 swap coalitions
+    beta, passible: 0.229995, 0.996385
+fd  5 in coalition 1 and fd 16 in coalition 0 swap coalitions
+    beta, passible: 0.524050, 0.996780
+fd 24 in coalition 2 and fd 27 in coalition 0 swap coalitions
+    beta, passible: 0.051032, 0.992041
+fd  4 in coalition 3 and fd 14 in coalition 0 swap coalitions
+fd 11 in coalition 0 and fd  3 in coalition 3 swap coalitions
+fd 10 in coalition 1 and fd 28 in coalition 3 swap coalitions
+    beta, passible: 0.715061, 0.990611
+fd 25 in coalition 2 and fd  7 in coalition 3 swap coalitions
+    beta, passible: 0.816714, 0.975556
+fd 11 in coalition 3 and fd 13 in coalition 1 swap coalitions
+coalitoin 0: 
+    paired fds:  [26, 2, 5, 24, 4, 3]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [8, 16, 28, 11]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [22, 1, 0, 18, 19, 9, 29, 27, 7]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [23, 21, 6, 20, 12, 15, 17, 14, 10, 25, 13]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 18
+fd  2 in coalition 0 and fd 11 in coalition 1 swap coalitions
+    beta, passible: 0.124268, 0.962389
+fd 28 in coalition 1 and fd 20 in coalition 3 swap coalitions
+    beta, passible: 0.133949, 0.993848
+fd 27 in coalition 2 and fd  8 in coalition 1 swap coalitions
+fd  6 in coalition 3 and fd  3 in coalition 0 swap coalitions
+    beta, passible: 0.328187, 0.993957
+fd 11 in coalition 0 and fd 29 in coalition 2 swap coalitions
+fd 27 in coalition 1 and fd 24 in coalition 0 swap coalitions
+fd  0 in coalition 2 and fd 24 in coalition 1 swap coalitions
+    beta, passible: 0.788627, 0.997531
+fd 17 in coalition 3 and fd 11 in coalition 2 swap coalitions
+    beta, passible: 0.575767, 0.998024
+fd  5 in coalition 0 and fd 10 in coalition 3 swap coalitions
+fd  2 in coalition 1 and fd  1 in coalition 2 swap coalitions
+fd  8 in coalition 2 and fd 29 in coalition 0 swap coalitions
+    beta, passible: 0.556015, 0.998057
+fd 14 in coalition 3 and fd  6 in coalition 0 swap coalitions
+fd 26 in coalition 0 and fd 25 in coalition 3 swap coalitions
+    beta, passible: 0.783621, 0.996104
+fd  1 in coalition 1 and fd  5 in coalition 3 swap coalitions
+    beta, passible: 0.535660, 0.981292
+fd 18 in coalition 2 and fd 11 in coalition 3 swap coalitions
+    beta, passible: 0.993630, 0.999795
+fd 12 in coalition 3 and fd 25 in coalition 0 swap coalitions
+    beta, passible: 0.354181, 0.992547
+fd 27 in coalition 0 and fd 29 in coalition 2 swap coalitions
+fd  5 in coalition 1 and fd 23 in coalition 3 swap coalitions
+    beta, passible: 0.018348, 0.999564
+fd 24 in coalition 2 and fd 16 in coalition 1 swap coalitions
+    beta, passible: 0.504100, 0.983402
+fd 26 in coalition 3 and fd 20 in coalition 1 swap coalitions
+coalitoin 0: 
+    paired fds:  [4, 10, 8, 14, 12, 29]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [0, 23, 24, 26]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [22, 19, 9, 7, 17, 2, 11, 27, 16]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [21, 15, 13, 28, 3, 6, 1, 18, 25, 5, 20]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 19
+fd 29 in coalition 0 and fd  6 in coalition 3 swap coalitions
+fd  0 in coalition 1 and fd 27 in coalition 2 swap coalitions
+    beta, passible: 0.134412, 0.993199
+fd  0 in coalition 2 and fd  1 in coalition 3 swap coalitions
+fd 20 in coalition 3 and fd 16 in coalition 2 swap coalitions
+fd  8 in coalition 0 and fd 11 in coalition 2 swap coalitions
+fd 24 in coalition 1 and fd 22 in coalition 2 swap coalitions
+fd  1 in coalition 2 and fd 22 in coalition 1 swap coalitions
+fd 16 in coalition 3 and fd 11 in coalition 0 swap coalitions
+    beta, passible: 0.935321, 0.993298
+fd 16 in coalition 0 and fd 20 in coalition 2 swap coalitions
+    beta, passible: 0.745728, 0.986951
+fd  1 in coalition 1 and fd  8 in coalition 2 swap coalitions
+fd 22 in coalition 2 and fd  6 in coalition 0 swap coalitions
+fd 28 in coalition 3 and fd 19 in coalition 2 swap coalitions
+fd 14 in coalition 0 and fd 26 in coalition 1 swap coalitions
+fd 27 in coalition 1 and fd 20 in coalition 0 swap coalitions
+fd  6 in coalition 2 and fd 22 in coalition 0 swap coalitions
+fd  3 in coalition 3 and fd 26 in coalition 0 swap coalitions
+    beta, passible: 0.639382, 0.992711
+fd 10 in coalition 0 and fd 22 in coalition 2 swap coalitions
+    beta, passible: 0.739568, 0.997453
+fd 14 in coalition 1 and fd 22 in coalition 0 swap coalitions
+fd 16 in coalition 2 and fd 22 in coalition 1 swap coalitions
+fd 13 in coalition 3 and fd 20 in coalition 1 swap coalitions
+coalitoin 0: 
+    paired fds:  [4, 12, 27, 6, 3, 14]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [23, 8, 16, 13]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [9, 7, 17, 2, 24, 1, 28, 10, 22]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [21, 15, 18, 25, 5, 29, 0, 11, 19, 26, 20]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 20
+    beta, passible: 0.453482, 0.987156
+fd 12 in coalition 0 and fd 22 in coalition 2 swap coalitions
+fd 16 in coalition 1 and fd 15 in coalition 3 swap coalitions
+fd  9 in coalition 2 and fd 22 in coalition 0 swap coalitions
+fd 14 in coalition 0 and fd 17 in coalition 2 swap coalitions
+    beta, passible: 0.490192, 0.973182
+fd 15 in coalition 1 and fd 18 in coalition 3 swap coalitions
+    beta, passible: 0.031670, 0.999846
+fd  1 in coalition 2 and fd  4 in coalition 0 swap coalitions
+    beta, passible: 0.038052, 0.997031
+fd 19 in coalition 3 and fd 12 in coalition 2 swap coalitions
+    beta, passible: 0.002546, 0.981483
+fd  1 in coalition 0 and fd  8 in coalition 1 swap coalitions
+fd  1 in coalition 1 and fd  2 in coalition 2 swap coalitions
+fd 19 in coalition 2 and fd 27 in coalition 0 swap coalitions
+    beta, passible: 0.236153, 0.998377
+fd 11 in coalition 3 and fd 17 in coalition 0 swap coalitions
+fd 19 in coalition 0 and fd  7 in coalition 2 swap coalitions
+    beta, passible: 0.857775, 0.987374
+fd  2 in coalition 1 and fd 11 in coalition 0 swap coalitions
+    beta, passible: 0.836444, 0.972552
+fd 28 in coalition 2 and fd 11 in coalition 1 swap coalitions
+    beta, passible: 0.607598, 0.994031
+fd 29 in coalition 3 and fd 19 in coalition 2 swap coalitions
+    beta, passible: 0.548708, 0.994467
+fd  6 in coalition 0 and fd 20 in coalition 3 swap coalitions
+fd 13 in coalition 1 and fd  6 in coalition 3 swap coalitions
+    beta, passible: 0.685235, 0.999063
+fd  1 in coalition 2 and fd  9 in coalition 0 swap coalitions
+fd 26 in coalition 3 and fd  7 in coalition 0 swap coalitions
+coalitoin 0: 
+    paired fds:  [3, 8, 2, 20, 1, 26]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [23, 18, 28, 6]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [24, 10, 22, 14, 4, 27, 11, 29, 9]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [21, 5, 0, 16, 25, 15, 12, 17, 19, 13, 7]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 21
+    beta, passible: 0.545345, 0.993994
+fd 20 in coalition 0 and fd 25 in coalition 3 swap coalitions
+fd  6 in coalition 1 and fd  9 in coalition 2 swap coalitions
+fd  6 in coalition 2 and fd 17 in coalition 3 swap coalitions
+fd 12 in coalition 3 and fd 10 in coalition 2 swap coalitions
+fd 25 in coalition 0 and fd 18 in coalition 1 swap coalitions
+fd  9 in coalition 1 and fd 19 in coalition 3 swap coalitions
+fd 22 in coalition 2 and fd 28 in coalition 1 swap coalitions
+fd  7 in coalition 3 and fd 29 in coalition 2 swap coalitions
+    beta, passible: 0.031923, 0.995664
+fd  1 in coalition 0 and fd 16 in coalition 3 swap coalitions
+    beta, passible: 0.423090, 0.998601
+fd 22 in coalition 1 and fd 28 in coalition 2 swap coalitions
+    beta, passible: 0.892419, 0.994226
+fd 14 in coalition 2 and fd  1 in coalition 3 swap coalitions
+    beta, passible: 0.312847, 0.985384
+fd 21 in coalition 3 and fd 28 in coalition 1 swap coalitions
+    beta, passible: 0.676620, 0.961872
+fd 26 in coalition 0 and fd 19 in coalition 1 swap coalitions
+    beta, passible: 0.443037, 0.994154
+fd 21 in coalition 1 and fd  6 in coalition 3 swap coalitions
+fd  7 in coalition 2 and fd  2 in coalition 0 swap coalitions
+    beta, passible: 0.535611, 0.997898
+fd  9 in coalition 3 and fd 12 in coalition 2 swap coalitions
+fd 16 in coalition 0 and fd 22 in coalition 2 swap coalitions
+fd 25 in coalition 1 and fd 19 in coalition 0 swap coalitions
+    beta, passible: 0.943615, 0.991803
+fd  2 in coalition 2 and fd 19 in coalition 1 swap coalitions
+fd 13 in coalition 3 and fd  6 in coalition 1 swap coalitions
+coalitoin 0: 
+    paired fds:  [3, 8, 18, 7, 22, 25]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [23, 26, 2, 13]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [24, 4, 27, 11, 17, 1, 9, 16, 19]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [5, 0, 15, 20, 10, 29, 14, 28, 21, 12, 6]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 22
+fd 22 in coalition 0 and fd 19 in coalition 2 swap coalitions
+    beta, passible: 0.751107, 0.970282
+fd  2 in coalition 1 and fd  9 in coalition 2 swap coalitions
+fd  1 in coalition 2 and fd  9 in coalition 1 swap coalitions
+fd 20 in coalition 3 and fd 19 in coalition 0 swap coalitions
+fd  8 in coalition 0 and fd 26 in coalition 1 swap coalitions
+    beta, passible: 0.713580, 0.990394
+fd  1 in coalition 1 and fd  0 in coalition 3 swap coalitions
+fd 11 in coalition 2 and fd 18 in coalition 0 swap coalitions
+    beta, passible: 0.153209, 0.996128
+fd 10 in coalition 3 and fd  9 in coalition 2 swap coalitions
+    beta, passible: 0.408456, 0.992828
+fd 11 in coalition 0 and fd  5 in coalition 3 swap coalitions
+    beta, passible: 0.915205, 0.999544
+fd  8 in coalition 1 and fd 27 in coalition 2 swap coalitions
+fd  2 in coalition 2 and fd 25 in coalition 0 swap coalitions
+fd  1 in coalition 3 and fd  5 in coalition 0 swap coalitions
+fd  7 in coalition 0 and fd 17 in coalition 2 swap coalitions
+    beta, passible: 0.212953, 0.965527
+fd 13 in coalition 1 and fd 14 in coalition 3 swap coalitions
+    beta, passible: 0.406152, 0.997590
+fd 25 in coalition 2 and fd 12 in coalition 3 swap coalitions
+    beta, passible: 0.661524, 0.987106
+fd 11 in coalition 3 and fd 18 in coalition 2 swap coalitions
+    beta, passible: 0.065838, 0.998386
+fd  1 in coalition 0 and fd  6 in coalition 3 swap coalitions
+    beta, passible: 0.366008, 0.989689
+fd 27 in coalition 1 and fd 10 in coalition 2 swap coalitions
+fd 16 in coalition 2 and fd 20 in coalition 0 swap coalitions
+    beta, passible: 0.930359, 0.986972
+fd 19 in coalition 3 and fd  6 in coalition 0 swap coalitions
+coalitoin 0: 
+    paired fds:  [3, 26, 2, 17, 16, 19]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [23, 0, 14, 10]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [24, 4, 22, 8, 7, 12, 11, 27, 20]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [15, 29, 28, 21, 9, 5, 13, 25, 18, 1, 6]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 23
+    beta, passible: 0.470712, 0.999578
+fd 19 in coalition 0 and fd 12 in coalition 2 swap coalitions
+fd  0 in coalition 1 and fd 19 in coalition 2 swap coalitions
+    beta, passible: 0.372473, 0.999014
+fd 24 in coalition 2 and fd 16 in coalition 0 swap coalitions
+    beta, passible: 0.191149, 0.993768
+fd  6 in coalition 3 and fd  3 in coalition 0 swap coalitions
+fd 24 in coalition 0 and fd 10 in coalition 1 swap coalitions
+fd 14 in coalition 1 and fd 12 in coalition 0 swap coalitions
+fd 27 in coalition 2 and fd 14 in coalition 0 swap coalitions
+    beta, passible: 0.322230, 0.990093
+fd  1 in coalition 3 and fd 26 in coalition 0 swap coalitions
+fd  2 in coalition 0 and fd  0 in coalition 2 swap coalitions
+fd 23 in coalition 1 and fd 15 in coalition 3 swap coalitions
+fd  7 in coalition 2 and fd  1 in coalition 0 swap coalitions
+    beta, passible: 0.418907, 0.997888
+fd 29 in coalition 3 and fd 16 in coalition 2 swap coalitions
+fd  6 in coalition 0 and fd 18 in coalition 3 swap coalitions
+    beta, passible: 0.752693, 0.980110
+fd 15 in coalition 1 and fd 28 in coalition 3 swap coalitions
+fd 11 in coalition 2 and fd 25 in coalition 3 swap coalitions
+fd 26 in coalition 3 and fd 18 in coalition 0 swap coalitions
+fd 10 in coalition 0 and fd 18 in coalition 3 swap coalitions
+    beta, passible: 0.261442, 0.998998
+fd 28 in coalition 1 and fd  8 in coalition 2 swap coalitions
+    beta, passible: 0.065479, 0.987246
+fd 29 in coalition 2 and fd  8 in coalition 1 swap coalitions
+    beta, passible: 0.205805, 0.992769
+fd  5 in coalition 3 and fd 12 in coalition 1 swap coalitions
+coalitoin 0: 
+    paired fds:  [17, 27, 0, 7, 26, 18]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [19, 24, 29, 5]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [4, 22, 20, 14, 2, 1, 25, 28, 8]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [21, 9, 13, 3, 23, 16, 6, 15, 11, 10, 12]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 24
+fd 27 in coalition 0 and fd  1 in coalition 2 swap coalitions
+    beta, passible: 0.465608, 0.983593
+fd 19 in coalition 1 and fd 22 in coalition 2 swap coalitions
+fd 20 in coalition 2 and fd 17 in coalition 0 swap coalitions
+    beta, passible: 0.978784, 0.997399
+fd 16 in coalition 3 and fd 17 in coalition 2 swap coalitions
+fd 18 in coalition 0 and fd  8 in coalition 2 swap coalitions
+fd 24 in coalition 1 and fd 18 in coalition 2 swap coalitions
+    beta, passible: 0.077087, 0.979902
+fd  4 in coalition 2 and fd 18 in coalition 1 swap coalitions
+fd 17 in coalition 3 and fd  4 in coalition 1 swap coalitions
+    beta, passible: 0.350065, 0.998994
+fd 20 in coalition 0 and fd 16 in coalition 2 swap coalitions
+fd 29 in coalition 1 and fd  8 in coalition 0 swap coalitions
+fd 28 in coalition 2 and fd  8 in coalition 1 swap coalitions
+    beta, passible: 0.777237, 0.986081
+fd  9 in coalition 3 and fd 28 in coalition 1 swap coalitions
+fd  1 in coalition 0 and fd 12 in coalition 3 swap coalitions
+    beta, passible: 0.375088, 0.972209
+fd 17 in coalition 1 and fd 25 in coalition 2 swap coalitions
+    beta, passible: 0.615528, 0.980816
+fd 14 in coalition 2 and fd  7 in coalition 0 swap coalitions
+fd  1 in coalition 3 and fd 16 in coalition 0 swap coalitions
+fd 26 in coalition 0 and fd  5 in coalition 1 swap coalitions
+fd 26 in coalition 1 and fd 21 in coalition 3 swap coalitions
+fd 20 in coalition 2 and fd 25 in coalition 1 swap coalitions
+    beta, passible: 0.778738, 0.995316
+fd  4 in coalition 3 and fd 14 in coalition 0 swap coalitions
+coalitoin 0: 
+    paired fds:  [0, 29, 12, 1, 5, 4]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [22, 9, 21, 20]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [2, 27, 19, 24, 18, 8, 17, 7, 25]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [13, 3, 23, 6, 15, 11, 10, 28, 16, 26, 14]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 25
+    beta, passible: 0.077632, 0.984664
+fd  0 in coalition 0 and fd  9 in coalition 1 swap coalitions
+fd 21 in coalition 1 and fd 11 in coalition 3 swap coalitions
+fd 19 in coalition 2 and fd 20 in coalition 1 swap coalitions
+fd 28 in coalition 3 and fd 19 in coalition 1 swap coalitions
+    beta, passible: 0.671887, 0.974462
+fd  5 in coalition 0 and fd 11 in coalition 1 swap coalitions
+    beta, passible: 0.532340, 0.969661
+fd 22 in coalition 1 and fd 25 in coalition 2 swap coalitions
+    beta, passible: 0.489526, 0.994757
+fd 20 in coalition 2 and fd  1 in coalition 0 swap coalitions
+    beta, passible: 0.156775, 0.956246
+fd  3 in coalition 3 and fd 28 in coalition 1 swap coalitions
+fd 29 in coalition 0 and fd  6 in coalition 3 swap coalitions
+fd 25 in coalition 1 and fd  9 in coalition 0 swap coalitions
+fd  2 in coalition 2 and fd  0 in coalition 1 swap coalitions
+fd 14 in coalition 3 and fd 17 in coalition 2 swap coalitions
+fd  6 in coalition 0 and fd 26 in coalition 3 swap coalitions
+    beta, passible: 0.237947, 0.985569
+fd  9 in coalition 1 and fd  4 in coalition 0 swap coalitions
+    beta, passible: 0.978220, 0.997706
+fd 24 in coalition 2 and fd  4 in coalition 1 swap coalitions
+    beta, passible: 0.553089, 0.952818
+fd 21 in coalition 3 and fd  5 in coalition 1 swap coalitions
+fd 20 in coalition 0 and fd 24 in coalition 1 swap coalitions
+fd  2 in coalition 1 and fd  8 in coalition 2 swap coalitions
+    beta, passible: 0.183349, 0.973836
+fd  0 in coalition 2 and fd 17 in coalition 3 swap coalitions
+    beta, passible: 0.359941, 0.987787
+fd 29 in coalition 3 and fd 20 in coalition 1 swap coalitions
+coalitoin 0: 
+    paired fds:  [12, 11, 25, 26, 9, 24]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [3, 21, 8, 29]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [27, 18, 7, 22, 1, 14, 4, 2, 17]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [13, 23, 15, 10, 16, 19, 28, 6, 5, 0, 20]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 26
+    beta, passible: 0.769298, 0.988664
+fd 26 in coalition 0 and fd  6 in coalition 3 swap coalitions
+    beta, passible: 0.810058, 0.988656
+fd  8 in coalition 1 and fd 12 in coalition 0 swap coalitions
+fd 17 in coalition 2 and fd 29 in coalition 1 swap coalitions
+    beta, passible: 0.321721, 0.972612
+fd  5 in coalition 3 and fd 12 in coalition 1 swap coalitions
+fd  5 in coalition 1 and fd  6 in coalition 0 swap coalitions
+    beta, passible: 0.619077, 0.974367
+fd  2 in coalition 2 and fd 17 in coalition 1 swap coalitions
+fd 10 in coalition 3 and fd  3 in coalition 1 swap coalitions
+    beta, passible: 0.952594, 0.984032
+fd  2 in coalition 1 and fd  4 in coalition 2 swap coalitions
+    beta, passible: 0.944921, 0.998785
+fd 14 in coalition 2 and fd 13 in coalition 3 swap coalitions
+    beta, passible: 0.561667, 0.989378
+fd 19 in coalition 3 and fd 13 in coalition 2 swap coalitions
+    beta, passible: 0.366458, 0.975960
+fd  5 in coalition 0 and fd  4 in coalition 1 swap coalitions
+fd  6 in coalition 1 and fd 11 in coalition 0 swap coalitions
+    beta, passible: 0.037581, 0.998448
+fd  1 in coalition 2 and fd 11 in coalition 1 swap coalitions
+fd 16 in coalition 3 and fd  7 in coalition 2 swap coalitions
+    beta, passible: 0.080437, 0.997318
+fd  8 in coalition 0 and fd  2 in coalition 2 swap coalitions
+fd  1 in coalition 1 and fd 15 in coalition 3 swap coalitions
+fd 11 in coalition 2 and fd  0 in coalition 3 swap coalitions
+    beta, passible: 0.739201, 0.983748
+fd 11 in coalition 3 and fd  9 in coalition 0 swap coalitions
+coalitoin 0: 
+    paired fds:  [24, 25, 4, 6, 2, 11]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [21, 10, 5, 15]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [27, 18, 22, 29, 17, 19, 16, 8, 0]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [23, 28, 20, 26, 12, 3, 14, 13, 7, 1, 9]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 27
+fd 25 in coalition 0 and fd  5 in coalition 1 swap coalitions
+    beta, passible: 0.945648, 0.999086
+fd 25 in coalition 1 and fd  3 in coalition 3 swap coalitions
+fd 17 in coalition 2 and fd 11 in coalition 0 swap coalitions
+fd 20 in coalition 3 and fd 15 in coalition 1 swap coalitions
+fd  2 in coalition 0 and fd 11 in coalition 2 swap coalitions
+    beta, passible: 0.052469, 0.952327
+fd 29 in coalition 2 and fd 17 in coalition 0 swap coalitions
+    beta, passible: 0.647701, 0.994234
+fd  9 in coalition 3 and fd 18 in coalition 2 swap coalitions
+fd  6 in coalition 0 and fd 16 in coalition 2 swap coalitions
+fd 20 in coalition 1 and fd  2 in coalition 2 swap coalitions
+    beta, passible: 0.022634, 0.997302
+fd  9 in coalition 2 and fd 10 in coalition 1 swap coalitions
+fd 23 in coalition 3 and fd  3 in coalition 1 swap coalitions
+fd 16 in coalition 0 and fd  9 in coalition 1 swap coalitions
+    beta, passible: 0.101274, 0.872762
+fd  2 in coalition 1 and fd  5 in coalition 0 swap coalitions
+fd 19 in coalition 2 and fd 29 in coalition 0 swap coalitions
+fd 12 in coalition 3 and fd  9 in coalition 0 swap coalitions
+    beta, passible: 0.781884, 0.992753
+fd 19 in coalition 0 and fd  6 in coalition 2 swap coalitions
+    beta, passible: 0.054969, 0.983553
+fd 16 in coalition 1 and fd 10 in coalition 2 swap coalitions
+fd  0 in coalition 2 and fd  4 in coalition 0 swap coalitions
+fd 26 in coalition 3 and fd  5 in coalition 1 swap coalitions
+coalitoin 0: 
+    paired fds:  [24, 11, 2, 12, 6, 0]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [21, 23, 10, 26]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [27, 22, 8, 17, 20, 29, 19, 16, 4]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [28, 14, 13, 7, 1, 25, 15, 18, 3, 9, 5]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 28
+fd  0 in coalition 0 and fd 26 in coalition 1 swap coalitions
+    beta, passible: 0.742997, 0.924822
+fd  0 in coalition 1 and fd 26 in coalition 0 swap coalitions
+fd 16 in coalition 2 and fd 10 in coalition 1 swap coalitions
+fd 14 in coalition 3 and fd 20 in coalition 2 swap coalitions
+fd 11 in coalition 0 and fd  1 in coalition 3 swap coalitions
+    beta, passible: 0.099757, 0.999904
+fd 23 in coalition 1 and fd 20 in coalition 3 swap coalitions
+fd 19 in coalition 2 and fd 20 in coalition 1 swap coalitions
+fd  3 in coalition 3 and fd 12 in coalition 0 swap coalitions
+fd  0 in coalition 0 and fd 26 in coalition 1 swap coalitions
+fd 19 in coalition 1 and fd 24 in coalition 0 swap coalitions
+    beta, passible: 0.982848, 0.986285
+fd 10 in coalition 2 and fd 24 in coalition 1 swap coalitions
+fd 18 in coalition 3 and fd 14 in coalition 2 swap coalitions
+    beta, passible: 0.790202, 0.989662
+fd  1 in coalition 0 and fd  7 in coalition 3 swap coalitions
+    beta, passible: 0.912023, 0.999892
+fd 10 in coalition 1 and fd  4 in coalition 2 swap coalitions
+    beta, passible: 0.744511, 0.995666
+fd 27 in coalition 2 and fd  7 in coalition 0 swap coalitions
+    beta, passible: 0.155691, 0.998384
+fd 12 in coalition 3 and fd  3 in coalition 0 swap coalitions
+fd  6 in coalition 0 and fd 17 in coalition 2 swap coalitions
+fd 29 in coalition 2 and fd 28 in coalition 3 swap coalitions
+fd  9 in coalition 3 and fd  7 in coalition 2 swap coalitions
+coalitoin 0: 
+    paired fds:  [2, 26, 19, 27, 12, 17]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [21, 0, 4, 16]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [22, 20, 24, 18, 10, 6, 8, 28, 9]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [13, 25, 15, 5, 11, 23, 14, 1, 3, 29, 7]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+
+
+*** round 29
+fd  2 in coalition 0 and fd  8 in coalition 2 swap coalitions
+    beta, passible: 0.587782, 0.998917
+fd  4 in coalition 1 and fd 13 in coalition 3 swap coalitions
+    beta, passible: 0.770446, 0.991321
+fd 10 in coalition 2 and fd 12 in coalition 0 swap coalitions
+    beta, passible: 0.198847, 0.967592
+fd 25 in coalition 3 and fd 16 in coalition 1 swap coalitions
+    beta, passible: 0.852592, 0.956670
+fd 19 in coalition 0 and fd  2 in coalition 2 swap coalitions
+fd  0 in coalition 1 and fd 10 in coalition 0 swap coalitions
+    beta, passible: 0.717348, 0.983663
+fd 28 in coalition 2 and fd 10 in coalition 1 swap coalitions
+fd 14 in coalition 3 and fd 25 in coalition 1 swap coalitions
+fd  0 in coalition 0 and fd  3 in coalition 3 swap coalitions
+fd 13 in coalition 1 and fd 10 in coalition 2 swap coalitions
+fd 24 in coalition 2 and fd  2 in coalition 0 swap coalitions
+    beta, passible: 0.198365, 0.946195
+fd  0 in coalition 3 and fd 14 in coalition 1 swap coalitions
+fd  8 in coalition 0 and fd 20 in coalition 2 swap coalitions
+fd  0 in coalition 1 and fd 26 in coalition 0 swap coalitions
+fd 19 in coalition 2 and fd 28 in coalition 1 swap coalitions
+fd 11 in coalition 3 and fd 10 in coalition 1 swap coalitions
+    beta, passible: 0.363330, 0.950972
+fd  3 in coalition 0 and fd 19 in coalition 1 swap coalitions
+fd 26 in coalition 1 and fd 17 in coalition 0 swap coalitions
+    beta, passible: 0.617247, 0.995530
+fd 28 in coalition 2 and fd 17 in coalition 1 swap coalitions
+fd 15 in coalition 3 and fd  3 in coalition 1 swap coalitions
+coalitoin 0: 
+    paired fds:  [27, 24, 20, 0, 19, 26]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29]
+coalitoin 1: 
+    paired fds:  [21, 11, 28, 15]
+    nearby fds:  [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+coalitoin 2: 
+    paired fds:  [22, 18, 6, 9, 12, 13, 2, 8, 17]
+    nearby fds:  [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 27, 28, 29]
+coalitoin 3: 
+    paired fds:  [5, 23, 1, 29, 7, 4, 16, 25, 14, 10, 3]
+    nearby fds:  [0, 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 28, 29]
+fd 24 in coalition 0 was selected to forward
+fd 21 in coalition 1 was selected to forward
+fd 17 in coalition 2 was selected to forward
+fd 25 in coalition 3 was selected to forward
+fd 24 in coalition 0 was selected to forward
+fd 21 in coalition 1 was selected to forward
+fd 17 in coalition 2 was selected to forward
+fd 25 in coalition 3 was selected to forward
+fd 24 in coalition 0 was selected to forward
+fd 21 in coalition 1 was selected to forward
+fd 17 in coalition 2 was selected to forward
+fd 25 in coalition 3 was selected to forward
+fd 24 in coalition 0 was selected to forward
+fd 21 in coalition 1 was selected to forward
+fd 17 in coalition 2 was selected to forward
+fd 25 in coalition 3 was selected to forward
+fd 24 in coalition 0 was selected to forward
+fd 21 in coalition 1 was selected to forward
+fd 17 in coalition 2 was selected to forward
+fd 10 in coalition 3 was selected to forward
+fd 27 in coalition 0 was selected to forward
+fd 15 in coalition 1 was selected to forward
+fd 17 in coalition 2 was selected to forward
+fd 10 in coalition 3 was selected to forward
+fd 27 in coalition 0 was selected to forward
+fd 15 in coalition 1 was selected to forward
+fd 17 in coalition 2 was selected to forward
+fd 10 in coalition 3 was selected to forward
+fd 27 in coalition 0 was selected to forward
+fd 15 in coalition 1 was selected to forward
+fd  9 in coalition 2 was selected to forward
+fd 10 in coalition 3 was selected to forward
+fd 27 in coalition 0 was selected to forward
+fd 15 in coalition 1 was selected to forward
+fd  9 in coalition 2 was selected to forward
+fd 10 in coalition 3 was selected to forward
+fd 27 in coalition 0 was selected to forward
+fd 15 in coalition 1 was selected to forward
+fd  9 in coalition 2 was selected to forward
+fd  1 in coalition 3 was selected to forward
+fd 27 in coalition 0 was selected to forward
+fd 15 in coalition 1 was selected to forward
+fd  9 in coalition 2 was selected to forward
+fd  1 in coalition 3 was selected to forward
+fd 27 in coalition 0 was selected to forward
+fd 11 in coalition 1 was selected to forward
+fd  9 in coalition 2 was selected to forward
+fd  1 in coalition 3 was selected to forward
+fd  0 in coalition 0 was selected to forward
+fd 11 in coalition 1 was selected to forward
+fd 12 in coalition 2 was selected to forward
+fd  1 in coalition 3 was selected to forward
+fd  0 in coalition 0 was selected to forward
+fd 11 in coalition 1 was selected to forward
+fd 12 in coalition 2 was selected to forward
+fd  3 in coalition 3 was selected to forward
+fd  0 in coalition 0 was selected to forward
+fd 28 in coalition 1 was selected to forward
+fd 12 in coalition 2 was selected to forward
+fd  3 in coalition 3 was selected to forward
+fd  0 in coalition 0 was selected to forward
+fd 28 in coalition 1 was selected to forward
+fd 12 in coalition 2 was selected to forward
+fd  3 in coalition 3 was selected to forward
+fd  0 in coalition 0 was selected to forward
+None is selected in coalition 1
+fd 12 in coalition 2 was selected to forward
+fd  3 in coalition 3 was selected to forward
+fd 20 in coalition 0 was selected to forward
+None is selected in coalition 1
+fd 12 in coalition 2 was selected to forward
+fd 10 in coalition 3 was selected to forward
+fd 20 in coalition 0 was selected to forward
+None is selected in coalition 1
+fd 12 in coalition 2 was selected to forward
+fd  3 in coalition 3 was selected to forward
+fd 20 in coalition 0 was selected to forward
+None is selected in coalition 1
+fd  9 in coalition 2 was selected to forward
+fd 14 in coalition 3 was selected to forward
+fd 20 in coalition 0 was selected to forward
+None is selected in coalition 1
+fd 12 in coalition 2 was selected to forward
+fd 14 in coalition 3 was selected to forward
+fd 20 in coalition 0 was selected to forward
+None is selected in coalition 1
+fd 13 in coalition 2 was selected to forward
+fd 14 in coalition 3 was selected to forward
+fd 20 in coalition 0 was selected to forward
+None is selected in coalition 1
+fd 13 in coalition 2 was selected to forward
+fd 14 in coalition 3 was selected to forward
+fd 19 in coalition 0 was selected to forward
+None is selected in coalition 1
+fd 13 in coalition 2 was selected to forward
+fd 14 in coalition 3 was selected to forward
+fd 19 in coalition 0 was selected to forward
+None is selected in coalition 1
+fd 13 in coalition 2 was selected to forward
+fd  5 in coalition 3 was selected to forward
+fd 19 in coalition 0 was selected to forward
+None is selected in coalition 1
+fd 17 in coalition 2 was selected to forward
+fd 10 in coalition 3 was selected to forward
+fd 24 in coalition 0 was selected to forward
+None is selected in coalition 1
+fd 12 in coalition 2 was selected to forward
+fd  5 in coalition 3 was selected to forward
+fd 19 in coalition 0 was selected to forward
+None is selected in coalition 1
+fd 13 in coalition 2 was selected to forward
+fd  5 in coalition 3 was selected to forward
+fd 26 in coalition 0 was selected to forward
+None is selected in coalition 1
+fd 13 in coalition 2 was selected to forward
+fd  5 in coalition 3 was selected to forward
+fd  0 in coalition 0 was selected to forward
+None is selected in coalition 1
+fd 18 in coalition 2 was selected to forward
+fd 16 in coalition 3 was selected to forward
+fd 26 in coalition 0 was selected to forward
+None is selected in coalition 1
+fd  9 in coalition 2 was selected to forward
+fd 16 in coalition 3 was selected to forward
+fd 26 in coalition 0 was selected to forward
+None is selected in coalition 1
+fd 18 in coalition 2 was selected to forward
+fd 16 in coalition 3 was selected to forward
+
+
+***********************
+coalition_history =  [[{'num': 0, 'capacity': 2.2335257998286506, 'paired_fds': [8, 2, 26, 9, 29, 11], 'game_sel': 2}, {'num': 1, 'capacity': 2.5288371493483135, 'paired_fds': [6, 19, 27, 5], 'game_sel': 5}, {'num': 2, 'capacity': 2.1864674059042404, 'paired_fds': [4, 22, 0, 7, 28, 24, 16, 10, 13], 'game_sel': 7}, {'num': 3, 'capacity': 2.139893581789231, 'paired_fds': [12, 15, 21, 18, 14, 1, 25, 20, 17, 23, 3], 'game_sel': 15}], [{'num': 0, 'capacity': 2.2539447424272265, 'paired_fds': [2, 6, 0, 1, 8, 4], 'game_sel': 2}, {'num': 1, 'capacity': 2.5464030708638536, 'paired_fds': [5, 17, 14, 28], 'game_sel': 5}, {'num': 2, 'capacity': 2.2231166915115463, 'paired_fds': [22, 7, 27, 9, 24, 19, 25, 15, 18], 'game_sel': 7}, {'num': 3, 'capacity': 2.1592178804356204, 'paired_fds': [12, 21, 20, 3, 16, 23, 11, 29, 26, 13, 10], 'game_sel': 13}], [{'num': 0, 'capacity': 2.1860194640426895, 'paired_fds': [12, 7, 20, 11, 24, 6], 'game_sel': 24}, {'num': 1, 'capacity': 2.3639372834409107, 'paired_fds': [5, 27, 23, 3], 'game_sel': 5}, {'num': 2, 'capacity': 2.215742661694502, 'paired_fds': [22, 15, 14, 8, 28, 2, 13, 0, 4], 'game_sel': 13}, {'num': 3, 'capacity': 2.1435305872356625, 'paired_fds': [16, 29, 26, 10, 17, 25, 19, 18, 21, 1, 9], 'game_sel': 18}], [{'num': 0, 'capacity': 2.2561243532778024, 'paired_fds': [27, 22, 2, 7, 19, 18], 'game_sel': 2}, {'num': 1, 'capacity': 2.522880933484343, 'paired_fds': [23, 24, 25, 17], 'game_sel': 25}, {'num': 2, 'capacity': 2.114159990814123, 'paired_fds': [8, 13, 0, 12, 11, 20, 29, 4, 16], 'game_sel': 16}, {'num': 3, 'capacity': 2.1301492909177013, 'paired_fds': [26, 10, 21, 9, 15, 3, 6, 28, 5, 14, 1], 'game_sel': 15}], [{'num': 0, 'capacity': 2.128125029967683, 'paired_fds': [27, 19, 24, 9, 16, 29], 'game_sel': 24}, {'num': 1, 'capacity': 2.473723011970589, 'paired_fds': [6, 17, 8, 20], 'game_sel': 6}, {'num': 2, 'capacity': 2.2118460770043016, 'paired_fds': [12, 7, 2, 25, 28, 10, 22, 14, 11], 'game_sel': 7}, {'num': 3, 'capacity': 2.1625360597845726, 'paired_fds': [26, 21, 15, 5, 13, 4, 23, 0, 18, 1, 3], 'game_sel': 15}], [{'num': 0, 'capacity': 2.29559866010127, 'paired_fds': [27, 8, 0, 2, 9, 1], 'game_sel': 2}, {'num': 1, 'capacity': 2.4110250566962934, 'paired_fds': [16, 21, 12, 22], 'game_sel': 21}, {'num': 2, 'capacity': 2.17650339005102, 'paired_fds': [7, 28, 14, 13, 24, 6, 19, 20, 4], 'game_sel': 7}, {'num': 3, 'capacity': 2.15012551788604, 'paired_fds': [26, 15, 5, 23, 3, 25, 29, 18, 10, 11, 17], 'game_sel': 15}], [{'num': 0, 'capacity': 2.2421841282528407, 'paired_fds': [2, 24, 1, 22, 17, 14], 'game_sel': 2}, {'num': 1, 'capacity': 2.335866406943691, 'paired_fds': [26, 20, 0, 3], 'game_sel': 3}, {'num': 2, 'capacity': 2.206338059269479, 'paired_fds': [7, 28, 13, 15, 27, 10, 12, 8, 16], 'game_sel': 7}, {'num': 3, 'capacity': 2.1415935034950944, 'paired_fds': [5, 23, 25, 18, 11, 9, 21, 19, 29, 6, 4], 'game_sel': 18}], [{'num': 0, 'capacity': 2.2368347215644317, 'paired_fds': [24, 7, 20, 18, 6, 9], 'game_sel': 24}, {'num': 1, 'capacity': 2.6286255380714314, 'paired_fds': [23, 2, 5, 13], 'game_sel': 5}, {'num': 2, 'capacity': 2.277788439995045, 'paired_fds': [27, 8, 14, 17, 15, 10, 19, 1, 22], 'game_sel': 17}, {'num': 3, 'capacity': 2.1350047117048963, 'paired_fds': [25, 21, 29, 4, 28, 3, 16, 11, 12, 0, 26], 'game_sel': 28}], [{'num': 0, 'capacity': 2.189395570224445, 'paired_fds': [24, 6, 5, 16, 14, 0], 'game_sel': 24}, {'num': 1, 'capacity': 2.5721344277211875, 'paired_fds': [17, 18, 8, 25], 'game_sel': 25}, {'num': 2, 'capacity': 2.1685174896934845, 'paired_fds': [27, 1, 22, 13, 12, 2, 29, 19, 7], 'game_sel': 7}, {'num': 3, 'capacity': 2.2047998813461893, 'paired_fds': [21, 28, 11, 23, 20, 10, 26, 9, 3, 15, 4], 'game_sel': 15}], [{'num': 0, 'capacity': 2.240705656653348, 'paired_fds': [16, 22, 8, 4, 26, 3], 'game_sel': 8}, {'num': 1, 'capacity': 2.2929200774929273, 'paired_fds': [0, 20, 11, 17], 'game_sel': 0}, {'num': 2, 'capacity': 2.1566082890589913, 'paired_fds': [2, 19, 7, 27, 14, 18, 24, 10, 1], 'game_sel': 7}, {'num': 3, 'capacity': 2.1025532623301815, 'paired_fds': [21, 28, 23, 9, 15, 6, 29, 13, 5, 12, 25], 'game_sel': 15}], [{'num': 0, 'capacity': 2.260420605100265, 'paired_fds': [22, 8, 26, 3, 12, 11], 'game_sel': 8}, {'num': 1, 'capacity': 2.401583048436126, 'paired_fds': [1, 18, 25, 21], 'game_sel': 25}, {'num': 2, 'capacity': 2.0907736156619325, 'paired_fds': [27, 14, 24, 10, 0, 16, 2, 6, 20], 'game_sel': 16}, {'num': 3, 'capacity': 2.21670265384299, 'paired_fds': [28, 23, 9, 15, 13, 19, 5, 7, 29, 17, 4], 'game_sel': 15}], [{'num': 0, 'capacity': 2.3155666946280515, 'paired_fds': [8, 12, 3, 26, 9, 16], 'game_sel': 8}, {'num': 1, 'capacity': 2.4568071459707967, 'paired_fds': [22, 5, 2, 6], 'game_sel': 5}, {'num': 2, 'capacity': 2.208993946705499, 'paired_fds': [27, 24, 10, 0, 7, 4, 25, 28, 18], 'game_sel': 7}, {'num': 3, 'capacity': 2.2037587706214716, 'paired_fds': [23, 15, 17, 1, 14, 21, 29, 13, 19, 11, 20], 'game_sel': 15}], [{'num': 0, 'capacity': 2.2896604507057576, 'paired_fds': [27, 8, 1, 29, 3, 14], 'game_sel': 8}, {'num': 1, 'capacity': 2.4038288697714414, 'paired_fds': [2, 26, 19, 20], 'game_sel': 26}, {'num': 2, 'capacity': 2.1173172950842343, 'paired_fds': [24, 0, 7, 18, 22, 9, 10, 6, 11], 'game_sel': 7}, {'num': 3, 'capacity': 2.190047327888614, 'paired_fds': [23, 17, 21, 13, 5, 28, 12, 16, 4, 25, 15], 'game_sel': 15}], [{'num': 0, 'capacity': 2.220786112379978, 'paired_fds': [19, 5, 18, 10, 17, 3], 'game_sel': 19}, {'num': 1, 'capacity': 2.510416835116912, 'paired_fds': [26, 27, 16, 15], 'game_sel': 26}, {'num': 2, 'capacity': 2.1733954110136606, 'paired_fds': [22, 2, 1, 13, 8, 20, 14, 24, 9], 'game_sel': 1}, {'num': 3, 'capacity': 2.1528251924975663, 'paired_fds': [23, 21, 28, 12, 4, 25, 29, 11, 0, 7, 6], 'game_sel': 28}], [{'num': 0, 'capacity': 2.206936419422534, 'paired_fds': [19, 24, 11, 10, 25, 14], 'game_sel': 24}, {'num': 1, 'capacity': 2.381872114444856, 'paired_fds': [8, 2, 12, 16], 'game_sel': 12}, {'num': 2, 'capacity': 2.2047289723836263, 'paired_fds': [22, 1, 13, 17, 18, 15, 6, 27, 9], 'game_sel': 17}, {'num': 3, 'capacity': 2.1897541321775207, 'paired_fds': [23, 21, 28, 4, 29, 7, 20, 5, 0, 26, 3], 'game_sel': 28}], [{'num': 0, 'capacity': 2.2239772031758815, 'paired_fds': [11, 25, 26, 8, 12, 0], 'game_sel': 8}, {'num': 1, 'capacity': 2.4227353629370443, 'paired_fds': [24, 10, 14, 19], 'game_sel': 14}, {'num': 2, 'capacity': 2.1547409280413765, 'paired_fds': [22, 1, 17, 18, 16, 2, 9, 20, 27], 'game_sel': 17}, {'num': 3, 'capacity': 2.2039882774639894, 'paired_fds': [23, 21, 28, 7, 3, 6, 15, 13, 29, 4, 5], 'game_sel': 15}], [{'num': 0, 'capacity': 2.275387409210822, 'paired_fds': [12, 7, 17, 10, 5, 26], 'game_sel': 10}, {'num': 1, 'capacity': 2.5086746874828547, 'paired_fds': [2, 27, 3, 9], 'game_sel': 3}, {'num': 2, 'capacity': 2.2334130491620456, 'paired_fds': [22, 1, 0, 14, 8, 15, 18, 24, 19], 'game_sel': 1}, {'num': 3, 'capacity': 2.1531421464319744, 'paired_fds': [23, 21, 28, 13, 29, 4, 6, 16, 20, 25, 11], 'game_sel': 13}], [{'num': 0, 'capacity': 2.166355610570324, 'paired_fds': [26, 2, 5, 24, 4, 3], 'game_sel': 2}, {'num': 1, 'capacity': 2.5530031713403156, 'paired_fds': [8, 16, 28, 11], 'game_sel': 11}, {'num': 2, 'capacity': 2.1832132266803823, 'paired_fds': [22, 1, 0, 18, 19, 9, 29, 27, 7], 'game_sel': 7}, {'num': 3, 'capacity': 2.1099830569121663, 'paired_fds': [23, 21, 6, 20, 12, 15, 17, 14, 10, 25, 13], 'game_sel': 15}], [{'num': 0, 'capacity': 2.097193082479688, 'paired_fds': [4, 10, 8, 14, 12, 29], 'game_sel': 8}, {'num': 1, 'capacity': 2.3028691711029246, 'paired_fds': [0, 23, 24, 26], 'game_sel': 26}, {'num': 2, 'capacity': 2.073193724176733, 'paired_fds': [22, 19, 9, 7, 17, 2, 11, 27, 16], 'game_sel': 17}, {'num': 3, 'capacity': 2.095833482966329, 'paired_fds': [21, 15, 13, 28, 3, 6, 1, 18, 25, 5, 20], 'game_sel': 15}], [{'num': 0, 'capacity': 2.128247810206811, 'paired_fds': [4, 12, 27, 6, 3, 14], 'game_sel': 27}, {'num': 1, 'capacity': 2.572448458729687, 'paired_fds': [23, 8, 16, 13], 'game_sel': 23}, {'num': 2, 'capacity': 2.1908918957160157, 'paired_fds': [9, 7, 17, 2, 24, 1, 28, 10, 22], 'game_sel': 17}, {'num': 3, 'capacity': 2.157592199213481, 'paired_fds': [21, 15, 18, 25, 5, 29, 0, 11, 19, 26, 20], 'game_sel': 15}], [{'num': 0, 'capacity': 2.411201612309473, 'paired_fds': [3, 8, 2, 20, 1, 26], 'game_sel': 2}, {'num': 1, 'capacity': 2.248481361531531, 'paired_fds': [23, 18, 28, 6], 'game_sel': 23}, {'num': 2, 'capacity': 2.0318043911994925, 'paired_fds': [24, 10, 22, 14, 4, 27, 11, 29, 9], 'game_sel': 10}, {'num': 3, 'capacity': 2.1712655498413245, 'paired_fds': [21, 5, 0, 16, 25, 15, 12, 17, 19, 13, 7], 'game_sel': 15}], [{'num': 0, 'capacity': 2.3068972675292447, 'paired_fds': [3, 8, 18, 7, 22, 25], 'game_sel': 8}, {'num': 1, 'capacity': 2.511672895709724, 'paired_fds': [23, 26, 2, 13], 'game_sel': 26}, {'num': 2, 'capacity': 2.067691807372614, 'paired_fds': [24, 4, 27, 11, 17, 1, 9, 16, 19], 'game_sel': 17}, {'num': 3, 'capacity': 2.1103842309839154, 'paired_fds': [5, 0, 15, 20, 10, 29, 14, 28, 21, 12, 6], 'game_sel': 15}], [{'num': 0, 'capacity': 2.3382213607782623, 'paired_fds': [3, 26, 2, 17, 16, 19], 'game_sel': 2}, {'num': 1, 'capacity': 2.3235167279137188, 'paired_fds': [23, 0, 14, 10], 'game_sel': 14}, {'num': 2, 'capacity': 2.088417215544488, 'paired_fds': [24, 4, 22, 8, 7, 12, 11, 27, 20], 'game_sel': 7}, {'num': 3, 'capacity': 2.0868621864700634, 'paired_fds': [15, 29, 28, 21, 9, 5, 13, 25, 18, 1, 6], 'game_sel': 15}], [{'num': 0, 'capacity': 2.320268354890881, 'paired_fds': [17, 27, 0, 7, 26, 18], 'game_sel': 27}, {'num': 1, 'capacity': 2.4640867280556464, 'paired_fds': [19, 24, 29, 5], 'game_sel': 5}, {'num': 2, 'capacity': 2.2301327041517682, 'paired_fds': [4, 22, 20, 14, 2, 1, 25, 28, 8], 'game_sel': 1}, {'num': 3, 'capacity': 2.1208149566725263, 'paired_fds': [21, 9, 13, 3, 23, 16, 6, 15, 11, 10, 12], 'game_sel': 15}], [{'num': 0, 'capacity': 2.235674744684448, 'paired_fds': [0, 29, 12, 1, 5, 4], 'game_sel': 29}, {'num': 1, 'capacity': 2.3862122581445737, 'paired_fds': [22, 9, 21, 20], 'game_sel': 21}, {'num': 2, 'capacity': 2.191408173243314, 'paired_fds': [2, 27, 19, 24, 18, 8, 17, 7, 25], 'game_sel': 17}, {'num': 3, 'capacity': 2.1827368472433486, 'paired_fds': [13, 3, 23, 6, 15, 11, 10, 28, 16, 26, 14], 'game_sel': 15}], [{'num': 0, 'capacity': 2.2609755487505474, 'paired_fds': [12, 11, 25, 26, 9, 24], 'game_sel': 24}, {'num': 1, 'capacity': 2.563668600624015, 'paired_fds': [3, 21, 8, 29], 'game_sel': 3}, {'num': 2, 'capacity': 2.2219419776921625, 'paired_fds': [27, 18, 7, 22, 1, 14, 4, 2, 17], 'game_sel': 17}, {'num': 3, 'capacity': 2.1799594070871664, 'paired_fds': [13, 23, 15, 10, 16, 19, 28, 6, 5, 0, 20], 'game_sel': 15}], [{'num': 0, 'capacity': 2.090064952103399, 'paired_fds': [24, 25, 4, 6, 2, 11], 'game_sel': 2}, {'num': 1, 'capacity': 2.422795862393911, 'paired_fds': [21, 10, 5, 15], 'game_sel': 5}, {'num': 2, 'capacity': 2.1912721609738526, 'paired_fds': [27, 18, 22, 29, 17, 19, 16, 8, 0], 'game_sel': 17}, {'num': 3, 'capacity': 2.197113390486174, 'paired_fds': [23, 28, 20, 26, 12, 3, 14, 13, 7, 1, 9], 'game_sel': 13}], [{'num': 0, 'capacity': 2.140297806936264, 'paired_fds': [24, 11, 2, 12, 6, 0], 'game_sel': 2}, {'num': 1, 'capacity': 2.3447995596722477, 'paired_fds': [21, 23, 10, 26], 'game_sel': 26}, {'num': 2, 'capacity': 2.072532933971431, 'paired_fds': [27, 22, 8, 17, 20, 29, 19, 16, 4], 'game_sel': 17}, {'num': 3, 'capacity': 2.108810842912811, 'paired_fds': [28, 14, 13, 7, 1, 25, 15, 18, 3, 9, 5], 'game_sel': 15}], [{'num': 0, 'capacity': 2.338158948295458, 'paired_fds': [2, 26, 19, 27, 12, 17], 'game_sel': 2}, {'num': 1, 'capacity': 2.426703448451801, 'paired_fds': [21, 0, 4, 16], 'game_sel': 0}, {'num': 2, 'capacity': 2.1834571844436117, 'paired_fds': [22, 20, 24, 18, 10, 6, 8, 28, 9], 'game_sel': 20}, {'num': 3, 'capacity': 2.191754085617109, 'paired_fds': [13, 25, 15, 5, 11, 23, 14, 1, 3, 29, 7], 'game_sel': 15}], [{'num': 0, 'capacity': 2.2306877184591336, 'paired_fds': [27, 24, 20, 0, 19, 26], 'game_sel': 24}, {'num': 1, 'capacity': 2.411193372979373, 'paired_fds': [21, 11, 28, 15], 'game_sel': 21}, {'num': 2, 'capacity': 2.1953608508735085, 'paired_fds': [22, 18, 6, 9, 12, 13, 2, 8, 17], 'game_sel': 17}, {'num': 3, 'capacity': 2.1585050743047316, 'paired_fds': [5, 23, 1, 29, 7, 4, 16, 25, 14, 10, 3], 'game_sel': 25}]]
+***********************
+select_history =  [{'f_bs': 193.3675403708379, 'f_fd': 94.72893364627191, 'num': 25, 'gains': 94.72893364627191, 'power': 0.002451029277381489}, {'f_bs': 193.3675403708379, 'f_fd': 94.72893364627191, 'num': 25, 'gains': 189.45786729254382, 'power': 0.001651029277381489}, {'f_bs': 193.3675403708379, 'f_fd': 94.72893364627191, 'num': 25, 'gains': 284.18680093881574, 'power': 0.0008510292773814889}, {'f_bs': 193.3675403708379, 'f_fd': 94.72893364627191, 'num': 25, 'gains': 378.91573458508765, 'power': 5.102927738148883e-05}, {'f_bs': 185.52629708185606, 'f_fd': 92.0347726310032, 'num': 10, 'gains': 92.0347726310032, 'power': 0.0033845271797310673}, {'f_bs': 185.52629708185606, 'f_fd': 92.0347726310032, 'num': 10, 'gains': 184.0695452620064, 'power': 0.0025445271797310673}, {'f_bs': 185.52629708185606, 'f_fd': 92.0347726310032, 'num': 10, 'gains': 276.1043178930096, 'power': 0.0017045271797310672}, {'f_bs': 185.52629708185606, 'f_fd': 92.0347726310032, 'num': 10, 'gains': 368.1390905240128, 'power': 0.0008645271797310672}, {'f_bs': 185.52629708185606, 'f_fd': 92.0347726310032, 'num': 10, 'gains': 460.17386315501597, 'power': 2.452717973106715e-05}, {'f_bs': 183.12330880117662, 'f_fd': 91.48630341062216, 'num': 1, 'gains': 91.48630341062216, 'power': 0.003008755537237511}, {'f_bs': 183.12330880117662, 'f_fd': 91.48630341062216, 'num': 1, 'gains': 182.9726068212443, 'power': 0.002168755537237511}, {'f_bs': 183.12330880117662, 'f_fd': 91.48630341062216, 'num': 1, 'gains': 274.45891023186647, 'power': 0.001328755537237511}, {'f_bs': 183.12330880117662, 'f_fd': 91.48630341062216, 'num': 1, 'gains': 365.9452136424886, 'power': 0.000488755537237511}, {'f_bs': 178.41478645274418, 'f_fd': 89.36872007316953, 'num': 3, 'gains': 89.36872007316953, 'power': 0.003821380384046409}, {'f_bs': 178.41478645274418, 'f_fd': 89.36872007316953, 'num': 3, 'gains': 178.73744014633905, 'power': 0.0029413803840464088}, {'f_bs': 178.41478645274418, 'f_fd': 89.36872007316953, 'num': 3, 'gains': 268.1061602195086, 'power': 0.0020613803840464086}, {'f_bs': 178.41478645274418, 'f_fd': 89.36872007316953, 'num': 3, 'gains': 357.4748802926781, 'power': 0.0011813803840464085}, {'f_bs': 185.52629708185606, 'f_fd': 92.0347726310032, 'num': 10, 'gains': 552.2086357860192, 'power': 9.563646518889832e-05}, {'f_bs': 178.41478645274418, 'f_fd': 89.36872007316953, 'num': 3, 'gains': 446.84360036584764, 'power': 0.0003123920547640813}, {'f_bs': 170.27771592490143, 'f_fd': 86.29245248495289, 'num': 14, 'gains': 86.29245248495289, 'power': 0.004314127667778264}, {'f_bs': 170.27771592490143, 'f_fd': 86.29245248495289, 'num': 14, 'gains': 172.58490496990578, 'power': 0.0033941276677782644}, {'f_bs': 170.27771592490143, 'f_fd': 86.29245248495289, 'num': 14, 'gains': 258.87735745485867, 'power': 0.0024741276677782646}, {'f_bs': 170.27771592490143, 'f_fd': 86.29245248495289, 'num': 14, 'gains': 345.16980993981156, 'power': 0.0015541276677782645}, {'f_bs': 170.27771592490143, 'f_fd': 86.29245248495289, 'num': 14, 'gains': 431.46226242476445, 'power': 0.0006341276677782645}, {'f_bs': 159.13561175623767, 'f_fd': 81.1099796613077, 'num': 5, 'gains': 81.1099796613077, 'power': 0.003822368302016898}, {'f_bs': 185.52629708185606, 'f_fd': 92.0347726310032, 'num': 10, 'gains': 644.2434084170224, 'power': 5.28570899645006e-05}, {'f_bs': 159.13561175623767, 'f_fd': 81.1099796613077, 'num': 5, 'gains': 162.2199593226154, 'power': 0.002833769766388294}, {'f_bs': 159.13561175623767, 'f_fd': 81.1099796613077, 'num': 5, 'gains': 243.3299389839231, 'power': 0.0018337697663882938}, {'f_bs': 159.13561175623767, 'f_fd': 81.1099796613077, 'num': 5, 'gains': 324.4399186452308, 'power': 0.0008337697663882938}, {'f_bs': 137.7761703459053, 'f_fd': 70.60493055654491, 'num': 16, 'gains': 70.60493055654491, 'power': 0.0041827568976027536}, {'f_bs': 137.7761703459053, 'f_fd': 70.60493055654491, 'num': 16, 'gains': 141.20986111308983, 'power': 0.0030627568976027532}, {'f_bs': 137.7761703459053, 'f_fd': 70.60493055654491, 'num': 16, 'gains': 211.81479166963476, 'power': 0.001942756897602753}]
