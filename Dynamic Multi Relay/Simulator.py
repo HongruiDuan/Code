@@ -66,11 +66,15 @@ class Simulator:
                         print j.fdId,"join change cus"
                         cus.append(j)
             for i in cus:
-
                 i.search_alternative(network.coalitions)
 
             #这里什么时候设计成单独的一个类，什么时候设计成一个函数
             network.coalitions = CRG(cus, network.coalitions).sequentialChoose()
+
+            #在进行一轮传输之后，联盟将需要开始更新自己联盟内部的RelaySet和EHset,将RelaySet中不满足的加入到EHSet中，EHSet中满足的加入到RelaySet中
+
+            for i in network.coalitions:
+                i.alter_coalition()
 
             network.show_coalitions()
             round += 1

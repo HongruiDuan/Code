@@ -49,9 +49,9 @@ class FD:
   def search_alternative(self,coas):
     self.clearA()
     for i in coas:
-      if self.power >= ((i.ru.N * LossRate_BS(i.bs, self) * i.ru.L) / (self.rate)) * self.pow:
-        self.actionset.append(Action(i.ru,0,-1))
+      if self.power >= ((i.ru.N * LossRate_BS(i.bs, i.ru) * i.ru.L) / (self.rate)) * self.pow:
+        self.actionset.append(Action(i.ru, 0, -1))
       else:
-        self.actionset.append(Action(i.ru,1,-1))
+        self.actionset.append(Action(i.ru, 1, -1))
 
 

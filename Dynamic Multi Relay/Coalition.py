@@ -2,6 +2,8 @@
 
 from Utility import *
 from Energy import energy
+from copy import deepcopy
+
 
 class Coalition:
     def __init__(self,bs,ru,coaId):
@@ -115,14 +117,47 @@ class Coalition:
                 self.RelaySet.append(fd)
 
     def harvestEnergy(self, fd, time):
-        fd.power += time * energy(fd,self.bs,1)
+        power_harvest = time * energy(fd, self.bs,1)
+        fd.power += power_harvest
         fd.round += 1
+        #print fd.fdId, "in time", time, "harvest energy:", power_harvest
 
     def relayMsg(self,fd):
-        print fd.fdId,"in",fd.coalition.ru.ruId,"set:",fd.setchoice,"relayMsg"
-        fd.power -= (fd.expect * self.ru.L / fd.rate) * 0.004
+        #print fd.expect," ",self.ru.L," ",fd.rate
+        power_cost = (self.utility(fd, fd.setchoice) * self.ru.L / fd.rate) * 0.004
+        fd.power -= power_cost
+        #这里计算实际效用的时候
         fd.total += self.utility(fd, fd.setchoice)
         fd.round += 1
+        #print fd.fdId, "in", fd.coalition.ru.ruId, "set:", fd.setchoice, "relayMsg","cost power:",power_cost
+
+    def alter_coalition(self):
+        t_RelaySet = deepcopy(self.RelaySet)
+        t_EHSet = deepcopy(self.EHSet)
+        self.RelaySet = []
+        self.EHSet = []
+        for i in t_RelaySet:
+            if i.power < (self.ru.N * LossRate_BS(self.bs, self.ru) * self.ru.L / i.rate) * i.pow:
+                for j in self.fds:
+                    if j.fdId == i.fdId:
+                        self.EHSet.append(j)
+                        break
+            elif i.power >= (self.ru.N * LossRate_BS(self.bs, self.ru) * self.ru.L / i.rate) * i.pow:
+                for j in self.fds:
+                    if j.fdId == i.fdId:
+                        self.RelaySet.append(j)
+                        break
+        for i in t_EHSet:
+            if i.power >= (self.ru.N * LossRate_BS(self.bs, self.ru) * self.ru.L / i.rate) * i.pow:
+                for j in self.fds:
+                    if j.fdId == i.fdId:
+                        self.RelaySet.append(j)
+                        break
+            elif i.power < (self.ru.N * LossRate_BS(self.bs, self.ru) * self.ru.L / i.rate) * i.pow:
+                for j in self.fds:
+                    if j.fdId == i.fdId:
+                        self.EHSet.append(j)
+                        break
 
 # 单元测试各个函数是否能够满足
 if __name__ == 'main':

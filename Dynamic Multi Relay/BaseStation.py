@@ -7,4 +7,4 @@ class BS:
     #基站的发射功率为
     self.power = 3000
     #基站的广播速度为3M/b每秒
-    self.rate = 3072
+    self.rate = 3072.0

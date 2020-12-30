@@ -4,6 +4,7 @@ from BaseStation import BS
 from RegisterUser import RU
 from FogDevice import FD
 from Coalition import Coalition
+from LossRate import LossRate_BS
 class NetworkController:
     def __init__(self,positions):
         self.bs, self.coalitions, self.fds = self.create_net(positions)
@@ -35,10 +36,7 @@ class NetworkController:
 
     def show_coalitions(self):
         for i in self.coalitions:
-            print i.ru.ruId,":",
-            for j in i.fds:
-                print j.fdId,
-            print
+            print i.ru.ruId#,"need power:",(i.ru.N * LossRate_BS(i.bs, i.ru) * i.ru.L / 100) * 0.004
             print "   RelaySet:",
             for j in i.RelaySet:
                 print j.fdId,
@@ -47,3 +45,6 @@ class NetworkController:
             for j in i.EHSet:
                 print j.fdId,
             print
+            for j in i.fds:
+                print "  ",j.fdId,"expect:",j.expect,"round:",j.round,"total:",j.total,"power:",j.power
+            #print ""

@@ -4,7 +4,7 @@ class RU:
   def __init__(self, ruId, position):
     self.ruId = ruId
     self.position = position
-    self.L = 1
+    self.L = 1.0
 
     self.N = random.randint(20,40)
     #self.N = 30
