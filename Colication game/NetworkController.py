@@ -81,7 +81,8 @@ class NetworkController:
                 print '    gains, power: %f, %f' % (fd.gains, fd.power)
                 print '    f_bs, f_fd: %f, %f' % (fd.f_bs, fd.f_fd)
 
-    def show_coalitions(self):
+    #TODO:采用拓扑图来显示
+    def show_coalitions(self, round):
         for coalition in self.coalitions:
             print 'coalitoin %d: ' % coalition.num
             print '    paired fds: ', [fd.num for fd in coalition.paired_fds]

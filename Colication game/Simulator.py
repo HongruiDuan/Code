@@ -34,7 +34,7 @@ class Simulator:
 
         print '*** start game\n'
         print '\n\ninitial info:'
-        network.show_coalitions()
+        network.show_coalitions(0)
         # network.show_fds()
 
         max_round = 30
@@ -47,7 +47,7 @@ class Simulator:
             network.start_game(stackelberg_game, round, max_round)
             
             round += 1
-            network.show_coalitions()
+            network.show_coalitions(round)
             # network.show_fds()
             self.save_coalition(network)
 
@@ -68,6 +68,7 @@ class Simulator:
                 else:
                     # 如果所有中继设备能量都不够，则基站自己传输
                     print 'None is selected in coalition %d' % coalition.num
+
             self.save_select(network)
 
         print '*** end simulate\n'
@@ -211,7 +212,11 @@ if __name__ == '__main__':
         'fds': [[25, 53, 0], [30, 42, 0], [35, 35, 0], [20, 25, 0], [15,10, 0]],
         'BS': [5, 45, 0]
     }
-
+    # positions = {
+    #     'RUs': [[50, 50], [50, 10]],
+    #     'FDs': [[25, 53], [30, 42], [35, 35], [20, 25], [15,10]],
+    #     'BS': [5, 45]
+    # }
     #setLogLevel('info')
     s = Simulator(positions)
     # s.show_topology()

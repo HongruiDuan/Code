@@ -4,6 +4,7 @@ from NetworkController import NetworkController
 
 from Init_devide import  *
 from CRG import *
+
 class Simulator:
     def __init__(self,positions):
         self.positions = positions
@@ -27,11 +28,13 @@ class Simulator:
         #初始划分完成，开始进行传输
         max_round = 20
         change_round = 10
-        round = 0
+        round = 1
 
-        while round < max_round:
+        while round <= max_round:
             #每一轮中每个设备按照自己的实际效用来增加效用
             print '\n\n*** round %d' % round
+            #保存的是每一个round开始的时候的联盟划分
+            network.show_coalitions(round)
             # 1.基站广播每轮中给每个RU传输的数据包数目
             for i in network.coalitions:
                 i.ru.N = randint(20, 30)
@@ -79,7 +82,7 @@ class Simulator:
             for i in network.coalitions:
                 i.alter_coalition()
 
-            network.show_coalitions()
+
             round += 1
 
         print "Finish all round"
@@ -92,11 +95,11 @@ if __name__ == '__main__':
     # positions = {
     #     'RUs': [[14, 86], [22, 21], [81, 79], [75, 17]],
     #     'FDs': [[16, 48], [87, 62], [20, 91], [26, 14], [24, 63],
-    #             [18, 22], [41, 40], [75, 90], [8, 99], [68, 50],
-    #             [59, 60], [40, 76], [60, 43], [78, 37], [27, 38],
-    #             [63, 14], [63, 81], [75, 75], [55, 31], [61, 90],
-    #             [54, 75], [50, 1], [7, 73], [10, 2], [24, 80],
-    #             [34, 27], [3, 28], [34, 95], [90, 24], [32, 69]
+    #             [18, 22], [41, 40], [75, 90], [8, 99], [68, 50] #,
+    #             # [59, 60], [40, 76], [60, 43], [78, 37], [27, 38],
+    #             # [63, 14], [63, 81], [75, 75], [55, 31], [61, 90],
+    #             # [54, 75], [50, 1], [7, 73], [10, 2], [24, 80],
+    #             # [34, 27], [3, 28], [34, 95], [90, 24], [32, 69]
     #             ],
     #     'BS': [50, 50]}
 

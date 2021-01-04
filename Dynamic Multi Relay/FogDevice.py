@@ -34,9 +34,12 @@ class FD:
     self.expect = 0 # expect是指每个FD在加入联盟时的期望效用 表示的是期望的
 
     self.cumulative_utility = 0
+
     self.utility_his = [] # 保存自己的效用变化历史
     self.power_his = [] # 保存自己的能量变化历史
-
+    #第0轮也就是一开始的数据
+    self.utility_his.append(self.cumulative_utility)
+    self.power_his.append(self.power)
     self.actionset = []
 
   #加入集合，重置效用

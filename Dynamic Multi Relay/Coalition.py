@@ -5,10 +5,13 @@ from Energy import energy
 from copy import deepcopy
 
 
+
+
 class Coalition:
     def __init__(self,bs,ru,coaId):
         self.bs, self.ru, self.coaId = bs, ru, coaId
         self.fds, self.RelaySet, self.EHSet = [], [], []
+
 
     def getset(self, num):
         if num == 0:
@@ -23,7 +26,7 @@ class Coalition:
         fd.setchoice = setnum
         fd.resetU()
         #加入时考虑的应该是期望效用,乘以系数的话，系数该如何确定呢
-        fd.expect = self.join_utility(fd, setnum) * 0.8
+        fd.expect = self.join_utility(fd, setnum) * 0.6
         # print fd.fdId, "join", self.ru.ruId, "set:", setnum, "join utility:", self.join_utility(fd,setnum)
 
 
@@ -129,6 +132,7 @@ class Coalition:
         fd.round += 1
         print fd.fdId, "in time", time, "harvest energy:", power_harvest
 
+
     def relayMsg(self,fd):
         # print fd.fdId,"choose", fd.coalition.ru.ruId,"set:",fd.setchoice
         # for i in fd.coalition.getset(fd.setchoice):
@@ -138,9 +142,10 @@ class Coalition:
         fd.utility = self.utility(fd)
         fd.total += fd.utility
 
+        fd.cumulative_utility += fd.utility
         fd.utility_his.append(fd.cumulative_utility)
 
-        fd.cumulative_utility += fd.utility
+
 
         power_cost = (fd.utility * self.ru.L / fd.rate) * 0.004
         fd.power -= power_cost
@@ -148,7 +153,9 @@ class Coalition:
         #这里计算实际效用的时候
         fd.round += 1
 
-        print fd.fdId, "in", fd.coalition.ru.ruId, "set:", fd.setchoice, "relayMsg num",fd.utility,"cost power:",power_cost
+        print fd.fdId, "in", fd.coalition.ru.ruId, "set:", fd.setchoice, "relayMsg num", fd.utility, "cost power:", power_cost
+
+
 
     def alter_coalition(self):
         t_RelaySet = deepcopy(self.RelaySet)
@@ -184,4 +191,5 @@ class Coalition:
 
 # 单元测试各个函数是否能够满足
 if __name__ == 'main':
+
     pass
