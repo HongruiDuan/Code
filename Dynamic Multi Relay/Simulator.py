@@ -25,7 +25,7 @@ class Simulator:
         initial_divede.print_devide()
 
         #初始划分完成，开始进行传输
-        max_round = 50
+        max_round = 20
         change_round = 10
         round = 0
 
@@ -35,14 +35,17 @@ class Simulator:
             # 1.基站广播每轮中给每个RU传输的数据包数目
             for i in network.coalitions:
                 i.ru.N = randint(20, 30)
+
             # 2.RU与联盟中的FD进行交互,判断哪些设备可以进行中继
             # for i in network.coalitions:
             #     # 在知道了每轮传输的数据包数量之后就可以进行RelaySet和EHSet的更新了
             #     i.get_enough_power_fds()
+
             # 3.基站广播数据，FD进行能量收集，RU收集信息
             for i in network.coalitions:
                 for j in i.EHSet:
                     i.harvestEnergy(j, i.ru.N / i.bs.rate)
+
             # 4.FD将自己接收到的信息传输给联盟中的RU,TODO:这里感觉需要实际模拟一下网络编码传输
             for i in network.coalitions:
                 for j in i.RelaySet:
@@ -78,6 +81,12 @@ class Simulator:
 
             network.show_coalitions()
             round += 1
+
+        print "Finish all round"
+        network.save_result(max_round)
+
+
+
 if __name__ == '__main__':
     # #这个位置的会出现负数的问题
     # positions = {

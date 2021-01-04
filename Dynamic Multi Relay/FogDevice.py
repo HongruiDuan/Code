@@ -16,7 +16,7 @@ class FD:
     #最大能量为这么多但是并不是所有的能量都用于发送信息
 
 
-    self.power = random.uniform(0.0010, 0.0050)
+    self.power = random.uniform(0.005, 0.0020)
     #self.power = 0.0020
     #雾设备的发射功率4mw
     self.pow = 0.004
@@ -28,10 +28,14 @@ class FD:
     self.relaynum = 0
 
     #先是每10轮比较一下utility和expect 再来调整一下自己的选择
-    self.round = 0
-    self.total = 0
-    self.utility = 0
-    self.expect = 0
+    self.round = 0  # round是指每个FD在当前联盟中运行的轮数
+    self.total = 0 # total是指每个FD在当前联盟中累积的效用 加的是实际的
+    self.utility = 0 # utility的含义暂时没有想好
+    self.expect = 0 # expect是指每个FD在加入联盟时的期望效用 表示的是期望的
+
+    self.cumulative_utility = 0
+    self.utility_his = [] # 保存自己的效用变化历史
+    self.power_his = [] # 保存自己的能量变化历史
 
     self.actionset = []
 

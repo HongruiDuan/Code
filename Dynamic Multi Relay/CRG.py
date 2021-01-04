@@ -21,7 +21,7 @@ class CRG:
                     # FD的能量满足当前RU的需要
                     # print i.fdId,"have:",i.power," ",j.ruId,"need power:",((j.N * LossRate_BS(BS0,j) * L) / (i.rate))* i.pow
                     if i.coalition.ru.ruId != j.ru.ruId and i.power >= (
-                            (j.ru.N * LossRate_BS(j.bs, j.ru) * j.ru.L) / (i.rate)) * i.pow and j.join_utility(i,0) > i.coalition.utility(i, i.setchoice):
+                            (j.ru.N * LossRate_BS(j.bs, j.ru) * j.ru.L) / (i.rate)) * i.pow and j.join_utility(i,0) > i.coalition.utility(i):
                         # 比较加入中继集合的效用
                         i.coalition.exit_coa(i)
                         i.coalition, i.setchoice = j, 0
@@ -30,7 +30,7 @@ class CRG:
                         bestResponse = True
                     # 当前FD的能量不满足RU的需求
                     elif i.coalition.ru.ruId != j.ru.ruId and i.power < (
-                            (j.ru.N * LossRate_BS(j.bs, j.ru) * j.ru.L) / (i.rate)) * i.pow and j.join_utility(i,1) > i.coalition.utility(i, i.setchoice):
+                            (j.ru.N * LossRate_BS(j.bs, j.ru) * j.ru.L) / (i.rate)) * i.pow and j.join_utility(i,1) > i.coalition.utility(i):
                         # 比较加入能量收集能量的集合的效用
                         i.coalition.exit_coa(i)
                         i.coalition, i.setchoice = j, 1
@@ -108,7 +108,7 @@ class CRG:
                         if k.ru.ruId == j.ru.ruId:
                             coa_star = k
 
-                    U_x = coa_star.utility(i, j.set)
+                    U_x = coa_star.utility(i)
                     j.utility = U_x
                 else:
                     S_star = self.predict(C_up, S_up)
@@ -116,7 +116,7 @@ class CRG:
                     for k in S_star:
                         if k.ru.ruId == j.ru.ruId:
                             coa_star = k
-                    U_x = coa_star.utility(i, j.set)
+                    U_x = coa_star.utility(i)
                     j.utility = U_x
             # 每个顾客从当前的最终动作中选出自己的最终动作
             a_star = Action(None,0,-1.0)

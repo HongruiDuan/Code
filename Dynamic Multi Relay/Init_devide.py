@@ -44,7 +44,7 @@ class Init_devide:
                     # FD的能量满足当前RU的需要
                     # print i.fdId,"have:",i.power," ",j.ruId,"need power:",((j.N * LossRate_BS(BS0,j) * L) / (i.rate))* i.pow
                     if i.coalition.ru.ruId != j.ru.ruId and i.power >= (
-                            (j.ru.N * LossRate_BS(j.bs, j.ru) * j.ru.L) / (i.rate)) * i.pow and j.join_utility(i,0) > i.coalition.utility(i, i.setchoice):
+                            (j.ru.N * LossRate_BS(j.bs, j.ru) * j.ru.L) / (i.rate)) * i.pow and j.join_utility(i, 0) > i.coalition.utility(i):
                         #print i.fdId,"from",i.coalition.ru.ruId,"Set",i.setchoice ,"to",j.ru.ruId,"Set 0"
                         # 比较加入中继集合的效用
                         i.coalition.exit_coa(i)
@@ -54,9 +54,9 @@ class Init_devide:
                         bestResponse = True
                     # 当前FD的能量不满足RU的需求
                     elif i.coalition.ru.ruId != j.ru.ruId and i.power < (
-                            (j.ru.N * LossRate_BS(j.bs, j.ru) * j.ru.L) / (i.rate)) * i.pow and j.join_utility(i,1) > i.coalition.utility(i, i.setchoice):
+                            (j.ru.N * LossRate_BS(j.bs, j.ru) * j.ru.L) / (i.rate)) * i.pow and j.join_utility(i, 1) > i.coalition.utility(i):
                         # 比较加入能量收集能量的集合的效用
-                        print i.fdId, "from",i.coalition.ru.ruId,"Set",i.setchoice ,"to", j.ru.ruId, "Set 1"
+                        #print i.fdId, "from",i.coalition.ru.ruId,"Set",i.setchoice ,"to", j.ru.ruId, "Set 1"
                         i.coalition.exit_coa(i)
                         i.coalition, i.setchoice = j, 1
                         j.join_coa(i, 1)
@@ -74,10 +74,10 @@ class Init_devide:
             print "    RelaySet:"
             # print "     ",
             for j in i.getset(0):
-                print "     ", j.fdId,"in",j.coalition.ru.ruId," ",j.setchoice,"power:",j.power,"utility:",i.utility(j,j.setchoice)
+                print "     ", j.fdId,"in",j.coalition.ru.ruId," ",j.setchoice,"power:",j.power,"utility:",i.utility(j)
             #print
             print "    EHSet:"
             # print "     ",
             for j in i.getset(1):
-                print "     ", j.fdId,"in",j.coalition.ru.ruId," ",j.setchoice,"power:", j.power,"utility:",i.utility(j,j.setchoice)
-            print
+                print "     ", j.fdId,"in",j.coalition.ru.ruId," ",j.setchoice,"power:", j.power,"utility:",i.utility(j)
+            #print
