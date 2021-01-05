@@ -50,7 +50,7 @@ class CRG:
         t_cus = deepcopy(self.customers)
         t_coas = deepcopy(self.coalitions)
 
-        final_coalications = self.predict(t_cus, t_coas)
+        final_coalications = self.predict(t_cus, t_coas, 0)
 
         #想一想最终的算法流程再写吧，想清楚先
 
@@ -78,13 +78,12 @@ class CRG:
 
 
 
-    #predict
-    #TODO:今晚把这个predict算法写完
-    def predict(self, cus, coas):
 
+
+    def predict(self, cus, coas, depth):
         for i in cus:
-            # print "cus",i.fdId ,"start sequential choose"
             for j in i.actionset:
+                print "in", depth,"cus", i.fdId, "start sequential choose", j.ru.ruId,"set",j.set
                 # i执行完动作之后判断待选择顾客是否为空
                 # 得到新的顾客序列
                 C_up = deepcopy(cus)
@@ -93,25 +92,21 @@ class CRG:
                 for k in S_up:
                     if k.ru.ruId == i.coalition.ru.ruId:
                         k.exit_coa(i)
-                #
                 for k in S_up:
                     if k.ru.ruId == j.ru.ruId:
-                        k.join_coa(i,j.set)
+                        k.join_coa(i, j.set)
                 # 更新完状态之后，调整顾客序列
                 C_up = [C_up[k] for k in range(0, len(C_up)) if C_up[k].fdId != i.fdId]
-
                 if len(C_up) == 0:
-
                     S_star = S_up
                     coa_star = None
                     for k in S_star:
                         if k.ru.ruId == j.ru.ruId:
                             coa_star = k
-
                     U_x = coa_star.utility(i)
                     j.utility = U_x
                 else:
-                    S_star = self.predict(C_up, S_up)
+                    S_star = self.predict(C_up, S_up, depth + 1)
                     coa_star = None
                     for k in S_star:
                         if k.ru.ruId == j.ru.ruId:

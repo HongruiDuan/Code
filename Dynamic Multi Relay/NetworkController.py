@@ -6,11 +6,13 @@ from FogDevice import FD
 from Coalition import Coalition
 import matplotlib.pyplot as plt
 import datetime
-
+import os
 
 class NetworkController:
     def __init__(self, positions):
         self.bs, self.coalitions, self.fds = self.create_net(positions)
+        self.path = '../Pics/DynamicMultiRelay/' + str(datetime.date.today())
+        # os.mkdir(self.path)  # 只mk 一次在net中mk
 
     def create_net(self, positions):
         bs = BS(positions["BS"])
@@ -22,7 +24,7 @@ class NetworkController:
     def set_coalitions(self, positions, bs):
         coalitions = []
         for i in range(len(positions)):
-            ru = RU('RU%d' % i, positions[i])
+            ru = RU('RU%d' % (i + 1), positions[i])
             c = Coalition(bs, ru, i)
             c.bs = bs
             coalitions.append(c)
@@ -31,7 +33,7 @@ class NetworkController:
     def set_fds(self, positions):
         fds = []
         for i in range(len(positions)):
-            fd = FD('FD %d' % i, positions[i])
+            fd = FD('FD %d' % (i + 1), positions[i])
             fds.append(fd)
         return fds
 
@@ -52,7 +54,7 @@ class NetworkController:
         #    #print ""
 
         # 绘制图像保存
-        path = '../Pics/DynamicMultiRelay/' + str(datetime.date.today())  # 在net.py中调用是相对于net.py的目录
+        #path = '../Pics/DynamicMultiRelay/' + str(datetime.date.today())  # 在net.py中调用是相对于net.py的目录
 
         plt.figure()
         colors = [ 'g', 'r', 'orange', 'blue', 'brown', 'teal'] #这里最多四种颜色
@@ -73,12 +75,12 @@ class NetworkController:
                 plt.annotate(j.fdId, (j.position[0], j.position[1]))
 
             cindex += 1
-        plt.savefig("%s/round%s.png" % (path, round))  # 保存图片
+        plt.savefig("%s/round%s.png" % (self.path, round))  # 保存图片
         plt.close()
 
     def save_result(self,round):
-        path = '../Pics/DynamicMultiRelay/' + str(datetime.date.today())  # 在net.py中调用是相对于net.py的目录
-        #os.mkdir(path) # 只mk 一次在net中mk
+        # path = 'Pics/DynamicMultiRelay/' + str(datetime.date.today())  # 在net.py中调用是相对于net.py的目录
+
         for i in self.fds:
             fig = plt.figure()
 
@@ -103,7 +105,7 @@ class NetworkController:
 
             plt.legend()  # 给图像加上图例
             plt.tight_layout()  # 解决重叠问题
-            fig.savefig("%s/%s.png" % (path, i.fdId))  # 保存图片
+            fig.savefig("%s/%s.png" % (self.path, i.fdId))  # 保存图片
             plt.close()
 
     # def show_powerhis(self, round):

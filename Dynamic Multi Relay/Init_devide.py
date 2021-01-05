@@ -15,7 +15,7 @@ class Init_devide:
             l = int(len(self.coalitions)) - 1
             i.coalition = self.coalitions[randint(0, l)]
             i.setchoice = randint(0, 1)
-            i.coalition.join_coa(i,i.setchoice)
+            i.coalition.join_coa(i, i.setchoice)
 
         #     l = int(len(self.coalitions)) - 1
         #     i.coalition = self.coalitions[randint(0, l) ]

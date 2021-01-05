@@ -16,7 +16,7 @@ class FD:
     #最大能量为这么多但是并不是所有的能量都用于发送信息
 
 
-    self.power = random.uniform(0.005, 0.0020)
+    self.power = random.uniform(0.0005, 0.0010)
     #self.power = 0.0020
     #雾设备的发射功率4mw
     self.pow = 0.004
