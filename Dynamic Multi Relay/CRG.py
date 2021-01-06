@@ -50,7 +50,7 @@ class CRG:
         t_cus = deepcopy(self.customers)
         t_coas = deepcopy(self.coalitions)
 
-        final_coalications = self.predict(t_cus, t_coas, 0)
+        final_coalications = self.greedy_predict(t_cus, t_coas)
 
         #想一想最终的算法流程再写吧，想清楚先
 
@@ -83,7 +83,7 @@ class CRG:
     def predict(self, cus, coas, depth):
         for i in cus:
             for j in i.actionset:
-                print "in", depth,"cus", i.fdId, "start sequential choose", j.ru.ruId,"set",j.set
+                print "in", depth,"cus", i.fdId, "start sequential choose", j.ru.ruId, "set", j.set
                 # i执行完动作之后判断待选择顾客是否为空
                 # 得到新的顾客序列
                 C_up = deepcopy(cus)
@@ -128,5 +128,23 @@ class CRG:
                     i.setchoice = a_star.set
             # 直接遍历到下一个
             #cus = [cus[k] for k in range(0, len(cus)) if cus[k].fdId != i.fdId]
+
+        return coas
+
+
+    def greedy_predict(self, cus, coas):
+        for i in cus:
+            for j in i.actionset:
+                for k in coas:
+                    if k.ru.ruId == j.ru.ruId:
+                        j.utility = k.join_utility(i, j.set)
+            # 从自己的动作集合之中选出
+            a_star = Action(None, 0, -1.0)
+            for j in i.actionset:
+                if (j.utility > a_star.utility):
+                    a_star = j
+            for j in coas:
+                if a_star is not None and j.ru.ruId == a_star.ru.ruId:
+                    j.join_coa(i, a_star.set)
 
         return coas

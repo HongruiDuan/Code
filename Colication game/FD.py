@@ -35,9 +35,17 @@ class FD:
         # 丢包率
         self.loss_rate = loss_rate
 
+
         # 获取的收益
         self.gains = gains
-
+        self.power = random.uniform(0.0005, 0.0010)
+        self.cumulative_utility = 0
+        # self.gains_his = []
+        self.power_his = []
+        self.utility_his = []  # 保存自己的效用变化历史
+        # self.gains_his.append(self.gains)
+        self.power_his.append(self.power)
+        self.utility_his.append(self.cumulative_utility)
         self.f_bs = f_bs
         self.f_fd = f_fd
         self.N1 = N1
@@ -51,8 +59,9 @@ class FD:
         self.W = W
         self.N = N
 
-        # 当前能量
-        self.power = random.uniform(0.003, 0.005)
+        # 累积效用
+
+
 
         # 在联盟内部被选择的优先度
         self.rank = 0
@@ -79,22 +88,40 @@ class FD:
         # print 'fd %d loss rate %f' % (self.num, self.loss_rate)
 
     def harvest_energy(self, bs, time):
-        staPosition = self.host.params['position'][0:2]
+        staPosition = self.position
 
-        apPosition = bs.host.params['position'][0:2]
+        apPosition = bs.position
 
         d = math.sqrt((staPosition[0] - apPosition[0]) ** 2 + (staPosition[1] - apPosition[1]) ** 2)
         
-        c = 300000000.0 
-        lamda = c / bs.rf_W
+        # c = 300000000.0
+        # lamda = c / bs.rf_W
+        # L = 0.8
+        # P_R = bs.rf_p_t * bs.rf_g_t * bs.rf_g_r * (lamda**2) / (L*(4*math.pi*d)**2)
+        P_t = 8000
+        G_T = 2
+        G_R = 2
+        c = 300000000.0
+        lamda = c / 900000000.0
         L = 0.8
-        P_R = bs.rf_p_t * bs.rf_g_t * bs.rf_g_r * (lamda**2) / (L*(4*math.pi*d)**2)
+        P_R = P_t * G_T * G_R * (lamda ** 2) / (L * (4 * math.pi * d) ** 2)
 
         power = P_R * time
         # print('energy',power)
         self.power += power
+#        self.gains_his.append(self.gains)
+
+        # self.cumulative_utility += self.N1
+        self.utility_his.append(self.cumulative_utility)
+
+        self.power_his.append(self.power)
         return power
     
     def forward_data(self):
         self.power -= self.N1 * 0.00004
         self.gains += self.f_fd
+        self.cumulative_utility += self.N1
+
+        self.utility_his.append(self.cumulative_utility)
+
+        self.power_his.append(self.power)

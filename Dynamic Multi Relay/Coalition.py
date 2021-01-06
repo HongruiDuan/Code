@@ -26,7 +26,7 @@ class Coalition:
         fd.setchoice = setnum
         fd.resetU()
         #加入时考虑的应该是期望效用,乘以系数的话，系数该如何确定呢
-        fd.expect = self.join_utility(fd, setnum) * 0.7
+        fd.expect = self.join_utility(fd, setnum) * 0.5
         # print fd.fdId, "join", self.ru.ruId, "set:", setnum, "join utility:", self.join_utility(fd,setnum)
 
 
@@ -122,7 +122,7 @@ class Coalition:
                 self.RelaySet.append(fd)
 
     def harvestEnergy(self, fd, time):
-        power_harvest = time * energy(fd, self.bs,1)
+        power_harvest = time * energy(fd, self.bs, 1)
         fd.utility = 0
 
         fd.power += power_harvest

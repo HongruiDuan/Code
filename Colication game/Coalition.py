@@ -56,6 +56,7 @@ class Coalition:
                 selected_fd = fd
 
         self.selected_fd = selected_fd
+
         return selected_fd
 
     def select_fd_with_fairness(self):
@@ -69,7 +70,10 @@ class Coalition:
         if num == -1:
             return self.select_fd()
 
+        self.selected_fd = fd_list[num]
         return fd_list[num]
+
+
 
     def rank(self, fd_list):
         total_gains = 0.0

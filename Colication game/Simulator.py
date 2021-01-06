@@ -37,7 +37,7 @@ class Simulator:
         network.show_coalitions(0)
         # network.show_fds()
 
-        max_round = 30
+        max_round = 20
         cfg_round_per_round = 5
         round = 0
         while round < max_round:
@@ -45,22 +45,14 @@ class Simulator:
             for _ in range(cfg_round_per_round):
                 network.start_game(coalition_game, round, max_round)
             network.start_game(stackelberg_game, round, max_round)
-            
-            round += 1
-            network.show_coalitions(round)
-            # network.show_fds()
-            self.save_coalition(network)
-
-        # 开始发送信息
-        total_time = 32  # 时间大小
-        for _ in range(total_time):
             for coalition in network.coalitions:
-                sel_fd = coalition.select_fd()
-                # sel_fd = coalition.select_fd_with_fairness()
+                # sel_fd = coalition.select_fd()
+                sel_fd = coalition.select_fd_with_fairness()
+
                 # ap broadcast and fd harvest energy
                 for fd in coalition.paired_fds:
                     if fd != sel_fd:
-                        fd.harvest_energy(coalition.bs, 0.03125 / total_time)
+                        fd.harvest_energy(coalition.bs, 0.03125)
                 # transmission
                 if sel_fd is not None:
                     print 'fd %2d in coalition %d was selected to forward' % (sel_fd.num, coalition.num)
@@ -68,8 +60,35 @@ class Simulator:
                 else:
                     # 如果所有中继设备能量都不够，则基站自己传输
                     print 'None is selected in coalition %d' % coalition.num
+            # self.save_select(network)
+            network.show_coalitions(round)
+            network.gains_per_round(round)
+            round += 1
 
-            self.save_select(network)
+
+        network.save_result(max_round)
+
+            # network.show_fds()
+            # self.save_coalition(network)
+
+        # 开始发送信息
+        # total_round = 30  # 时间大小
+        # for _ in range(total_round):
+        #     for coalition in network.coalitions:
+        #         sel_fd = coalition.select_fd()
+        #         # sel_fd = coalition.select_fd_with_fairness()
+        #         # ap broadcast and fd harvest energy
+        #         for fd in coalition.paired_fds:
+        #             if fd != sel_fd:
+        #                 fd.harvest_energy(coalition.bs, 0.03125 / total_round)
+        #         # transmission
+        #         if sel_fd is not None:
+        #             print 'fd %2d in coalition %d was selected to forward' % (sel_fd.num, coalition.num)
+        #             sel_fd.forward_data()
+        #         else:
+        #             # 如果所有中继设备能量都不够，则基站自己传输
+        #             print 'None is selected in coalition %d' % coalition.num
+        #     self.save_select(network)
 
         print '*** end simulate\n'
         # self.save_history_file()
@@ -197,21 +216,21 @@ def random_position(size, fd_num, ru_num):
 
 if __name__ == '__main__':
     # positions = random_position(100, 30, 4)
-    # positions = {
-    #     'rus': [[14, 86, 0], [22, 21, 0], [81, 79, 0], [75, 17, 0]],
-    #     'fds': [[16, 48, 0], [87, 62, 0], [20, 91, 0], [26, 14, 0], [24, 63, 0],
-    #             [18, 22, 0], [41, 40, 0], [75, 90, 0], [8, 99, 0], [68, 50, 0],
-    #             [59, 60, 0], [40, 76, 0], [60, 43, 0], [78, 37, 0], [27, 38, 0],
-    #             [63, 14, 0], [63, 81, 0], [75, 75, 0], [55, 31, 0], [61, 90, 0],
-    #             [54, 75, 0], [50, 1, 0], [7, 73, 0], [10, 2, 0], [24, 80, 0],
-    #             [34, 27, 0], [3, 28, 0], [34, 95, 0], [90, 24, 0], [32, 69, 0]],
-    #     'BS': [50, 50, 0]}
-
     positions = {
-        'rus': [[50, 50, 0], [50, 10, 0]],
-        'fds': [[25, 53, 0], [30, 42, 0], [35, 35, 0], [20, 25, 0], [15,10, 0]],
-        'BS': [5, 45, 0]
-    }
+        'rus': [[14, 86, 0], [22, 21, 0], [81, 79, 0], [75, 17, 0]],
+        'fds': [[16, 48, 0], [87, 62, 0], [20, 91, 0], [26, 14, 0], [24, 63, 0],
+                [18, 22, 0], [41, 40, 0], [75, 90, 0], [8, 99, 0], [68, 50, 0],
+                [59, 60, 0], [40, 76, 0], [60, 43, 0], [78, 37, 0], [27, 38, 0],
+                [63, 14, 0], [63, 81, 0], [75, 75, 0], [55, 31, 0], [61, 90, 0],
+                [54, 75, 0], [50, 1, 0], [7, 73, 0], [10, 2, 0], [24, 80, 0],
+                [34, 27, 0], [3, 28, 0], [34, 95, 0], [90, 24, 0], [32, 69, 0]],
+        'BS': [50, 50, 0]}
+
+    # positions = {
+    #     'rus': [[50, 50, 0], [50, 10, 0]],
+    #     'fds': [[25, 53, 0], [30, 42, 0], [35, 35, 0], [20, 25, 0], [15,10, 0]],
+    #     'BS': [5, 45, 0]
+    # }
     # positions = {
     #     'RUs': [[50, 50], [50, 10]],
     #     'FDs': [[25, 53], [30, 42], [35, 35], [20, 25], [15,10]],

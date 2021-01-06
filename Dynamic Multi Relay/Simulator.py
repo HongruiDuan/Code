@@ -37,7 +37,7 @@ class Simulator:
             network.show_coalitions(round)
             # 1.基站广播每轮中给每个RU传输的数据包数目
             for i in network.coalitions:
-                i.ru.N = randint(20, 30)
+                i.ru.N = randint(32, 32)
 
             # 2.RU与联盟中的FD进行交互,判断哪些设备可以进行中继
             # for i in network.coalitions:
@@ -47,7 +47,8 @@ class Simulator:
             # 3.基站广播数据，FD进行能量收集，RU收集信息
             for i in network.coalitions:
                 for j in i.EHSet:
-                    i.harvestEnergy(j, i.ru.N / i.bs.rate)
+                    i.harvestEnergy(j, 0.03125)
+                    # i.harvestEnergy(j, i.ru.N / i.bs.rate)
 
             # 4.FD将自己接收到的信息传输给联盟中的RU,TODO:这里感觉需要实际模拟一下网络编码传输
             for i in network.coalitions:
@@ -82,7 +83,8 @@ class Simulator:
             for i in network.coalitions:
                 i.alter_coalition()
 
-
+            # network.fairness_per_round(round)
+            network.gains_per_round(round)
             round += 1
 
         print "Finish all round"
@@ -92,22 +94,22 @@ class Simulator:
 
 if __name__ == '__main__':
     # #这个位置的会出现负数的问题
-    # positions = {
-    #     'RUs': [[14, 86], [22, 21], [81, 79], [75, 17]],
-    #     'FDs': [[16, 48], [87, 62], [20, 91], [26, 14], [24, 63],
-    #             [18, 22], [41, 40], [75, 90], [8, 99], [68, 50] #,
-    #             # [59, 60], [40, 76], [60, 43], [78, 37], [27, 38],
-    #             # [63, 14], [63, 81], [75, 75], [55, 31], [61, 90],
-    #             # [54, 75], [50, 1], [7, 73], [10, 2], [24, 80],
-    #             # [34, 27], [3, 28], [34, 95], [90, 24], [32, 69]
-    #             ],
-    #     'BS': [50, 50]}
-
     positions = {
-        'RUs': [[50, 50], [50, 10]],
-        'FDs': [[25, 53], [30, 42], [35, 35], [20, 25], [15,10]],
-        'BS': [5, 45]
-    }
+        'RUs': [[14, 86], [22, 21], [81, 79], [75, 17]],
+        'FDs': [[16, 48], [87, 62], [20, 91], [26, 14], [24, 63],
+                [18, 22], [41, 40], [75, 90], [8, 99], [68, 50] ,
+                [59, 60], [40, 76], [60, 43], [78, 37], [27, 38],
+                [63, 14], [63, 81], [75, 75], [55, 31], [61, 90],
+                [54, 75], [50, 1], [7, 73], [10, 2], [24, 80],
+                [34, 27], [3, 28], [34, 95], [90, 24], [32, 69]
+                ],
+        'BS': [50, 50]}
+
+    # positions = {
+    #     'RUs': [[50, 50], [50, 10]],
+    #     'FDs': [[25, 53], [30, 42], [35, 35], [20, 25], [15,10]],
+    #     'BS': [5, 45]
+    # }
 
     # positions = {
     #     'RUs': [[50, 50], [50, 10]],
