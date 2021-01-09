@@ -89,23 +89,23 @@ class NetworkController:
         self.gains_his.append(total)
 
     # 第一个版本的这种计算方法有点问题,fairness随着fd expect 变化
-    # def fairness_per_round(self, round):
-    #     X = []
-    #     for i in self.fds:
-    #         if i.expect * round <= i.cumulative_utility:
-    #             X.append(1.0)
-    #         else:
-    #             X.append(i.cumulative_utility / i.expect * round )
-    #     sum_of_xi = 0
-    #     for i in range(0, len(X)):
-    #         sum_of_xi += X[i]
-    #
-    #     sum_of_xi2 = 0
-    #     for i in range(0, len(X)):
-    #         sum_of_xi2 += X[i] ** 2
-    #
-    #     fairness = (sum_of_xi) ** 2 / (len(X) * sum_of_xi2)
-    #     self.fairness_his.append(fairness)
+    def fairness_per_round(self, round):
+        X = []
+        for i in self.fds:
+            if i.expect * round <= i.cumulative_utility:
+                X.append(1.0)
+            else:
+                X.append(i.cumulative_utility / i.expect * round )
+        sum_of_xi = 0
+        for i in range(0, len(X)):
+            sum_of_xi += X[i]
+
+        sum_of_xi2 = 0
+        for i in range(0, len(X)):
+            sum_of_xi2 += X[i] ** 2
+
+        fairness = (sum_of_xi) ** 2 / (len(X) * sum_of_xi2)
+        self.fairness_his.append(fairness)
 
     def save_result(self,maxround):
         # path = 'Pics/DynamicMultiRelay/' + str(datetime.date.today())  # 在net.py中调用是相对于net.py的目录
@@ -158,7 +158,7 @@ class NetworkController:
         labelx = range(0, maxround + 1)
         plt.xticks(data_x, labelx, fontsize=14)
         plt.ylim(0,1)
-        plt.plot(data_x, data_y2, marker='^', label='Fairness')
+#        plt.plot(data_x, data_y2, marker='^', label='Fairness')
         plt.legend()  # 给图像加上图例
         plt.savefig("%s/Fairness per round.png" % (self.path))  # 保存图片
         plt.close()
