@@ -61,7 +61,7 @@ class NetworkController:
         #path = '../Pics/DynamicMultiRelay/' + str(datetime.date.today())  # 在net.py中调用是相对于net.py的目录
 
         plt.figure()
-        colors = [ 'g', 'r', 'orange', 'blue', 'brown', 'teal'] #这里最多四种颜色
+        colors = ['g', 'r', 'orange', 'blue', 'brown', 'teal'] #这里最多四种颜色
         cindex = 0
         # 按照联盟来打点的颜色
         for i in self.coalitions:
@@ -75,7 +75,7 @@ class NetworkController:
                 plt.annotate(j.fdId, (j.position[0], j.position[1]))
 
             for j in i.EHSet:
-                plt.scatter(j.position[0], j.position[1], c=colors[cindex], marker='+')
+                plt.scatter(j.position[0], j.position[1], c=colors[cindex], marker='^')
                 plt.annotate(j.fdId, (j.position[0], j.position[1]))
 
             cindex += 1
