@@ -46,6 +46,7 @@ class CRG:
 
 
     #不论是顺序选择还是同时就餐，都暂时还没有考虑到能量的限制
+    # TODO:顺序就餐调整的时候，没有考虑到距离限制
     def sequentialChoose(self):
         t_cus = deepcopy(self.customers)
         t_coas = deepcopy(self.coalitions)
@@ -146,5 +147,4 @@ class CRG:
             for j in coas:
                 if a_star is not None and j.ru.ruId == a_star.ru.ruId:
                     j.join_coa(i, a_star.set)
-
         return coas

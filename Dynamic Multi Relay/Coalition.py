@@ -31,7 +31,7 @@ class Coalition:
 
 
     #在联盟中的效用
-    #TODO:得出的计算结果不对，每一个RU那里算出来的数据包数目都是一样的
+
     def utility(self, fd):
         #计算通过当前集合能够得到的有效信息量
         solidInfo = 1
@@ -48,12 +48,9 @@ class Coalition:
         w_fd = float(1 - LossRate_FDS_RU(self.bs, fd))
         w_total = 0.0
         for i in self.getset(fd.setchoice):
-            # TODO:这里到底要不要乘后面从FD到RU的链路丢包率
+
             # w1 = (1 - LossRate_FDS_RU(i, self.bs))
             w_total += (1 - LossRate_FDS_RU(i, self.bs))
-
-        #TODO:这里上面是已经算了在其中的效用的
-        # w_total += w_fd
 
         n = int(float((w_fd / w_total)) * solidInfo)
         # print fd.fdId,"in ",self.ru.ruId,"Set:",fd.setchoice,"solidinfo:",solidInfo,"percentage",w_fd/w_total,"utility",n
@@ -70,21 +67,22 @@ class Coalition:
 
         #算上新加入的
         l *= LossRate_BS(self.bs, fd)
-
+        # print "l:",l,"e1:",e1
         if l == 1:
             solidInfo = self.ru.N * e1
         else:
             solidInfo = self.ru.N * e1 * (1 - l)
 
-        w_fd = (1 - LossRate_FDS_RU(self.bs, fd))
+        # 这里是距离基站太远的设备丢包率太大了
+        w_fd = (1 - LossRate_BS(self.bs, fd))
         w_total = 0.0
         for i in self.getset(setnum):
-            # TODO:这里到底要不要乘后面从FD到RU的链路丢包率
+
             w_total += (1 - LossRate_FDS_RU(i, self.bs))
 
         #算上新加入的
         w_total += w_fd
-
+        # print fd.fdId, "join", self.ru.ruId, "set:", setnum, w_fd, " ", w_total, " ", solidInfo
         n = int((w_fd / w_total) * solidInfo)
         # print fd.fdId,"join",self.ru.ruId,"set:",setnum,"utility:",n
         return n
@@ -101,7 +99,7 @@ class Coalition:
             if self.fds[i] == fd:
                 fd.coalition = None
                 fd.setnum = -1
-        #TODO:这里不用Id就会出现那种多次选择的问题
+
         self.fds = [self.fds[j] for j in range(len(self.fds)) if self.fds[j].fdId != fd.fdId]
         self.RelaySet = [self.RelaySet[j] for j in range(len(self.RelaySet)) if self.RelaySet[j].fdId != fd.fdId]
         self.EHSet = [self.EHSet[j] for j in range(len(self.EHSet)) if self.EHSet[j].fdId != fd.fdId]

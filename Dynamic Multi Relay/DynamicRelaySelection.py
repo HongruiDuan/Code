@@ -37,7 +37,7 @@ def utility(bs, fd, ru, set):
     w_fd = (1 - LossRate_FDS_RU(bs, fd)) * (1 - LossRate_FDS_RU(fd, ru))
     w_total = 0.0
     for i in ru.getset(set):
-        #TODO:这里到底要不要乘后面从FD到RU的链路丢包率
+
         w_total += (1 - LossRate_FDS_RU(i, bs)) * (1 - LossRate_FDS_RU(i, ru))
     if fd.choice != ru.ruId:
         w_total += w_fd
@@ -109,10 +109,12 @@ if __name__ == '__main__':
             for j in i.RelaySet:
                 # 这里的根据每个RU请求的数据量来
                 j.power -= (j.utility * L / j.rate) * 0.004
-        #5.RU统计自身还缺失的数据包，向基站发送数据传输请求
+        # 5.RU统计自身还缺失的数据包，向基站发送数据传输请求
 
-        #6.基站给各个RU广播剩余的数据包 （这个过程还是存在丢包）TODO:这个过程的丢包率过大的话，将需要重复多次才能够结束这个流程
-        #或者直接在下一轮中加入这个需要重传的数据包，还是让中继来一起接受
+        # 6.基站给各个RU广播剩余的数据包 （这个过程还是存在丢包）
+        # TODO:这个过程的丢包率过大的话，将需要重复多次才能够结束这个流程，先单独做这个实验来体现自己方案的优越性，后面再结合到一起做吧
+        # 这次需要对比的重传时间 与单中继进行对比
+        # 或者直接在下一轮中加入这个需要重传的数据包，还是让中继来一起接受
 
 
         #FD更新自己的期望效用
