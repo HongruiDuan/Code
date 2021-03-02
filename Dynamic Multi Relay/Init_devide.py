@@ -21,7 +21,7 @@ class Init_devide:
                 # 加入联盟的条件是距离不超过20
                 distance = sqrt((i.position[0] - self.coalitions[index].ru.position[0]) ** 2 + (i.position[1] - self.coalitions[index].ru.position[1]) ** 2)
                 #初始划分时 D2D通信距离限制，还是通过解调的最低信噪比阈值来判断
-                if distance <= 100:
+                if distance <= 1000:
                     print i.fdId, "join", self.coalitions[index].ru.ruId, "Lossrate:", LossRate_FDS_RU(i, self.coalitions[index].ru)
                     i.coalition = self.coalitions[index]
                     i.setchoice = randint(0, 1)
