@@ -125,7 +125,7 @@ def topology():
         # info("*** %d round info collect finish\n" % round)
         # 统计完设备信息之后将信息从文件中读取
         # 先采取直接对数据操作而不是真正的发送和接收包
-        # filename1 = "/home/shlled/mininet-wifi/Log/BSLog.json"
+        # filename1 = "/home/shlled/mininet-wifi/NCLog/BSLog.json"
         # with open(filename1,'r') as f1:
         #     buffer = f1.readlines()
         #     lenth = len(buffer)

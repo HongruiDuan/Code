@@ -11,8 +11,8 @@ import random
 
 def send(src, iface, dst, times=15, send_pkt=[]):
 
-    #filename='/home/shlled/mininet-wifi/Log/UE%s.json' % src[7:8]
-    filename = '/home/shlled/mininet-project-duan/TimeSchedule/Log/DU%s.json' % src[7:8]
+    #filename='/home/shlled/mininet-wifi/NCLog/UE%s.json' % src[7:8]
+    filename = '/home/shlled/mininet-project-duan/TimeSchedule/NCLog/DU%s.json' % src[7:8]
     f=open(filename,'r')
     buffer=f.readlines()
     lenth=len(buffer)

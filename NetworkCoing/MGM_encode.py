@@ -1,3 +1,4 @@
+#coding=utf-8
 import GF
 import numpy as np
 import random
@@ -59,5 +60,5 @@ def encode(packets):
     print('编码包')
     print(encode_matrix)
     return coe_matrix, encode_matrix
-# packets = [[1,2],[3,4],[5,6]]
-# encode(packets)
+packets = [[1,2],[3,4],[5,6]]
+encode(packets)

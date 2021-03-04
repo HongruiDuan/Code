@@ -33,7 +33,7 @@ def send(src, iface, dst, loss, pow=0.004, gain=10, index=1,send_pkt=[]):
     #     loss = 0.4
     loss = float(loss)
     index = int(index) #确定每次传输的index
-    filename1 = '/home/shlled/mininet-project-duan/TimeSchedule/Log/msg.txt'
+    filename1 = '/home/shlled/mininet-project-duan/TimeSchedule/NCLog/msg.txt'
     f1=open(filename1,'r')
     buffer=f1.readlines()
     lenth=len(buffer)
@@ -57,7 +57,7 @@ def send(src, iface, dst, loss, pow=0.004, gain=10, index=1,send_pkt=[]):
     "重传部分，先不考虑，后面再考虑重传编码包"    
     
     "在传输结束之后，进行能量和收益的更新"
-    filename2='/home/shlled/mininet-project-duan/TimeSchedule/Log/DU%s.json' % src[7:8]
+    filename2='/home/shlled/mininet-project-duan/TimeSchedule/NCLog/DU%s.json' % src[7:8]
     with open(filename2,'r+') as f2:
         buffer = f2.readlines()
         lenth = len(buffer)            

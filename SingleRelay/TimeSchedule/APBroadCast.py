@@ -28,7 +28,7 @@ def send(src, iface, dsts='', index = 0, pow = 5, send_pkt=[]):
     for i in range(0,num):
         print("dest%d:"% i,dsts[i])
     #由于send函数只能一对一发送，因此只能采取1对1模拟，每次广播一个数据包
-    filename1 = '/home/shlled/mininet-project-duan/TimeSchedule/Log/msg.txt'#读取文件内容，只读取一次，以免开销过大
+    filename1 = '/home/shlled/mininet-project-duan/TimeSchedule/NCLog/msg.txt'#读取文件内容，只读取一次，以免开销过大
     f1=open(filename1,'r')
     buffer=f1.readlines()
     lenth=len(buffer)

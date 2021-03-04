@@ -1,11 +1,11 @@
 import re
 
-filename1 = '/home/shlled/mininet-project-duan/Stackelberg/Log/6.txt'
+filename1 = '/home/shlled/mininet-project-duan/Stackelberg/NCLog/6.txt'
 with open(filename1, 'r') as f1:
         buffer = f1.readlines()
         lenth = len(buffer)
-        # filename2 = '/home/shlled/mininet-wifi/Log/new%s' % filename
-        filename2 = '/home/shlled/mininet-project-duan/Stackelberg/Log/newmsg.txt'
+        # filename2 = '/home/shlled/mininet-wifi/NCLog/new%s' % filename
+        filename2 = '/home/shlled/mininet-project-duan/Stackelberg/NCLog/newmsg.txt'
         f2 = open(filename2, 'a+')
         current_index = 0
         total = 19

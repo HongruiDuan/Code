@@ -121,7 +121,7 @@ def topology():
     BSLog["h1"]["flag"]=False
     BSLog["h2"]["flag"]=False
     BSLog["h3"]["flag"]=False
-    filename1 = "/home/shlled/mininet-project-duan/Stackelberg/Log/BSLog.json"
+    filename1 = "/home/shlled/mininet-project-duan/Stackelberg/NCLog/BSLog.json"
     with open(filename1,'r') as f1:
         buffer=f1.readlines()
         lenth=len(buffer)
@@ -219,7 +219,7 @@ def topology():
 
     "before sending clear the cahce"
     
-    filename1 = '/home/shlled/mininet-project-duan/Stackelberg/Log/6.txt'
+    filename1 = '/home/shlled/mininet-project-duan/Stackelberg/NCLog/6.txt'
     with open(filename1,'r+') as f1:
         f1.truncate()
 
@@ -241,8 +241,8 @@ def topology():
     for t in thread_list:
         t.join()
     info("*** Start sending the miss pkg\n")
-    filename4 = '/home/shlled/mininet-project-duan/Stackelberg/Log/miss.txt'
-    #filename4 = '/media/psf/Home/Documents/GitHub/mininet-project/Stackelberg/Log/miss.txt'
+    filename4 = '/home/shlled/mininet-project-duan/Stackelberg/NCLog/miss.txt'
+    #filename4 = '/media/psf/Home/Documents/GitHub/mininet-project/Stackelberg/NCLog/miss.txt'
     while True:
         with open(filename4, 'r+') as f4:
             buffer = f4.readlines()

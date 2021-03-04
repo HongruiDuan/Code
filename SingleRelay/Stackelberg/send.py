@@ -35,8 +35,8 @@ def send(src, iface, dst, distance, pow, gain, filename, flag = True, miss_pkt='
         loss = 0.1
     if flag:
         index = 0
-        #filename1='/home/shlled/mininet-wifi/Log/%s' % filename
-        filename1 = '/home/shlled/mininet-project-duan/Stackelberg/Log/%s' % filename
+        #filename1='/home/shlled/mininet-wifi/NCLog/%s' % filename
+        filename1 = '/home/shlled/mininet-project-duan/Stackelberg/NCLog/%s' % filename
         f1=open(filename1,'r')
         buffer=f1.readlines()
         lenth=len(buffer)
@@ -63,8 +63,8 @@ def send(src, iface, dst, distance, pow, gain, filename, flag = True, miss_pkt='
             index+=1
         f1.close()
     else:
-        #filename1='/home/shlled/mininet-wifi/Log/%s' % filename
-        filename1 = '/home/shlled/mininet-project-duan/Stackelberg/Log/%s' % filename
+        #filename1='/home/shlled/mininet-wifi/NCLog/%s' % filename
+        filename1 = '/home/shlled/mininet-project-duan/Stackelberg/NCLog/%s' % filename
         f1=open(filename1,'r')
         buffer=f1.readlines()
         lenth=len(buffer)
@@ -91,7 +91,7 @@ def send(src, iface, dst, distance, pow, gain, filename, flag = True, miss_pkt='
                 miss_pkt.pop(0)
                 print("can't send the packet\n")
         f1.close()
-    filename2='/home/shlled/mininet-project-duan/Stackelberg/Log/UE%s.json' % src[7:8]
+    filename2='/home/shlled/mininet-project-duan/Stackelberg/NCLog/UE%s.json' % src[7:8]
     
     #第一次发送包时才更新能量和收益，重传时不考虑
     if flag:

@@ -50,19 +50,20 @@ def FToMatrix(filename):
     return results
 
 #Unit Test
-# filename1 = '/Users/fanc/Documents/GitHub/mininet-project/D2D+NC/Log/msg.txt'
-# #filename2 = '/media/psf/Home/Documents/GitHub/mininet-project/D2D+NC/Log/RU.txt'
+# filename1 = '/Users/fanc/Documents/GitHub/mininet-project/D2D+NC/NCLog/msg.txt'
+# #filename2 = '/media/psf/Home/Documents/GitHub/mininet-project/D2D+NC/NCLog/RU.txt'
 # result = FToMatrix(filename1)
 # for item in result:
 #     for a in item:
 #         print(a)
 #     print()
 
-
 if __name__ == '__main__':
-    filename = 'msg.txt'
+    filename = 'NCLog/msg.txt'
     result = FToMatrix(filename)
     for item in result:
         for a in item:
             print(a)
         print()
+    print "result:"
+    print result[0][0]

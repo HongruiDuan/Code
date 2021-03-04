@@ -1,3 +1,4 @@
+#coding=utf-8
 import numpy as np
 import GF
 
@@ -138,7 +139,7 @@ from encode import encode
 
 if __name__ == '__main__':
     success, error = 0, 0
-    for t in range(50):
+    for t in range(1):
         packets = [32, 41, 15, 21, 43, 41, 43, 54, 12, 54, 42, 23, 42, 54, 98, 123, 23, 43, 23, 43, 64, 12, 82, 43, 45, 13] * 10
         coe, encodedP = encode(packets)
         print('随机编码矩阵:')

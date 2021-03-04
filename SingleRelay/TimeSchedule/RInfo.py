@@ -28,7 +28,7 @@ class action:
             packet_counts.update([key])
             info = packet[0][3].load
            
-            filename = '/home/shlled/mininet-project-duan/TimeSchedule/Log/BSLog.json'
+            filename = '/home/shlled/mininet-project-duan/TimeSchedule/NCLog/BSLog.json'
             temp = {}  
             data = []
             info = json.loads(info)

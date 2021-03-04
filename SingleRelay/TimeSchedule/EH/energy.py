@@ -37,7 +37,7 @@ def energy(sta, ap, time):
     # info('after %fs receive energy : %fJ\n' % (time, receiveEnergy))
     pow = float(receiveEnergy)
     return pow
-    # filename = "/home/shlled/mininet-project-duan/TimeSchedule/Log/DU%c.json" % num
+    # filename = "/home/shlled/mininet-project-duan/TimeSchedule/NCLog/DU%c.json" % num
     # with open(filename,'r+') as f:
     #     buffer = f.readlines()
     #     lenth = len(buffer)            

@@ -1,3 +1,4 @@
+#coding=utf-8
 import GF
 import numpy as np
 
@@ -14,9 +15,10 @@ def vector_mul(a, b):
     return res
 
 
+#这里还需要传入编码的设备，根据自己缺失的数据包来设置编码系数
 def encode(packet):
     size = len(packet)
-    cols = int(size)
+    cols = int(size) #
     coefficients_matrix = np.random.randint(0, 2 ** w - 1, size=[cols, size])
     encode_matrix = []
     for i in range(cols):
@@ -25,7 +27,4 @@ def encode(packet):
 
 
 
-if __name__=='__main__':
-    filename = 'Encode.txt'
-    with open(filename,'r') as f:
 

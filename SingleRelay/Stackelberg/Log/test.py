@@ -10,7 +10,7 @@ BSLog={
 BSLog["h1"]["flag"]=False
 BSLog["h2"]["flag"]=False
 BSLog["h3"]["flag"]=False
-filename = "/home/shlled/mininet-wifi/Log/BSLog.json"
+filename = "/home/shlled/mininet-wifi/NCLog/BSLog.json"
 with open(filename,'r') as f:
         buffer=f.readlines()
         lenth=len(buffer)

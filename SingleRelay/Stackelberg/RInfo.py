@@ -27,8 +27,8 @@ class action:
             self.rc_pkt.append(packet[0][3].load)
             packet_counts.update([key])
             info = packet[0][3].load
-            #filename = '/home/shlled/mininet-wifi/Log/BSLog.json'
-            filename = '/home/shlled/mininet-project-duan/Stackelberg/Log/BSLog.json'
+            #filename = '/home/shlled/mininet-wifi/NCLog/BSLog.json'
+            filename = '/home/shlled/mininet-project-duan/Stackelberg/NCLog/BSLog.json'
             # f=open(filename,"a+")
             temp = {}  # temp for storage
             data = []
