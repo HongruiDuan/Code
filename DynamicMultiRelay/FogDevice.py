@@ -3,6 +3,9 @@ import random
 
 from Action import  Action
 from LossRate import LossRate_BS
+from Params import D2D_dis_limit
+
+from math import sqrt
 class FD:
   def __init__(self, fdId, position):
     self.fdId = fdId
@@ -14,7 +17,6 @@ class FD:
 
     #雾设备的电池容量最大为3000mA,仿真中一致用的焦耳
     #最大能量为这么多但是并不是所有的能量都用于发送信息
-
 
     self.power = random.uniform(0.0005, 0.0010)
     #self.power = 0.0020
@@ -56,9 +58,12 @@ class FD:
   def search_alternative(self,coas):
     self.clearA()
     for i in coas:
-      if self.power >= ((i.ru.N * LossRate_BS(i.bs, i.ru) * i.ru.L) / (self.rate)) * self.pow:
+      distance = sqrt((self.position[0] - i.ru.position[0]) ** 2 + (self.position[1] - i.ru.position[1]) ** 2)
+      if distance < D2D_dis_limit and  self.power >= ((i.ru.N * LossRate_BS(i.bs, i.ru) * i.ru.L) / (self.rate)) * self.pow:
         self.actionset.append(Action(i.ru, 0, -1))
-      else:
+      elif distance < D2D_dis_limit and  self.power < ((i.ru.N * LossRate_BS(i.bs, i.ru) * i.ru.L) / (self.rate)) * self.pow:
         self.actionset.append(Action(i.ru, 1, -1))
-
+      else:
+        # 不满足D2D通信距离的
+        pass
 

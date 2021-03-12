@@ -5,6 +5,7 @@ from FogDevice import FD
 from LossRate import *
 from copy import deepcopy
 from Action import Action
+from Params import *
 
 class CRG:
     def __init__(self, cus, coas):
@@ -19,8 +20,9 @@ class CRG:
             for i in self.fds:
                 for j in self.coalitions:
                     # FD的能量满足当前RU的需要
+                    distance = sqrt((i.position[0] - j.ru.position[0]) ** 2 + (i.position[1] - j.ru.position[1]) ** 2)
                     # print i.fdId,"have:",i.power," ",j.ruId,"need power:",((j.N * LossRate_BS(BS0,j) * L) / (i.rate))* i.pow
-                    if i.coalition.ru.ruId != j.ru.ruId and i.power >= (
+                    if i.coalition.ru.ruId != j.ru.ruId and distance < D2D_dis_limit and i.power >= (
                             (j.ru.N * LossRate_BS(j.bs, j.ru) * j.ru.L) / (i.rate)) * i.pow and j.join_utility(i,0) > i.coalition.utility(i):
                         # 比较加入中继集合的效用
                         i.coalition.exit_coa(i)
@@ -29,7 +31,7 @@ class CRG:
                         j.join_coa(i, 0)
                         bestResponse = True
                     # 当前FD的能量不满足RU的需求
-                    elif i.coalition.ru.ruId != j.ru.ruId and i.power < (
+                    elif i.coalition.ru.ruId != j.ru.ruId and distance < D2D_dis_limit and i.power < (
                             (j.ru.N * LossRate_BS(j.bs, j.ru) * j.ru.L) / (i.rate)) * i.pow and j.join_utility(i,1) > i.coalition.utility(i):
                         # 比较加入能量收集能量的集合的效用
                         i.coalition.exit_coa(i)
@@ -72,13 +74,10 @@ class CRG:
             i.coalition.exit_coa(i)
             for j in self.coalitions:
                 if j.ru.ruId == i.actionset[0].ru.ruId:
-                    print i.fdId, "choose",j.ru.ruId,"set:",i.actionset[0].set
+                    print i.fdId, "choose", j.ru.ruId, "set:", i.actionset[0].set
                     j.join_coa(i, i.actionset[0].set)
 
         return self.coalitions
-
-
-
 
 
     def predict(self, cus, coas, depth):
@@ -142,9 +141,10 @@ class CRG:
             # 从自己的动作集合之中选出
             a_star = Action(None, 0, -1.0)
             for j in i.actionset:
-                if (j.utility > a_star.utility):
+                distance = sqrt((i.position[0] - j.ru.position[0]) ** 2 + (i.position[0] - j.ru.position[0]) ** 2)
+                if (j.utility > a_star.utility) and distance < D2D_dis_limit:
                     a_star = j
             for j in coas:
-                if a_star is not None and j.ru.ruId == a_star.ru.ruId:
+                if a_star.ru is not None and j.ru.ruId == a_star.ru.ruId:
                     j.join_coa(i, a_star.set)
         return coas

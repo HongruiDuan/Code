@@ -4,6 +4,9 @@
 #
 from random import randint
 from LossRate import *
+from Params import D2D_dis_limit
+
+
 import math
 class Init_devide:
     def __init__(self, coalitions, fds):
@@ -16,12 +19,12 @@ class Init_devide:
             l = int(len(self.coalitions)) - 1
             flag = True
             times = 1
-            while flag and times < 200:
+            while flag and times < 100:
                 index = randint(0, l)
                 # 加入联盟的条件是距离不超过20
                 distance = sqrt((i.position[0] - self.coalitions[index].ru.position[0]) ** 2 + (i.position[1] - self.coalitions[index].ru.position[1]) ** 2)
                 #初始划分时 D2D通信距离限制，还是通过解调的最低信噪比阈值来判断
-                if distance <= 200 * math.sqrt(2):
+                if distance <= D2D_dis_limit:
                     print i.fdId, "join", self.coalitions[index].ru.ruId, "FD to RU Lossrate:", LossRate_FDS_RU(i, self.coalitions[index].ru)
                     i.coalition = self.coalitions[index]
                     i.setchoice = randint(0, 1)
@@ -38,11 +41,11 @@ class Init_devide:
             print(i.ru.ruId)
             print "   RelaySet:"
             for j in i.getset(0):
-                print "     ",j.fdId,
+                print "     ", j.fdId,
             print #换行
             print "    EHSet:"
             for j in i.getset(1):
-                print "     ",j.fdId,
+                print "     ", j.fdId,
             print #换行
     def simultan_cus(self):
         bestResponse = True
@@ -53,8 +56,9 @@ class Init_devide:
             for i in self.fds:
                 for j in self.coalitions:
                     # FD的能量满足当前RU的需要
-                    # print i.fdId,"have:",i.power," ",j.ruId,"need power:",((j.N * LossRate_BS(BS0,j) * L) / (i.rate))* i.pow
-                    if i.coalition is not None and j is not None and i.coalition.ru.ruId != j.ru.ruId and i.power >= (
+                    distance = sqrt((i.position[0] - j.ru.position[0]) ** 2 + (
+                              i.position[1] - j.ru.position[1]) ** 2)
+                    if i.coalition is not None and j is not None and distance < D2D_dis_limit and i.coalition.ru.ruId != j.ru.ruId and i.power >= (
                             (j.ru.N * LossRate_BS(j.bs, j.ru) * j.ru.L) / (i.rate)) * i.pow and j.join_utility(i, 0) > i.coalition.utility(i):
                         #print i.fdId,"from",i.coalition.ru.ruId,"Set",i.setchoice ,"to",j.ru.ruId,"Set 0"
                         # 比较加入中继集合的效用
@@ -64,7 +68,7 @@ class Init_devide:
                         j.join_coa(i, 0)
                         bestResponse = True
                     # 当前FD的能量不满足RU的需求
-                    elif i.coalition is not None and j is not None and i.coalition.ru.ruId != j.ru.ruId and i.power < (
+                    elif i.coalition is not None and j is not None and distance < D2D_dis_limit and i.coalition.ru.ruId != j.ru.ruId and i.power < (
                             (j.ru.N * LossRate_BS(j.bs, j.ru) * j.ru.L) / (i.rate)) * i.pow and j.join_utility(i, 1) > i.coalition.utility(i):
                         # 比较加入能量收集能量的集合的效用
                         #print i.fdId, "from",i.coalition.ru.ruId,"Set",i.setchoice ,"to", j.ru.ruId, "Set 1"
@@ -81,14 +85,16 @@ class Init_devide:
     def print_devide(self):
         print "init devide"
         for i in self.coalitions:
-            print " ", i.ru.ruId, "packet num:", i.ru.N, "from BS lr", LossRate_BS(i.bs, i.ru), "need power:",((i.ru.N * LossRate_BS(i.bs, i.ru) * i.ru.L) / (100)) * 0.004
+            #这里的 from BS lr 为什么都是0
+            print " ", i.ru.ruId, "ru position:", i.ru.position[0],',',i.ru.position[1],' bs position:', i.bs.position[0], ',', i.bs.position[1], " from BS lr", LossRate_BS(i.bs, i.ru)
+            # print " ", i.ru.ruId, "packet num:", i.ru.N, "from BS lr", LossRate_BS(i.bs, i.ru), "need power:", ((i.ru.N * LossRate_BS(i.bs, i.ru) * i.ru.L) / (100)) * 0.004
             print "    RelaySet:"
 
             for j in i.getset(0):
-                print "     ", j.fdId,"in",j.coalition.ru.ruId," ",j.setchoice, "from BS Lr:", LossRate_BS(i.bs, j), "power:", j.power, "utility:",i.utility(j)
+                print "     ", j.fdId, "in", j.coalition.ru.ruId, "position", j.position[0], ',', j.position[1], " from BS Lr:", LossRate_BS(i.bs, j), "utility:",i.utility(j)
 
             print "    EHSet:"
             # print "     ",
             for j in i.getset(1):
-                print "     ", j.fdId, "in", j.coalition.ru.ruId, " ", j.setchoice, "from BS Lr:", LossRate_BS(i.bs, j), "power:", j.power, "utility:",i.utility(j)
+                print "     ", j.fdId, "in", j.coalition.ru.ruId, "position", j.position[0], ',', j.position[1], " from BS Lr:", LossRate_BS(i.bs, j), "utility:",i.utility(j)
 

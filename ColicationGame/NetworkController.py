@@ -123,7 +123,7 @@ class NetworkController:
             fig = plt.figure()
 
             plt.subplot(211)
-            plt.xlabel('round')
+            plt.xlabel('slot')
             plt.ylabel('Power(J) of %s' % i.fdId)
             data_x = [j for j in range(0, maxround+1)]
             data_pow = i.power_his
@@ -133,7 +133,7 @@ class NetworkController:
             plt.legend()  # 给图像加上图例
 
             plt.subplot(212)
-            plt.xlabel('round')
+            plt.xlabel('slot')
             plt.ylabel('Utility of %s' % i.fdId)
             data_x = [j for j in range(0, maxround+1)]
             data_utility = i.utility_his
@@ -148,14 +148,14 @@ class NetworkController:
 
         # 绘制总的效用变化 和 fairness变化曲线
         plt.figure()
-        plt.xlabel('round')
+        plt.xlabel('slot')
         plt.ylabel('Total Utility of all FDs')
         data_x = [j for j in range(0, maxround+1)]
         data_y1 = self.utility_his
         plt.xticks(data_x, labelx, fontsize=14)
-        plt.plot(data_x, data_y1, marker='^', label='Utility')
+        plt.plot(data_x, data_y1, marker='^', label='Throughput')
         plt.legend()  # 给图像加上图例
-        plt.savefig("%s/Utility per round.png" % (self.path))  # 保存图片
+        plt.savefig("%s/Throughput per slot.png" % (self.path))  # 保存图片
         plt.close()
 
     def show_coalitions(self, round):

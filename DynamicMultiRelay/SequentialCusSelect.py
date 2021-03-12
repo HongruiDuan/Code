@@ -15,10 +15,9 @@ import copy
 
 # @return: 返回一个RU的副本 or ruId，用于更新自己的选择
 
-def sequentialchoose(bs,S,C):
+def sequentialchoose(bs, S, C):
     #记录自己每个动作的效用
     #TODO:deepcopy的问题到时候得提前注意一下,现在这里的C队列一直没有更新过
-
     for i in C:
         #print "cus",i.fdId ,"start sequential choose"
         for j in i.actionset:
@@ -100,9 +99,6 @@ def sequentialchoose(bs,S,C):
         for k in i.actionset:
             if(k.utility > a_star.utility):
                 a_star = k
-        #print "a_star",a_star
-        #TODO:这里如果传过来的是RUs而不是备份的话，在那边应该是已经添加进去了
-        #先把待选择顾客从原始集合中剔除
         for k in S:
             if k.ruId == i.choice.ruId:
                 if i.setchoice == 0:

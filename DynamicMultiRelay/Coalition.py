@@ -8,7 +8,7 @@ from copy import deepcopy
 
 
 class Coalition:
-    def __init__(self,bs,ru,coaId):
+    def __init__(self, bs, ru, coaId):
         self.bs, self.ru, self.coaId = bs, ru, coaId
         self.fds, self.RelaySet, self.EHSet = [], [], []
 
@@ -29,39 +29,32 @@ class Coalition:
         fd.expect = self.join_utility(fd, setnum) * 0.8
         # print fd.fdId, "join", self.ru.ruId, "set:", setnum, "join utility:", self.join_utility(fd,setnum)
 
-
     #在联盟中的效用
-
     def utility(self, fd):
         #计算通过当前集合能够得到的有效信息量
-        solidInfo = 1
-        e1 = LossRate_FDS_RU(self.bs, self.ru)
+        e1 = LossRate_BS(self.bs, self.ru)
+        solidInfo = self.ru.N * e1
         l = 1
         for i in self.getset(fd.setchoice):
             l *= LossRate_BS(self.bs, i)
 
-        if l == 1:
-            solidInfo = self.ru.N * e1
-        else:
+        if l != 1:
             solidInfo = self.ru.N * e1 * (1 - l)
+
         # 计算该FD的效用
         w_fd = float(1 - LossRate_FDS_RU(self.bs, fd))
         if w_fd <= 0:
             return 0
         w_total = 0.0
         for i in self.getset(fd.setchoice):
-
-            # w1 = (1 - LossRate_FDS_RU(i, self.bs))
-            w_total += (1 - LossRate_FDS_RU(i, self.bs))
-
+            w_total += (1 - LossRate_BS(self.bs, i))
         n = int(float((w_fd / w_total)) * solidInfo)
-        # print fd.fdId,"in ",self.ru.ruId,"Set:",fd.setchoice,"solidinfo:",solidInfo,"percentage",w_fd/w_total,"utility",n
         return n
 
     #加入联盟的效用还是需要重新计算
     def join_utility(self, fd, setnum):
         # 计算通过当前集合能够得到的有效信息量
-        solidInfo = 1
+
         e1 = LossRate_FDS_RU(self.bs, self.ru)
         l = 1
         for i in self.getset(setnum):
@@ -70,9 +63,8 @@ class Coalition:
         #算上新加入的
         l *= LossRate_BS(self.bs, fd)
         # print "l:",l,"e1:",e1
-        if l == 1:
-            solidInfo = self.ru.N * e1
-        else:
+        solidInfo = self.ru.N * e1
+        if l != 1:
             solidInfo = self.ru.N * e1 * (1 - l)
 
         # 这里是距离基站太远的设备丢包率太大了
@@ -83,14 +75,13 @@ class Coalition:
 
         w_total = 0.0
         for i in self.getset(setnum):
-
             w_total += (1 - LossRate_FDS_RU(i, self.bs))
 
         #算上新加入的
         w_total += w_fd
         print fd.fdId, "join", self.ru.ruId, "set:", setnum, " ", w_fd, " ", w_total, " ", solidInfo
         n = int((w_fd / w_total) * solidInfo)
-        # print fd.fdId,"join",self.ru.ruId,"set:",setnum,"utility:",n
+        # print fd.fdId,"join",self.ru.ruId,"set:", setnum, "utility:", n
         return n
 
     def exit_coa(self,fd):
@@ -148,8 +139,6 @@ class Coalition:
 
         fd.cumulative_utility += fd.utility
         fd.utility_his.append(fd.cumulative_utility)
-
-
 
         power_cost = (fd.utility * self.ru.L / fd.rate) * 0.004
         fd.power -= power_cost

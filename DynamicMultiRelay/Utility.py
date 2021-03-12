@@ -5,10 +5,8 @@ from LossRate import *
 def solidInfo(bs, fd, ru, set):
     e1 = LossRate_FDS_RU(bs, ru)
     l = 1
-
     for i in ru.getset(set):
         l *= LossRate_BS(bs, i)
-
     l *= LossRate_BS(bs, fd)
     if l == 1:
         return ru.N * e1
